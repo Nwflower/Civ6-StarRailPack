@@ -1,0 +1,15 @@
+--	FILE: Amphoreus_SecretSocieties_MODE.sql
+--  VERSION: 1
+--  Author: Nwflower
+--  Spicial Thanks: Uni
+--	Copyright (c) 2025.
+--	All rights reserved.
+--  DateCreated: 2025/10/26 15:31:52
+--======================================================================
+--  作者： 千川白浪
+--  特别鸣谢： 优妮
+--======================================================================
+
+-- INSERT INTO District_Adjacencies(DistrictType,YieldChangeId)VALUES
+-- ('PALACE','YieldChangeId1'),
+-- ('PALACE','YieldChangeId2');

@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- FILE: Amphoreus_Text.xml -->
+<!-- VERSION: 1 -->
+<!-- Author: Nwflower -->
+<!-- Spicial Thanks: Uni -->
+<!-- Copyright (c) 2025. -->
+<!-- All rights reserved. -->
+<!-- DateCreated: 2025/10/26 15:31:52 -->
+<GameData>
+	<LocalizedText>
+		<!--Civ-->
+		<Replace Tag="LOC_CIVILIZATION_NW_AMPHOREUS_NAME" Language="zh_Hans_CN">
+			<Text>翁法罗斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_NW_AMPHOREUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>永恒之地：翁法罗斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_NW_AMPHOREUS_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>翁法罗斯的</Text>
+		</Replace>
+
+
+		<!--Leader-->
+		<Replace Tag="LOC_LEADER_NW_TRIBIOS_NAME" Language="zh_Hans_CN">
+			<Text>缇宝</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_NW_TRIBIOS" Language="zh_Hans_CN">
+			<Text>孩童此行良久，跫音曾透着犹疑，离别的泪也总叫她们芳毫垂低。[NEWLINE]命运的宠儿试图背弃命运。西风尽头，果真存在一片芬馥之地？[NEWLINE]万千门径之中，三子携手销去身形，只余丝缕渐弱的流音……[NEWLINE]——何须那命运回应。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_NW_MYDEI_NAME" Language="zh_Hans_CN">
+			<Text>万敌</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_NW_MYDEI" Language="zh_Hans_CN">
+			<Text>来处蒙尘已久。[NEWLINE]如那以悬锋为名的险城，男人的一切尽皆藏于迷雾，唯有弑王者的恶名为人所闻。[NEWLINE]他那不死不伤的身躯，既能阻绝刀剑，亦能喝退探究者的目光。[NEWLINE]那便看向他的道途，唯此可以一窥那争斗着的心。他用烈火烧焚前路，而归途……[NEWLINE]归途以血作辙。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_NW_AGLAEA_NAME" Language="zh_Hans_CN">
+			<Text>阿格莱雅</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_NW_AGLAEA" Language="zh_Hans_CN">
+			<Text>永不落幕的圣城，仿若与黄金之茧的半神昔在永在。[NEWLINE]视物已成双眼的负累，她指尖的金丝，将无数尘埃间的低语和鲜血凝成的歌传至耳边。[NEWLINE]梦是千百种可能的连缀，藉由命运丝线编织的未来更是如此。[NEWLINE]织者落枕入梦…[NEWLINE]——于梦中，她窥见了更为灼眼的金色。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_NW_ANAXA_NAME" Language="zh_Hans_CN">
+			<Text>那刻夏</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_NW_ANAXA" Language="zh_Hans_CN">
+			<Text>那高高在上的，又是何者授予它们神格？[NEWLINE]学士漫步神悟树庭，执此一问，驳斥眼之所见的一切智者。[NEWLINE]恰如他所精擅的魔术，辩才无双的反对者们，开口时便已坠入陷阱——[NEWLINE]神格亦是由他者「授予」。倾尽残生，这渎神者从未探究……[NEWLINE]他仅作证明。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_NW_CASTORICE_NAME" Language="zh_Hans_CN">
+			<Text>遐蝶</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_NW_CASTORICE" Language="zh_Hans_CN">
+			<Text>盛世倾颓，旧日不复，纵是死亡，亦要寻求归处。[NEWLINE]她行过哀地里亚，掌心魂灵哀鸣，其声未曾怀恨。[NEWLINE]荣耀是否与死亡等价——为寻求一答，她再未止步。[NEWLINE]旅途漫长，启程千年。她仍未知晓，自身应葬何处。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_NW_HYACINTHIA_NAME" Language="zh_Hans_CN">
+			<Text>风堇</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_NW_HYACINTHIA" Language="zh_Hans_CN">
+			<Text>世间有众繁气象，都曾令那无垠天穹喧闹沸腾。[NEWLINE]而当余晖散尽，在那阴晴弥合、晨昏并拢的时刻……[NEWLINE]她为彷徨者拥留最后的胧明，[NEWLINE]以笑涡为伤疼的宿命点亮虹光。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_NW_CIFERA_NAME" Language="zh_Hans_CN">
+			<Text>赛飞儿</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_NW_CIFERA" Language="zh_Hans_CN">
+			<Text>欺瞒、谲诈，世人唾弃此种灾厄，千载一如既往。[NEWLINE]而灵动的飞贼只抖抖猫耳、蒙好兜帽，将珍宝揽入私囊。[NEWLINE]世界吝惜赠予她所谓英雄的宿命，[NEWLINE]她也不屑给予世界黯淡无光的真情。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_NW_PHAINON_NAME" Language="zh_Hans_CN">
+			<Text>白厄</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_NW_PHAINON" Language="zh_Hans_CN">
+			<Text>世末的昕旦，英雄举起映着斜晖的剑，搦战追逐着黄昏的夜色。[NEWLINE]那人的胸膛跃动着闪耀的星，灼目如死去的日轮，向苍夷的大地射下银针。[NEWLINE]他隐去名字，不闻声华，将往昔葬于凝固在记忆里的乡，誓死捍卫新的黎明。[NEWLINE]哪怕那黎明将烧却一切。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_NW_HELEKTRA_NAME" Language="zh_Hans_CN">
+			<Text>海瑟音</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_NW_HELEKTRA" Language="zh_Hans_CN">
+			<Text>游鱼洄游于漆黑渊底，在昏暗之海追寻光明。[NEWLINE]苦厄的波涛，谎言的潮汐，宿命的骇浪，冲刷她空无的魂灵。[NEWLINE]她是一柄冰冷的剑旗，为一颗灼热的野心起舞，最终破碎零星。[NEWLINE]空留缥缈乐音，不知为谁而鸣。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_NW_CERYDRA_NAME" Language="zh_Hans_CN">
+			<Text>刻律德菈</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_NW_CERYDRA" Language="zh_Hans_CN">
+			<Text>岁月流转，王朝更替。苍生呼唤君主，渴求指引。[NEWLINE]在君主眼里，臣民皆为刍狗，天地亦是秤上砝码。[NEWLINE]若可将死敌役，代价不足为惜，万物皆可为棋。[NEWLINE]在与神明的战场上，胜利高于正义。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_NW_EVERNIGHT_NAME" Language="zh_Hans_CN">
+			<Text>长夜月</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_NW_EVERNIGHT" Language="zh_Hans_CN">
+			<Text>在永夜之帷的画卷上，挂着两轮月亮。[NEWLINE]光影交错，时隐时现，仿佛一圈舞步的回旋。[NEWLINE]相传于月相的起点，会有阵阵欢笑从天幕中传出，驱散长夜的孤寂。[NEWLINE]那是岁月的呓语，亦或故人的声音？</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_NW_DANHENGPT_NAME" Language="zh_Hans_CN">
+			<Text>丹恒•腾荒</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_NW_DANHENGPT" Language="zh_Hans_CN">
+			<Text>大地深处囚着远古的低喃，亘古的眼眸将岁月望穿。[NEWLINE]当巨龙的脊背嵌满苦痛的悲鸣，[NEWLINE]万千生灵求存的渴望将凝成最后的逆鳞——[NEWLINE]对命运的僭叛，是守护者最后的巍冠。</Text>
+		</Replace>
+
+		<!--TRAIT-->
+		<Replace Tag="LOC_TRAIT_LEADER_NW_TRIBIOS_JANUS_NAME" Language="zh_Hans_CN">
+			<Text>「门径」</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_NW_TRIBIOS_JANUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>单位可在市中心之间传送。解锁特色项目“逐火之旅”。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_NW_MYDEI_NIKADOR_NAME" Language="zh_Hans_CN">
+			<Text>「纷争」</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_NW_MYDEI_NIKADOR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>当解锁陆地军事单位的科技完成后，所有城市免费获得一个该单位。单位从大将军处获得的增幅效果提高900%。拥有驻军的城市总是忠诚。如果城市拥有最高的忠诚度，则获得+2 [ICON_Amenities] 宜居度，城市每回合提供的[ICON_Production] 生产力+30%。所有陆地单位+2 [ICON_MOVEMENT] 移动力，且能对城市防御输出全额伤害。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_NW_AGLAEA_MNESTIA_NAME" Language="zh_Hans_CN">
+			<Text>「浪漫」</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_NW_AGLAEA_MNESTIA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有地貌至少为相邻单元格+1魅力。市中心、区域和奇观（即使未建成）+2[ICON_Housing] 住房、+1 [ICON_Amenities] 宜居度。专业化区域还将获得等同于单元格魅力值的相邻加成。 </Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_NW_ANAXA_CERCES_NAME" Language="zh_Hans_CN">
+			<Text>「理性」</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_NW_ANAXA_CERCES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建造者可以建造一个额外的改良设施，并获得栽种原始森林的能力。专业化区域小于三个的城市，建造区域所需的时间大幅缩短。解锁市政「土木工程」前，移除地貌产出的收益-35%。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_NW_CASTORICE_THANATOS_NAME" Language="zh_Hans_CN">
+			<Text>「死亡」</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_NW_CASTORICE_THANATOS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text> [ICON_GreatWork_Artifact] 文物产出的 [ICON_Culture] 文化值也提供 [ICON_Science] 科技值和 [ICON_Gold] 金币。单位在与非蛮族单位的战斗中死亡后，提供等于每回合 [ICON_FAITH] 信仰值收益的 [ICON_Science] 科技值、 [ICON_CULTURE] 文化值和 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_NW_HYACINTHIA_AQUILA_NAME" Language="zh_Hans_CN">
+			<Text>「天空」</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_NW_HYACINTHIA_AQUILA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有单位在回合结束时强制回复生命值。奇观（即使未建成）释放文化炸弹。每次在相邻山脉的单元格上建成学院时获得一个 [ICON_GreatScientist] 大科学家。每个奇观（即使未建成）为所有城市生产太空竞赛项目时+100% [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_NW_CIFERA_ZAGREUS_NAME" Language="zh_Hans_CN">
+			<Text>「诡计」</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_NW_CIFERA_ZAGREUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>不与你处于同一队伍但相邻于你的单位的单位将归顺于你。获得 [ICON_TradeRoute] 商人时也获得一个免费的黄金裔、间谍及间谍容量。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_NW_PHAINON_KEPHALE_NAME" Language="zh_Hans_CN">
+			<Text>「负世」</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_NW_PHAINON_KEPHALE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁市政或科技后，也获得随之解锁的政策卡效果，通过这种方式获得的政策卡效果不会过期、并可以和政策卡本身叠加生效。解锁城市生产黄金裔的能力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_NW_HELEKTRA_PHAGOUSA_NAME" Language="zh_Hans_CN">
+			<Text>「海洋」</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_NW_HELEKTRA_PHAGOUSA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>游戏开始时位于海洋单元格中，初始便解锁“航海术”与“造船术”科技，同时拥有进入海洋单元格的能力。建立 [ICON_Capital] 首都时获得1个开拓者。位于海洋单元格的单位每回合提供+4 [ICON_SCIENCE] 科技值。每拥有一个相邻海岸建立的城市，新建立的城市就会额外获得4个单元格。海洋单元格依据特色区域的数量获得对应产出。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_NW_CERYDRA_TALANTON_NAME" Language="zh_Hans_CN">
+			<Text>「律法」</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_NW_CERYDRA_TALANTON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建造区域、建筑和单位时，从每个已拥有的同类区域、建筑和单位中获得+50% [ICON_PRODUCTION] 生产力。著作类巨作产出八倍的 [ICON_CULTURE] 文化值和旅游业绩。如果城市忠诚，则其溢出的忠诚度将转化为等量的 [ICON_GOLD] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_NW_EVERNIGHT_ORONYX_NAME" Language="zh_Hans_CN">
+			<Text>「岁月」</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_NW_EVERNIGHT_ORONYX_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>单位每历经1个回合便+1 [ICON_Strength] 战斗力，通过这种方式至多获得额外120 [ICON_Strength] 战斗力。单位每历经1个回合便能每回合提供+1 [ICON_Gold] 金币，该收入不会随着单位死亡而消失。自建成起，纪念碑每历经1个回合便+1 [ICON_CULTURE] 文化值和+1 [ICON_Tourism] 旅游业绩。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_NW_DANHENGPT_GEORIOS_NAME" Language="zh_Hans_CN">
+			<Text>「大地」</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_NW_DANHENGPT_GEORIOS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>单位从单元格的每点魅力值获得+3 [ICON_Strength] 战斗力，通过这种方式，至多+50 [ICON_Strength] 战斗力。拥有自然奇观的城市建造专业化区域时不再限制数量。解锁采矿时也解锁水渠。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_NW_AMPHOREUS_NAME" Language="zh_Hans_CN">
+			<Text>三重命途的真相</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_NW_AMPHOREUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>拥有三种文明特色市政广场建筑。建成文明特色建筑后，城市每回合产出的[ICON_SCIENCE]科技值、[ICON_CULTURE]文化值、[ICON_FOOD]食物、[ICON_PRODUCTION]生产力、[ICON_GOLD]金币和[ICON_FAITH]信仰值+12%。若处于黄金时代或英雄时代，上述效果翻倍。建成领袖特色区域后释放文化炸弹。</Text>
+		</Replace>
+
+		<!--Unit-->
+		<Replace Tag="LOC_UNIT_GOLD_SON_NAME" Language="zh_Hans_CN">
+			<Text>黄金裔</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GOLD_SON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>翁法罗斯特色近战单位，无法训练或购买，也无需维护费，只能通过触发领袖能力获得。[NEWLINE]该单位总是具有和您已拥有的最高 [ICON_Strength] 攻击力的近战单位相同的 [ICON_Strength] 攻击力。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARCHAEOLOGIST_THANATOS_NAME" Language="zh_Hans_CN">
+			<Text>龙骸古迹探索家</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARCHAEOLOGIST_THANATOS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>从 [ICON_RESOURCE_ANTIQUITY_SITE] 历史古迹发现和挖掘 [ICON_GreatWork_Artifact] 文物，并在其所属城市龙骸古城进行展出。</Text>
+		</Replace>
+		<!--UnitAbilities-->
+		<Replace Tag="LOC_ABILITY_CIFERA_UNIT_CHANGE_OWNER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>同该单位相邻的单位将归顺于你。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AB_ORONYX_ADD_COMBAT_FROM_TURN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每历经一个回合+1 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_AB_ORONYX_ADD_COMBAT_FROM_TURN_COMBAT" Language="zh_Hans_CN">
+			<Text>+{Property} 来自历经的回合数（岁月）。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DANHENGPT_GEORIOS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>从单元格每点魅力值+3战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_MODIFIER_ABILITY_DANHENGPT_GEORIOS_ADD_COMBAT" Language="zh_Hans_CN">
+			<Text>+{Property} 来自单元格魅力值（大地）。</Text>
+		</Replace>
+		<Replace Tag="LOC_MODIFIER_TRAIT_LEADER_NW_MYDEI_NIKADOR_EXTRA_COMBAT" Language="zh_Hans_CN">
+			<Text>+{1_Num} 来自大将军「纷争」</Text>
+		</Replace>
+
+		<!-- PROJECT-->
+		<Replace Tag="LOC_PROJECT_TRIBIOS_JOURNEY_NAME" Language="zh_Hans_CN">
+			<Text>逐火之旅</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRIBIOS_JOURNEY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>缇宝特色项目，可在任何拥有刻法勒广场的城市中开展。此项目每回合对周围的城市释放大量 [ICON_Religion] 宗教压力，提供的 [ICON_Faith] 信仰值和大预言家点数为“圣地祷告者”的400%。[NEWLINE]完成项目后，本城对外输出压力提高100%，所有刻法勒广场+25% [ICON_Faith] 信仰值相邻加成，并提供1名黄金裔。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CLEAN_BLACK_WIND_NAME" Language="zh_Hans_CN">
+			<Text>清理黑潮</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CLEAN_BLACK_WIND_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>风堇特色项目，可在任何拥有疗愈之庭的城市中开展。每回合提供 [ICON_Science] 科技值、完成后提供 [ICON_GreatScientist] 大科学家点数。每次完成时，将获得科技胜利所需的前置科技。</Text>
+		</Replace>
+
+		<!-- BUILDING-->
+		<Replace Tag="LOC_BUILDING_NW_REMEMBRANCE_NAME" Language="zh_Hans_CN">
+			<Text>记忆</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_NW_REMEMBRANCE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>翁法罗斯特色市政广场建筑，仅可修建一座，不能与智识和毁灭同时修建。建成后，区域的 [ICON_FAITH] 信仰值相邻加成也提供 [ICON_Culture] 文化值和 [ICON_Science] 科技值。解锁飞行后，提供等量 [ICON_Tourism] 旅游业绩。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_NW_ERUDITION_NAME" Language="zh_Hans_CN">
+			<Text>智识</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_NW_ERUDITION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>翁法罗斯特色市政广场建筑，仅可修建一座，不能与记忆和毁灭同时修建。建成后，区域的 [ICON_Culture] 文化值和 [ICON_Science] 科技值相邻加成也提供 [ICON_Production] 生产力，学院内建筑固定产出的 [ICON_Science] 科技值也提供 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_NW_DESTRUCTION_NAME" Language="zh_Hans_CN">
+			<Text>毁灭</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_NW_DESTRUCTION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>翁法罗斯特色市政广场建筑，仅可修建一座，不能与记忆和智识同时修建。建成后，区域的 [ICON_Gold] 金币相邻加成翻倍并提供 [ICON_Production] 生产力、 [ICON_Production] 生产力相邻加成翻倍并提供 [ICON_Gold] 金币。立即获得一个 [ICON_GreatGeneral] 大将军。</Text>
+		</Replace>
+
+		<!-- DISTRICT -->
+		<Replace Tag="LOC_DISTRICT_JANUS_NAME" Language="zh_Hans_CN">
+			<Text>刻法勒广场</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_JANUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>缇宝特色区域，替代圣地。解锁该城市使用 [ICON_Faith] 信仰值购买建筑的能力。购买建筑时所需的花费降低30%。[NEWLINE][NEWLINE]从相邻的平坦地形单元格获得+1 [ICON_Faith] 信仰值。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_NIKADOR_NAME" Language="zh_Hans_CN">
+			<Text>悬锋斗技场</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_NIKADOR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>万敌特色区域，替代军营。建成后获得一名黄金裔。该区域中的每个建筑为城市提供2点 [ICON_Housing] 住房。[NEWLINE][NEWLINE]该区域具有一定的 [ICON_production] 生产力，且可修建在市中心旁。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_MNESTIA_NAME" Language="zh_Hans_CN">
+			<Text>云石天宫</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_MNESTIA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>阿格莱雅特色区域，替代水渠、解锁更早。建成后获得一名黄金裔。建成时该城市 [ICON_Citizen] 人口立刻填充到[ICON_Housing] 住房上限。城市中的种植园将产出额外的+1 [ICON_FOOD] 食物、+2 [ICON_PRODUCTION] 生产力。[NEWLINE][NEWLINE]每拥有一个云石天宫，所有云石天宫便能额外产出1 [ICON_Amenities] 宜居度和2点 [ICON_Production] 生产力。相邻的专业化区域获得大量相邻加成</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CERCES_NAME" Language="zh_Hans_CN">
+			<Text>树庭</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CERCES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>那刻夏的特色区域，替代学院。建成后获得一名黄金裔。市中心获得免费的城墙。对于该城市市中心两个单元格内尚无地貌的单元格，如果这些单元格为您所有，建成树庭时这些单元格将立即获得原始树林。树庭及其建筑可为城市中的树林单元格+1 [ICON_Science] 科技值、+1 [ICON_Production] 生产力，雨林单元格+1 [ICON_Culture] 文化值、+2 [ICON_Gold] 金币，并赠送一项随机 [ICON_Science] 科技。[NEWLINE][NEWLINE]相邻加成提供 [ICON_Culture] 文化值，而非 [ICON_Science] 科技值。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_THANATOS_NAME" Language="zh_Hans_CN">
+			<Text>龙骸古城</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_THANATOS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>遐蝶的特色区域，替代娱乐中心、解锁更早。建成后获得一名黄金裔。首次建成后还将解锁自然历史。本城已改良单元格提供+1 [ICON_Amenities] 宜居度、+1 [ICON_Housing] 住房、+2 [ICON_Production] 生产力。提供3个 [ICON_GreatWork_Artifact] 文物槽位，全部槽位填满时可自动获得高额主题化加成。建成时提供一个龙骸古迹探索家以供挖掘 [ICON_GreatWork_Artifact] 文物。[NEWLINE][NEWLINE]该区域提供一定的 [ICON_CULTURE] 文化值，但并非专业化区域。相邻的专业化区域获得大量相邻加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_AQUILA_NAME" Language="zh_Hans_CN">
+			<Text>疗愈之庭</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_AQUILA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>风堇的特色区域，替代宇航中心、解锁更早。建成后获得一名黄金裔。所有单位在城市中驻扎一回合即可恢复全额生命值。解锁特色项目“清理黑潮”，每次完成时将获得一个科技胜利项目所需的但尚未解锁的前置科技。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ZAGREUS_NAME" Language="zh_Hans_CN">
+			<Text>云石市集</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ZAGREUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>赛飞儿的特色区域，替代商业中心。建成后城市购买区域一级建筑的花费降低100%。所有 [ICON_tradeRoute] 贸易路线从目的地的每个区域+8 [ICON_GOLD] 金币、+3 [ICON_PRODUCTION] 生产力。恰与云石市集相距4个单元格的区域、市中心或奇观（即使未建成）提供+1 [ICON_TradeRoute] 贸易路线容量，这种方式提供的 [ICON_tradeRoute] 贸易路线容量可以叠加。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KEPHALE_NAME" Language="zh_Hans_CN">
+			<Text>创世涡心</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KEPHALE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>白厄的特色区域，替代市政广场。建成后，获得所有黄金时代着力点效果。通过这种方式获得的着力点效果不会过期、并可以和时代着力点本身叠加生效。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_PHAGOUSA_NAME" Language="zh_Hans_CN">
+			<Text>浮影海庭</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_PHAGOUSA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>海瑟音的特色区域，替代港口。该区域具有区域防御，建成后免费获得拦洪坝和该区域内的所有建筑、并获得一名黄金裔。[NEWLINE][NEWLINE]从每个相邻的陆地单元格+2 [ICON_GOLD] 金币。每拥有1个浮影海庭，所有区域每相邻1个区域便+1 [ICON_GOLD] 金币，并提供等量的 [ICON_tourism] 旅游业绩。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_TALANTON_NAME" Language="zh_Hans_CN">
+			<Text>预言书库</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_TALANTON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>刻律德菈的特色区域，替代外交区、解锁更早，可以重复建造。如果还有奇观尚未建成且未被预言，则建成预言书库时可以指定一个奇观发起预言。当预言的奇观被任意玩家建成时，将获得3个随机单位，并提供等同于该奇观 [ICON_PRODUCTION] 生产力200%的 [ICON_CULTURE] 文化值、[ICON_GOLD] 金币和 [ICON_FAITH] 信仰值。[NEWLINE][NEWLINE]该区域产出一定的 [ICON_Science] 科技值。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ORONYX_NAME" Language="zh_Hans_CN">
+			<Text>长梦宸扉</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ORONYX_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>长夜月的特色区域，替代剧院广场、解锁更早。建成后获得一名黄金裔。建成时获得一项免费市政。城市产出的伟人点数+100%、巨作+200% [ICON_tourism] 旅游业绩。[NEWLINE][NEWLINE]从每个拥有的单位获得+1相邻加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_GEORIOS_NAME" Language="zh_Hans_CN">
+			<Text>万壑岩心</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_GEORIOS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>丹恒•腾荒的特色区域，替代工业区、解锁更早。建成时获得一个 [ICON_GreatEngineer] 大工程师、一个自然学家和一名黄金裔。每个万壑岩心为 [ICON_GreatEngineer] 大工程师和 [ICON_GreatScientist] 大科学家+1使用次数。为6个单元格以内的万壑岩心+100%相邻加成、城市+2魅力值。[NEWLINE][NEWLINE]拥有较高的 [ICON_PRODUCTION] 生产力相邻加成。</Text>
+		</Replace>
+
+
+		<!--Adjacency-->
+		<Replace Tag="LOC_ADJACENCY_DISTRICT_JANUS_SELF" Language="zh_Hans_CN">
+			<Text>+{1_Num} [ICON_FAITH] 信仰值来自区域基础产出</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DISTRICT_JANUS_TERRAIN_GRASS" Language="zh_Hans_CN">
+			<Text>+{1_Num} [ICON_FAITH] 信仰值来自相邻平坦草原</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DISTRICT_JANUS_TERRAIN_PLAINS" Language="zh_Hans_CN">
+			<Text>+{1_Num} [ICON_FAITH] 信仰值来自相邻平坦平原</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DISTRICT_JANUS_TERRAIN_TUNDRA" Language="zh_Hans_CN">
+			<Text>+{1_Num} [ICON_FAITH] 信仰值来自相邻平坦冻土</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DISTRICT_JANUS_TERRAIN_COAST" Language="zh_Hans_CN">
+			<Text>+{1_Num} [ICON_FAITH] 信仰值来自相邻平坦水域</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DISTRICT_JANUS_TERRAIN_SNOW" Language="zh_Hans_CN">
+			<Text>+{1_Num} [ICON_FAITH] 信仰值来自相邻平坦雪地</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DISTRICT_JANUS_TERRAIN_DESERT" Language="zh_Hans_CN">
+			<Text>+{1_Num} [ICON_FAITH] 信仰值来自相邻平坦沙漠</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ADJACENCY_DISTRICT_MNESTIA_GIVE_YIELD_GOLD" Language="zh_Hans_CN">
+			<Text>+{1_Num} [ICON_GOLD] 金币来自相邻的云石天宫。</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DISTRICT_MNESTIA_GIVE_YIELD_SCIENCE" Language="zh_Hans_CN">
+			<Text>+{1_Num} [ICON_SCIENCE] 科技值来自相邻的云石天宫。</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DISTRICT_MNESTIA_GIVE_YIELD_FAITH" Language="zh_Hans_CN">
+			<Text>+{1_Num} [ICON_FAITH] 信仰值来自相邻的云石天宫。</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DISTRICT_MNESTIA_GIVE_YIELD_CULTURE" Language="zh_Hans_CN">
+			<Text>+{1_Num} [ICON_CULTURE] 文化值来自相邻的云石天宫。</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DISTRICT_MNESTIA_GIVE_YIELD_PRODUCTION" Language="zh_Hans_CN">
+			<Text>+{1_Num} [ICON_PRODUCTION] 生产力来自相邻的云石天宫。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MODIFIER_DISTRICT_PHAGOUSA_GIVE_GOLD" Language="zh_Hans_CN">
+			<Text>+{1_Num} [ICON_GOLD] 金币来自相邻区域。（基于已拥有的浮影海庭）</Text>
+		</Replace>
+
+		<Replace Tag="LOC_Adjacency_DISTRICT_AGELAIYA_APPEAL_YIELD_GOLD" Language="zh_Hans_CN">
+			<Text>+{1_Num} [ICON_GOLD] 金币来自该格位的魅力值</Text>
+		</Replace>
+		<Replace Tag="LOC_Adjacency_DISTRICT_AGELAIYA_APPEAL_YIELD_SCIENCE" Language="zh_Hans_CN">
+			<Text>+{1_Num} [ICON_SCIENCE] 科技值来自该格位的魅力值</Text>
+		</Replace>
+		<Replace Tag="LOC_Adjacency_DISTRICT_AGELAIYA_APPEAL_YIELD_FAITH" Language="zh_Hans_CN">
+			<Text>+{1_Num} [ICON_FAITH] 信仰值来自该格位的魅力值</Text>
+		</Replace>
+		<Replace Tag="LOC_Adjacency_DISTRICT_AGELAIYA_APPEAL_YIELD_CULTURE" Language="zh_Hans_CN">
+			<Text>+{1_Num} [ICON_CULTURE] 文化值来自该格位的魅力值</Text>
+		</Replace>
+		<Replace Tag="LOC_Adjacency_DISTRICT_AGELAIYA_APPEAL_YIELD_PRODUCTION" Language="zh_Hans_CN">
+			<Text>+{1_Num} [ICON_PRODUCTION] 生产力来自该格位的魅力值</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ADJACENCY_DISTRICT_THANATOS_GIVE_YIELD_GOLD" Language="zh_Hans_CN">
+			<Text>+{1_Num} [ICON_GOLD] 金币来自相邻的龙骸古城。</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DISTRICT_THANATOS_GIVE_YIELD_SCIENCE" Language="zh_Hans_CN">
+			<Text>+{1_Num} [ICON_SCIENCE] 科技值来自相邻的龙骸古城。</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DISTRICT_THANATOS_GIVE_YIELD_FAITH" Language="zh_Hans_CN">
+			<Text>+{1_Num} [ICON_FAITH] 信仰值来自相邻的龙骸古城。</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DISTRICT_THANATOS_GIVE_YIELD_CULTURE" Language="zh_Hans_CN">
+			<Text>+{1_Num} [ICON_CULTURE] 文化值来自相邻的龙骸古城。</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DISTRICT_THANATOS_GIVE_YIELD_PRODUCTION" Language="zh_Hans_CN">
+			<Text>+{1_Num} [ICON_PRODUCTION] 生产力来自相邻的龙骸古城。</Text>
+		</Replace>
+		
+		<!--City names-->
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_AOHEMA" Language="zh_Hans_CN">
+			<Text>「永恒圣城」奥赫玛</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_XUANFENG" Language="zh_Hans_CN">
+			<Text>「浴血战端」悬锋城</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_SHENWUSHUTING" Language="zh_Hans_CN">
+			<Text>「贤者之乡」神悟树庭</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_1" Language="zh_Hans_CN">
+			<Text>「纷争荒墟」悬锋城</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_2" Language="zh_Hans_CN">
+			<Text>「千门之城」雅努萨波利斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_3" Language="zh_Hans_CN">
+			<Text>「神谕圣地」雅努萨波利斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_4" Language="zh_Hans_CN">
+			<Text>「命运重渊」雅努萨波利斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_5" Language="zh_Hans_CN">
+			<Text>「呓语密林」神悟树庭</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_6" Language="zh_Hans_CN">
+			<Text>「雪城」哀地里亚</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_7" Language="zh_Hans_CN">
+			<Text>「海畔明珠」斯缇科西亚</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_8" Language="zh_Hans_CN">
+			<Text>「沉沦暮城」奥赫玛</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_9" Language="zh_Hans_CN">
+			<Text>「半神议院」黎明云崖</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_10" Language="zh_Hans_CN">
+			<Text>「无晖祈堂」黎明云崖</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_11" Language="zh_Hans_CN">
+			<Text>「辉痕圣林」神悟树庭</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_12" Language="zh_Hans_CN">
+			<Text>「酣歌海垠」斯缇科西亚</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_13" Language="zh_Hans_CN">
+			<Text>「龙骸古城」斯缇科西亚</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_14" Language="zh_Hans_CN">
+			<Text>「穹顶关塞」晨昏之眼</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_15" Language="zh_Hans_CN">
+			<Text>「云端遗堡」晨昏之眼</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_16" Language="zh_Hans_CN">
+			<Text>「全世矩阵」无名泰坦大墓</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_17" Language="zh_Hans_CN">
+			<Text>昏曦圣道</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_18" Language="zh_Hans_CN">
+			<Text>悼神断崖</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_19" Language="zh_Hans_CN">
+			<Text>末世祭坛</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_20" Language="zh_Hans_CN">
+			<Text>云崖圣道</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_21" Language="zh_Hans_CN">
+			<Text>喑声长厅</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_22" Language="zh_Hans_CN">
+			<Text>浮影海庭</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_23" Language="zh_Hans_CN">
+			<Text>怀离浴池</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_24" Language="zh_Hans_CN">
+			<Text>祝祭庭院</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_25" Language="zh_Hans_CN">
+			<Text>迷路迷境</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_26" Language="zh_Hans_CN">
+			<Text>斯基亚纳</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_27" Language="zh_Hans_CN">
+			<Text>多洛斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_28" Language="zh_Hans_CN">
+			<Text>哀丽秘榭</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_29" Language="zh_Hans_CN">
+			<Text>埃杜利亚</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_30" Language="zh_Hans_CN">
+			<Text>萨白尼</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_31" Language="zh_Hans_CN">
+			<Text>阿狄安</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_32" Language="zh_Hans_CN">
+			<Text>奥利弗兰卡</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_33" Language="zh_Hans_CN">
+			<Text>麦迪特瑞恩</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_34" Language="zh_Hans_CN">
+			<Text>阿卡索斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_35" Language="zh_Hans_CN">
+			<Text>皮利亚</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_36" Language="zh_Hans_CN">
+			<Text>阿里斯蒂亚</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_37" Language="zh_Hans_CN">
+			<Text>欧瑞尼亚</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_38" Language="zh_Hans_CN">
+			<Text>米里奥斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_39" Language="zh_Hans_CN">
+			<Text>耶利卡</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_40" Language="zh_Hans_CN">
+			<Text>奥凯纳斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_41" Language="zh_Hans_CN">
+			<Text>拉冬</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_42" Language="zh_Hans_CN">
+			<Text>卡弥特斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_43" Language="zh_Hans_CN">
+			<Text>厄涅俄努斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_44" Language="zh_Hans_CN">
+			<Text>布利萨</Text>
+		</Replace>
+
+		<!--Civ Info-->
+		<Replace Tag="LOC_CIVINFO_NW_AMPHOREUS_LOCATION" Language="zh_Hans_CN">
+			<Text>未知星域</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_NW_AMPHOREUS_SIZE" Language="zh_Hans_CN">
+			<Text>未知</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_NW_AMPHOREUS_POPULATION" Language="zh_Hans_CN">
+			<Text>未知</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_NW_AMPHOREUS_CAPITAL" Language="zh_Hans_CN">
+			<Text>「永恒圣城」奥赫玛</Text>
+		</Replace>
+
+
+		<!--UI-->
+		<Replace Tag="LOC_BUTTON_NW_JANUS" Language="zh_Hans_CN">
+			<Text>百界门：传送到其他城市</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_THEMINGBONUS_DISTRICT_THANATOS" Language="zh_Hans_CN">
+		  <Text>当 [ICON_GreatWork_Artifact] 文物填满所有槽位时，主题化加成+1600%。</Text>
+		</Replace>
+		<Replace Tag="LOC_NW_AM_SAY_WONDER_POPUP_TITLE" Language="zh_Hans_CN">
+			<Text>指定一个奇观进行预言</Text>
+		</Replace>
+		<Replace Tag="LOC_SKIP_BUTTON" Language="zh_Hans_CN">
+			<Text>跳过</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_NAKEXIA_FOREST_NAME" Language="zh_Hans_CN">
+			<Text>种植原始树林</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_NAKEXIA_FOREST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在此处种植原始树林</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

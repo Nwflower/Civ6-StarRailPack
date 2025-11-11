@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- FILE: Amphoreus_PackageText.xml -->
+<!-- VERSION: 1 -->
+<!-- Author: Nwflower -->
+<!-- Spicial Thanks: Uni -->
+<!-- Copyright (c) 2025. -->
+<!-- All rights reserved. -->
+<!-- DateCreated: 2025/10/26 15:31:52 -->
+<GameData>
+    <LocalizedText>
+        <Row Tag="LOC_AMPHOREUS_MOD_TITLE" Language="zh_Hans_CN">
+            <Text>[COLOR:Civ6Yellow]【崩坏：星穹铁道】[ENDCOLOR] 翁法罗斯英雄纪（重置版）</Text>
+        </Row>
+        <Row Tag="LOC_AMPHOREUS_MOD_TEASER" Language="zh_Hans_CN">
+            <Text>添加了以星穹铁道世界观为背景的翁法罗斯文明。</Text>
+        </Row>
+        <Row Tag="LOC_AMPHOREUS_MOD_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>添加了以星穹铁道世界观为背景的翁法罗斯文明。</Text>
+        </Row>
+        <Row Tag="LOC_AMPHOREUS_MOD_AUTHORS" Language="zh_Hans_CN">
+            <Text>[COLOR:DiplomaticLabelCS]千川白浪[ENDCOLOR]</Text>
+        </Row>
+    </LocalizedText>
+</GameData>

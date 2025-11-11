@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ColorSet="Beige_Black" FontStyle="Shadow">
+
+    <Box Color="0,0,0,150" Size="parent,parent" ConsumeMouse="1">
+        <AlphaAnim ID="PopupAlphaIn" AlphaBegin="0" AlphaEnd="1" Speed="3" Function="Root" Cycle="Once"
+                   Size="parent,parent">
+            <SlideAnim ID="PopupSlideIn" Start="0,-20" End="0,0" Speed="3" Function="Root" Cycle="Once"
+                       Size="parent,parent">
+
+                <Grid ID="WindowContainer" Size="auto,auto" Anchor="C,C" Offset="0,0" Style="DropShadow2"
+                      Color="255,255,255,200" AutoSizePadding="25,25" ConsumeMouse="1">
+                    <Grid ID="Window" Size="910,auto" Anchor="C,C" Offset="0,0" Style="WindowFrameTitle"
+                          AutoSizePadding="0,13">
+                        <Stack ID="WindowStack" StackGrowth="Down" Padding="10" Anchor="C,T">
+                            <Container Size="330,42" Anchor="C,T">
+                                <Label ID="TitleText" Style="WindowHeader" Anchor="C,C"
+                                       String="{LOC_NW_AM_SAY_WONDER_POPUP_TITLE:upper}"/>
+                            </Container>
+                            <Container Size="auto,auto" Anchor="C,T">
+                                <Stack ID="WindowContentsStack" Anchor="L,T" StackGrowth="Bottom" Padding="12">
+                                    <!-- Icons -->
+                                    <Stack ID="IconOptionStack" Anchor="C,T" StackGrowth="Down" Padding="6"/>
+
+                                    <!-- Buttons -->
+                                    <Stack ID="OptionsStack" StackGrowth="Right" Padding="8" Anchor="C,T"
+                                           WrapWidth="480">
+                                        <GridButton ID="OkButton" Anchor="L,T" Size="150,41" Style="MainButton"
+                                                    FontStyle="Shadow" String="LOC_OK_BUTTON"/>
+                                        <GridButton ID="SkipButton" Anchor="L,T" Size="150,41" Style="ButtonRed"
+                                                    FontStyle="Shadow" String="LOC_SKIP_BUTTON"/>
+                                    </Stack>
+                                </Stack>
+                            </Container>
+                        </Stack>
+                    </Grid>
+                </Grid>
+
+            </SlideAnim>
+        </AlphaAnim>
+    </Box>
+
+    <Instance Name="IconOptionRowInstance">
+        <Stack ID="IconOptionRowStack" Anchor="C,T" StackGrowth="Right" Padding="4" WrapWidth="40" WrapGrowth="Down"/>
+    </Instance>
+
+    <Instance Name="IconOptionInstance">
+        <Container ID="IconOptionRoot" Anchor="L,T" Size="96,92">
+            <GridButton ID="IconOptionButton" Anchor="C,C" Size="parent,parent" Style="ButtonControl">
+                <Image ID="Icon" Texture="MapPins24" Size="80,80" Anchor="C,C" Color="255,255,255"/>
+                <Container ID="StateContainer" Size="parent,parent">
+                    <Grid ID="StateGrid" Anchor="C,C" AutoSizePadding="0,3" Offset="0,0" Size="96,auto"
+                          MinSize="96,0" Texture="Controls_ItemContainer2" SliceCorner="11,5" SliceTextureSize="22,22">
+                        <Label ID="IconState" Anchor="C,C" WrapWidth="80" Style="FontNormal18" ColorSet="BodyTextCool"
+                               FontStyle="Stroke" TruncateHeight="90"/>
+                    </Grid>
+                </Container>
+            </GridButton>
+        </Container>
+    </Instance>
+</Context>

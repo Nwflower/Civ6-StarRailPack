@@ -1,0 +1,62 @@
+--	FILE: Amphoreus_Buildings.sql
+--  VERSION: 1
+--  Author: Nwflower
+--  Spicial Thanks: Uni
+--	Copyright (c) 2025.
+--	All rights reserved.
+--  DateCreated: 2025/10/26 15:31:52
+--------------------------------------------------------------------------------
+--  作者： 千川白浪
+--  特别鸣谢： 优妮
+------------------------------------------------------------------------------
+
+
+INSERT INTO Types
+    (Type, Kind)
+VALUES ('BUILDING_TRIBIOS_JOURNEY', 'KIND_BUILDING'),
+       ('BUILDING_DISTRICT_THANATOS', 'KIND_BUILDING');
+INSERT INTO Buildings
+    (BuildingType, Name, Cost, InternalOnly, MustPurchase)
+VALUES ('BUILDING_TRIBIOS_JOURNEY', 'LOC_BUILDING_TRIBIOS_JOURNEY', 1, 1, 1),
+       ('BUILDING_DISTRICT_THANATOS', 'LOC_DISTRICT_THANATOS_NAME', 1, 1, 1);
+
+------------------------------------------------------------------------------
+INSERT INTO Types
+    (Type, Kind)
+VALUES ('BUILDING_NW_REMEMBRANCE', 'KIND_BUILDING'), -- 记忆
+       ('BUILDING_NW_ERUDITION', 'KIND_BUILDING'), -- 智识
+       ('BUILDING_NW_DESTRUCTION', 'KIND_BUILDING'); -- 毁灭
+
+INSERT INTO Buildings
+(BuildingType, Name, Description, TraitType, Cost, PrereqDistrict, PurchaseYield, MaxPlayerInstances, PrereqCivic)
+VALUES ('BUILDING_NW_REMEMBRANCE', 'LOC_BUILDING_NW_REMEMBRANCE_NAME', 'LOC_BUILDING_NW_REMEMBRANCE_DESCRIPTION',
+        'TRAIT_BUILDING_NW_AMPHOREUS', 30, 'DISTRICT_GOVERNMENT', 'YIELD_GOLD', 1, 'CIVIC_STATE_WORKFORCE'),
+       ('BUILDING_NW_ERUDITION', 'LOC_BUILDING_NW_ERUDITION_NAME', 'LOC_BUILDING_NW_ERUDITION_DESCRIPTION',
+        'TRAIT_BUILDING_NW_AMPHOREUS', 30, 'DISTRICT_GOVERNMENT', 'YIELD_GOLD', 1, 'CIVIC_STATE_WORKFORCE'),
+       ('BUILDING_NW_DESTRUCTION', 'LOC_BUILDING_NW_DESTRUCTION_NAME', 'LOC_BUILDING_NW_DESTRUCTION_DESCRIPTION',
+        'TRAIT_BUILDING_NW_AMPHOREUS', 30, 'DISTRICT_GOVERNMENT', 'YIELD_GOLD', 1, 'CIVIC_STATE_WORKFORCE');
+
+INSERT INTO Building_YieldChanges
+    (BuildingType, YieldType, YieldChange)
+VALUES ('BUILDING_NW_REMEMBRANCE', 'YIELD_CULTURE', 2),
+       ('BUILDING_NW_REMEMBRANCE', 'YIELD_FAITH', 8),
+       ('BUILDING_NW_ERUDITION', 'YIELD_SCIENCE', 2),
+       ('BUILDING_NW_ERUDITION', 'YIELD_PRODUCTION', 4),
+       ('BUILDING_NW_DESTRUCTION', 'YIELD_FOOD', 2),
+       ('BUILDING_NW_DESTRUCTION', 'YIELD_GOLD', 16);
+
+INSERT INTO MutuallyExclusiveBuildings
+    (Building, MutuallyExclusiveBuilding)
+VALUES ('BUILDING_NW_REMEMBRANCE', 'BUILDING_NW_ERUDITION'),
+       ('BUILDING_NW_REMEMBRANCE', 'BUILDING_NW_DESTRUCTION'),
+       ('BUILDING_NW_ERUDITION', 'BUILDING_NW_REMEMBRANCE'),
+       ('BUILDING_NW_ERUDITION', 'BUILDING_NW_DESTRUCTION'),
+       ('BUILDING_NW_DESTRUCTION', 'BUILDING_NW_REMEMBRANCE'),
+       ('BUILDING_NW_DESTRUCTION', 'BUILDING_NW_ERUDITION');
+
+-- 不会被自然灾害摧毁
+INSERT INTO Buildings_XP2
+    (BuildingType, Pillage)
+VALUES ('BUILDING_NW_REMEMBRANCE', 0),
+       ('BUILDING_NW_ERUDITION', 0),
+       ('BUILDING_NW_DESTRUCTION', 0);

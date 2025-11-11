@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- FILE: Amphoreus_Icons.xml -->
+<!-- VERSION: 1 -->
+<!-- Author: Nwflower -->
+<!-- Spicial Thanks: Uni -->
+<!-- Copyright (c) 2025. -->
+<!-- All rights reserved. -->
+<!-- DateCreated: 2025/10/26 15:31:52 -->
+<GameData>
+    <IconTextureAtlases>
+        <Row Filename="NwAmphoreus256" IconsPerColumn="1" IconsPerRow="1" IconSize="256"
+                 Name="ICON_ATLAS_NW_AMPHOREUS"/>
+        <Row Filename="NwAmphoreus128" IconsPerColumn="1" IconsPerRow="1" IconSize="128"
+                 Name="ICON_ATLAS_NW_AMPHOREUS"/>
+        <Row Filename="NwAmphoreus80" IconsPerColumn="1" IconsPerRow="1" IconSize="80"
+                 Name="ICON_ATLAS_NW_AMPHOREUS"/>
+        <Row Filename="NwAmphoreus64" IconsPerColumn="1" IconsPerRow="1" IconSize="64"
+                 Name="ICON_ATLAS_NW_AMPHOREUS"/>
+        <Row Filename="NwAmphoreus50" IconsPerColumn="1" IconsPerRow="1" IconSize="50"
+                 Name="ICON_ATLAS_NW_AMPHOREUS"/>
+        <Row Filename="NwAmphoreus48" IconsPerColumn="1" IconsPerRow="1" IconSize="48"
+                 Name="ICON_ATLAS_NW_AMPHOREUS"/>
+        <Row Filename="NwAmphoreus45" IconsPerColumn="1" IconsPerRow="1" IconSize="45"
+                 Name="ICON_ATLAS_NW_AMPHOREUS"/>
+        <Row Filename="NwAmphoreus44" IconsPerColumn="1" IconsPerRow="1" IconSize="44"
+                 Name="ICON_ATLAS_NW_AMPHOREUS"/>
+        <Row Filename="NwAmphoreus36" IconsPerColumn="1" IconsPerRow="1" IconSize="36"
+                 Name="ICON_ATLAS_NW_AMPHOREUS"/>
+        <Row Filename="NwAmphoreus32" IconsPerColumn="1" IconsPerRow="1" IconSize="32"
+                 Name="ICON_ATLAS_NW_AMPHOREUS"/>
+        <Row Filename="NwAmphoreus30" IconsPerColumn="1" IconsPerRow="1" IconSize="30"
+                 Name="ICON_ATLAS_NW_AMPHOREUS"/>
+        <Row Filename="NwAmphoreus22" IconsPerColumn="1" IconsPerRow="1" IconSize="22"
+                 Name="ICON_ATLAS_NW_AMPHOREUS"/>
+    </IconTextureAtlases>
+
+    <IconDefinitions>
+        <Row Name="ICON_CIVILIZATION_NW_AMPHOREUS" Atlas="ICON_ATLAS_NW_AMPHOREUS" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_BUILDING_NW_REMEMBRANCE" IconSize="32" Filename="ICON_BUILDING_NW_REMEMBRANCE_32"/>
+        <Row Name="ATLAS_ICON_BUILDING_NW_REMEMBRANCE" IconSize="38" Filename="ICON_BUILDING_NW_REMEMBRANCE_38"/>
+        <Row Name="ATLAS_ICON_BUILDING_NW_REMEMBRANCE" IconSize="50" Filename="ICON_BUILDING_NW_REMEMBRANCE_50"/>
+        <Row Name="ATLAS_ICON_BUILDING_NW_REMEMBRANCE" IconSize="80" Filename="ICON_BUILDING_NW_REMEMBRANCE_80"/>
+        <Row Name="ATLAS_ICON_BUILDING_NW_REMEMBRANCE" IconSize="128" Filename="ICON_BUILDING_NW_REMEMBRANCE_128"/>
+        <Row Name="ATLAS_ICON_BUILDING_NW_REMEMBRANCE" IconSize="256" Filename="ICON_BUILDING_NW_REMEMBRANCE_256"/>
+        <Row Name="ATLAS_ICON_BUILDING_NW_DESTRUCTION" IconSize="32" Filename="ICON_BUILDING_NW_DESTRUCTION_32"/>
+        <Row Name="ATLAS_ICON_BUILDING_NW_DESTRUCTION" IconSize="38" Filename="ICON_BUILDING_NW_DESTRUCTION_38"/>
+        <Row Name="ATLAS_ICON_BUILDING_NW_DESTRUCTION" IconSize="50" Filename="ICON_BUILDING_NW_DESTRUCTION_50"/>
+        <Row Name="ATLAS_ICON_BUILDING_NW_DESTRUCTION" IconSize="80" Filename="ICON_BUILDING_NW_DESTRUCTION_80"/>
+        <Row Name="ATLAS_ICON_BUILDING_NW_DESTRUCTION" IconSize="128" Filename="ICON_BUILDING_NW_DESTRUCTION_128"/>
+        <Row Name="ATLAS_ICON_BUILDING_NW_DESTRUCTION" IconSize="256" Filename="ICON_BUILDING_NW_DESTRUCTION_256"/>
+        <Row Name="ATLAS_ICON_BUILDING_NW_ERUDITION" IconSize="32" Filename="ICON_BUILDING_NW_ERUDITION_32"/>
+        <Row Name="ATLAS_ICON_BUILDING_NW_ERUDITION" IconSize="38" Filename="ICON_BUILDING_NW_ERUDITION_38"/>
+        <Row Name="ATLAS_ICON_BUILDING_NW_ERUDITION" IconSize="50" Filename="ICON_BUILDING_NW_ERUDITION_50"/>
+        <Row Name="ATLAS_ICON_BUILDING_NW_ERUDITION" IconSize="80" Filename="ICON_BUILDING_NW_ERUDITION_80"/>
+        <Row Name="ATLAS_ICON_BUILDING_NW_ERUDITION" IconSize="128" Filename="ICON_BUILDING_NW_ERUDITION_128"/>
+        <Row Name="ATLAS_ICON_BUILDING_NW_ERUDITION" IconSize="256" Filename="ICON_BUILDING_NW_ERUDITION_256"/>
+
+        <Row Name="ATLAS_ICON_BUILDING_TRIBIOS_JOURNEY" IconSize="30" Filename="ICON_BUILDING_TRIBIOS_JOURNEY_30"/>
+        <Row Name="ATLAS_ICON_BUILDING_TRIBIOS_JOURNEY" IconSize="32" Filename="ICON_BUILDING_TRIBIOS_JOURNEY_32"/>
+        <Row Name="ATLAS_ICON_BUILDING_TRIBIOS_JOURNEY" IconSize="38" Filename="ICON_BUILDING_TRIBIOS_JOURNEY_38"/>
+        <Row Name="ATLAS_ICON_BUILDING_TRIBIOS_JOURNEY" IconSize="50" Filename="ICON_BUILDING_TRIBIOS_JOURNEY_50"/>
+        <Row Name="ATLAS_ICON_BUILDING_TRIBIOS_JOURNEY" IconSize="70" Filename="ICON_BUILDING_TRIBIOS_JOURNEY_70"/>
+        <Row Name="ATLAS_ICON_BUILDING_TRIBIOS_JOURNEY" IconSize="80" Filename="ICON_BUILDING_TRIBIOS_JOURNEY_80"/>
+        <Row Name="ATLAS_ICON_BUILDING_TRIBIOS_JOURNEY" IconSize="128"
+                 Filename="ICON_BUILDING_TRIBIOS_JOURNEY_128"/>
+        <Row Name="ATLAS_ICON_BUILDING_TRIBIOS_JOURNEY" IconSize="256"
+                 Filename="ICON_BUILDING_TRIBIOS_JOURNEY_256"/>
+
+        <Row Name="ATLAS_ICON_UNIT_GOLD_SON" IconSize="22" Filename="ICON_UNIT_GOLD_SON_22"/>
+        <Row Name="ATLAS_ICON_UNIT_GOLD_SON" IconSize="32" Filename="ICON_UNIT_GOLD_SON_32"/>
+        <Row Name="ATLAS_ICON_UNIT_GOLD_SON" IconSize="38" Filename="ICON_UNIT_GOLD_SON_38"/>
+        <Row Name="ATLAS_ICON_UNIT_GOLD_SON" IconSize="50" Filename="ICON_UNIT_GOLD_SON_50"/>
+        <Row Name="ATLAS_ICON_UNIT_GOLD_SON" IconSize="80" Filename="ICON_UNIT_GOLD_SON_80"/>
+        <Row Name="ATLAS_ICON_UNIT_GOLD_SON" IconSize="256" Filename="ICON_UNIT_GOLD_SON_256"/>
+
+        <Row Name="ATLAS_ICON_UNIT_GOLD_SON_PORTRAIT" IconSize="22" Filename="ICON_UNIT_GOLD_SON_PORTRAIT_22"/>
+        <Row Name="ATLAS_ICON_UNIT_GOLD_SON_PORTRAIT" IconSize="32" Filename="ICON_UNIT_GOLD_SON_PORTRAIT_32"/>
+        <Row Name="ATLAS_ICON_UNIT_GOLD_SON_PORTRAIT" IconSize="38" Filename="ICON_UNIT_GOLD_SON_PORTRAIT_38"/>
+        <Row Name="ATLAS_ICON_UNIT_GOLD_SON_PORTRAIT" IconSize="50" Filename="ICON_UNIT_GOLD_SON_PORTRAIT_50"/>
+        <Row Name="ATLAS_ICON_UNIT_GOLD_SON_PORTRAIT" IconSize="80" Filename="ICON_UNIT_GOLD_SON_PORTRAIT_80"/>
+        <Row Name="ATLAS_ICON_UNIT_GOLD_SON_PORTRAIT" IconSize="256" Filename="ICON_UNIT_GOLD_SON_PORTRAIT_256"/>
+
+        <Row Name="ATLAS_ICON_PROJECT_CLEAN_BLACK_WIND" IconSize="30" Filename="ICON_PROJECT_CLEAN_BLACK_WIND_30"/>
+        <Row Name="ATLAS_ICON_PROJECT_CLEAN_BLACK_WIND" IconSize="32" Filename="ICON_PROJECT_CLEAN_BLACK_WIND_32"/>
+        <Row Name="ATLAS_ICON_PROJECT_CLEAN_BLACK_WIND" IconSize="38" Filename="ICON_PROJECT_CLEAN_BLACK_WIND_38"/>
+        <Row Name="ATLAS_ICON_PROJECT_CLEAN_BLACK_WIND" IconSize="50" Filename="ICON_PROJECT_CLEAN_BLACK_WIND_50"/>
+        <Row Name="ATLAS_ICON_PROJECT_CLEAN_BLACK_WIND" IconSize="70" Filename="ICON_PROJECT_CLEAN_BLACK_WIND_70"/>
+        <Row Name="ATLAS_ICON_PROJECT_CLEAN_BLACK_WIND" IconSize="80" Filename="ICON_PROJECT_CLEAN_BLACK_WIND_80"/>
+        <Row Name="ATLAS_ICON_PROJECT_CLEAN_BLACK_WIND" IconSize="256"
+                 Filename="ICON_PROJECT_CLEAN_BLACK_WIND_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_BUILDING_NW_REMEMBRANCE" Atlas="ATLAS_ICON_BUILDING_NW_REMEMBRANCE" Index="0"/>
+        <Row Name="ICON_BUILDING_NW_DESTRUCTION" Atlas="ATLAS_ICON_BUILDING_NW_DESTRUCTION" Index="0"/>
+        <Row Name="ICON_BUILDING_NW_ERUDITION" Atlas="ATLAS_ICON_BUILDING_NW_ERUDITION" Index="0"/>
+
+        <Row Name="ICON_PROJECT_TRIBIOS_JOURNEY" Atlas="ATLAS_ICON_BUILDING_TRIBIOS_JOURNEY" Index="0"/>
+        <Row Name="ICON_PROJECT_CLEAN_BLACK_WIND" Atlas="ATLAS_ICON_PROJECT_CLEAN_BLACK_WIND" Index="0"/>
+
+        <Row Name="ICON_UNIT_GOLD_SON" Atlas="ATLAS_ICON_UNIT_GOLD_SON" Index="0"/>
+        <Row Name="ICON_UNIT_GOLD_SON_PORTRAIT" Atlas="ATLAS_ICON_UNIT_GOLD_SON_PORTRAIT" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ICON_ATLAS_ETHIOPIA_DISTRICTS_DISTRICT_TALANTON" IconSize="22" IconsPerRow="1" IconsPerColumn="1"
+                 Filename="Ethiopia_Districts22"/>
+        <Row Name="ICON_ATLAS_ETHIOPIA_DISTRICTS_DISTRICT_TALANTON" IconSize="32" IconsPerRow="1" IconsPerColumn="1"
+                 Filename="Ethiopia_Districts32"/>
+        <Row Name="ICON_ATLAS_ETHIOPIA_DISTRICTS_DISTRICT_TALANTON" IconSize="38" IconsPerRow="1" IconsPerColumn="1"
+                 Filename="Ethiopia_Districts38"/>
+        <Row Name="ICON_ATLAS_ETHIOPIA_DISTRICTS_DISTRICT_TALANTON" IconSize="50" IconsPerRow="1" IconsPerColumn="1"
+                 Filename="Ethiopia_Districts50"/>
+        <Row Name="ICON_ATLAS_ETHIOPIA_DISTRICTS_DISTRICT_TALANTON" IconSize="80" IconsPerRow="1" IconsPerColumn="1"
+                 Filename="Ethiopia_Districts80"/>
+        <Row Name="ICON_ATLAS_ETHIOPIA_DISTRICTS_DISTRICT_TALANTON" IconSize="128" IconsPerRow="1"
+                 IconsPerColumn="1"
+                 Filename="Ethiopia_Districts128"/>
+        <Row Name="ICON_ATLAS_ETHIOPIA_DISTRICTS_DISTRICT_TALANTON" IconSize="256" IconsPerRow="1"
+                 IconsPerColumn="1"
+                 Filename="Ethiopia_Districts256"/>
+        <Row Name="ICON_ATLAS_ETHIOPIA_DISTRICTS_DISTRICT_TALANTON_FOW" IconSize="256" IconsPerRow="1"
+                 IconsPerColumn="1"
+                 Filename="Ethiopia_Districts256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_DISTRICT_TALANTON" Atlas="ICON_ATLAS_ETHIOPIA_DISTRICTS_DISTRICT_TALANTON" Index="0"/>
+        <Row Name="ICON_DISTRICT_TALANTON_FOW" Atlas="ICON_ATLAS_ETHIOPIA_DISTRICTS_DISTRICT_TALANTON_FOW"
+                 Index="0"/>
+        <Row Name="DISTRICT_PHAGOUSA" Atlas="ICON_ATLAS_FONT_ICON_BASELINE_4" Index="184"/>
+    </IconDefinitions>
+    <IconAliases>
+        <Row Name="ICON_UNIT_ARCHAEOLOGIST_THANATOS" OtherName="ICON_UNIT_ARCHAEOLOGIST"/>
+        <Row Name="ICON_UNIT_ARCHAEOLOGIST_THANATOS_PORTRAIT" OtherName="ICON_UNIT_ARCHAEOLOGIST_PORTRAIT"/>
+
+        <Row Name="DISTRICT_PHAGOUSA" OtherName="DISTRICT_HARBOR"/>
+
+        <Row Name="ICON_DISTRICT_JANUS" OtherName="ICON_DISTRICT_HOLY_SITE"/>
+        <Row Name="ICON_DISTRICT_NIKADOR" OtherName="ICON_DISTRICT_ENCAMPMENT"/>
+        <Row Name="ICON_DISTRICT_MNESTIA" OtherName="ICON_DISTRICT_AQUEDUCT"/>
+        <Row Name="ICON_DISTRICT_CERCES" OtherName="ICON_DISTRICT_CAMPUS"/>
+        <Row Name="ICON_DISTRICT_THANATOS" OtherName="ICON_DISTRICT_ENTERTAINMENT_COMPLEX"/>
+        <Row Name="ICON_DISTRICT_AQUILA" OtherName="ICON_DISTRICT_SPACEPORT"/>
+        <Row Name="ICON_DISTRICT_ZAGREUS" OtherName="ICON_DISTRICT_COMMERCIAL_HUB"/>
+        <Row Name="ICON_DISTRICT_KEPHALE" OtherName="ICON_DISTRICT_GOVERNMENT"/>
+        <Row Name="ICON_DISTRICT_PHAGOUSA" OtherName="ICON_DISTRICT_HARBOR"/>
+        <Row Name="ICON_DISTRICT_ORONYX" OtherName="ICON_DISTRICT_THEATER"/>
+        <Row Name="ICON_DISTRICT_GEORIOS" OtherName="ICON_DISTRICT_INDUSTRIAL_ZONE"/>
+    </IconAliases>
+</GameData>
