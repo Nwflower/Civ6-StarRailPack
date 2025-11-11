@@ -16,7 +16,7 @@ ModTeaser = "愿此行，终抵群星"
 
 def get_mod_folders():
     result = []
-    for dirpath, dir_names, filenames in os.walk('../次元破壁：星穹铁道'):
+    for dirpath, dir_names, filenames in os.walk('.'):
         if target_file in filenames:
             rel_path = os.path.relpath(dirpath, '.')
             result.append(rel_path)
