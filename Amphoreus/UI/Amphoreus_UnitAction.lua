@@ -74,6 +74,13 @@ function OnUnitSelectionChanged(playerID, unitID, plotX, plotY, plotZ, bSelected
     end
     Refresh(playerID)
 end
+-- 传送完成后隐藏按钮
+function OnUnitTeleportedUI(playerID)
+    if playerID ~= m_iCurrentPlayerID then
+        return
+    end
+    Controls.UnitJanusGrid:SetHide(true)
+end
 
 -- 刷新按钮状态
 function Refresh(playerID)
@@ -205,10 +212,10 @@ function Initialize()
     end
 
     LuaEvents.WorldInput_WBSelectPlot.Add( OnSelectPlot )
+
     Events.InterfaceModeChanged.Add( OnUiModChange )
-    Events.UnitTeleported.Add(OnUnitMoveComplete)
     Events.UnitSelectionChanged.Add(OnUnitSelectionChanged)
-    Events.UnitMoveComplete.Add(OnUnitMoveComplete)
+    Events.UnitMovementPointsChanged.Add(OnUnitMoveComplete)
 end
 
 Events.LoadGameViewStateDone.Add(Initialize)

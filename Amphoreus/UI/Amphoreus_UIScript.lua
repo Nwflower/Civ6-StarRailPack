@@ -16,36 +16,6 @@ end
 
 --======================================================================
 -- 刻律德菈
--- 如果城市忠诚，则其溢出的忠诚度将转化为等量的 [ICON_GOLD] 金币。
--- 玩家由LocalPlayer操作
--- AI由房主操作
-function onKLPlayerTurnActivated(iPlayer, isFirst)
-    if (iPlayer == m_iCurrentPlayerID) or (m_iCurrentPlayerID == 0 and Players[iPlayer]:IsAI()) then
-        if (HasTrait_Property('TRAIT_LEADER_NW_CERYDRA_TALANTON',iPlayer)) and isFirst then
-            local pPlayer = Players[iPlayer];
-            local n_gold = 0;
-            for _, pCity in pPlayer:GetCities():Members() do
-                n_gold = n_gold + GetCityLoyalty(pCity)
-            end
-            if n_gold > 0 then
-                UI.RequestPlayerOperation(iPlayer, PlayerOperations.EXECUTE_SCRIPT, {
-                    OnStart = "NW_LoyaltyToGold",
-                    iNum = n_gold
-                });
-            end
-            ProphecyWonder(pPlayer)
-        end
-    end
-end
-
--- 获取某一城市每回合产出的溢出忠诚度（UI）
-function GetCityLoyalty(pCity)
-    local pCityCulturalIdentity = pCity:GetCulturalIdentity();
-    local pCityLoyalty = pCityCulturalIdentity:GetLoyalty();
-    local pCityMaxLoyalty = pCityCulturalIdentity:GetMaxLoyalty();
-    local pCityLoyaltyPerTurn = pCityCulturalIdentity:GetLoyaltyPerTurn();
-    return ((pCityLoyalty == pCityMaxLoyalty) and {pCityLoyaltyPerTurn} or {0})[1]
-end
 
 -- 预言书库：如果拥有的预言次数大于已预言的奇观数，且存在既未建成、又未被预言的奇观，则回合开始时让玩家选择一个预言奇观
 function ProphecyWonder(pPlayer)
@@ -115,12 +85,31 @@ function GetWonderBuilt()
 	return buildings
 end
 
+-- ===========================================================================
+-- 该写法可对AI正常生效
+function OnPlayerTurnActivated(playerID, isFirst)
+	if m_iCurrentPlayerID == playerID and m_iCurrentPlayerID == 0 and isFirst then
+		-- 遍历文明
+		if GameConfiguration.GetStartTurn() == Game.GetCurrentGameTurn() then
+			local kPlayers = PlayerManager.GetAliveMajors()
+			for _, pPlayer in ipairs(kPlayers) do
+				local iPlayer = pPlayer:GetID()
+				if (HasTrait_Property('TRAIT_LEADER_NW_PHAINON_KEPHALE',iPlayer)) then
+					UI.RequestPlayerOperation(m_pCurrentPlayer, PlayerOperations.EXECUTE_SCRIPT, {
+						OnStart = "Nw_AM_TRAIT_LEADER_NW_PHAINON_KEPHALE",
+						iPlayer = iPlayer
+					});
+				end
+			end
+		end
+	end
+end
 
 -----------------------------------------------------------------------
 --- UI界面初始化
 -----------------------------------------------------------------------
 function Initialize()
-	Events.PlayerTurnActivated.Add(onKLPlayerTurnActivated);
+    Events.PlayerTurnActivated.Add(OnPlayerTurnActivated)
 	Events.WonderCompleted.Add(OnWonderCompleted);
 end
 
