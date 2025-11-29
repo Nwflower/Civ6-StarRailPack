@@ -99,7 +99,7 @@
 			<Text>「门径」</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_NW_TRIBIOS_JANUS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>单位可在市中心之间传送。拥有刻法勒广场的城市获得逐火之旅项目，每回合为相邻城市提供大量宗教压力，并把城市的 [ICON_PRODUCTION] 生产力投入转化为等量的 [ICON_FAITH] 信仰值。</Text>
+			<Text>单位可在市中心之间传送。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_NW_MYDEI_NIKADOR_NAME" Language="zh_Hans_CN">
 			<Text>「纷争」</Text>
@@ -141,7 +141,7 @@
 			<Text>「负世」</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_NW_PHAINON_KEPHALE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>无法使用外交政策卡。政体中的外交政策槽位全部转化为军事政策槽位。所有的外交政策卡一经解锁便总是生效。</Text>
+			<Text>政体中的外交政策槽位全部转化为军事政策槽位。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_NW_HELEKTRA_PHAGOUSA_NAME" Language="zh_Hans_CN">
 			<Text>「海洋」</Text>
@@ -153,7 +153,7 @@
 			<Text>「律法」</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_NW_CERYDRA_TALANTON_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>建造区域、建筑时，从每个已拥有的同类区域、建筑中获得+8% [ICON_PRODUCTION] 生产力。如果城市忠诚，城市中的著作类巨作产出的 [ICON_CULTURE] 文化值和旅游业绩+50%。</Text>
+			<Text>忠诚的城市建造区域或建筑时，从每个已拥有的同类区域或建筑中获得+12% [ICON_PRODUCTION] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_NW_EVERNIGHT_ORONYX_NAME" Language="zh_Hans_CN">
 			<Text>「岁月」</Text>
@@ -172,7 +172,7 @@
 			<Text>三重命途的真相</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_NW_AMPHOREUS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>可在市政广场中修建特色一级建筑。若处于黄金时代或英雄时代，建成领袖特色区域后将向相邻单元格释放文化炸弹。</Text>
+			<Text>处于 [ICON_GLORY_GOLDEN_AGE] 黄金时代或英雄时代时，建成领袖特色区域后将向相邻无主单元格释放文化炸弹。</Text>
 		</Replace>
 
 		<!--Unit-->
@@ -180,10 +180,10 @@
 			<Text>黄金裔</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_GOLD_SON_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>翁法罗斯特色古典时代近战单位，取代剑客。驻扎在市中心时，使城市额外获得10点防御力。</Text>
+			<Text>翁法罗斯特色古典时代近战单位，取代剑客。驻扎在市中心时，使城市额外+3防御力。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARCHAEOLOGIST_THANATOS_NAME" Language="zh_Hans_CN">
-			<Text>龙骸古迹探索家</Text>
+			<Text>考古学家</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARCHAEOLOGIST_THANATOS_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>从 [ICON_RESOURCE_ANTIQUITY_SITE] 历史古迹发现和挖掘 [ICON_GreatWork_Artifact] 文物，并在首都的龙骸古城进行展出。</Text>
@@ -196,110 +196,78 @@
 			<Text>+{Property} 来自单元格魅力值（大地）。</Text>
 		</Replace>
 
-		<!-- PROJECT-->
-		<Replace Tag="LOC_PROJECT_TRIBIOS_JOURNEY_NAME" Language="zh_Hans_CN">
-			<Text>逐火之旅</Text>
-		</Replace>
-		<Replace Tag="LOC_PROJECT_TRIBIOS_JOURNEY_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>执行此项目时，每回合对周围的城市释放的 [ICON_Religion] 宗教压力+400%。城市每回合获得等同于投入 [ICON_PRODUCTION] 生产力100%的 [ICON_FAITH] 信仰值。</Text>
-		</Replace>
-
-		<Replace Tag="LOC_POLICY_TRAIT_LEADER_NW_PHAINON_DES" Language="zh_Hans_CN">
-			<Text>无效果。解锁该政策卡后，所有的外交政策卡全部过时。</Text>
-		</Replace>
-
-		<!-- BUILDING-->
-		<Replace Tag="LOC_BUILDING_NW_REMEMBRANCE_NAME" Language="zh_Hans_CN">
-			<Text>记忆</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_NW_REMEMBRANCE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>7个单元格内的圣地 [ICON_FAITH] 信仰值相邻加成也提供 [ICON_Production] 生产力。解锁飞行后，提供等量 [ICON_Tourism] 旅游业绩。必须建造在没有一级建筑的市政广场中。</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_NW_ERUDITION_NAME" Language="zh_Hans_CN">
-			<Text>智识</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_NW_ERUDITION_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>7个单元格内的城市每回合产出的 [ICON_Science] 科技值+8%。必须建造在没有一级建筑的市政广场中。</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_NW_DESTRUCTION_NAME" Language="zh_Hans_CN">
-			<Text>毁灭</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_NW_DESTRUCTION_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>7个单元格内拥有军营的城市+2 [ICON_Amenities] 宜居度。必须建造在没有一级建筑的市政广场中。</Text>
-		</Replace>
-
 		<!-- DISTRICT -->
 		<Replace Tag="LOC_DISTRICT_JANUS_NAME" Language="zh_Hans_CN">
 			<Text>刻法勒广场</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_JANUS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>缇宝特色区域，替代圣地。可以使用 [ICON_Faith] 信仰值购买其中的建筑。[NEWLINE][NEWLINE]从市中心获得大量相邻加成。不会从山脉获得相邻加成。</Text>
+			<Text>缇宝特色区域，替代圣地，建造费用更低。可以使用 [ICON_Faith] 信仰值购买其中的建筑。[NEWLINE][NEWLINE]从市中心获得大量相邻加成。不会从山脉获得相邻加成。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_NIKADOR_NAME" Language="zh_Hans_CN">
 			<Text>悬锋斗技场</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_NIKADOR_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>万敌特色区域，替代军营。该区域中的每个建筑为城市额外提供1点 [ICON_Housing] 住房。[NEWLINE][NEWLINE]从每个相邻的娱乐中心+2 [ICON_production] 生产力。</Text>
+			<Text>万敌特色区域，替代军营，建造费用更低。每与1个娱乐中心相邻，则+2 [ICON_production] 生产力。该区域中的每个建筑为城市额外提供1点 [ICON_Housing] 住房。无法建在市中心旁。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_MNESTIA_NAME" Language="zh_Hans_CN">
 			<Text>云石天宫</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_MNESTIA_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>阿格莱雅特色区域，替代水渠、解锁更早。建成时为城市提供3位 [ICON_Citizen] 人口。为城市提供淡水资源。相邻地热裂缝提供+1 [ICON_Amenities]宜居度。干旱时可防止 [ICON_Food] 食物损失。</Text>
+			<Text>阿格莱雅特色区域，替代水渠、解锁更早、建造费用更低。建成时为城市提供1位 [ICON_Citizen] 人口。为城市提供淡水资源。相邻地热裂缝提供+1 [ICON_Amenities]宜居度。干旱时可防止 [ICON_Food] 食物损失。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_CERCES_NAME" Language="zh_Hans_CN">
 			<Text>树庭</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_CERCES_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>那刻夏的特色区域，替代学院。建成时为城市提供远古城墙。[NEWLINE][NEWLINE]相邻加成提供 [ICON_Culture] 文化值，而非 [ICON_Science] 科技值。</Text>
+			<Text>那刻夏的特色区域，替代学院，建造费用更低。建成时为城市提供远古城墙。[NEWLINE][NEWLINE]相邻加成提供 [ICON_Culture] 文化值，而非 [ICON_Science] 科技值。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_THANATOS_NAME" Language="zh_Hans_CN">
 			<Text>龙骸古城</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_THANATOS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>遐蝶的特色区域，替代娱乐中心。首次建成时解锁自然历史。若建于 [ICON_Capital] 首都，提供3个 [ICON_GreatWork_Artifact] 文物槽位和一个龙骸古迹探索家以供挖掘 [ICON_GreatWork_Artifact] 文物。</Text>
+			<Text>遐蝶的特色区域，替代娱乐中心，建造费用更低。首次建成时解锁自然历史。若建于 [ICON_Capital] 首都，还将提供3个 [ICON_GreatWork_Artifact] 文物槽位和一个免费的考古学家。无法建在拥有“水上乐园”的城市中。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_AQUILA_NAME" Language="zh_Hans_CN">
 			<Text>疗愈之庭</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_AQUILA_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>风堇的特色区域，替代宇航中心、解锁更早，建造费用极低。所有单位在城市中驻扎一回合即可恢复全额生命值。</Text>
+			<Text>风堇的特色区域，替代宇航中心、解锁更早、建造费用更低。所有单位在城市中驻扎一回合即可恢复全额生命值。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_ZAGREUS_NAME" Language="zh_Hans_CN">
 			<Text>云石市集</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_ZAGREUS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>赛飞儿的特色区域，替代商业中心。于此城中购买商人单位时-35%花费。</Text>
+			<Text>赛飞儿的特色区域，替代商业中心、建造费用更低。于此城中购买商人单位时-35%花费。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_KEPHALE_NAME" Language="zh_Hans_CN">
 			<Text>创世涡心</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_KEPHALE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>白厄的特色区域，替代市政广场。使此城每回合的忠诚度+8、为相邻区域提供标准相邻加成。奖励2个 [Icon_Governor] 总督头衔。</Text>
+			<Text>白厄的特色区域，替代市政广场、建造费用更低。该区域及其建筑 +2 影响力。建成时奖励2个 [Icon_Governor] 总督头衔。使此城每回合的忠诚度+8、为相邻区域提供标准相邻加成。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_PHAGOUSA_NAME" Language="zh_Hans_CN">
 			<Text>浮影海庭</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_PHAGOUSA_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>海瑟音的特色区域，替代港口。该区域具有区域防御但无法建造在市中心旁。[NEWLINE][NEWLINE]从每个相邻的礁石单元格+2 [ICON_GOLD] 金币。</Text>
+			<Text>海瑟音的特色区域，替代港口、建造费用更低。从每个相邻的礁石单元格+2 [ICON_GOLD] 金币。该区域具有区域防御。移除该单元格的上船、下船 [ICON_Movement] 移动力减益。[NEWLINE][NEWLINE]必须建在与陆地相邻的海岸或湖泊地形上。无法建造在礁石上。无法建造在市中心旁。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_TALANTON_NAME" Language="zh_Hans_CN">
 			<Text>预言书库</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_TALANTON_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>刻律德菈的特色区域，替代外交区。建成预言书库时可以指定一个奇观发起预言。当预言的奇观被任意玩家建成时，您的首都获得3个随机单位。无法通过这种方式获得先进时代的单位。[NEWLINE][NEWLINE]该区域产出一定的 [ICON_Science] 科技值。</Text>
+			<Text>刻律德菈的特色区域，替代外交区、建造费用更低。建成预言书库时可以指定一个奇观发起预言。当预言的奇观被任意玩家建成时，您的首都获得3个随机单位。无法通过这种方式获得先进时代的单位。从每个代表团或大使馆+1 [ICON_FAVOR] 外交支持。如建在市中心旁，则+1 [ICON_ENVOY] 使者。敌方间谍将此区域和相邻区域当做目标时，其效果将降低2级。文明中一次仅限建造一座此区域。[NEWLINE][NEWLINE]该区域产出一定的 [ICON_Science] 科技值。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_ORONYX_NAME" Language="zh_Hans_CN">
 			<Text>长梦宸扉</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_ORONYX_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>长夜月的特色区域，替代剧院广场。为相邻单元格提供+3魅力值。从其他长梦宸扉获得标准相邻加成。产出等同于相邻加成的旅游业绩。</Text>
+			<Text>长夜月的特色区域，替代剧院广场、建造费用更低。为相邻单元格提供+3魅力值。从其他长梦宸扉获得标准相邻加成。产出等同于相邻加成的 [ICON_Tourism] 旅游业绩。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_GEORIOS_NAME" Language="zh_Hans_CN">
 			<Text>万壑岩心</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_GEORIOS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>丹恒•腾荒的特色区域，替代工业区。每回合提供+3 [ICON_GreatEngineer] 大工程师点数。[NEWLINE][NEWLINE]该区域无法从水渠获得相邻加成。但每招募一个 [ICON_GreatEngineer] 大工程师，所有的万壑岩心就会+1 [ICON_PRODUCTION] 生产力相邻加成。</Text>
+			<Text>丹恒•腾荒的特色区域，替代工业区、建造费用更低。提供额外的大工程师点数。每招募一个 [ICON_GreatEngineer] 大工程师，所有的万壑岩心就会+1 [ICON_PRODUCTION] 生产力相邻加成。[NEWLINE][NEWLINE]该区域无法从水渠获得相邻加成。</Text>
 		</Replace>
 
 

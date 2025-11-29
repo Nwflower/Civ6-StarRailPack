@@ -79,33 +79,6 @@ FROM NW_Amphoreus_Config UNION SELECT
        'Players:Expansion2_Players',
         'CIVILIZATION_NW_AMPHOREUS',
         LeaderType,
-        'BUILDING_NW_REMEMBRANCE',
-        'ICON_BUILDING_NW_REMEMBRANCE',
-        'LOC_BUILDING_NW_REMEMBRANCE_NAME',
-        'LOC_BUILDING_NW_REMEMBRANCE_DESCRIPTION',
-        21
-FROM NW_Amphoreus_Config UNION SELECT
-       'Players:Expansion2_Players',
-        'CIVILIZATION_NW_AMPHOREUS',
-        LeaderType,
-        'BUILDING_NW_ERUDITION',
-        'ICON_BUILDING_NW_ERUDITION',
-        'LOC_BUILDING_NW_ERUDITION_NAME',
-        'LOC_BUILDING_NW_ERUDITION_DESCRIPTION',
-        22
-FROM NW_Amphoreus_Config UNION SELECT
-       'Players:Expansion2_Players',
-        'CIVILIZATION_NW_AMPHOREUS',
-        LeaderType,
-        'BUILDING_NW_DESTRUCTION',
-        'ICON_BUILDING_NW_DESTRUCTION',
-        'LOC_BUILDING_NW_DESTRUCTION_NAME',
-        'LOC_BUILDING_NW_DESTRUCTION_DESCRIPTION',
-        23
-FROM NW_Amphoreus_Config UNION SELECT 
-       'Players:Expansion2_Players',
-        'CIVILIZATION_NW_AMPHOREUS',
-        LeaderType,
         'UNIT_GOLD_SON',
         'ICON_UNIT_GOLD_SON',
         'LOC_UNIT_GOLD_SON_NAME',

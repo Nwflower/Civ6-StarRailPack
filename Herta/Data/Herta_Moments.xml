@@ -1,0 +1,16 @@
+<GameData>
+
+    <MomentIllustrations>
+        <Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT"
+             GameDataType="UNIT_KNM_HERTA_PUPPET" Texture="MOMENT_HERTA_PUPPET"/>
+
+        <Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT" MomentDataType="MOMENT_DATA_IMPROVEMENT"
+             GameDataType="IMPROVEMENT_KNM_RAILWAY_PLATFORM" Texture="MOMENT_RAILWAY_PLATFORM"/>
+
+    </MomentIllustrations>
+
+    <DiplomacyInfo>
+        <Row Type="LEADER_KNM_HERTA" BackgroundImage="IMG_DIPLOMACY_BACKGROUND_KNM_HERTA"/>
+        <Row Type="LEADER_KNM_ASTA" BackgroundImage="IMG_DIPLOMACY_BACKGROUND_KNM_HERTA"/>
+    </DiplomacyInfo>
+</GameData>

@@ -1,0 +1,76 @@
+﻿
+<GameData>
+	<Colors>
+		<Row>
+			<Type>COLOR_LEADER_KNM_HERTA_PRIMARY</Type>
+			<Color>135,96,127,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_LEADER_KNM_HERTA_SECONDARY</Type>
+			<Color>255,255,255,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_LEADER_KNM_HERTA_PRIMARY1</Type>
+			<Color>171,138,229,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_LEADER_KNM_HERTA_SECONDARY1</Type>
+			<Color>255,255,255,255</Color>
+		</Row>
+
+
+		<Row>
+			<Type>COLOR_LEADER_KNM_ASTA_PRIMARY</Type>
+			<Color>174,135,195,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_LEADER_KNM_ASTA_SECONDARY</Type>
+			<Color>255,255,255,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_LEADER_KNM_ASTA_PRIMARY1</Type>
+			<Color>215,74,194,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_LEADER_KNM_ASTA_SECONDARY1</Type>
+			<Color>255,255,255,255</Color>
+		</Row>
+
+		<Row>
+			<Type>COLOR_CIVILIZATION_KNM_HERTA_SPACE_STATION_PRIMARY</Type>
+			<Color>253,255,254,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_CIVILIZATION_KNM_HERTA_SPACE_STATION_SECONDARY</Type>
+			<Color>254,255,254,255</Color>
+		</Row>
+	</Colors>
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_KNM_HERTA</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_LEADER_KNM_HERTA_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_LEADER_KNM_HERTA_SECONDARY</SecondaryColor>
+			<Alt1PrimaryColor>COLOR_LEADER_KNM_HERTA_PRIMARY1</Alt1PrimaryColor>
+			<Alt1SecondaryColor>COLOR_LEADER_KNM_HERTA_SECONDARY1</Alt1SecondaryColor>
+		</Row>
+
+		<Row>
+			<Type>LEADER_KNM_ASTA</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_LEADER_KNM_ASTA_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_LEADER_KNM_ASTA_SECONDARY</SecondaryColor>
+			<Alt1PrimaryColor>COLOR_LEADER_KNM_ASTA_PRIMARY1</Alt1PrimaryColor>
+			<Alt1SecondaryColor>COLOR_LEADER_KNM_ASTA_SECONDARY1</Alt1SecondaryColor>
+		</Row>
+	</PlayerColors>
+
+	<PlayerColors>
+		<Row>
+			<Type>CIVILIZATION_KNM_HERTA_SPACE_STATION</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_CIVILIZATION_KNM_HERTA_SPACE_STATION_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_CIVILIZATION_KNM_HERTA_SPACE_STATION_SECONDARY</SecondaryColor>
+		</Row>
+	</PlayerColors>
+</GameData>

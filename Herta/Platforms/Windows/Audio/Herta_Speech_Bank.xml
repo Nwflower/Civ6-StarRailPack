@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="2685533801" GUID="{592771F2-1659-4A0F-AF5D-5F484481A8C7}" Language="SFX">
+			<ShortName>Herta_Speech_Bank</ShortName>
+			<Path>Herta_Speech_Bank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2718393254" Name="KNM_ASTA_Pedia_Quote" GUID="{F889F45F-8C7E-45F9-A1F7-6FF45D6B70F5}" DurationType="OneShot" DurationMin="12.567302" DurationMax="12.567302"/>
+				<Event Id="4076847675" Name="KNM_HERTA_Pedia_Quote" GUID="{013F156E-9FE5-457F-BFD3-0328B9AD1F5B}" DurationType="OneShot" DurationMin="9.049433" DurationMax="9.049433"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="588780032" Language="SFX">
+					<ShortName>黑塔quote.wav</ShortName>
+					<Path>SFX\黑塔quote_B93921CF.wem</Path>
+				</File>
+				<File Id="844244371" Language="SFX">
+					<ShortName>艾丝妲quote.wav</ShortName>
+					<Path>SFX\艾丝妲quote_B93921CF.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

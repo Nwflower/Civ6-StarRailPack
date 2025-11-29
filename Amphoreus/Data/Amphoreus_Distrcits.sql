@@ -181,6 +181,8 @@ SELECT 'MODIFIER_' || DistrictType || '_CULTURE_BOMB_TRIGGER',
 FROM NW_Amphoreus_Districts;
 INSERT INTO ModifierArguments(ModifierId, Name, Value)
 SELECT 'MODIFIER_' || DistrictType || '_CULTURE_BOMB_TRIGGER', 'DistrictType', DistrictType
+FROM NW_Amphoreus_Districts UNION
+SELECT 'MODIFIER_' || DistrictType || '_CULTURE_BOMB_TRIGGER', 'CaptureOwnedTerritory', 0
 FROM NW_Amphoreus_Districts;
 
 
@@ -256,7 +258,7 @@ INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, Ow
                        SubjectRequirementSetId)
 VALUES ('MODIFIER_DISTRICT_MNESTIA_ADD_POPULATION', 'MODIFIER_NW_AM_SINGLE_CITY_ADD_POPULATION', 1, 1, 0, NULL, NULL);
 INSERT INTO ModifierArguments (ModifierId, Name, Value)
-VALUES ('MODIFIER_DISTRICT_MNESTIA_ADD_POPULATION', 'Amount', '3');
+VALUES ('MODIFIER_DISTRICT_MNESTIA_ADD_POPULATION', 'Amount', 1);
 
 -- Custom ModifierType
 INSERT INTO Types (Type, Kind)
@@ -511,6 +513,10 @@ SELECT 'UNIT_ARCHAEOLOGIST_THANATOS',                 -- 类型
 FROM Units
 WHERE UnitType = 'UNIT_ARCHAEOLOGIST';
 
+INSERT INTO MutuallyExclusiveDistricts(District, MutuallyExclusiveDistrict) VALUES
+('DISTRICT_THANATOS','DISTRICT_WATER_ENTERTAINMENT_COMPLEX'),
+('DISTRICT_WATER_ENTERTAINMENT_COMPLEX','DISTRICT_THANATOS');
+
 --================
 -- 疗愈之庭
 -- DISTRICT_AQUILA
@@ -571,6 +577,33 @@ VALUES ('MODIFIER_DISTRICT_KEPHALE_GP', 'MODIFIER_PLAYER_ADJUST_GOVERNOR_POINTS'
 INSERT INTO ModifierArguments (ModifierId, Name, Value)
 VALUES ('MODIFIER_DISTRICT_KEPHALE_GP', 'Delta', '1');
 
+INSERT INTO DistrictModifiers (DistrictType, ModifierId) VALUES
+('DISTRICT_KEPHALE', 'MODIFIER_DISTRICT_KEPHALE_INFLUENCE_POINTS_PER_TURN');
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES
+('MODIFIER_DISTRICT_KEPHALE_INFLUENCE_POINTS_PER_TURN', 'MODIFIER_PLAYER_ADJUST_INFLUENCE_POINTS_PER_TURN', 0, 0, 0, NULL, NULL);
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
+('MODIFIER_DISTRICT_KEPHALE_INFLUENCE_POINTS_PER_TURN', 'Amount', '2');
+
+INSERT INTO DistrictModifiers (DistrictType, ModifierId) VALUES
+('DISTRICT_KEPHALE', 'MODIFIER_DISTRICT_KEPHALE_INFLUENCE_POINTS_PER_TURN1');
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES
+('MODIFIER_DISTRICT_KEPHALE_INFLUENCE_POINTS_PER_TURN1', 'MODIFIER_PLAYER_ADJUST_INFLUENCE_POINTS_PER_TURN', 0, 0, 0, NULL, 'CITY_HAS_TIER_1_GOV_BUILDING');
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
+('MODIFIER_DISTRICT_KEPHALE_INFLUENCE_POINTS_PER_TURN1', 'Amount', '2');
+
+INSERT INTO DistrictModifiers (DistrictType, ModifierId) VALUES
+('DISTRICT_KEPHALE', 'MODIFIER_DISTRICT_KEPHALE_INFLUENCE_POINTS_PER_TURN2');
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES
+('MODIFIER_DISTRICT_KEPHALE_INFLUENCE_POINTS_PER_TURN2', 'MODIFIER_PLAYER_ADJUST_INFLUENCE_POINTS_PER_TURN', 0, 0, 0, NULL, 'CITY_HAS_TIER_2_GOV_BUILDING');
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
+('MODIFIER_DISTRICT_KEPHALE_INFLUENCE_POINTS_PER_TURN2', 'Amount', '2');
+
+INSERT INTO DistrictModifiers (DistrictType, ModifierId) VALUES
+('DISTRICT_KEPHALE', 'MODIFIER_DISTRICT_KEPHALE_INFLUENCE_POINTS_PER_TURN3');
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES
+('MODIFIER_DISTRICT_KEPHALE_INFLUENCE_POINTS_PER_TURN3', 'MODIFIER_PLAYER_ADJUST_INFLUENCE_POINTS_PER_TURN', 0, 0, 0, NULL, 'CITY_HAS_TIER_3_GOV_BUILDING');
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
+('MODIFIER_DISTRICT_KEPHALE_INFLUENCE_POINTS_PER_TURN3', 'Amount', '2');
 
 --================
 -- 浮影海庭
