@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mod id="1818a7c8-f5fb-416b-a2a4-86ce196fb8a8" version="1">
   <Properties>
-    <Name>LOC_KNM_HERTA_MOD_NAME</Name>
-    <Description>LOC_KNM_HERTA_MOD_DESCRIPTION</Description>
+    <Name>黑塔空间站领袖包</Name>
+    <Description>包含1个新文明，黑塔空间站，及2位领袖，黑塔和艾丝妲。</Description>
     <Created>1725180737</Created>
-    <Teaser>LOC_KNM_HERTA_MOD_TEASER</Teaser>
-    <Authors>LOC_KNM_HERTA_MOD_AUTHOR</Authors>
-    <SpecialThanks>LOC_KNM_HERTA_MOD_THANKS</SpecialThanks>
+    <Teaser>包含1个新文明及2位领袖</Teaser>
+    <Authors>榊野木乃实，Kotomi，PhantomJ_M</Authors>
+    <SpecialThanks>梦幻星尘羽，优妮酱</SpecialThanks>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
   </Properties>
   <Dependencies>
@@ -158,28 +158,6 @@
       <Criteria>LeaderCriteria</Criteria>
     </ReplaceUIScript>
   </InGameActions>
-  <LocalizedText>
-    <Text id="LOC_KNM_HERTA_MOD_NAME">
-      <en_US>Herta Space Station Leader Pack</en_US>
-      <zh_Hans_CN>黑塔空间站领袖包</zh_Hans_CN>
-    </Text>
-    <Text id="LOC_KNM_HERTA_MOD_TEASER">
-      <en_US>Contains 1 new civilization and 2 leaders.</en_US>
-      <zh_Hans_CN>包含1个新文明及2位领袖。</zh_Hans_CN>
-    </Text>
-    <Text id="LOC_KNM_HERTA_MOD_DESCRIPTION">
-      <en_US>Contains 1 new civilization, Herta Space Station, and 2 leaders, Herta and Asta.</en_US>
-      <zh_Hans_CN>包含1个新文明，黑塔空间站，及2位领袖，黑塔和艾丝妲。</zh_Hans_CN>
-    </Text>
-    <Text id="LOC_KNM_HERTA_MOD_THANKS">
-      <en_US>Stardust, UzukiShimamura</en_US>
-      <zh_Hans_CN>梦幻星尘羽，优妮酱</zh_Hans_CN>
-    </Text>
-    <Text id="LOC_KNM_HERTA_MOD_AUTHOR">
-      <en_US>Konomi, Kotomi, PhantomJ_M</en_US>
-      <zh_Hans_CN>榊野木乃实，Kotomi，PhantomJ_M</zh_Hans_CN>
-    </Text>
-  </LocalizedText>
   <Files>
     <File>ArtDefs/Buildings.artdef</File>
     <File>ArtDefs/Civilizations.artdef</File>

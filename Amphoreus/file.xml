@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mod id="7b4fb41c-48e7-4f81-8ce4-1e49bc00a6df" version="1">
   <Properties>
-    <Name>LOC_AMPHOREUS_MOD_TITLE</Name>
-    <Description>LOC_AMPHOREUS_MOD_DESCRIPTION</Description>
+    <Name>[COLOR:Civ6Yellow]【崩坏：星穹铁道】[ENDCOLOR] 翁法罗斯英雄纪（重置版）</Name>
+    <Description>添加了以星穹铁道世界观为背景的翁法罗斯文明。</Description>
     <Created>1762662268</Created>
-    <Teaser>LOC_AMPHOREUS_MOD_TEASER</Teaser>
-    <Authors>LOC_AMPHOREUS_MOD_AUTHORS</Authors>
+    <Teaser>添加了以星穹铁道世界观为背景的翁法罗斯文明。</Teaser>
+    <Authors>千川白浪</Authors>
     <CompatibleVersions>2.0</CompatibleVersions>
   </Properties>
   <References>
@@ -145,9 +145,6 @@
       <File>UI/Amphoreus_UnitAction.xml</File>
     </AddUserInterfaces>
   </InGameActions>
-  <LocalizedText>
-    <File>Text/Amphoreus_PackageText.xml</File>
-  </LocalizedText>
   <Files>
     <File>Amphoreus.dep</File>
     <File>ArtDefs/Buildings.artdef</File>
@@ -184,7 +181,6 @@
     <File>Platforms/Windows/BLPs/UI/Shell_Loading.blp</File>
     <File>Platforms/Windows/BLPs/UI_LeaderScenes.blp</File>
     <File>Script/Amphoreus_Script.lua</File>
-    <File>Text/Amphoreus_PackageText.xml</File>
     <File>Text/Amphoreus_Text.xml</File>
     <File>UI/Amphoreus_SayWonder.lua</File>
     <File>UI/Amphoreus_SayWonder.xml</File>
