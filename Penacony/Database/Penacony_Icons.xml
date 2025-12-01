@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Penacony_Icons -->
+<!-- Author: Nwflower -->
+<!-- DateCreated: 2025/5/11 21:34:21 -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_CIVILIZATION_NW_PENACONY" IconSize="22" Filename="ICON_CIVILIZATION_NW_PENACONY_22"/>
+		<Row Name="ATLAS_ICON_CIVILIZATION_NW_PENACONY" IconSize="30" Filename="ICON_CIVILIZATION_NW_PENACONY_30"/>
+		<Row Name="ATLAS_ICON_CIVILIZATION_NW_PENACONY" IconSize="32" Filename="ICON_CIVILIZATION_NW_PENACONY_32"/>
+		<Row Name="ATLAS_ICON_CIVILIZATION_NW_PENACONY" IconSize="36" Filename="ICON_CIVILIZATION_NW_PENACONY_36"/>
+		<Row Name="ATLAS_ICON_CIVILIZATION_NW_PENACONY" IconSize="44" Filename="ICON_CIVILIZATION_NW_PENACONY_44"/>
+		<Row Name="ATLAS_ICON_CIVILIZATION_NW_PENACONY" IconSize="45" Filename="ICON_CIVILIZATION_NW_PENACONY_45"/>
+		<Row Name="ATLAS_ICON_CIVILIZATION_NW_PENACONY" IconSize="48" Filename="ICON_CIVILIZATION_NW_PENACONY_48"/>
+		<Row Name="ATLAS_ICON_CIVILIZATION_NW_PENACONY" IconSize="50" Filename="ICON_CIVILIZATION_NW_PENACONY_50"/>
+		<Row Name="ATLAS_ICON_CIVILIZATION_NW_PENACONY" IconSize="64" Filename="ICON_CIVILIZATION_NW_PENACONY_64"/>
+		<Row Name="ATLAS_ICON_CIVILIZATION_NW_PENACONY" IconSize="80" Filename="ICON_CIVILIZATION_NW_PENACONY_80"/>
+		<Row Name="ATLAS_ICON_CIVILIZATION_NW_PENACONY" IconSize="128" Filename="ICON_CIVILIZATION_NW_PENACONY_128"/>
+		<Row Name="ATLAS_ICON_CIVILIZATION_NW_PENACONY" IconSize="200" Filename="ICON_CIVILIZATION_NW_PENACONY_200"/>
+		<Row Name="ATLAS_ICON_CIVILIZATION_NW_PENACONY" IconSize="256" Filename="ICON_CIVILIZATION_NW_PENACONY_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_CIVILIZATION_NW_PENACONY" Atlas="ATLAS_ICON_CIVILIZATION_NW_PENACONY" Index="0"/>
+	</IconDefinitions>
+	
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_LEADER_NW_ROBIN" IconSize="32" Filename="ICON_LEADER_NW_ROBIN_32"/>
+		<Row Name="ATLAS_ICON_LEADER_NW_ROBIN" IconSize="45" Filename="ICON_LEADER_NW_ROBIN_45"/>
+		<Row Name="ATLAS_ICON_LEADER_NW_ROBIN" IconSize="48" Filename="ICON_LEADER_NW_ROBIN_48"/>
+		<Row Name="ATLAS_ICON_LEADER_NW_ROBIN" IconSize="50" Filename="ICON_LEADER_NW_ROBIN_50"/>
+		<Row Name="ATLAS_ICON_LEADER_NW_ROBIN" IconSize="55" Filename="ICON_LEADER_NW_ROBIN_55"/>
+		<Row Name="ATLAS_ICON_LEADER_NW_ROBIN" IconSize="64" Filename="ICON_LEADER_NW_ROBIN_64"/>
+		<Row Name="ATLAS_ICON_LEADER_NW_ROBIN" IconSize="80" Filename="ICON_LEADER_NW_ROBIN_80"/>
+		<Row Name="ATLAS_ICON_LEADER_NW_ROBIN" IconSize="256" Filename="ICON_LEADER_NW_ROBIN_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_NW_ROBIN" Atlas="ATLAS_ICON_LEADER_NW_ROBIN" Index="0"/>
+	</IconDefinitions>
+
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_LEADER_NW_SUNDAY" IconSize="22" Filename="ICON_LEADER_NW_SUNDAY_22"/>
+		<Row Name="ATLAS_ICON_LEADER_NW_SUNDAY" IconSize="30" Filename="ICON_LEADER_NW_SUNDAY_30"/>
+		<Row Name="ATLAS_ICON_LEADER_NW_SUNDAY" IconSize="32" Filename="ICON_LEADER_NW_SUNDAY_32"/>
+		<Row Name="ATLAS_ICON_LEADER_NW_SUNDAY" IconSize="36" Filename="ICON_LEADER_NW_SUNDAY_36"/>
+		<Row Name="ATLAS_ICON_LEADER_NW_SUNDAY" IconSize="44" Filename="ICON_LEADER_NW_SUNDAY_44"/>
+		<Row Name="ATLAS_ICON_LEADER_NW_SUNDAY" IconSize="45" Filename="ICON_LEADER_NW_SUNDAY_45"/>
+		<Row Name="ATLAS_ICON_LEADER_NW_SUNDAY" IconSize="48" Filename="ICON_LEADER_NW_SUNDAY_48"/>
+		<Row Name="ATLAS_ICON_LEADER_NW_SUNDAY" IconSize="50" Filename="ICON_LEADER_NW_SUNDAY_50"/>
+		<Row Name="ATLAS_ICON_LEADER_NW_SUNDAY" IconSize="64" Filename="ICON_LEADER_NW_SUNDAY_64"/>
+		<Row Name="ATLAS_ICON_LEADER_NW_SUNDAY" IconSize="80" Filename="ICON_LEADER_NW_SUNDAY_80"/>
+		<Row Name="ATLAS_ICON_LEADER_NW_SUNDAY" IconSize="128" Filename="ICON_LEADER_NW_SUNDAY_128"/>
+		<Row Name="ATLAS_ICON_LEADER_NW_SUNDAY" IconSize="200" Filename="ICON_LEADER_NW_SUNDAY_200"/>
+		<Row Name="ATLAS_ICON_LEADER_NW_SUNDAY" IconSize="256" Filename="ICON_LEADER_NW_SUNDAY_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_NW_SUNDAY" Atlas="ATLAS_ICON_LEADER_NW_SUNDAY" Index="0"/>
+	</IconDefinitions>
+
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_UNIT_DREAM_BUILDER" IconSize="22" Filename="ICON_UNIT_DREAM_BUILDER_22"/>
+		<Row Name="ATLAS_ICON_UNIT_DREAM_BUILDER" IconSize="32" Filename="ICON_UNIT_DREAM_BUILDER_32"/>
+		<Row Name="ATLAS_ICON_UNIT_DREAM_BUILDER" IconSize="38" Filename="ICON_UNIT_DREAM_BUILDER_38"/>
+		<Row Name="ATLAS_ICON_UNIT_DREAM_BUILDER" IconSize="50" Filename="ICON_UNIT_DREAM_BUILDER_50"/>
+		<Row Name="ATLAS_ICON_UNIT_DREAM_BUILDER" IconSize="80" Filename="ICON_UNIT_DREAM_BUILDER_80"/>
+		<Row Name="ATLAS_ICON_UNIT_DREAM_BUILDER" IconSize="256" Filename="ICON_UNIT_DREAM_BUILDER_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_UNIT_DREAM_BUILDER" Atlas="ATLAS_ICON_UNIT_DREAM_BUILDER" Index="0"/>
+	</IconDefinitions>
+
+
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_UNIT_DREAM_BUILDER_PORTRAIT" IconSize="38" Filename="ICON_UNIT_DREAM_BUILDER_PORTRAIT_38"/>
+		<Row Name="ATLAS_ICON_UNIT_DREAM_BUILDER_PORTRAIT" IconSize="50" Filename="ICON_UNIT_DREAM_BUILDER_PORTRAIT_50"/>
+		<Row Name="ATLAS_ICON_UNIT_DREAM_BUILDER_PORTRAIT" IconSize="70" Filename="ICON_UNIT_DREAM_BUILDER_PORTRAIT_70"/>
+		<Row Name="ATLAS_ICON_UNIT_DREAM_BUILDER_PORTRAIT" IconSize="95" Filename="ICON_UNIT_DREAM_BUILDER_PORTRAIT_95"/>
+		<Row Name="ATLAS_ICON_UNIT_DREAM_BUILDER_PORTRAIT" IconSize="200" Filename="ICON_UNIT_DREAM_BUILDER_PORTRAIT_200"/>
+		<Row Name="ATLAS_ICON_UNIT_DREAM_BUILDER_PORTRAIT" IconSize="256" Filename="ICON_UNIT_DREAM_BUILDER_PORTRAIT_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_UNIT_DREAM_BUILDER_PORTRAIT" Atlas="ATLAS_ICON_UNIT_DREAM_BUILDER_PORTRAIT" Index="0"/>
+	</IconDefinitions>
+
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_PROJECT_HARMONY_CEREMONY" IconSize="30" Filename="ICON_PROJECT_HARMONY_CEREMONY_30"/>
+		<Row Name="ATLAS_ICON_PROJECT_HARMONY_CEREMONY" IconSize="32" Filename="ICON_PROJECT_HARMONY_CEREMONY_32"/>
+		<Row Name="ATLAS_ICON_PROJECT_HARMONY_CEREMONY" IconSize="38" Filename="ICON_PROJECT_HARMONY_CEREMONY_38"/>
+		<Row Name="ATLAS_ICON_PROJECT_HARMONY_CEREMONY" IconSize="50" Filename="ICON_PROJECT_HARMONY_CEREMONY_50"/>
+		<Row Name="ATLAS_ICON_PROJECT_HARMONY_CEREMONY" IconSize="70" Filename="ICON_PROJECT_HARMONY_CEREMONY_70"/>
+		<Row Name="ATLAS_ICON_PROJECT_HARMONY_CEREMONY" IconSize="80" Filename="ICON_PROJECT_HARMONY_CEREMONY_80"/>
+		<Row Name="ATLAS_ICON_PROJECT_HARMONY_CEREMONY" IconSize="256" Filename="ICON_PROJECT_HARMONY_CEREMONY_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_PROJECT_HARMONY_CEREMONY" Atlas="ATLAS_ICON_PROJECT_HARMONY_CEREMONY" Index="0"/>
+	</IconDefinitions>
+
+
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_IMPROVEMENT_DREAM_POOL" IconSize="38" Filename="ICON_IMPROVEMENT_DREAM_POOL_38"/>
+		<Row Name="ATLAS_ICON_IMPROVEMENT_DREAM_POOL" IconSize="50" Filename="ICON_IMPROVEMENT_DREAM_POOL_50"/>
+		<Row Name="ATLAS_ICON_IMPROVEMENT_DREAM_POOL" IconSize="80" Filename="ICON_IMPROVEMENT_DREAM_POOL_80"/>
+		<Row Name="ATLAS_ICON_IMPROVEMENT_DREAM_POOL" IconSize="256" Filename="ICON_IMPROVEMENT_DREAM_POOL_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_IMPROVEMENT_DREAM_POOL" Atlas="ATLAS_ICON_IMPROVEMENT_DREAM_POOL" Index="0"/>
+	</IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_RESOURCE_SULEDA" IconSize="22" Filename="ICON_RESOURCE_SULEDA_22"/>
+        <Row Name="ATLAS_ICON_RESOURCE_SULEDA" IconSize="38" Filename="ICON_RESOURCE_SULEDA_38"/>
+        <Row Name="ATLAS_ICON_RESOURCE_SULEDA" IconSize="50" Filename="ICON_RESOURCE_SULEDA_50"/>
+        <Row Name="ATLAS_ICON_RESOURCE_SULEDA" IconSize="64" Filename="ICON_RESOURCE_SULEDA_64"/>
+        <Row Name="ATLAS_ICON_RESOURCE_SULEDA" IconSize="256" Filename="ICON_RESOURCE_SULEDA_256"/>
+        <Row Name="ATLAS_NW_FONT_ICON_BASELINE_6_RESOURCE_SULEDA" Baseline="6" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_RESOURCE_SULEDA_22"/>
+		<Row Name="ATLAS_NW_FONT_ICON_BASELINE_6_PenaconyDream" Baseline="6" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="PenaconyDream"/>
+		<Row Name="ATLAS_NW_FONT_ICON_BASELINE_6_PenaconyHappiness" Baseline="6" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="PenaconyHappiness"/>
+		<Row Name="ATLAS_NW_FONT_ICON_BASELINE_6_PenaconyDreamLarge" Baseline="6" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="PenaconyDreamLarge"/>
+		<Row Name="ATLAS_NW_FONT_ICON_BASELINE_6_PenaconyHappinessLarge" Baseline="6" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="PenaconyHappinessLarge"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_RESOURCE_SULEDA" Atlas="ATLAS_ICON_RESOURCE_SULEDA" Index="0"/>
+        <Row Name="RESOURCE_SULEDA" Atlas="ATLAS_NW_FONT_ICON_BASELINE_6_RESOURCE_SULEDA" Index="0"/>
+		<Row Name="PenaconyDream" Atlas="ATLAS_NW_FONT_ICON_BASELINE_6_PenaconyDream" Index="0"/>
+		<Row Name="PenaconyHappiness" Atlas="ATLAS_NW_FONT_ICON_BASELINE_6_PenaconyHappiness" Index="0"/>
+		<Row Name="PenaconyDreamLarge" Atlas="ATLAS_NW_FONT_ICON_BASELINE_6_PenaconyDreamLarge" Index="0"/>
+		<Row Name="PenaconyHappinessLarge" Atlas="ATLAS_NW_FONT_ICON_BASELINE_6_PenaconyHappinessLarge" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_IMG_PNG_CIVILIZATION_NW_PENACONY_BACKGROUND" IconSize="1920" Filename="IMG_PNG_CIVILIZATION_NW_PENACONY_BACKGROUND"/>
+        <Row Name="ATLAS_IMG_PNG_CIVILIZATION_NW_PENACONY_BACKGROUND_SELECTION" IconSize="1920" Filename="IMG_PNG_CIVILIZATION_NW_PENACONY_BACKGROUND_SELECTION"/>
+        <Row Name="ATLAS_IMG_PNG_LEADER_NW_ROBIN" IconSize="758" Filename="IMG_PNG_LEADER_NW_ROBIN"/>
+        <Row Name="ATLAS_IMG_PNG_LEADER_NW_SUNDAY" IconSize="758" Filename="IMG_PNG_LEADER_NW_SUNDAY"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="IMG_PNG_CIVILIZATION_NW_PENACONY_BACKGROUND" Atlas="ATLAS_IMG_PNG_CIVILIZATION_NW_PENACONY_BACKGROUND" Index="0"/>
+        <Row Name="IMG_PNG_CIVILIZATION_NW_PENACONY_BACKGROUND_SELECTION" Atlas="ATLAS_IMG_PNG_CIVILIZATION_NW_PENACONY_BACKGROUND_SELECTION" Index="0"/>
+        <Row Name="IMG_PNG_LEADER_NW_ROBIN" Atlas="ATLAS_IMG_PNG_LEADER_NW_ROBIN" Index="0"/>
+        <Row Name="IMG_PNG_LEADER_NW_SUNDAY" Atlas="ATLAS_IMG_PNG_LEADER_NW_SUNDAY" Index="0"/>
+    </IconDefinitions>
+
+    <IconDefinitions>
+        <Row Name="ICON_GREATWORK_ROBIN_0" Atlas="ICON_ATLAS_GREATWORKS" Index="1"/>
+        <Row Name="ICON_GREATWORK_ROBIN_1" Atlas="ICON_ATLAS_GREATWORKS" Index="1"/>
+        <Row Name="ICON_GREATWORK_ROBIN_2" Atlas="ICON_ATLAS_GREATWORKS" Index="1"/>
+        <Row Name="ICON_GREATWORK_ROBIN_3" Atlas="ICON_ATLAS_GREATWORKS" Index="1"/>
+    </IconDefinitions>
+</GameData>

@@ -165,14 +165,14 @@
 			<Text>「大地」</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_NW_DANHENGPT_GEORIOS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>单位从单元格的每点魅力值获得+1 [ICON_Strength] 战斗力，通过这种方式，至多+4 [ICON_Strength] 战斗力。</Text>
+			<Text>未改良的平坦单元格+1 [ICON_Production] 生产力。采矿业科技后，可以在平坦的单元格上修建矿山。</Text>
 		</Replace>
 
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_NW_AMPHOREUS_NAME" Language="zh_Hans_CN">
 			<Text>三重命途的真相</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_NW_AMPHOREUS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>处于 [ICON_GLORY_GOLDEN_AGE] 黄金时代或英雄时代时，建成领袖特色区域后将向相邻无主单元格释放文化炸弹。</Text>
+			<Text>游戏开始时获得3个随机 [ICON_TechBoosted] 尤里卡。处于 [ICON_GLORY_GOLDEN_AGE] 黄金时代或英雄时代时，建成领袖特色区域后将向相邻无主单元格释放文化炸弹。</Text>
 		</Replace>
 
 		<!--Unit-->
@@ -213,13 +213,13 @@
 			<Text>云石天宫</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_MNESTIA_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>阿格莱雅特色区域，替代水渠、解锁更早、建造费用更低。建成时为城市提供1位 [ICON_Citizen] 人口。为城市提供淡水资源。相邻地热裂缝提供+1 [ICON_Amenities]宜居度。干旱时可防止 [ICON_Food] 食物损失。</Text>
+			<Text>阿格莱雅特色区域，替代水渠、解锁更早、建造费用更低。建成时为城市提供2位 [ICON_Citizen] 人口。为城市提供淡水资源。相邻地热裂缝提供+1 [ICON_Amenities]宜居度。干旱时可防止 [ICON_Food] 食物损失。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_CERCES_NAME" Language="zh_Hans_CN">
 			<Text>树庭</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_CERCES_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>那刻夏的特色区域，替代学院，建造费用更低。建成时为城市提供远古城墙。[NEWLINE][NEWLINE]相邻加成提供 [ICON_Culture] 文化值，而非 [ICON_Science] 科技值。</Text>
+			<Text>那刻夏的特色区域，替代学院，建造费用更低。建成时为城市提供远古城墙。可以建造在树林中。从树林获得额外少量科技值相邻加成。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_THANATOS_NAME" Language="zh_Hans_CN">
 			<Text>龙骸古城</Text>
@@ -231,7 +231,7 @@
 			<Text>疗愈之庭</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_AQUILA_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>风堇的特色区域，替代宇航中心、解锁更早、建造费用更低。所有单位在城市中驻扎一回合即可恢复全额生命值。</Text>
+			<Text>风堇的特色区域，替代宇航中心、解锁更早、建造费用极低。所有单位在城市中驻扎一回合即可恢复全额生命值。城市执行项目时+20% [ICON_PRODUCTION] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_ZAGREUS_NAME" Language="zh_Hans_CN">
 			<Text>云石市集</Text>
@@ -255,7 +255,7 @@
 			<Text>预言书库</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_TALANTON_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>刻律德菈的特色区域，替代外交区、建造费用更低。建成预言书库时可以指定一个奇观发起预言。当预言的奇观被任意玩家建成时，您的首都获得3个随机单位。无法通过这种方式获得先进时代的单位。从每个代表团或大使馆+1 [ICON_FAVOR] 外交支持。如建在市中心旁，则+1 [ICON_ENVOY] 使者。敌方间谍将此区域和相邻区域当做目标时，其效果将降低2级。文明中一次仅限建造一座此区域。[NEWLINE][NEWLINE]该区域产出一定的 [ICON_Science] 科技值。</Text>
+			<Text>刻律德菈的特色区域，替代外交区、建造费用更低。从每个代表团或大使馆+1 [ICON_FAVOR] 外交支持。如建在市中心旁，则+1 [ICON_ENVOY] 使者。免费获得1个 [ICON_GreatProphet] 大预言家。文明中一次仅限建造一座此区域。[NEWLINE][NEWLINE]该区域产出一定的 [ICON_Science] 科技值。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_ORONYX_NAME" Language="zh_Hans_CN">
 			<Text>长梦宸扉</Text>
@@ -272,11 +272,17 @@
 
 
 		<!--Adjacency-->
+		<Replace Tag="LOC_TERRAIN_CLASS_NW_PLAINS" Language="zh_Hans_CN">
+			<Text>平坦地形</Text>
+		</Replace>
 		<Replace Tag="LOC_ADJACENCY_DISTRICT_JANUS_SELF" Language="zh_Hans_CN">
 			<Text>+{1_Num} [ICON_FAITH] 信仰值来自相邻市中心</Text>
 		</Replace>
 		<Replace Tag="LOC_ADJACENCY_DISTRICT_NIKADOR_DISTRICT_ENTERTAINMENT_COMPLEX" Language="zh_Hans_CN">
 			<Text>+{1_Num} [ICON_PRODUCTION] 生产力来自相邻娱乐广场</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DISTRICT_CERCES" Language="zh_Hans_CN">
+			<Text>+{1_Num} [ICON_SCIENCE] 科技值来自相邻树林</Text>
 		</Replace>
 		<Replace Tag="LOC_ADJACENCY_DISTRICT_PHAGOUSA" Language="zh_Hans_CN">
 			<Text>+{1_Num} [ICON_GOLD] 金币来自相邻礁石</Text>

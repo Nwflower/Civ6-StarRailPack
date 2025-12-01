@@ -279,94 +279,13 @@ VALUES ('MODIFIER_DISTRICT_CERCES_GRANT_BUILDING', 'MODIFIER_SINGLE_CITY_GRANT_B
 INSERT INTO ModifierArguments (ModifierId, Name, Value)
 VALUES ('MODIFIER_DISTRICT_CERCES_GRANT_BUILDING', 'BuildingType', 'BUILDING_WALLS');
 
-DELETE
-FROM District_Adjacencies
-WHERE DistrictType = 'DISTRICT_CERCES';
+-- 从每个相邻的树林单元格+2 [ICON_GOLD] 金币。
+INSERT INTO Adjacency_YieldChanges(ID, Description, YieldType, YieldChange, AdjacentFeature, TilesRequired)
+VALUES ('ADJACENCY_DISTRICT_CERCES_TREE', 'LOC_ADJACENCY_DISTRICT_CERCES', 'YIELD_SCIENCE', 1, 'FEATURE_FOREST', 2);
+-- 相邻规则绑定区域
+INSERT INTO District_Adjacencies(DistrictType, YieldChangeId)
+VALUES ('DISTRICT_CERCES', 'ADJACENCY_DISTRICT_CERCES_TREE');
 
--- 从科技值相邻加成中生成文化值
-INSERT INTO Adjacency_YieldChanges(ID, Description, YieldType, YieldChange, TilesRequired, OtherDistrictAdjacent,
-                                   AdjacentSeaResource, AdjacentTerrain, AdjacentFeature, AdjacentRiver, AdjacentWonder,
-                                   AdjacentNaturalWonder, AdjacentImprovement, AdjacentDistrict, PrereqCivic,
-                                   PrereqTech, ObsoleteCivic, ObsoleteTech, AdjacentResource, AdjacentResourceClass,
-                                   Self)
-SELECT 'ADJACENCY_DISTRICT_CERCES_' || ID,
-       Description,
-       'YIELD_CULTURE',
-       YieldChange,
-       TilesRequired,
-       OtherDistrictAdjacent,
-       AdjacentSeaResource,
-       AdjacentTerrain,
-       AdjacentFeature,
-       AdjacentRiver,
-       AdjacentWonder,
-       AdjacentNaturalWonder,
-       AdjacentImprovement,
-       AdjacentDistrict,
-       PrereqCivic,
-       PrereqTech,
-       ObsoleteCivic,
-       ObsoleteTech,
-       AdjacentResource,
-       AdjacentResourceClass,
-       Self
-FROM Adjacency_YieldChanges
-WHERE ID IN (SELECT DISTINCT YieldChangeId FROM District_Adjacencies WHERE DistrictType = 'DISTRICT_CAMPUS')
-  AND YieldChange > 0;
-
--- 再获得所有文化值加成
-INSERT OR
-REPLACE
-INTO District_Adjacencies(DistrictType, YieldChangeId)
-SELECT 'DISTRICT_CERCES',
-       'ADJACENCY_DISTRICT_CERCES_' || ID
-FROM Adjacency_YieldChanges
-WHERE ID IN (SELECT DISTINCT YieldChangeId FROM District_Adjacencies WHERE DistrictType = 'DISTRICT_CAMPUS')
-  AND YieldChange > 0;
-
--- 吃政策卡提供的翻倍效果
--- 思路 先从政策卡modify中筛选出需要学院的相邻加成的modify
--- 不绑定死是为了兼容对政策卡进行修改的MOD
-CREATE TEMPORARY TABLE temp_CERCES_Modifier_Table
-(
-    PolicyType TEXT,
-    ModifierId TEXT
-);
-INSERT INTO temp_CERCES_Modifier_Table
-SELECT PolicyType,
-       ModifierId
-FROM PolicyModifiers
-WHERE ModifierId IN (SELECT ModifierId
-                     FROM Modifiers
-                     WHERE ModifierType = 'MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_MODIFIER'
-                       AND SubjectRequirementSetId = 'DISTRICT_IS_CAMPUS');
-
--- 再插进政策卡效果，把原来的科技值改成文化值
-INSERT INTO PolicyModifiers(PolicyType, ModifierId)
-SELECT PolicyType,
-       ModifierId || '_TO_CERCES'
-FROM temp_CERCES_Modifier_Table;
-INSERT INTO Modifiers(ModifierId, ModifierType, OwnerRequirementSetId, SubjectRequirementSetId, OwnerStackLimit,
-                      SubjectStackLimit)
-SELECT ModifierId || '_TO_CERCES',
-       ModifierType,
-       OwnerRequirementSetId,
-       'NW_DISTRICT_IS_DISTRICT_CERCES',
-       OwnerStackLimit,
-       SubjectStackLimit
-FROM Modifiers
-WHERE ModifierId IN (SELECT ModifierId FROM temp_CERCES_Modifier_Table);
-INSERT INTO ModifierArguments(ModifierId, Name, Type, Value, Extra, SecondExtra)
-SELECT ModifierId || '_TO_CERCES',
-       Name,
-       Type,
-       REPLACE(Value, 'YIELD_SCIENCE', 'YIELD_CULTURE'),
-       Extra,
-       SecondExtra
-FROM ModifierArguments
-WHERE ModifierId IN (SELECT ModifierId FROM temp_CERCES_Modifier_Table);
-
-DROP TABLE temp_CERCES_Modifier_Table;
 
 --================
 -- 龙骸古城
@@ -543,6 +462,18 @@ VALUES ('MODIFIER_NW_AM_PLAYER_UNITS_ADJUST_HEAL_PER_TURN', 'KIND_MODIFIER');
 INSERT INTO DynamicModifiers (ModifierType, CollectionType, EffectType)
 VALUES ('MODIFIER_NW_AM_PLAYER_UNITS_ADJUST_HEAL_PER_TURN', 'COLLECTION_PLAYER_UNITS',
         'EFFECT_ADJUST_UNIT_HEALING_MODIFIERS');
+
+INSERT INTO DistrictModifiers (DistrictType, ModifierId) VALUES
+('DISTRICT_AQUILA', 'MODIFIER_DISTRICT_AQUILA_PRODUCTION_PROJECTS');
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES
+('MODIFIER_DISTRICT_AQUILA_PRODUCTION_PROJECTS', 'MODIFIER_NW_AM_SINGLE_CITY_ADJUST_ALL_PROJECTS_PRODUCTION', 0, 0, 0, NULL, NULL);
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
+('MODIFIER_DISTRICT_AQUILA_PRODUCTION_PROJECTS', 'Amount', '20');
+-- Custom ModifierType
+INSERT INTO Types (Type, Kind) VALUES
+('MODIFIER_NW_AM_SINGLE_CITY_ADJUST_ALL_PROJECTS_PRODUCTION', 'KIND_MODIFIER');
+INSERT INTO DynamicModifiers (ModifierType, CollectionType, EffectType) VALUES
+('MODIFIER_NW_AM_SINGLE_CITY_ADJUST_ALL_PROJECTS_PRODUCTION', 'COLLECTION_OWNER', 'EFFECT_ADJUST_ALL_PROJECTS_PRODUCTION');
 
 --================
 -- 云石市集

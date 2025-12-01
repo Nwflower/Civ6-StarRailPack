@@ -23,4 +23,4 @@ VALUES	('zh_Hans_CN',	'LOC_CIVILIZATION_KNM_HERTA_SPACE_STATION_NAME',				'黑�
 
 		('zh_Hans_CN',	'LOC_LEADER_KNM_ASTA_NAME',										'艾丝妲'),
 		('zh_Hans_CN',	'LOC_TRAIT_LEADER_KNM_ASTA_NAME',								'与行星相会'),
-		('zh_Hans_CN',	'LOC_TRAIT_LEADER_KNM_ASTA_DESCRIPTION',						'游戏开始时获得50 [ICON_Gold] 金币（联机速度下）。可以花费3倍需求科技值 [ICON_Gold] 金币解锁古典时代及之前的科技。');
+		('zh_Hans_CN',	'LOC_TRAIT_LEADER_KNM_ASTA_DESCRIPTION',						'游戏开始时获得100 [ICON_Gold] 金币（联机速度下）。可以花费4倍需求科技值 [ICON_Gold] 金币解锁古典时代及之前的科技。');

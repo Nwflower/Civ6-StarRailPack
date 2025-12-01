@@ -4,8 +4,8 @@
 		<Name>Team PVP [COLOR:ResCultureLabelCS]次元破壁：星穹铁道[ENDCOLOR]</Name>
 		<Description>这是以崩坏：星穹铁道世界观为背景的文明6模组整合包。</Description>
 		<Teaser>愿此行，终抵群星</Teaser>
-		<Authors>{LOC_AMPHOREUS_MOD_AUTHORS}, {LOC_KNM_HERTA_MOD_AUTHOR}</Authors>
-		<SpecialThanks>{LOC_KNM_HERTA_MOD_THANKS}</SpecialThanks>
+		<Authors>{LOC_AMPHOREUS_MOD_AUTHORS}, {LOC_KNM_HERTA_MOD_AUTHOR}, Nwflower</Authors>
+		<SpecialThanks>Anqing, HSbF6HSO3F, {LOC_KNM_HERTA_MOD_THANKS}, Ophidy, SiQi, World·Dream, Yuni</SpecialThanks>
 		<CompatibleVersions>1.2,2.0</CompatibleVersions>
 	</Properties>
 	<Dependencies>
@@ -62,6 +62,9 @@
 		<Criteria id="Expansion2">
 			<GameCoreInUse>Expansion2</GameCoreInUse>
 		</Criteria>
+		<Criteria id="HD">
+			<ModInUse>521b8777-0977-4859-a5ee-3e411a732e5c</ModInUse>
+		</Criteria>
 	</ActionCriteria>
 	<FrontEndActions>
 		<UpdateDatabase id="AmphoreusSettings">
@@ -95,6 +98,21 @@
 		<UpdateColors id="color">
 			<File>Herta/Config/Herta_Colors.xml</File>
 		</UpdateColors>
+		<UpdateDatabase id="Penacony_UpdateDatabase_FE">
+			<File priority="10000">Penacony/Database/Penacony_Config.xml</File>
+		</UpdateDatabase>
+		<UpdateColors id="Penacony_UpdateColors_FE">
+			<File>Penacony/Database/Penacony_Color.xml</File>
+		</UpdateColors>
+		<UpdateIcons id="Penacony_UpdateIcons_FE">
+			<File priority="9999">Penacony/Database/Penacony_Icons.xml</File>
+		</UpdateIcons>
+		<UpdateText id="Penacony_UpdateText_FE">
+			<File priority="10001">Penacony/Text/Penacony_Text_zh_Hans_CN.xml</File>
+		</UpdateText>
+		<UpdateArt id="Penacony_UpdateArt_FE">
+			<File>Penacony/【崩坏：星穹铁道】匹诺康尼文明包.dep</File>
+		</UpdateArt>
 	</FrontEndActions>
 	<InGameActions>
 		<ImportFiles id="Amphoreus_ImportFiles">
@@ -292,6 +310,53 @@
 			<Criteria>LeaderCriteria</Criteria>
 			<File>Herta/Platforms/Windows/Audio/HertaSoundbanks.ini</File>
 		</UpdateAudio>
+		<UpdateDatabase id="HD">
+			<Properties>
+				<LoadOrder>31</LoadOrder>
+			</Properties>
+			<Criteria>HD</Criteria>
+			<File>Penacony/Database/Penacony_HD.sql</File>
+		</UpdateDatabase>
+		<UpdateDatabase id="Penacony_UpdateDatabase">
+			<File>Penacony/Database/Penacony_Civilization.sql</File>
+			<File>Penacony/Database/Penacony_Buildings.sql</File>
+			<File>Penacony/Database/Penacony_Leader.sql</File>
+			<File>Penacony/Database/Penacony_Unit.sql</File>
+			<File>Penacony/Database/Penacony_Projects.sql</File>
+			<File>Penacony/Database/Penacony_Improvement.sql</File>
+			<File>Penacony/Database/Penacony_Resources.sql</File>
+			<File>Penacony/Database/Penacony_Modifier.sql</File>
+			<File>Penacony/Database/Penacony_GreatPeople.sql</File>
+			<File>Penacony/Database/Penacony_GreatWorks.sql</File>
+		</UpdateDatabase>
+		<UpdateColors id="Penacony_UpdateColors">
+			<File>Penacony/Database/Penacony_Color.xml</File>
+		</UpdateColors>
+		<UpdateIcons id="Penacony_UpdateIcons">
+			<File priority="9999">Penacony/Database/Penacony_Icons.xml</File>
+		</UpdateIcons>
+		<UpdateAudio id="Penacony_UpdateAudio">
+			<File priority="10001">Penacony/Platforms/Windows/audio/Penacony_Audio.ini</File>
+		</UpdateAudio>
+		<UpdateText id="Penacony_UpdateText">
+			<File priority="10000">Penacony/Text/Penacony_Text_zh_Hans_CN.xml</File>
+		</UpdateText>
+		<UpdateArt id="Penacony_UpdateArt">
+			<File>Penacony/【崩坏：星穹铁道】匹诺康尼文明包.dep</File>
+		</UpdateArt>
+		<ImportFiles id="Penacony_Import">
+			<File>Penacony/Import/PenaconyHappiness.lua</File>
+		</ImportFiles>
+		<AddGameplayScripts id="Penacony_AddGameplayScripts">
+			<File>Penacony/Script/Penacony_Script.lua</File>
+		</AddGameplayScripts>
+		<AddUserInterfaces id="Penacony_UIxml">
+			<Properties>
+				<Context>InGame</Context>
+			</Properties>
+			<File>Penacony/UI/PenaconyTracker.xml</File>
+			<File>Penacony/UI/PenaconyUiScript.xml</File>
+		</AddUserInterfaces>
 	</InGameActions>
 	<LocalizedText>
 		<File>Amphoreus/Text/Amphoreus_PackageText.xml</File>
@@ -431,5 +496,63 @@
 		<File>Herta/UI/Replacements/ActionPanel_Herta.lua</File>
 		<File>Herta/UI/Replacements/EndGameMenu_Herta.lua</File>
 		<File>Herta/UI/Replacements/TechTree_Herta.lua</File>
+		<File>Penacony/ArtDefs/Civilizations.artdef</File>
+		<File>Penacony/ArtDefs/FallbackLeaders.artdef</File>
+		<File>Penacony/ArtDefs/Improvements.artdef</File>
+		<File>Penacony/ArtDefs/Units.artdef</File>
+		<File>Penacony/Civilization_Penacony.Art.xml</File>
+		<File>Penacony/Database/Penacony_Buildings.sql</File>
+		<File>Penacony/Database/Penacony_Civilization.sql</File>
+		<File>Penacony/Database/Penacony_Color.xml</File>
+		<File>Penacony/Database/Penacony_Config.xml</File>
+		<File>Penacony/Database/Penacony_GreatPeople.sql</File>
+		<File>Penacony/Database/Penacony_GreatWorks.sql</File>
+		<File>Penacony/Database/Penacony_HD.sql</File>
+		<File>Penacony/Database/Penacony_Icons.xml</File>
+		<File>Penacony/Database/Penacony_Improvement.sql</File>
+		<File>Penacony/Database/Penacony_Leader.sql</File>
+		<File>Penacony/Database/Penacony_Modifier.sql</File>
+		<File>Penacony/Database/Penacony_Projects.sql</File>
+		<File>Penacony/Database/Penacony_Resources.sql</File>
+		<File>Penacony/Database/Penacony_Unit.sql</File>
+		<File>Penacony/Import/PenaconyHappiness.lua</File>
+		<File>Penacony/Platforms/Windows/audio/1050932009.wem</File>
+		<File>Penacony/Platforms/Windows/audio/137588804.wem</File>
+		<File>Penacony/Platforms/Windows/audio/156779590.wem</File>
+		<File>Penacony/Platforms/Windows/audio/181738138.wem</File>
+		<File>Penacony/Platforms/Windows/audio/206220487.wem</File>
+		<File>Penacony/Platforms/Windows/audio/234985175.wem</File>
+		<File>Penacony/Platforms/Windows/audio/306124.wem</File>
+		<File>Penacony/Platforms/Windows/audio/320790058.wem</File>
+		<File>Penacony/Platforms/Windows/audio/395974971.wem</File>
+		<File>Penacony/Platforms/Windows/audio/457225391.wem</File>
+		<File>Penacony/Platforms/Windows/audio/497156637.wem</File>
+		<File>Penacony/Platforms/Windows/audio/528487798.wem</File>
+		<File>Penacony/Platforms/Windows/audio/560864678.wem</File>
+		<File>Penacony/Platforms/Windows/audio/566405796.wem</File>
+		<File>Penacony/Platforms/Windows/audio/587199773.wem</File>
+		<File>Penacony/Platforms/Windows/audio/622268515.wem</File>
+		<File>Penacony/Platforms/Windows/audio/683364513.wem</File>
+		<File>Penacony/Platforms/Windows/audio/753691350.wem</File>
+		<File>Penacony/Platforms/Windows/audio/758546084.wem</File>
+		<File>Penacony/Platforms/Windows/audio/77268704.wem</File>
+		<File>Penacony/Platforms/Windows/audio/775288528.wem</File>
+		<File>Penacony/Platforms/Windows/audio/967202074.wem</File>
+		<File>Penacony/Platforms/Windows/audio/Penacony_Audio.ini</File>
+		<File>Penacony/Platforms/Windows/audio/Penacony_GreatWorkMusic.bnk</File>
+		<File>Penacony/Platforms/Windows/audio/Penacony_GreatWorkMusic.txt</File>
+		<File>Penacony/Platforms/Windows/audio/Penacony_SB.bnk</File>
+		<File>Penacony/Platforms/Windows/audio/Penacony_SB.txt</File>
+		<File>Penacony/Platforms/Windows/audio/PluginInfo.xml</File>
+		<File>Penacony/Platforms/Windows/audio/SoundbanksInfo.xml</File>
+		<File>Penacony/Platforms/Windows/BLPs/ICON_CIVILIZATION_NW_PENACONY.blp</File>
+		<File>Penacony/Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+		<File>Penacony/Script/Penacony_Script.lua</File>
+		<File>Penacony/Text/Penacony_Text_zh_Hans_CN.xml</File>
+		<File>Penacony/UI/PenaconyTracker.lua</File>
+		<File>Penacony/UI/PenaconyTracker.xml</File>
+		<File>Penacony/UI/PenaconyUiScript.lua</File>
+		<File>Penacony/UI/PenaconyUiScript.xml</File>
+		<File>Penacony/【崩坏：星穹铁道】匹诺康尼文明包.dep</File>
 	</Files>
 </Mod>

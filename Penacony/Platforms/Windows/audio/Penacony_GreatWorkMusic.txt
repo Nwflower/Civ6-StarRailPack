@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2637654104	Play_Rb2			\Default Work Unit\Play_Rb2	
+	2637654105	Play_Rb3			\Default Work Unit\Play_Rb3	
+	2637654106	Play_Rb0			\Default Work Unit\Play_Rb0	
+	2637654107	Play_Rb1			\Default Work Unit\Play_Rb1	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	60247867		661394510		826318850		1009789632	

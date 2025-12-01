@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<Players>
+		<!-- Expansion 2 Support -->
+		<Row CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_SINKDREAM_DESCRIPTION"
+			 CivilizationAbilityIcon="ICON_CIVILIZATION_NW_PENACONY"
+			 CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_SINKDREAM_NAME"
+			 CivilizationIcon="ICON_CIVILIZATION_NW_PENACONY"
+			 CivilizationName="LOC_CIVILIZATION_NW_PENACONY_NAME"
+			 CivilizationType="CIVILIZATION_NW_PENACONY"
+			 LeaderAbilityDescription="{LOC_TRAIT_LEADER_FLY_TO_SKY_TOGETHER_DESCRIPTION}{LOC_GREATWORK_ROBIN}"
+			 LeaderAbilityIcon="ICON_LEADER_NW_ROBIN"
+			 LeaderAbilityName="LOC_TRAIT_LEADER_FLY_TO_SKY_TOGETHER_NAME"
+			 LeaderIcon="ICON_LEADER_NW_ROBIN"
+			 LeaderName="LOC_LEADER_NW_ROBIN_NAME"
+			 LeaderType="LEADER_NW_ROBIN"
+			 Portrait="IMG_PNG_LEADER_NW_ROBIN"
+			 PortraitBackground="IMG_PNG_CIVILIZATION_NW_PENACONY_BACKGROUND_SELECTION"
+			 Domain="Players:Expansion2_Players"/>
+		<Row CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_SINKDREAM_DESCRIPTION"
+			 CivilizationAbilityIcon="ICON_CIVILIZATION_NW_PENACONY"
+			 CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_SINKDREAM_NAME"
+			 CivilizationIcon="ICON_CIVILIZATION_NW_PENACONY"
+			 CivilizationName="LOC_CIVILIZATION_NW_PENACONY_NAME"
+			 CivilizationType="CIVILIZATION_NW_PENACONY"
+			 LeaderAbilityDescription="LOC_TRAIT_LEADER_POEM_CHOIR_DESCRIPTION"
+			 LeaderAbilityIcon="ICON_LEADER_NW_SUNDAY"
+			 LeaderAbilityName="LOC_TRAIT_LEADER_POEM_CHOIR_NAME"
+			 LeaderIcon="ICON_LEADER_NW_SUNDAY"
+			 LeaderName="LOC_LEADER_NW_SUNDAY_NAME"
+			 LeaderType="LEADER_NW_SUNDAY"
+			 Portrait="IMG_PNG_LEADER_NW_SUNDAY"
+			 PortraitBackground="IMG_PNG_CIVILIZATION_NW_PENACONY_BACKGROUND_SELECTION"
+			 Domain="Players:Expansion2_Players"/>
+	</Players>
+	<PlayerItems>
+		<!-- Expansion 2 Support -->
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_NW_PENACONY" LeaderType="LEADER_NW_ROBIN" Type="UNIT_DREAM_BUILDER" Name="LOC_UNIT_DREAM_BUILDER_NAME" Description="LOC_UNIT_DREAM_BUILDER_DESCRIPTION" Icon="ICON_UNIT_DREAM_BUILDER" SortIndex="10"/>
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_NW_PENACONY" LeaderType="LEADER_NW_ROBIN" Type="IMPROVEMENT_DREAM_POOL" Name="LOC_IMPROVEMENT_DREAM_POOL_NAME" Description="LOC_IMPROVEMENT_DREAM_POOL_DESCRIPTION" Icon="ICON_IMPROVEMENT_DREAM_POOL" SortIndex="30"/>
+
+		<!-- Expansion 2 Support -->
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_NW_PENACONY" LeaderType="LEADER_NW_SUNDAY" Type="UNIT_DREAM_BUILDER" Name="LOC_UNIT_DREAM_BUILDER_NAME" Description="LOC_UNIT_DREAM_BUILDER_DESCRIPTION" Icon="ICON_UNIT_DREAM_BUILDER" SortIndex="10"/>
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_NW_PENACONY" LeaderType="LEADER_NW_SUNDAY" Type="IMPROVEMENT_DREAM_POOL" Name="LOC_IMPROVEMENT_DREAM_POOL_NAME" Description="LOC_IMPROVEMENT_DREAM_POOL_DESCRIPTION" Icon="ICON_IMPROVEMENT_DREAM_POOL" SortIndex="30"/>
+
+	</PlayerItems>
+</GameData>
