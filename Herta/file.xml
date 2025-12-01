@@ -157,10 +157,6 @@
       </Properties>
       <Criteria>LeaderCriteria</Criteria>
     </ReplaceUIScript>
-    <UpdateAudio id="Audio">
-      <Criteria>LeaderCriteria</Criteria>
-      <File>Platforms/Windows/Audio/HertaSoundbanks.ini</File>
-    </UpdateAudio>
   </InGameActions>
   <LocalizedText>
     <Text id="LOC_KNM_HERTA_MOD_NAME">
@@ -212,25 +208,6 @@
     <File>Data/KNM_Herta_Schema.sql</File>
     <File>Data/KNM_Herta_Units.sql</File>
     <File>Herta honkai star rail.dep</File>
-    <File>Platforms/Windows/Audio/173476250.wem</File>
-    <File>Platforms/Windows/Audio/2123328.wem</File>
-    <File>Platforms/Windows/Audio/342261787.wem</File>
-    <File>Platforms/Windows/Audio/397547532.wem</File>
-    <File>Platforms/Windows/Audio/471151637.wem</File>
-    <File>Platforms/Windows/Audio/492880990.wem</File>
-    <File>Platforms/Windows/Audio/554202457.wem</File>
-    <File>Platforms/Windows/Audio/711008917.wem</File>
-    <File>Platforms/Windows/Audio/735678777.wem</File>
-    <File>Platforms/Windows/Audio/736187622.wem</File>
-    <File>Platforms/Windows/Audio/807947015.wem</File>
-    <File>Platforms/Windows/Audio/825405644.wem</File>
-    <File>Platforms/Windows/Audio/840603022.wem</File>
-    <File>Platforms/Windows/Audio/850240087.wem</File>
-    <File>Platforms/Windows/Audio/HertaSoundbanks.ini</File>
-    <File>Platforms/Windows/Audio/Herta_Music_Bank.bnk</File>
-    <File>Platforms/Windows/Audio/Herta_Music_Bank.xml</File>
-    <File>Platforms/Windows/Audio/Herta_Speech_Bank.bnk</File>
-    <File>Platforms/Windows/Audio/Herta_Speech_Bank.xml</File>
     <File>Platforms/Windows/BLPs/Herta_UITextures.blp</File>
     <File>Platforms/Windows/BLPs/landmarks/tilebases.blp</File>
     <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>

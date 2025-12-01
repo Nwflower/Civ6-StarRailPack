@@ -49,9 +49,6 @@
     <UpdateIcons id="Penacony_UpdateIcons">
       <File priority="9999">Database/Penacony_Icons.xml</File>
     </UpdateIcons>
-    <UpdateAudio id="Penacony_UpdateAudio">
-      <File priority="10001">Platforms/Windows/audio/Penacony_Audio.ini</File>
-    </UpdateAudio>
     <UpdateText id="Penacony_UpdateText">
       <File priority="10000">Text/Penacony_Text_zh_Hans_CN.xml</File>
     </UpdateText>
@@ -88,35 +85,6 @@
     <File>Database/Penacony_Projects.sql</File>
     <File>Database/Penacony_Resources.sql</File>
     <File>Database/Penacony_Unit.sql</File>
-    <File>Platforms/Windows/audio/1050932009.wem</File>
-    <File>Platforms/Windows/audio/137588804.wem</File>
-    <File>Platforms/Windows/audio/156779590.wem</File>
-    <File>Platforms/Windows/audio/181738138.wem</File>
-    <File>Platforms/Windows/audio/206220487.wem</File>
-    <File>Platforms/Windows/audio/234985175.wem</File>
-    <File>Platforms/Windows/audio/306124.wem</File>
-    <File>Platforms/Windows/audio/320790058.wem</File>
-    <File>Platforms/Windows/audio/395974971.wem</File>
-    <File>Platforms/Windows/audio/457225391.wem</File>
-    <File>Platforms/Windows/audio/497156637.wem</File>
-    <File>Platforms/Windows/audio/528487798.wem</File>
-    <File>Platforms/Windows/audio/560864678.wem</File>
-    <File>Platforms/Windows/audio/566405796.wem</File>
-    <File>Platforms/Windows/audio/587199773.wem</File>
-    <File>Platforms/Windows/audio/622268515.wem</File>
-    <File>Platforms/Windows/audio/683364513.wem</File>
-    <File>Platforms/Windows/audio/753691350.wem</File>
-    <File>Platforms/Windows/audio/758546084.wem</File>
-    <File>Platforms/Windows/audio/77268704.wem</File>
-    <File>Platforms/Windows/audio/775288528.wem</File>
-    <File>Platforms/Windows/audio/967202074.wem</File>
-    <File>Platforms/Windows/audio/Penacony_Audio.ini</File>
-    <File>Platforms/Windows/audio/Penacony_GreatWorkMusic.bnk</File>
-    <File>Platforms/Windows/audio/Penacony_GreatWorkMusic.txt</File>
-    <File>Platforms/Windows/audio/Penacony_SB.bnk</File>
-    <File>Platforms/Windows/audio/Penacony_SB.txt</File>
-    <File>Platforms/Windows/audio/PluginInfo.xml</File>
-    <File>Platforms/Windows/audio/SoundbanksInfo.xml</File>
     <File>Platforms/Windows/BLPs/ICON_CIVILIZATION_NW_PENACONY.blp</File>
     <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
     <File>Script/Penacony_Script.lua</File>
