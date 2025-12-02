@@ -1,0 +1,1171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- XianZhou_Text_HK -->
+<!-- Author: Pen -->
+<!-- DateCreated: 2024/2/3 10:28:30 -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_XIANZHOU_NAME" Language="zh_Hant_HK">
+			<Text>羅浮仙舟</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_XIANZHOU_ADJECTIVE" Language="zh_Hant_HK" >
+			<Text>仙舟人</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_XIANZHOU_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>仙舟</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_XIANZHOU" Language="zh_Hant_HK">
+			<Text>羅浮仙舟</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_1" Language="zh_Hant_HK">
+			<Text>星槎海中樞</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_2" Language="zh_Hant_HK">
+			<Text>玉界門</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_3" Language="zh_Hant_HK">
+			<Text>星槎碼頭</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_4" Language="zh_Hant_HK">
+			<Text>坤輿臺</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_5" Language="zh_Hant_HK">
+			<Text>宣夜大道</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_6" Language="zh_Hant_HK">
+			<Text>司辰宮</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_7" Language="zh_Hant_HK">
+			<Text>不夜侯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_8" Language="zh_Hant_HK">
+			<Text>贖珠閣</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_9" Language="zh_Hant_HK">
+			<Text>流雲渡</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_10" Language="zh_Hant_HK">
+			<Text>積玉坊</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_11" Language="zh_Hant_HK">
+			<Text>迴星港</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_12" Language="zh_Hant_HK">
+			<Text>飛星小築</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_13" Language="zh_Hant_HK">
+			<Text>長樂天</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_14" Language="zh_Hant_HK">
+			<Text>若木亭</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_15" Language="zh_Hant_HK">
+			<Text>悠暇庭</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_16" Language="zh_Hant_HK">
+			<Text>神策府</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_17" Language="zh_Hant_HK">
+			<Text>地衡司</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_18" Language="zh_Hant_HK">
+			<Text>寶餌堂</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_19" Language="zh_Hant_HK">
+			<Text>三余書肆</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_20" Language="zh_Hant_HK">
+			<Text>金人巷</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_21" Language="zh_Hant_HK">
+			<Text>乾坤街</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_22" Language="zh_Hant_HK">
+			<Text>陳機鋪</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_23" Language="zh_Hant_HK">
+			<Text>同功坊</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_24" Language="zh_Hant_HK">
+			<Text>壽考堂</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_25" Language="zh_Hant_HK">
+			<Text>美饌閣</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_26" Language="zh_Hant_HK">
+			<Text>尚滋味</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_27" Language="zh_Hant_HK">
+			<Text>清玩齋</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_28" Language="zh_Hant_HK">
+			<Text>杜氏茶莊</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_29" Language="zh_Hant_HK">
+			<Text>禨祥臺</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_30" Language="zh_Hant_HK">
+			<Text>工造司</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_31" Language="zh_Hant_HK">
+			<Text>玄機坪</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_32" Language="zh_Hant_HK">
+			<Text>格物院</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_33" Language="zh_Hant_HK">
+			<Text>镕金坊</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_34" Language="zh_Hant_HK">
+			<Text>岐黃署</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_35" Language="zh_Hant_HK">
+			<Text>觀頤臺</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_36" Language="zh_Hant_HK">
+			<Text>太真丹室</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_37" Language="zh_Hant_HK">
+			<Text>界寰陣</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_38" Language="zh_Hant_HK">
+			<Text>鱗淵境</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_39" Language="zh_Hant_HK">
+			<Text>顯龍大雩殿</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_40" Language="zh_Hant_HK">
+			<Text>寒泉洞天</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_1" Language="zh_Hant_HK">
+			<Text>檀檀</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_2" Language="zh_Hant_HK">
+			<Text>西衍先生</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_3" Language="zh_Hant_HK">
+			<Text>貨全</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_4" Language="zh_Hant_HK">
+			<Text>阿往</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_5" Language="zh_Hant_HK">
+			<Text>阿來</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_6" Language="zh_Hant_HK">
+			<Text>瀚典</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_7" Language="zh_Hant_HK">
+			<Text>冬生</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_8" Language="zh_Hant_HK">
+			<Text>茂貞</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_9" Language="zh_Hant_HK">
+			<Text>廣大</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_10" Language="zh_Hant_HK">
+			<Text>景芳</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_1" Language="zh_Hant_HK">
+			<Text>旭霞</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_2" Language="zh_Hant_HK">
+			<Text>文雯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_3" Language="zh_Hant_HK">
+			<Text>錦余</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_4" Language="zh_Hant_HK">
+			<Text>沐芳</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_5" Language="zh_Hant_HK">
+			<Text>梓橋</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_6" Language="zh_Hant_HK">
+			<Text>清越</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_7" Language="zh_Hant_HK">
+			<Text>夢茗</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_8" Language="zh_Hant_HK">
+			<Text>予衿</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_9" Language="zh_Hant_HK">
+			<Text>阿鶯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_10" Language="zh_Hant_HK">
+			<Text>隱書</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_1" Language="zh_Hant_HK">
+			<Text>大毫</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_2" Language="zh_Hant_HK">
+			<Text>松煙</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_3" Language="zh_Hant_HK">
+			<Text>巖明</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_4" Language="zh_Hant_HK">
+			<Text>康圖</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_5" Language="zh_Hant_HK">
+			<Text>武赫</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_6" Language="zh_Hant_HK">
+			<Text>小聰</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_7" Language="zh_Hant_HK">
+			<Text>斥晏</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_8" Language="zh_Hant_HK">
+			<Text>浴鐵</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_9" Language="zh_Hant_HK">
+			<Text>永海</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_10" Language="zh_Hant_HK">
+			<Text>彥卿</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_1" Language="zh_Hant_HK">
+			<Text>若月</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_2" Language="zh_Hant_HK">
+			<Text>凈硯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_3" Language="zh_Hant_HK">
+			<Text>夕葵</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_4" Language="zh_Hant_HK">
+			<Text>馭空</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_5" Language="zh_Hant_HK">
+			<Text>青雀</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_6" Language="zh_Hant_HK">
+			<Text>南潔</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_7" Language="zh_Hant_HK">
+			<Text>宮羽</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_8" Language="zh_Hant_HK">
+			<Text>永念</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_9" Language="zh_Hant_HK">
+			<Text>青鏃</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_10" Language="zh_Hant_HK">
+			<Text>靜齋</Text>
+		</Replace>
+
+		<Row Tag="LOC_CIVINFO_XIANZHOU_LOCATION" Language="zh_Hant_HK">
+			<Text>未知</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_XIANZHOU_SIZE" Language="zh_Hant_HK">
+			<Text>未知</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_XIANZHOU_POPULATION" Language="zh_Hant_HK">
+			<Text>未知</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_XIANZHOU_CAPITAL" Language="zh_Hant_HK">
+			<Text>羅浮仙舟</Text>
+		</Row>
+
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_XIANZHOU_NAME" Language="zh_Hant_HK">
+			<Text>不老者的仙舟</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_XIANZHOU_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>
+				仙舟建立的城市發展減速30%，但城市 [ICON_CITIZEN] 人口額外提供+0.5 [ICON_SCIENCE] 科技值、+0.5 [ICON_CULTURE] 文化值、+1 [ICON_PRODUCTION] 生產力，城市經歷過一個時代後人口加成增長一次，最多增長两次。非仙舟建立的城市僅享受一半效果。
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_XIANZHOU_STARSKIFF_NAME" Language="zh_Hant_HK">
+			<Text>星槎</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_XIANZHOU_STARSKIFF_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>仙舟特色單位，視野能穿過地貌。無視地形地貌造成的移動力減益。可利用自身的高 [ICON_MOVEMENT] 移動力護送平民和戰鬥單位。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_XIANZHOU_STARSKIFF_NAME" Language="zh_Hant_HK">
+			<Text>星槎</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_XIANZHOU_STARSKIFF_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>仙舟特色單位，視野能穿過地貌。無視地形地貌造成的移動力減益。可利用自身的高 [ICON_MOVEMENT] 移動力護送編隊中的平民和戰鬥單位。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_STARSKIFF_IGNORE_TERRAINS_NAME" Language="zh_Hant_HK">
+			<Text>星槎</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_STARSKIFF_IGNORE_TERRAINS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>視野能穿過地貌。無視地形地貌造成的移動力減益。可利用自身的高 [ICON_MOVEMENT] 移動力護送編隊中的平民和戰鬥單位。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_XIANZHOU_BAILU_NAME" Language="zh_Hant_HK">
+			<Text>白露</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_XIANZHOU_BAILU" Language="zh_Hant_HK">
+			<Text>白露</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_XIANZHOU_BAILU_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>
+				仙舟「羅浮」持明族的尊長，有「銜藥龍女」之稱的醫士。
+				[NEWLINE]以獨門醫理和唯有龍脈方可施行的「醫療手段」救死扶傷。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_BAILU_NAME" Language="zh_Hant_HK">
+			<Text>譬如朝露</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_BAILU_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>
+				城市改良的每個奢侈品資源均可提供1點 [ICON_AMENITIES] 宜居度，宜居度為高興時城市每回合產出的 [ICON_GREATPERSON] 偉人點數+25%，宜居度為欣喜若狂時翻倍。所有單位受到傷害後恢復20% [ICON_DAMAGED] 所受傷害。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_UNITS_HEAL_AFTER_COMBAT_NAME" Language="zh_Hant_HK">
+			<Text>生息</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_UNITS_HEAL_AFTER_COMBAT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>所有單位受到傷害後恢復20% [ICON_DAMAGED] 所受傷害。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_XIANZHOU_ALCHEMY_COMMISSION_NAME" Language="zh_Hant_HK">
+			<Text>丹鼎司</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_XIANZHOU_ALCHEMY_COMMISSION_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>白露特色區域，取代社區，「灌溉」科技解鎖，建造費用更低。無視魅力值，固定提供+3 [ICON_HOUSING] 住房。提供更多專家槽位和更多專家產出。丹鼎司所在城市每點宜居度使城市發展加速10%，每座丹鼎司最多加速50%。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_XIANZHOU_ALCHEMY_COMMISSION_NAME" Language="zh_Hant_HK">
+			<Text>丹鼎司</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_XIANZHOU_ALCHEMY_COMMISSION_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>白露特色區域，取代社區，「灌溉」科技解鎖，建造費用更低。無視魅力值，固定提供+3 [ICON_HOUSING] 住房。丹鼎司所在城市每點宜居度使城市發展加速10%，每座丹鼎司最多加速50%。[NEWLINE]初始擁有4個專家槽位，每個專家槽位提供1點 [ICON_FOOD] 食物、3點 [ICON_PRODUCTION] 生產力、3點 [ICON_CULTURE] 文化、1點 [ICON_GreatMerchant] 大商人點數和1點 [ICON_GreatEngineer] 大工程師點數。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_XIANZHOU_FUXUAN_NAME" Language="zh_Hant_HK">
+			<Text>符玄</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_XIANZHOU_FUXUAN_NAME" Language="zh_Hant_HK">
+			<Text>符玄</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_XIANZHOU_FUXUAN_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>
+				你今日求見，想必是為了采訪探問太蔔的職責而來？
+				[NEWLINE]不必驚訝，因為在你開口之前，
+				[NEWLINE]本座額間之眼已遍歷了與你這次會面一十二種可能…
+				[NEWLINE]哦，還有你會提出的問題。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_FUXUAN_NAME" Language="zh_Hant_HK">
+			<Text>窮觀妙算</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_FUXUAN_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>
+				允許建造者建造窮觀陣，擁有窮觀陣城市產出的全部 [ICON_SCIENCE] 科技、 [ICON_CULTURE] 文化、 [ICON_PRODUCTION] 生產力產出會轉化為等量的[ICON_XIANZHOU_MATRIX_OF_PRESCIENCE]玉兆點。[ICON_XIANZHOU_MATRIX_OF_PRESCIENCE]玉兆點可以為當前任意科技、市政、生產隊列提供進度。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_XIANZHOU_DIVINATION_COMMISSION_NAME" Language="zh_Hant_HK">
+			<Text>太蔔司</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_XIANZHOU_DIVINATION_COMMISSION_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>符玄特色區域，取代聖地，建造費用更低，建成後不占用區域位，建成後對相鄰單元格施放文化炸彈。僅可從窮觀陣獲得相鄰加成。提供更多專家槽位和更多專家產出。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_XIANZHOU_DIVINATION_COMMISSION_NAME" Language="zh_Hant_HK">
+			<Text>太蔔司</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_XIANZHOU_DIVINATION_COMMISSION_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>符玄特色區域，取代聖地，建造費用更低，建成後不占用區域位，建成後對相鄰單元格施放文化炸彈。僅可從窮觀陣獲得相鄰加成。[NEWLINE]初始擁有2個專家槽位，每個專家槽位提供3點 [ICON_SCIENCE] 科技、4點 [ICON_FAITH] 信仰、1點 [ICON_GreatScientist] 大科學家點數和1點 [ICON_GreatProphet] 大預言家點數。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_XIANZHOU_PRODUCTION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_PRODUCTION] 生產力來自太蔔司。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_TRAIT_IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE_NAME" Language="zh_Hant_HK">
+			<Text>窮觀陣</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>每座城市僅能建造一處，無法與另一個窮觀陣相鄰，建造完成後無法拆除，無法被自然災害摧毀。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE_NAME" Language="zh_Hant_HK">
+			<Text>窮觀陣</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>每座城市僅能建造一處，無法與另一個窮觀陣相鄰，建造完成後無法拆除，無法被自然災害摧毀。</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_TITLE" Language="zh_Hant_HK">
+			<Text>鑒知</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_BUTTON_NAME" Language="zh_Hant_HK">
+			<Text>鑒知</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_BUTTON_TOOLTIP" Language="zh_Hant_HK">
+			<Text>目前擁有[ICON_XIANZHOU_MATRIX_OF_PRESCIENCE]玉兆點：[COLOR:Civ6Red]{1_Num}[ENDCOLOR]。</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_BUTTON_SCIENCE_TOOLTIP" Language="zh_Hant_HK">
+			<Text>目前[ICON_XIANZHOU_MATRIX_OF_PRESCIENCE]玉兆點可轉化 [ICON_SCIENCE] 科技值：[COLOR:Civ6Red]{1_Num}[ENDCOLOR]。</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_BUTTON_CULTURE_TOOLTIP" Language="zh_Hant_HK">
+			<Text>目前[ICON_XIANZHOU_MATRIX_OF_PRESCIENCE]玉兆點可轉化 [ICON_CULTURE] 文化值：[COLOR:Civ6Red]{1_Num}[ENDCOLOR]。</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_BUTTON_PRODUCTION_TOOLTIP" Language="zh_Hant_HK">
+			<Text>目前[ICON_XIANZHOU_MATRIX_OF_PRESCIENCE]玉兆點可轉化 [ICON_PRODUCTION] 生產力：[COLOR:Civ6Red]{1_Num}[ENDCOLOR]。</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_CITY_YIELD_TOOLTIP" Language="zh_Hant_HK">
+			<Text>右鍵查看每回合 [ICON_XIANZHOU_MATRIX_OF_PRESCIENCE] 玉兆點產出</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_BUTTON_DISABLE_TOOLTIP" Language="zh_Hant_HK">
+			<Text>[COLOR:Civ6Red]當前領袖不具有蔔算能力[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_COMPLETE_SCIENCE_TOOLTIP" Language="zh_Hant_HK">
+			<Text>為科技進度註入算力</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_COMPLETE_CULTURE_TOOLTIP" Language="zh_Hant_HK">
+			<Text>為市政進度註入算力</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_COMPLETE_PRODUCTION_TOOLTIP" Language="zh_Hant_HK">
+			<Text>為生產隊列註入算力</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_SUMMARY" Language="zh_Hant_HK">
+			<Text>每回合 [ICON_TURN] 玉兆點：</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_RESEARCHQUEUE_INFO" Language="zh_Hant_HK">
+			<Text>當前科技進度：[NEWLINE]{1_str}[NEWLINE][COLOR:Civ6Red]{2_Num}[ENDCOLOR]/{3_Num}</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_CULTUREQUEUE_INFO" Language="zh_Hant_HK">
+			<Text>當前市政進度：[NEWLINE]{1_str}[NEWLINE][COLOR:Civ6Red]{2_Num}[ENDCOLOR]/{3_Num}</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_CITYBUILDQUEUE_INFO" Language="zh_Hant_HK">
+			<Text>當前生產隊列：[NEWLINE]{1_str}[NEWLINE][COLOR:Civ6Red]{2_Num}[ENDCOLOR]/{3_Num}</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_FROM_CITY" Language="zh_Hant_HK">
+			<Text>來自{1_str}</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_XIANZHOU_CELESTIAL_JADE_GAME_NAME" Language="zh_Hant_HK">
+			<Text>帝垣瓊玉，啟動！</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_XIANZHOU_CELESTIAL_JADE_GAME_SHORT_NAME" Language="zh_Hant_HK">
+			<Text>帝垣瓊玉</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_XIANZHOU_CELESTIAL_JADE_GAME_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>太蔔司內流行的項目，但被太蔔發現會遭到罰款。每回合提供 [ICON_Faith] 信仰值、+100%宗教壓力。完成後提供[ICON_GOLD] 金幣。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IMPROVEMENT_XIANZHOU_PRODUCTION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_PRODUCTION] 生產力來自相鄰窮觀陣。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_XIANZHOU_SCIENCE" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_SCIENCE] 科技值來自相鄰窮觀陣。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_XIANZHOU_CULTURE" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_CULTURE] 文化值來自相鄰窮觀陣。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_XIANZHOU_GOLD" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_GOLD] 金幣來自相鄰窮觀陣。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_XIANZHOU_FAITH" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_FAITH] 信仰來自相鄰窮觀陣。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_XIANZHOU_JINGYUAN_NAME" Language="zh_Hant_HK">
+			<Text>景元</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_XIANZHOU_JINGYUAN_NAME" Language="zh_Hant_HK">
+			<Text>景元</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_XIANZHOU_JINGYUAN_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>
+				不必拘謹，「將軍」只是一時的身份，你稱呼我景元便可。
+				[NEWLINE]自從履任後，羅浮已安然度過數百年。
+				[NEWLINE]只是昔日仇敵或死或擒，故交好友風流雲散，我也受俗務羈擾多年，
+				[NEWLINE]不僅對周遭事物見怪不怪，人也變得無趣。
+				[NEWLINE]若是有什麽旅行異聞，務必同我講講。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_JINGYUAN_NAME" Language="zh_Hant_HK">
+			<Text>天戈麾斥</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_JINGYUAN_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>城市每擁有10 [ICON_CITIZEN] 人口，立刻在首都獲得一位 [ICON_GreatGeneral] 大將軍。陸地單位近戰攻擊時同時對控製區內所有戰鬥單位和區域造成傷害。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_UNITS_AOE_COMBAT_NAME" Language="zh_Hant_HK">
+			<Text>紫霄震曜</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_UNITS_AOE_COMBAT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>陸地近戰單位攻擊時同時攻擊控製區內所有戰鬥單位和區域。</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_UNITS_AOE_COMBAT_NAME" Language="zh_Hant_HK">
+			<Text>紫霄震曜</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_XIANZHOU_CLOUD_KNIGHTS_NAME" Language="zh_Hant_HK">
+			<Text>雲騎營</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_XIANZHOU_CLOUD_KNIGHTS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>景元特色區域，取代軍營，建造費用更低，建成後不占用區域位。提供更多專家槽位和更多專家產出。單位在雲騎營開始回合時+1 [ICON_MOVEMENT] 移動力，並且升級不結束回合。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_XIANZHOU_CLOUD_KNIGHTS_NAME" Language="zh_Hant_HK">
+			<Text>雲騎營</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_XIANZHOU_CLOUD_KNIGHTS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>景元特色區域，取代軍營，建造費用更低，建成後不占用區域位。單位在雲騎營開始回合時+1 [ICON_MOVEMENT] 移動力，並且晉升不結束回合。[NEWLINE]初始擁有2個專家槽位，每個專家槽位提供5點 [ICON_PRODUCTION] 生產力、6點 [ICON_GOLD] 金幣、1點 [ICON_GreatGeneral] 大將軍點數和1點 [ICON_GreatEngineer] 大工程師點數。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_DISTRICT_UNITS_MOVEMENT_NAME" Language="zh_Hant_HK">
+			<Text>兵貴神速</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_DISTRICT_UNITS_MOVEMENT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>單位在雲騎營開始回合時+1 [ICON_MOVEMENT] 移動力，並且晉升不結束回合。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_BASE_NAME" Language="zh_Hant_HK">
+			<Text>天舶飛將，枕弧待戰</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_BASE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>所處城市生產星槎時加速50%。所處城市訓練的星槎會將編隊中的單位 [ICON_MOVEMENT] 移動力補正至不低於星槎。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_L1_NAME" Language="zh_Hant_HK">
+			<Text>青霄馳騁，驅馭蒼穹</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_L1_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>處於星槎編隊中的單位獲得戰鬥經驗+50%，並且攻擊後可移動。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_L2_NAME" Language="zh_Hant_HK">
+			<Text>危弓未輟，執射不寧</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_L2_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>處於星槎編隊中的單位每點未使用的 [ICON_MOVEMENT] 移動力可提供+1 [ICON_STRENGTH] 戰鬥力。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_R1_NAME" Language="zh_Hant_HK">
+			<Text>百裏聞風，九曲響鏑</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_R1_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>處於星槎編隊中的遠程和攻城單位攻擊時+5 [ICON_STRENGTH] 戰鬥力。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_R2_NAME" Language="zh_Hant_HK">
+			<Text>井儀貫侯，疾羽參連</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_R2_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>處於星槎編隊中的遠程和攻城單位+1射程。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_M3_NAME" Language="zh_Hant_HK">
+			<Text>弦栝如雷，銑珧激蕩</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_M3_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>處於星槎編隊中的單位如果 [ICON_MOVEMENT] 移動力允許，每回合+1額外攻擊。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_LEADER_XIANZHOU_ALL_TRAIT_NAME" Language="zh_Hant_HK">
+			<Text>景元（仙舟全特性）</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_ALL_TRAIT_NAME" Language="zh_Hant_HK">
+			<Text>仙舟全特性</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_ALL_TRAIT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>
+				擁有仙舟包內所有領袖的特性。
+			</Text>
+		</Replace>
+
+		<!--白露-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_BAILU_QUOTE" Language="zh_Hant_HK">
+			<Text>「午餐需講究君臣相佐。煙熏肉堡兩個，奶茶一杯，實是治療心病、保持心情愉快的不二之選！」[NEWLINE]——白露</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_BAILU_TITLE" Language="zh_Hant_HK">
+			<Text>銜藥龍女</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_BAILU_CHAPTER_CAPSULE_BODY" Language="zh_Hant_HK">
+			<Text>
+				性格活潑的小女孩，持明族的「銜藥龍女」，藥到病除的名醫。
+				[NEWLINE]經常開出不拘一格的藥方，如「多喝熱水、「睡一覺就好了」。
+				[NEWLINE]見不得人受苦，治病時總是閉著眼睛。
+				[NEWLINE]——總之病好了就行！
+			</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_XIANZHOU_BAILU_NAME" Language="zh_Hant_HK">
+			<Text>徜徉靈澤病恙短</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_XIANZHOU_BAILU_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>喜歡將奢侈品資源交易給她的文明。討厭拒絕交易奢侈品的文明。會嘗試盡可能多地收集奢侈品資源。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_XIANZHOU_BAILU_REASON_ANY" Language="zh_Hant_HK">
+			<Text>（您和白露交易了奢侈品資源。）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_XIANZHOU_BAILU_CONTINENT_ATTACKED" Language="zh_Hant_HK">
+			<Text>白露喜歡甜食、玩具等讓人開心的東西。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_XIANZHOU_BAILU_REASON_ANY" Language="zh_Hant_HK">
+			<Text>（您拒絕和白露交易奢侈品資源。）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_XIANZHOU_BAILU_IGNORES_BARBARIANS" Language="zh_Hant_HK">
+			<Text>白露喝不到仙人快樂茶，白露很傷心。</Text>
+		</Row>
+
+		<!--同意聲明友誼-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>你是怎麽回事，哪兒不舒服…總之就是頭疼？那可不行，本小姐見不得這個！</Text>
+		</Replace>
+		<!--拒絕聲明友誼-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				兇巴巴的，小心上火。
+			</Text>
+		</Replace>
+		<!--請求聲明友誼-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				你是怎麽回事，哪兒不舒服…總之就是頭疼？那可不行，本小姐見不得這個！
+			</Text>
+		</Replace>
+		<!--請求聲明友誼被接受-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				先別亂動——讓我釋放雷勁，幫你疏通筋脈…誒，別跑啊？！
+			</Text>
+		</Replace>
+		<!--請求聲明友誼被拒絕-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				我也算是龍嗎？活動範圍不出禁邸，一言一行都需符合族中規製。這樣的生活…根本就是被養在魚缸裏的一條魚吧？
+			</Text>
+		</Replace>
+		<!--被宣戰-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				救命啊救命啊——
+			</Text>
+		</Replace>
+		<!--主動宣戰-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				乖乖~張嘴~
+			</Text>
+		</Replace>
+		<!--初次見面-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_FIRST_MEET_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				我是白露，丹鼎司的醫士。來來，過來讓我瞅瞅，你怎麽回事，哪兒不舒服啦？
+			</Text>
+		</Replace>
+		<!--初次見面，提供最近城市位置-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				吃糖麽？不吃啊，那我吃啦。
+			</Text>
+		</Replace>
+		<!--初次見面，玩家提供最近城市位置-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				啊，這就要回去了麽…再待一會兒，就一小會兒嘛！
+			</Text>
+		</Replace>
+		<!--初次見面，請求交換首都位置-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				吃糖麽？不吃啊，那我吃啦。
+			</Text>
+		</Replace>
+		<!--表示歡迎-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_GREETING_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				熟讀醫理，尋找藥材，打開格局。沒有什麽是不能入藥的，越是疑難雜癥，越是要依靠不拘一格的藥方才行~
+			</Text>
+		</Replace>
+		<!--接受使節派遣-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				聽病人說，至味盛苑又出了新的甜品，叫「落九天」，那糖拔絲好長好長好長……可惜，我吃不到呀。
+			</Text>
+		</Replace>
+		<!--拒絕使節派遣-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				你呀，看著有點兒虛。
+			</Text>
+		</Replace>
+		<!--請求派遣使節-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				讓我來治治你~
+			</Text>
+		</Replace>
+		<!--被譴責-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				兇巴巴的，小心上火。
+			</Text>
+		</Replace>
+		<!--譴責玩家-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				哎喲你病得不輕啊！
+			</Text>
+		</Replace>
+		<!--領袖敵視玩家-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_WARNING_EXIT_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				哎喲你病得不輕啊！
+			</Text>
+		</Replace>
+		<!--請求結盟-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				要雨露均沾哦~
+			</Text>
+		</Replace>
+		<!--要求移開邊境軍隊-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				既不說話又不動，我們都是木頭人~
+			</Text>
+		</Replace>
+		<!--戰敗-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_XIANZHOU_BAILU_ANY" Language="zh_Hant_HK">
+			<Text>醫不自醫……</Text>
+		</Row>
+		<!--玩家戰敗-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY" Language="zh_Hant_HK">
+			<Text>醫不自醫……</Text>
+		</Row>
+		<!--同意交易-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_XIANZHOU_BAILU_ANY" Language="zh_Hant_HK">
+			<Text>
+				可以拿去換糖吃！
+			</Text>
+		</Row>
+		<!--拒絕交易-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_XIANZHOU_BAILU_ANY" Language="zh_Hant_HK">
+			<Text>
+				嗯…或許也能入藥？
+			</Text>
+		</Row>
+		<!--接受停戰-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_XIANZHOU_BAILU_ANY" Language="zh_Hant_HK">
+			<Text>嘻嘻，醫術精進了不少！</Text>
+		</Row>
+		<!--拒絕停戰-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_XIANZHOU_BAILU_ANY" Language="zh_Hant_HK">
+			<Text>補補~身子~</Text>
+		</Row>
+		<!--要求停戰-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_XIANZHOU_BAILU_ANY" Language="zh_Hant_HK">
+			<Text>
+				你欺負我！
+			</Text>
+		</Row>
+		<!--開放邊界-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY" Language="zh_Hant_HK">
+			<Text>
+				哎呀，我就算足不出戶，也可以聽見你的聲音，「急人所急，有求必應」——對吧？
+			</Text>
+		</Row>
+		<!--拒絕開放邊界-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY" Language="zh_Hant_HK">
+			<Text>
+				你欺負我！
+			</Text>
+		</Row>
+		<!--請求開放邊界-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_XIANZHOU_BAILU_ANY" Language="zh_Hant_HK">
+			<Text>
+				把頭埋入水中，不過也就一方小小的天地，卻感覺可以比平時更加自由地呼吸，超脫了水的邊界……
+			</Text>
+		</Row>
+
+
+		<!--符玄-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_FUXUAN_QUOTE" Language="zh_Hant_HK">
+			<Text>「不蔔人事福禍！」[NEWLINE]——符玄</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_FUXUAN_TITLE" Language="zh_Hant_HK">
+			<Text>太蔔司之首</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_FUXUAN_CHAPTER_CAPSULE_BODY" Language="zh_Hant_HK">
+			<Text>
+				仙舟「羅浮」太蔔司之首，自信耿直的智者。
+				[NEWLINE]憑借第三眼與窮觀陣為仙舟占算航路，預蔔事務吉兇，堅信自己所做的一切便是事情的「最優解」。
+				[NEWLINE]符玄等待著將軍承諾的「退位讓賢」，然而這一天的到來…似乎還遙遙無期。
+			</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_XIANZHOU_FUXUAN_NAME" Language="zh_Hant_HK">
+			<Text>法眼無遺</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_XIANZHOU_FUXUAN_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>喜歡在城市裏盡可能建滿區域的文明。討厭未建滿區域的文明。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_XIANZHOU_FUXUAN_REASON_ANY" Language="zh_Hant_HK">
+			<Text>（你在城市中建滿了各種區域。）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_XIANZHOU_FUXUAN_ETERNAL_LEADING" Language="zh_Hant_HK">
+			<Text>你的城市中建滿了各種區域，符玄看到了種種可能性。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_XIANZHOU_FUXUAN_REASON_ANY" Language="zh_Hant_HK">
+			<Text>（你沒有盡量為城市填充各種區域。）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_XIANZHOU_FUXUAN_ETERNAL_LAGGING" Language="zh_Hant_HK">
+			<Text>你建造區域的進度落後，符玄對你未來的可能性感到悲觀。</Text>
+		</Row>
+
+		<!--同意聲明友誼-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>元亨利貞，諸事遂順。</Text>
+		</Replace>
+		<!--拒絕聲明友誼-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				小吝，無咎。
+			</Text>
+		</Replace>
+		<!--請求聲明友誼-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				相與為一。
+			</Text>
+		</Replace>
+		<!--請求聲明友誼被接受-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				元亨利貞，諸事遂順。
+			</Text>
+		</Replace>
+		<!--請求聲明友誼被拒絕-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				這一步，是吉是兇呢？
+			</Text>
+		</Replace>
+		<!--被宣戰-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				有、有兇…
+			</Text>
+		</Replace>
+		<!--主動宣戰-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				極數，知來！
+			</Text>
+		</Replace>
+		<!--初次見面-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_FIRST_MEET_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>本座乃羅浮太蔔司之首，符玄。初次見面——不，該說久見了…我已在法眼中遍歷了與你之間的二十二次初會場面。</Text>
+		</Replace>
+		<!--初次見面，提供最近城市位置-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				稀客啊，是要占問吉兇麽？不用驚訝，你的來意早已在卦象中應驗。
+			</Text>
+		</Replace>
+		<!--初次見面，玩家提供最近城市位置-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				太蔔司的不成文規矩「三不占」中有「不義不占」這條，若是要測彩票號碼、行情漲跌之類的問題，恕本座一律不答。
+			</Text>
+		</Replace>
+		<!--初次見面，請求交換首都位置-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				一飲一啄，莫非前定。
+			</Text>
+		</Replace>
+		<!--表示歡迎-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_GREETING_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				物皆自成，無所不利。
+			</Text>
+		</Replace>
+		<!--接受使節派遣-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				互通有無，實為妙計。
+			</Text>
+		</Replace>
+		<!--拒絕使節派遣-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				今日晨起占得一卦，漲落在坎、離之間，變數頗多…嘖，不宜行公務，不宜加班，真教人渾身不自在。
+			</Text>
+		</Replace>
+		<!--請求派遣使節-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				換鬥移星，謀事在人！
+			</Text>
+		</Replace>
+		<!--被譴責-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				本座先蔔上一卦。
+			</Text>
+		</Replace>
+		<!--譴責玩家-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				風雲不測，若涉淵水。
+			</Text>
+		</Replace>
+		<!--領袖敵視玩家-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_WARNING_EXIT_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				本座腹笥深廣，博覽萬卷，說話時難免會有些引經據典的習慣，卻總有人吹毛求疵，要我「說人話」…哼。
+			</Text>
+		</Replace>
+		<!--請求結盟-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				蔔者們憑此陣法鑒往知來。羅浮漂航星海，一日也不可缺了它。只是…我有時候在想，它是否也鎖住了我們的前路與眾多可能？
+			</Text>
+		</Replace>
+		<!--要求移開邊境軍隊-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				慎終於始。
+			</Text>
+		</Replace>
+		<!--戰敗-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY" Language="zh_Hant_HK">
+			<Text>事已前定…麽……</Text>
+		</Row>
+		<!--玩家戰敗-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY" Language="zh_Hant_HK">
+			<Text>事已前定…麽……</Text>
+		</Row>
+		<!--同意交易-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY" Language="zh_Hant_HK">
+			<Text>
+				互通有無，實為妙計。
+			</Text>
+		</Row>
+		<!--拒絕交易-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY" Language="zh_Hant_HK">
+			<Text>
+				…此為偏財，不宜多得。
+			</Text>
+		</Row>
+		<!--接受停戰-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_XIANZHOU_FUXUAN_ANY" Language="zh_Hant_HK">
+			<Text>陰陽變轉，生生不絕。</Text>
+		</Row>
+		<!--拒絕停戰-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_XIANZHOU_FUXUAN_ANY" Language="zh_Hant_HK">
+			<Text>當斷不斷，必受其亂。</Text>
+		</Row>
+		<!--要求停戰-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY" Language="zh_Hant_HK">
+			<Text>
+				蔔卦行道，變動不居。
+			</Text>
+		</Row>
+		<!--開放邊界-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY" Language="zh_Hant_HK">
+			<Text>
+				卦象之內。
+			</Text>
+		</Row>
+		<!--拒絕開放邊界-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY" Language="zh_Hant_HK">
+			<Text>
+				顛撲不破。
+			</Text>
+		</Row>
+		<!--請求開放邊界-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY" Language="zh_Hant_HK">
+			<Text>
+				上下象易。
+			</Text>
+		</Row>
+		
+		<!--景元-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_JINGYUAN_QUOTE" Language="zh_Hant_HK">
+			<Text>「善弈者無通盤妙手。人們會為一子妙手力挽狂瀾而喜，卻不為大局危傾而憂。」[NEWLINE]——景元</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_JINGYUAN_TITLE" Language="zh_Hant_HK">
+			<Text>神策將軍</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_JINGYUAN_CHAPTER_CAPSULE_BODY" Language="zh_Hant_HK">
+			<Text>
+				位列帝弓七天將之一的「神策將軍」，外表懶散、心思縝密。不以危局中力挽狂瀾為智策，因此在常事上十分下功夫，以免節外生枝。因其細心謀劃，仙舟承平日久，看似行事慵懶的景元反被送上綽號「閉目將軍」。
+			</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_XIANZHOU_JINGYUAN_NAME" Language="zh_Hant_HK">
+			<Text>斬勘神形</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_XIANZHOU_JINGYUAN_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>致力於建立多個同盟，並尊重其他建立同盟的文明。不喜歡盟友數量少的文明。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_XIANZHOU_JINGYUAN_REASON_ANY" Language="zh_Hant_HK">
+			<Text>（您廣交盟友的行為傳到了仙舟）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_XIANZHOU_JINGYUAN_MANY_ALLIANCES" Language="zh_Hant_HK">
+			<Text>景元非常欣賞您的結盟方式</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_XIANZHOU_JINGYUAN_REASON_ANY" Language="zh_Hant_HK">
+			<Text>（您孤立的政策令景元不解）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_XIANZHOU_JINGYUAN_FEW_ALLIANCES" Language="zh_Hant_HK">
+			<Text>您的盟友不多，景元並不理解</Text>
+		</Row>
+
+		<!--同意聲明友誼-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>我受俗務羈擾多年，不僅對周遭事物見怪不怪，人也變得無趣。一定要說有什麽見聞，便是遇見你這般雲遊天外之人吧。</Text>
+		</Replace>
+		<!--拒絕聲明友誼-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				我平生最怕麻煩，麻煩不只分大小，還分遠近。如何布局謀劃，還得勞神費力哪……
+			</Text>
+		</Replace>
+		<!--請求聲明友誼-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				我受俗務羈擾多年，不僅對周遭事物見怪不怪，人也變得無趣。一定要說有什麽見聞，便是遇見你這般雲遊天外之人吧。。
+			</Text>
+		</Replace>
+		<!--請求聲明友誼被接受-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				善弈者無通盤妙手，人們會為一子妙手力挽狂瀾而喜，卻不為大局危傾而憂。
+			</Text>
+		</Replace>
+		<!--請求聲明友誼被拒絕-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				昔日仇敵或死或擒，故交好友風流雲散。這麽想來，我確確實實已是個「老人」了…
+			</Text>
+		</Replace>
+		<!--被宣戰-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				戰事如棋，局局新啊。
+			</Text>
+		</Replace>
+		<!--主動宣戰-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				煌煌威靈，遵吾敕命。斬無赦！
+			</Text>
+		</Replace>
+		<!--初次見面-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_FIRST_MEET_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>我是「羅浮」雲騎將軍景元。不必拘謹，「將軍」只是一時的身份，你稱呼我景元便可。</Text>
+		</Replace>
+		<!--初次見面，提供最近城市位置-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				嗯，你好好休息…我還有些要務處理，恕不能遠送。
+			</Text>
+		</Replace>
+		<!--初次見面，玩家提供最近城市位置-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				來了呀，若是有什麽旅行異聞，也同我講講吧。
+			</Text>
+		</Replace>
+		<!--初次見面，請求交換首都位置-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				來了呀，若是有什麽旅行異聞，也同我講講吧。
+			</Text>
+		</Replace>
+		<!--表示歡迎-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_GREETING_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				或許外來者習慣將「羅浮」簡稱為仙舟，但…「羅浮」不等於仙舟，「羅浮」就是「羅浮」。
+			</Text>
+		</Replace>
+		<!--接受使節派遣-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				哦？不錯不錯。
+			</Text>
+		</Replace>
+		<!--拒絕使節派遣-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				破綻百出。
+			</Text>
+		</Replace>
+		<!--請求派遣使節-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				若是閑來無事，還可對弈幾局。
+			</Text>
+		</Replace>
+		<!--被譴責-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+					破綻百出。
+			</Text>
+		</Replace>
+		<!--譴責玩家-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				臨軍對陣，持重待機便可。
+			</Text>
+		</Replace>
+		<!--領袖敵視玩家-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_WARNING_EXIT_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				個人之力終有極限，路到盡頭便要另尋他法。
+			</Text>
+		</Replace>
+		<!--請求結盟-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				寰宇方圓，星羅棋布，每一手都是抉擇，而抉擇鑄就命運。
+			</Text>
+		</Replace>
+		<!--要求移開邊境軍隊-->
+		<Replace Language="zh_Hant_HK" Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				兵家待時而動，可別一動不動啊。
+			</Text>
+		</Replace>
+		<!--戰敗-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY" Language="zh_Hant_HK">
+			<Text>久疏戰陣了…</Text>
+		</Row>
+		<!--玩家戰敗-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY" Language="zh_Hant_HK">
+			<Text>久疏戰陣了…</Text>
+		</Row>
+		<!--同意交易-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY" Language="zh_Hant_HK">
+			<Text>
+				如此稀有之物，你收下便好。
+			</Text>
+		</Row>
+		<!--拒絕交易-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY" Language="zh_Hant_HK">
+			<Text>
+				卿的心思我明白，所以還得多等一等，要是有耐心等下去，便到時機了。
+			</Text>
+		</Row>
+		<!--接受停戰-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_XIANZHOU_JINGYUAN_ANY" Language="zh_Hant_HK">
+			<Text>看來是棋逢對手。</Text>
+		</Row>
+		<!--拒絕停戰-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_XIANZHOU_JINGYUAN_ANY" Language="zh_Hant_HK">
+			<Text>兵戈，無情！</Text>
+		</Row>
+		<!--要求停戰-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY" Language="zh_Hant_HK">
+			<Text>
+				我平生最怕麻煩，麻煩不只分大小，還分遠近。如何布局謀劃，還得勞神費力哪……
+			</Text>
+		</Row>
+		<!--開放邊界-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY" Language="zh_Hant_HK">
+			<Text>
+				機巧之術，頗有趣味。
+			</Text>
+		</Row>
+		<!--拒絕開放邊界-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY" Language="zh_Hant_HK">
+			<Text>
+				時不我待。
+			</Text>
+		</Row>
+		<!--請求開放邊界-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY" Language="zh_Hant_HK">
+			<Text>
+				若是閑來無事，還可對弈幾局。
+			</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

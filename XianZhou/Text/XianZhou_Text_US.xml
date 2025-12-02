@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- XianZhou_Text_US -->
+<!-- Author: Pen -->
+<!-- DateCreated: 2024/2/3 10:28:30 -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_XIANZHOU_NAME" Language="en_US">
+			<Text>Xianzhou Luofu</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_XIANZHOU_ADJECTIVE" Language="en_US" >
+			<Text>The Luofu</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_XIANZHOU_DESCRIPTION" Language="en_US">
+			<Text>Xianzhou </Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_XIANZHOU" Language="en_US">
+			<Text>Xianzhou Luofu</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_1" Language="en_US">
+			<Text>Central Starskiff Haven</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_2" Language="en_US">
+			<Text>Jade Gate</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_3" Language="en_US">
+			<Text>Starskiff Jetty</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_4" Language="en_US">
+			<Text>Earthrise Agora</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_5" Language="en_US">
+			<Text>Starwatcher Avenue</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_6" Language="en_US">
+			<Text>Palace of Astrum</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_7" Language="en_US">
+			<Text>Sleepless Earl</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_8" Language="en_US">
+			<Text>Jeweler's Pagoda</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_9" Language="en_US">
+			<Text>Cloudford</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_10" Language="en_US">
+			<Text>Trove of Verdure</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_11" Language="en_US">
+			<Text>Stargazer Navalia</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_12" Language="en_US">
+			<Text>Astral Cottage</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_13" Language="en_US">
+			<Text>Exalting Sanctum</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_14" Language="en_US">
+			<Text>Synwood Pavilion</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_15" Language="en_US">
+			<Text>Court of Tranquility</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_16" Language="en_US">
+			<Text>Seat of Divine Foresight</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_17" Language="en_US">
+			<Text>Realm-Keeping Commission</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_18" Language="en_US">
+			<Text>NutriTreasures</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_19" Language="en_US">
+			<Text>Spare Time Book Shop</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_20" Language="en_US">
+			<Text>Aurum Alley</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_21" Language="en_US">
+			<Text>Cosmos Street</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_22" Language="en_US">
+			<Text>Oldies Depot</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_23" Language="en_US">
+			<Text>Artistry Hardware</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_24" Language="en_US">
+			<Text>Longevity Hall</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_25" Language="en_US">
+			<Text>Delicacy Pavilion</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_26" Language="en_US">
+			<Text>Spices Supreme</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_27" Language="en_US">
+			<Text>Elegance Pagoda</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_28" Language="en_US">
+			<Text>Du's Teahouse</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_29" Language="en_US">
+			<Text>Fortuna Augurstead</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_30" Language="en_US">
+			<Text>Artisanship Commission</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_31" Language="en_US">
+			<Text>Arcane Moorage</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_32" Language="en_US">
+			<Text>Sapientia Academe</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_33" Language="en_US">
+			<Text>Finery Foundry</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_34" Language="en_US">
+			<Text>Medicine Bureau</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_35" Language="en_US">
+			<Text>Elixir Research Terrace</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_36" Language="en_US">
+			<Text>Aureate Elixir Furnace</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_37" Language="en_US">
+			<Text>Spatial Terminal</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_38" Language="en_US">
+			<Text>Scalegorge Waterscape</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_39" Language="en_US">
+			<Text>Dragonvista Rain Hall</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_40" Language="en_US">
+			<Text>Cangcheng</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_1" Language="en_US">
+			<Text>Tantan</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_2" Language="en_US">
+			<Text>Mr. Xiyan</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_3" Language="en_US">
+			<Text>Salesby</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_4" Language="en_US">
+			<Text>Forth</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_5" Language="en_US">
+			<Text>Back'n</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_6" Language="en_US">
+			<Text>Pawnbroker Handian</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_7" Language="en_US">
+			<Text>Dongsheng</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_8" Language="en_US">
+			<Text>Maozhen</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_9" Language="en_US">
+			<Text>Guangda</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_10" Language="en_US">
+			<Text>Jing Fang</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_1" Language="en_US">
+			<Text>Xuxia</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_2" Language="en_US">
+			<Text>Wenwen</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_3" Language="en_US">
+			<Text>Jinyu</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_4" Language="en_US">
+			<Text>Mufang</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_5" Language="en_US">
+			<Text>Ziqiao</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_6" Language="en_US">
+			<Text>Qingyue</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_7" Language="en_US">
+			<Text>Mengming</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_8" Language="en_US">
+			<Text>Yujin</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_9" Language="en_US">
+			<Text>A-Ying</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_10" Language="en_US">
+			<Text>Yinshu</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_1" Language="en_US">
+			<Text>Dahao</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_2" Language="en_US">
+			<Text>Songyan</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_3" Language="en_US">
+			<Text>Yanming</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_4" Language="en_US">
+			<Text>Kang Tu</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_5" Language="en_US">
+			<Text>Wu He</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_6" Language="en_US">
+			<Text>Cong</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_7" Language="en_US">
+			<Text>Chiyan</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_8" Language="en_US">
+			<Text>Yutie</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_9" Language="en_US">
+			<Text>Yong Hai</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_10" Language="en_US">
+			<Text>Yanqing</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_1" Language="en_US">
+			<Text>Ruoyue</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_2" Language="en_US">
+			<Text>Jingyan</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_3" Language="en_US">
+			<Text>Xikui</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_4" Language="en_US">
+			<Text>Yukong</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_5" Language="en_US">
+			<Text>Qingque</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_6" Language="en_US">
+			<Text>Nanjie</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_7" Language="en_US">
+			<Text>Gongyu</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_8" Language="en_US">
+			<Text>Yong Nian</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_9" Language="en_US">
+			<Text>Qingzu</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_10" Language="en_US">
+			<Text>Jingzhai</Text>
+		</Replace>
+
+		<Row Tag="LOC_CIVINFO_XIANZHOU_LOCATION" Language="en_US">
+			<Text>Unknown</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_XIANZHOU_SIZE" Language="en_US">
+			<Text>Unknown</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_XIANZHOU_POPULATION" Language="en_US">
+			<Text>Unknown</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_XIANZHOU_CAPITAL" Language="en_US">
+			<Text>Xianzhou Luofu</Text>
+		</Row>
+
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_XIANZHOU_NAME" Language="en_US">
+			<Text>Fleet of the Ageless</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_XIANZHOU_DESCRIPTION" Language="en_US">
+			<Text>Cities founded by XianZhou decelerate growth by 30%, but [ICON_CITIZEN] Citizens in cities provide +0.5 [ICON_SCIENCE] Science, +0.5 [ICON_CULTURE] Culture, and +1 [ICON_PRODUCTION] Production, and the city's Citizens bonus grows after an Era, up to a max of Twice. Cities not founded by XianZhou only enjoy half the effect.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_XIANZHOU_STARSKIFF_NAME" Language="en_US">
+			<Text>XianZhou Starskiff</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_XIANZHOU_STARSKIFF_DESCRIPTION" Language="en_US">
+			<Text>XianZhou's unique unit can see through Woods and Jungle. Ignores Movement reduction caused by terrain. Can escort moving civilian and support units at their higher [ICON_MOVEMENT] Movement speed.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_XIANZHOU_STARSKIFF_NAME" Language="en_US">
+			<Text>XianZhou Starskiff</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_XIANZHOU_STARSKIFF_DESCRIPTION" Language="en_US">
+			<Text>XianZhou's unique unit can see through Woods and Jungle. Ignores Movement reduction caused by terrain. Can escort moving civilian and support units at their higher [ICON_MOVEMENT] Movement speed.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_STARSKIFF_IGNORE_TERRAINS_NAME" Language="en_US">
+			<Text>XianZhou Starskiff</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_STARSKIFF_IGNORE_TERRAINS_DESCRIPTION" Language="en_US">
+			<Text>Can see through Woods and Jungle. Ignores Movement reduction caused by terrain. Can escort moving civilian and support units at their higher [ICON_MOVEMENT] Movement speed.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_XIANZHOU_BAILU_NAME" Language="en_US">
+			<Text>Bailu</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_XIANZHOU_BAILU" Language="en_US">
+			<Text>Bailu</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_XIANZHOU_BAILU_DESCRIPTION" Language="en_US">
+			<Text>The High Elder of the Vidyadhara, who is also known as the "Healer Lady" on the Luofu.[NEWLINE]She uses her unique medical science and the medical treatment that can only be provided by the Vidyadhara dragon race to save lives.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_BAILU_NAME" Language="en_US">
+			<Text>Evanesce Like the Morning Dew</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_BAILU_DESCRIPTION" Language="en_US">
+			<Text>Receive 1 [ICON_AMENITIES] Amenity for every Luxury resource this city has improved. +25% [ICON_GREATPERSON] Great People points generated per turn when city is Happy, doubled when city is Ecstatic. All units recover 20% of [ICON_DAMAGED] damage taken.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_UNITS_HEAL_AFTER_COMBAT_NAME" Language="en_US">
+			<Text>Invigoration</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_UNITS_HEAL_AFTER_COMBAT_DESCRIPTION" Language="en_US">
+			<Text>Unit recover 20% of [ICON_DAMAGED] damage taken.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_XIANZHOU_ALCHEMY_COMMISSION_NAME" Language="en_US">
+			<Text>Alchemy Commission</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_XIANZHOU_ALCHEMY_COMMISSION_DESCRIPTION" Language="en_US">
+			<Text>A district unique to Bailu. Replaces the Neighborhood district but is available earlier and cheaper to build. Provides +3 [ICON_HOUSING] Housing regardless of Appeal. Provides more Citizen slots and more Citizen Yields. Increases city growth by 10% per point of amenity for the city in which Alchemy Commission located, up to a maximum of 50% for each Alchemy Commission.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_XIANZHOU_ALCHEMY_COMMISSION_NAME" Language="en_US">
+			<Text>Alchemy Commission</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_XIANZHOU_ALCHEMY_COMMISSION_DESCRIPTION" Language="en_US">
+			<Text>A district unique to Bailu. Replaces the Neighborhood district but is available earlier and cheaper to build. Provides +3 [ICON_HOUSING] Housing regardless of Appeal. Increases city growth by 10% per point of amenity for the city in which Alchemy Commission located, up to a maximum of 50% for each Alchemy Commission. [NEWLINE]Initially has 4 Citizen slots, each of which provides 1 [ICON_FOOD] Food, 3 [ICON_PRODUCTION] Production, 3 [ICON_CULTURE] Culture, 1 [ICON_GreatMerchant] Great Merchant point, and 1 [ICON_GreatEngineer] Great Engineer point.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_XIANZHOU_FUXUAN_NAME" Language="en_US">
+			<Text>Fu Xuan</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_XIANZHOU_FUXUAN_NAME" Language="en_US">
+			<Text>Fu Xuan</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_XIANZHOU_FUXUAN_DESCRIPTION" Language="en_US">
+			<Text>The head of the Xianzhou Luofu's Divination Commission. A confident and blunt sage. Using her third eye and the Matrix of Prescience, Fu Xuan calculates the Xianzhou's route and predicts the fortune of future events. She firmly believes that everything she does is the "best solution" for the situation. Fu Xuan is waiting for the general's promised "abdication." However, that day still seems... very far away.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_FUXUAN_NAME" Language="en_US">
+			<Text>Foreseen, Foreknown, Foretold</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_FUXUAN_DESCRIPTION" Language="en_US">
+			<Text>Allows the builder to build a Matrix of Prescience, and all [ICON_SCIENCE] Science, [ICON_CULTURE] Culture, and [ICON_PRODUCTION] Production yields from the city with the Matrix of Prescience formation are converted into an equal amount of [ICON_XIANZHOU_MATRIX_OF_PRESCIENCE] Divination Point. [ICON_XIANZHOU_MATRIX_OF_PRESCIENCE] Divination Point can be used to provide progress to any current Technology, Civic, or Production queue.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_XIANZHOU_DIVINATION_COMMISSION_NAME" Language="en_US">
+			<Text>Divination Commission</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_XIANZHOU_DIVINATION_COMMISSION_DESCRIPTION" Language="en_US">
+			<Text>A district unique to Fu Xuan. Replaces the Holy Site district and cheaper to build, allow city build one more district than usual when completed, and a Culture Bomb of unowned territory. Only +2 [ICON_FAITH] Faith for each adjacent Matrix of Prescience. Provides more Citizen slots and more Citizen Yields. </Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_XIANZHOU_DIVINATION_COMMISSION_NAME" Language="en_US">
+			<Text>Divination Commission</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_XIANZHOU_DIVINATION_COMMISSION_DESCRIPTION" Language="en_US">
+			<Text>A district unique to Fu Xuan. Replaces the Holy Site district and cheaper to build, allow city build one more district than usual when completed, and a Culture Bomb of unowned territory. Only +2 [ICON_FAITH] Faith for each adjacent Matrix of Prescience.[NEWLINE]Initially has 2 Citizen slots, each of which provides 3 [ICON_SCIENCE] Science, 3 [ICON_Faith] Faith, 1 [ICON_GreatScientist] Great Scientist point, and 1 [ICON_GreatProphet] Great Prophet point.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_XIANZHOU_PRODUCTION" Language="en_US">
+			<Text>+{1_num} [ICON_PRODUCTION] Production from Divination Commission.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_TRAIT_IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE_NAME" Language="en_US">
+			<Text>Matrix of Prescience</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE_DESCRIPTION" Language="en_US">
+			<Text>Can only be built one per city. Cannot be built adjacent to another Matrix of Prescience, and cannot be removed. Can only be pillaged (never destroyed) by natural disasters.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE_NAME" Language="en_US">
+			<Text>Matrix of Prescience</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE_DESCRIPTION" Language="en_US">
+			<Text>Can only be built one per city. Cannot be built adjacent to another Matrix of Prescience, and cannot be removed. Can only be pillaged (never destroyed) by natural disasters.</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_TITLE" Language="en_US">
+			<Text>The Knowledge effect</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_BUTTON_NAME" Language="en_US">
+			<Text>The Knowledge effect</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_BUTTON_TOOLTIP" Language="en_US">
+			<Text>Currently has [ICON_XIANZHOU_MATRIX_OF_PRESCIENCE]Divination Point: [COLOR:Civ6Red]{1_Num}[ENDCOLOR].</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_BUTTON_SCIENCE_TOOLTIP" Language="en_US">
+			<Text>Currently [ICON_XIANZHOU_MATRIX_OF_PRESCIENCE]Divination Point can be converted to [ICON_SCIENCE] Science: [COLOR:Civ6Red]{1_Num}[ENDCOLOR].</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_BUTTON_CULTURE_TOOLTIP" Language="en_US">
+			<Text>Currently[ICON_XIANZHOU_MATRIX_OF_PRESCIENCE]Divination Point can be converted to [ICON_CULTURE] Culture: [COLOR:Civ6Red]{1_Num}[ENDCOLOR].</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_BUTTON_PRODUCTION_TOOLTIP" Language="en_US">
+			<Text>Currently[ICON_XIANZHOU_MATRIX_OF_PRESCIENCE]Divination Point can be converted to [ICON_PRODUCTION] Production: [COLOR:Civ6Red]{1_Num}[ENDCOLOR].</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_CITY_YIELD_TOOLTIP" Language="en_US">
+			<Text>Right click to view per turn [ICON_XIANZHOU_MATRIX_OF_PRESCIENCE] Divination Point yielded.</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_BUTTON_DISABLE_TOOLTIP" Language="en_US">
+			<Text>[COLOR:Civ6Red]The current leader does not have the ability to divine[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_COMPLETE_SCIENCE_TOOLTIP" Language="en_US">
+			<Text>Injecting Divination power into Technology progress.</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_COMPLETE_CULTURE_TOOLTIP" Language="en_US">
+			<Text>Injecting Divination power into Civic progress</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_COMPLETE_PRODUCTION_TOOLTIP" Language="en_US">
+			<Text>Injecting Divination power into Production queue</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_SUMMARY" Language="en_US">
+			<Text>Each turn [ICON_TURN] Divination Point:</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_RESEARCHQUEUE_INFO" Language="en_US">
+			<Text>Current Technology progress: [NEWLINE]{1_str}[NEWLINE][COLOR:Civ6Red]{2_Num}[ENDCOLOR]/{3_Num}</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_CULTUREQUEUE_INFO" Language="en_US">
+			<Text>Current Civic progress: [NEWLINE]{1_str}[NEWLINE][COLOR:Civ6Red]{2_Num}[ENDCOLOR]/{3_Num}</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_CITYBUILDQUEUE_INFO" Language="en_US">
+			<Text>Current Production queue: [NEWLINE]{1_str}[NEWLINE][COLOR:Civ6Red]{2_Num}[ENDCOLOR]/{3_Num}</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_FROM_CITY" Language="en_US">
+			<Text>From{1_str}</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_XIANZHOU_CELESTIAL_JADE_GAME_NAME" Language="en_US">
+			<Text>Play Celestial Jade!</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_XIANZHOU_CELESTIAL_JADE_GAME_SHORT_NAME" Language="en_US">
+			<Text>Celestial Jade</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_XIANZHOU_CELESTIAL_JADE_GAME_DESCRIPTION" Language="en_US">
+			<Text>A popular project among the Divination Commission, provides [ICON_FAITH] Faith and +100% Religious Pressure every turn. Awards [ICON_GOLD] Gold once finished.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IMPROVEMENT_XIANZHOU_PRODUCTION" Language="en_US">
+			<Text>+{1_num} [ICON_PRODUCTION] Production from adjacent Matrix of Prescience.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_XIANZHOU_SCIENCE" Language="en_US">
+			<Text>+{1_num} [ICON_SCIENCE] Science from adjacent Matrix of Prescience.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_XIANZHOU_CULTURE" Language="en_US">
+			<Text>+{1_num} [ICON_CULTURE] Culture from adjacent Matrix of Prescience.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_XIANZHOU_GOLD" Language="en_US">
+			<Text>+{1_num} [ICON_GOLD] Gold from adjacent Matrix of Prescience.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_XIANZHOU_FAITH" Language="en_US">
+			<Text>+{1_num} [ICON_FAITH] Faith from adjacent Matrix of Prescience.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_XIANZHOU_JINGYUAN_NAME" Language="en_US">
+			<Text>Jing Yuan</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_XIANZHOU_JINGYUAN_NAME" Language="en_US">
+			<Text>Jing Yuan</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_XIANZHOU_JINGYUAN_DESCRIPTION" Language="en_US">
+			<Text>The Divine Foresight, one of the Seven Arbiter-Generals of the Xianzhou Alliance, leads the Cloud Knights of the Xianzhou Luofu.[NEWLINE]A student of the Luofu's previous Sword Champion, though not known for his martial prowess.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_JINGYUAN_NAME" Language="en_US">
+			<Text>Swirl of Heavenly Spear</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_JINGYUAN_DESCRIPTION" Language="en_US">
+			<Text>For each 10 [ICON_CITIZEN] Citizens a city has, it immediately gains an [ICON_GreatGeneral] Great General in the capital city. Melee attacks by land units harm all military units and districts in the control zone.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_UNITS_AOE_COMBAT_NAME" Language="en_US">
+			<Text>Rifting Zenith</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_UNITS_AOE_COMBAT_DESCRIPTION" Language="en_US">
+			<Text>Melee attacks by land units harm all military units and districts in the control zone.</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_UNITS_AOE_COMBAT_NAME" Language="en_US">
+			<Text>Rifting Zenith</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_XIANZHOU_CLOUD_KNIGHTS_NAME" Language="en_US">
+			<Text>Cloud Knights</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_XIANZHOU_CLOUD_KNIGHTS_DESCRIPTION" Language="en_US">
+			<Text>A district unique to Jing Yuan. Replaces the Encampment district and cheaper to build, allow city build one more district than usual when completed. Provides more Citizen slots and more Citizen Yields. Units begin a turn on Cloud Knights gains 1 bonus [ICON_MOVEMENT] Movement, and promoting does not end that unit’s turn.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_XIANZHOU_CLOUD_KNIGHTS_NAME" Language="en_US">
+			<Text>Cloud Knights</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_XIANZHOU_CLOUD_KNIGHTS_DESCRIPTION" Language="en_US">
+			<Text>A district unique to Jing Yuan. Replaces the Encampment district and cheaper to build, allow city build one more district than usual when completed. Units begin a turn on Cloud Knights gains 1 bonus [ICON_MOVEMENT] Movement, and promoting does not end that unit’s turn. [NEWLINE]Initially has 2 Citizen slots, each of which provides 5 [ICON_PRODUCTION] Production, 3 [ICON_GOLD] Gold, 1 [ICON_GreatGeneral] Great General point, and 1 [ICON_GreatEngineer] Great Engineer point.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_DISTRICT_UNITS_MOVEMENT_NAME" Language="en_US">
+			<Text>Speed is crucial in military affairs</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_DISTRICT_UNITS_MOVEMENT_DESCRIPTION" Language="en_US">
+			<Text>Units begin a turn on Cloud Knights gains 1 bonus [ICON_MOVEMENT] Movement, and promoting does not end that unit’s turn.</Text>
+		</Replace>
+		
+		<!--Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_BASE_NAME" Language="en_US">
+			<Text>天舶飞将，枕弧待战</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_BASE_DESCRIPTION" Language="en_US">
+			<Text>所处城市生产星槎时加速50%。所处城市训练的星槎会将编队中的单位 [ICON_MOVEMENT] 移动力补正至不低于星槎。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_L1_NAME" Language="en_US">
+			<Text>青霄驰骋，驱驭苍穹</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_L1_DESCRIPTION" Language="en_US">
+			<Text>处于星槎编队中的单位获得战斗经验+50%，并且攻击后可移动。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_L2_NAME" Language="en_US">
+			<Text>危弓未辍，执射不宁</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_L2_DESCRIPTION" Language="en_US">
+			<Text>处于星槎编队中的单位每点未使用的 [ICON_MOVEMENT] 移动力可提供+1 [ICON_STRENGTH] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_R1_NAME" Language="en_US">
+			<Text>百里闻风，九曲响镝</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_R1_DESCRIPTION" Language="en_US">
+			<Text>处于星槎编队中的远程和攻城单位攻击时+5 [ICON_STRENGTH] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_R2_NAME" Language="en_US">
+			<Text>井仪贯侯，疾羽参连</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_R2_DESCRIPTION" Language="en_US">
+			<Text>处于星槎编队中的远程和攻城单位+1射程。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_M3_NAME" Language="en_US">
+			<Text>弦栝如雷，铣珧激荡</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_M3_DESCRIPTION" Language="en_US">
+			<Text>处于星槎编队中的单位如果 [ICON_MOVEMENT] 移动力允许，每回合+1额外攻击。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_LEADER_XIANZHOU_ALL_TRAIT_NAME" Language="en_US">
+			<Text>景元（仙舟全特性）</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_ALL_TRAIT_NAME" Language="en_US">
+			<Text>仙舟全特性</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_ALL_TRAIT_DESCRIPTION" Language="en_US">
+			<Text>
+				拥有仙舟包内所有领袖的特性。
+			</Text>
+		</Replace-->
+
+		<!--白露-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_BAILU_QUOTE" Language="en_US">
+			<Text>"Lunch is like medicine — it has to have the right balance of ingredients. Two smoked patties and a cup of milk tea is a great way to heal your heart and lift your spirits!"[NEWLINE]--Bailu</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_BAILU_TITLE" Language="en_US">
+			<Text>Healer Lady</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_BAILU_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>A vivacious young lady of the Vidyadhara race, she is known as the "Healer Lady" due to her expertise with medicine.[NEWLINE]She often dishes out unorthodox prescriptions such as "Stay well hydrated" and "Get a good night's rest."[NEWLINE]Bailu cannot bear to see people suffer, and that's why you'll see her with her eyes shut tightly as she cures ailments.[NEWLINE]"As long as they're cured, that's all that matters, right?"</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_XIANZHOU_BAILU_NAME" Language="en_US">
+			<Text>Saunter in the Rain</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_XIANZHOU_BAILU_DESCRIPTION" Language="en_US">
+			<Text>Likes civilizations that trade Luxury resources to her. Dislikes civilizations that have not made such a trade. Tries to collect as many copies of Luxury resources as possible.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_XIANZHOU_BAILU_REASON_ANY" Language="en_US">
+			<Text>(You traded luxury resources with Bailu.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_XIANZHOU_BAILU_CONTINENT_ATTACKED" Language="en_US">
+			<Text>Bailu loves sweets, toys, and other things that make people happy.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_XIANZHOU_BAILU_REASON_ANY" Language="en_US">
+			<Text>(You refuse to trade luxury resources with Bailu.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_XIANZHOU_BAILU_IGNORES_BARBARIANS" Language="en_US">
+			<Text>Bailu is sad because she can't drink the Immortal's Delight.</Text>
+		</Row>
+
+		<!--同意声明友谊-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>Don't worry — if anything happens, I'll just put you back together.</Text>
+		</Replace>
+		<!--拒绝声明友谊-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>Calm down or you'll overheat!</Text>
+		</Replace>
+		<!--请求声明友谊-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>Don't worry — if anything happens, I'll just put you back together.</Text>
+		</Replace>
+		<!--请求声明友谊被接受-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>There's only one ailment that I can't cure, and that. Is. Being. Short... Hmph!</Text>
+		</Replace>
+		<!--请求声明友谊被拒绝-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>Do I even count as a dragon? ...What kind of a dragon can't step out of her own house, and has to obey the rules of the clan? I'd say I'm more like a fish in a fishbowl!</Text>
+		</Replace>
+		<!--被宣战-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>Help me!</Text>
+		</Replace>
+		<!--主动宣战-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>Say "ahhhh!"</Text>
+		</Replace>
+		<!--初次见面-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_FIRST_MEET_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>I'm Bailu, a doctor from the Alchemy Commission. Come here and let me have a look at you. Hmm... What's wrong? Where does it hurt?</Text>
+		</Replace>
+		<!--初次见面，提供最近城市位置-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>Do you want candy? No? Then I'll have it.</Text>
+		</Replace>
+		<!--初次见面，玩家提供最近城市位置-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>Huh? I have to go back now...? Please, just a little a bit longer!</Text>
+		</Replace>
+		<!--初次见面，请求交换首都位置-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>Do you want candy? No? Then I'll have it.</Text>
+		</Replace>
+		<!--表示欢迎-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_GREETING_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>Study medicine, find herbs, and broaden my horizons. Everything can be used as a medicine. The rarer a disease is, the bolder the prescription must be~</Text>
+		</Replace>
+		<!--接受使节派遣-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>A patient told me that the Garden of Gourmet released a new dessert called Fallen From the Skies. The sugar threads are suuuper looong... But I can't get my hands on it.</Text>
+		</Replace>
+		<!--拒绝使节派遣-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>Ha, you don't look so good.</Text>
+		</Replace>
+		<!--请求派遣使节-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>Let me tend to your wounds!</Text>
+		</Replace>
+		<!--被谴责-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				Calm down or you'll overheat!
+			</Text>
+		</Replace>
+		<!--谴责玩家-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>Looks like somebody needs a doctor!</Text>
+		</Replace>
+		<!--领袖敌视玩家-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_WARNING_EXIT_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>Looks like somebody needs a doctor!</Text>
+		</Replace>
+		<!--请求结盟-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>A little something for everyone!</Text>
+		</Replace>
+		<!--要求移开边境军队-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>Standing here in silence, missing all the violence~</Text>
+		</Replace>
+		<!--战败-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_XIANZHOU_BAILU_ANY" Language="en_US">
+			<Text>Where's a doctor when you need one...</Text>
+		</Row>
+		<!--玩家战败-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY" Language="en_US">
+			<Text>Where's a doctor when you need one...</Text>
+		</Row>
+		<!--同意交易-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_XIANZHOU_BAILU_ANY" Language="en_US">
+			<Text>Take these and pay me back with more sugar!</Text>
+		</Row>
+		<!--拒绝交易-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_XIANZHOU_BAILU_ANY" Language="en_US">
+			<Text>Hmm... Are any of these medicinal?</Text>
+		</Row>
+		<!--接受停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_XIANZHOU_BAILU_ANY" Language="en_US">
+			<Text>Hehe, my healing skills are second to none!</Text>
+		</Row>
+		<!--拒绝停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_XIANZHOU_BAILU_ANY" Language="en_US">
+			<Text>Gotta get those vitamins.</Text>
+		</Row>
+		<!--要求停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_XIANZHOU_BAILU_ANY" Language="en_US">
+			<Text>You bully!</Text>
+		</Row>
+		<!--开放边界-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY" Language="en_US">
+			<Text>Ah, even if I don't step outside, I can still hear you. "Be eager to help those in need" — right?</Text>
+		</Row>
+		<!--拒绝开放边界-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY" Language="en_US">
+			<Text>You bully!</Text>
+		</Row>
+		<!--请求开放边界-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_XIANZHOU_BAILU_ANY" Language="en_US">
+			<Text>Putting my head in the water, and though it is a small area, I feel I can breathe freer than before, far beyond the boundaries of the water...</Text>
+		</Row>
+
+
+		<!--符玄-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_FUXUAN_QUOTE" Language="en_US">
+			<Text>"I do not divine personal fortunes!"[NEWLINE]--Fu Xuan</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_FUXUAN_TITLE" Language="en_US">
+			<Text>The head of Divination Commission.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_FUXUAN_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>The head of the Xianzhou Luofu's Divination Commission and a confident, no-nonsense sage.[NEWLINE]Using her third eye and the Matrix of Prescience, Fu Xuan calculates the Xianzhou's navigational route and predicts the fortune of future events. She firmly believes that everything she does is the "best solution" for the situation.[NEWLINE]Fu Xuan is waiting for the general's promised "abdication." However, that day still seems... very far away.</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_XIANZHOU_FUXUAN_NAME" Language="en_US">
+			<Text>Omniscia Spares None</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_XIANZHOU_FUXUAN_DESCRIPTION" Language="en_US">
+			<Text>Likes civilizations that build as many districts as possible. Dislikes civilizations that do not keep the maximum number of Districts in each city.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_XIANZHOU_FUXUAN_REASON_ANY" Language="en_US">
+			<Text>(You have filled your cities with districts.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_XIANZHOU_FUXUAN_ETERNAL_LEADING" Language="en_US">
+			<Text>Your city is built with various districts, and Fu Xuan sees many possibilities.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_XIANZHOU_FUXUAN_REASON_ANY" Language="en_US">
+			<Text>(You are not filling your cities with all possible districts.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_XIANZHOU_FUXUAN_ETERNAL_LAGGING" Language="en_US">
+			<Text>You are lagging behind in building your district, and Fu Xuan is pessimistic about your future possibilities.</Text>
+		</Row>
+
+		<!--同意声明友谊-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>With favor and gain, life's free from strain.</Text>
+		</Replace>
+		<!--拒绝声明友谊-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>Early this morning, I performed a divination reading. There were undulations between the water and fire trigrams, with multiple fluctuating variables... The reading said that it would be best to not conduct official business or work overtime today. Hmph, how tiresome.</Text>
+		</Replace>
+		<!--请求声明友谊-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>Together as one.</Text>
+		</Replace>
+		<!--请求声明友谊被接受-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>With favor and gain, life's free from strain.</Text>
+		</Replace>
+		<!--请求声明友谊被拒绝-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>Hmm, is this weal or woe?</Text>
+		</Replace>
+		<!--被宣战-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>B—Bad luck...</Text>
+		</Replace>
+		<!--主动宣战-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>With all my power... Scry the future!</Text>
+		</Replace>
+		<!--初次见面-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_FIRST_MEET_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>I am Fu Xuan, head of the Divination Commission. This is our first encounter... or perhaps I should say — our twenty-second first encounter... Through the omniscia, I have met you for the first time, many times...</Text>
+		</Replace>
+		<!--初次见面，提供最近城市位置-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>Honored guest, would you like to know your fortune? No need to act surprised — your reason for coming has already been foretold by the hexagram.</Text>
+		</Replace>
+		<!--初次见面，玩家提供最近城市位置-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>One of the Divination Commission's unwritten rules is the "three taboos" — which includes "no unjust divination." So, if you want me to divine the winning lottery numbers, future market conditions, or the like, forgive me for declining to offer my services.</Text>
+		</Replace>
+		<!--初次见面，请求交换首都位置-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>Isn't every morsel, every drop predestined?</Text>
+		</Replace>
+		<!--表示欢迎-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_GREETING_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>Everything came together.</Text>
+		</Replace>
+		<!--接受使节派遣-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>Reciprocity... excellent.</Text>
+		</Replace>
+		<!--拒绝使节派遣-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>Early this morning, I performed a divination reading. There were undulations between the water and fire trigrams, with multiple fluctuating variables... The reading said that it would be best to not conduct official business or work overtime today. Hmph, how tiresome.</Text>
+		</Replace>
+		<!--请求派遣使节-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>Yet stratagems, constellations... are human creations!</Text>
+		</Replace>
+		<!--被谴责-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>Allow me to make a divination.</Text>
+		</Replace>
+		<!--谴责玩家-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>Our fortune is clouded with uncertainty.</Text>
+		</Replace>
+		<!--领袖敌视玩家-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_WARNING_EXIT_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>I am educated and well-read, and so sometimes I can't help but quote the classics. Still, there are those that tell me I'm speaking "Fu Xuan." Hmph...</Text>
+		</Replace>
+		<!--请求结盟-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>It is through this Matrix that the diviners view the past and know the future. The Luofu, drifting on the sea of stars, could not be without it for even a day. But... sometimes I wonder if it limits our future possibilities and seals our path ahead?</Text>
+		</Replace>
+		<!--要求移开边境军队-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>Be watchful — always.</Text>
+		</Replace>
+		<!--战败-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY" Language="en_US">
+			<Text>Was this... predestined...?</Text>
+		</Row>
+		<!--玩家战败-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY" Language="en_US">
+			<Text>Was this... predestined...?</Text>
+		</Row>
+		<!--同意交易-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY" Language="en_US">
+			<Text>Reciprocity... excellent.</Text>
+		</Row>
+		<!--拒绝交易-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY" Language="en_US">
+			<Text>*gasp* Ahem! ...Unexpected. We shouldn't take too much...</Text>
+		</Row>
+		<!--接受停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_XIANZHOU_FUXUAN_ANY" Language="en_US">
+			<Text>Yin and Yang, life and death.</Text>
+		</Row>
+		<!--拒绝停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_XIANZHOU_FUXUAN_ANY" Language="en_US">
+			<Text>Hesitation only breeds chaos.</Text>
+		</Row>
+		<!--要求停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY" Language="en_US">
+			<Text>B—Bad luck...</Text>
+		</Row>
+		<!--开放边界-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY" Language="en_US">
+			<Text>As divined.</Text>
+		</Row>
+		<!--拒绝开放边界-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY" Language="en_US">
+			<Text>Infallible.</Text>
+		</Row>
+		<!--请求开放边界-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY" Language="en_US">
+			<Text>Converge and awaken.</Text>
+		</Row>
+		
+		<!--景元-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_JINGYUAN_QUOTE" Language="en_US">
+			<Text>"A truly masterful chess player has no brilliant moves. People clamor excitedly over displays of extreme cunning, forgetting to worry about the overall dangers of the situation."[NEWLINE]--Jing Yuan</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_JINGYUAN_TITLE" Language="en_US">
+			<Text>The Divine Foresight</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_JINGYUAN_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>The Divine Foresight, one of the Seven Arbiter-Generals. Although his appearance may be one of indolence, he is more meticulous than seemingly meets the eye. He does not consider saving a situation from the brink of disaster to be a show of wisdom, and is thus fastidious with routine affairs to avoid any potential problems. Due to his careful management, Xianzhou has enjoyed many years of peace, with Jing Yuan's seemingly lazy demeanor having earned him the moniker of the "Dozing General."</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_XIANZHOU_JINGYUAN_NAME" Language="en_US">
+			<Text>Prana Extirpated</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_XIANZHOU_JINGYUAN_DESCRIPTION" Language="en_US">
+			<Text>Tries to form multiple alliances and respects those who do likewise. Dislikes those with few alliances.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_XIANZHOU_JINGYUAN_REASON_ANY" Language="en_US">
+			<Text>(Word of your alliance has reached XianZhou.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_XIANZHOU_JINGYUAN_MANY_ALLIANCES" Language="en_US">
+			<Text>Jing Yuan really appreciates your alliance</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_XIANZHOU_JINGYUAN_REASON_ANY" Language="en_US">
+			<Text>(Your policy of isolation puzzles Jing Yuan.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_XIANZHOU_JINGYUAN_FEW_ALLIANCES" Language="en_US">
+			<Text>You don't have many allies. Jing Yuan can't understand.</Text>
+		</Row>
+
+		<!--同意声明友谊-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>I have been bound by mundane duties for years. Not only do I find no fun in my surroundings, but I'm also becoming a rather boring person. If I must talk about something interesting, then it'd be meeting space travelers like yourself.</Text>
+		</Replace>
+		<!--拒绝声明友谊-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>For all of my life, I've been scared of trouble. There are major troubles and minor ones, distant ones and close ones. They need plans, preparations, and all things that need effort...</Text>
+		</Replace>
+		<!--请求声明友谊-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>I have been bound by mundane duties for years. Not only do I find no fun in my surroundings, but I'm also becoming a rather boring person. If I must talk about something interesting, then it'd be meeting space travelers like yourself.。</Text>
+		</Replace>
+		<!--请求声明友谊被接受-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>A master of the chessboard does not always make flashy moves. People take delight from one flashy move that saves the day, but never worry when the entire situation teeters towards a loss.</Text>
+		</Replace>
+		<!--请求声明友谊被拒绝-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>My past enemies are either dead or captured, and my past friends are scattered to the winds. Now that I think about it, I am indeed an old man...</Text>
+		</Replace>
+		<!--被宣战-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>Battles are chess games — no two are alike.</Text>
+		</Replace>
+		<!--主动宣战-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>Radiant spirit, heed my word. Show no mercy!</Text>
+		</Replace>
+		<!--初次见面-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_FIRST_MEET_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>I am Jing Yuan, the general of the Luofu Cloud Knights. There's no need for formality. "General" is a temporary title, and you can simply call me Jing Yuan.</Text>
+		</Replace>
+		<!--初次见面，提供最近城市位置-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>Mmm, rest well... My apologies. There is still some work to be done and I can't see you out personally.</Text>
+		</Replace>
+		<!--初次见面，玩家提供最近城市位置-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>Ah, you're here. If you have any interesting stories from your travels, do share them with me.</Text>
+		</Replace>
+		<!--初次见面，请求交换首都位置-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>Ah, you're here. If you have any interesting stories from your travels, do share them with me.</Text>
+		</Replace>
+		<!--表示欢迎-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_GREETING_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>Outsiders perhaps like to abbreviate the Xianzhou Luofu as just Xianzhou, but... the Luofu is not the Xianzhou. The Luofu is the Luofu, no more, no less.</Text>
+		</Replace>
+		<!--接受使节派遣-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>Oh? A delightful surprise.</Text>
+		</Replace>
+		<!--拒绝使节派遣-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>A foregone conclusion.</Text>
+		</Replace>
+		<!--请求派遣使节-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>A few games of chess will while away the time.</Text>
+		</Replace>
+		<!--被谴责-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>A foregone conclusion.</Text>
+		</Replace>
+		<!--谴责玩家-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>When faced with an army, bide your time and time your attack.</Text>
+		</Replace>
+		<!--领袖敌视玩家-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_WARNING_EXIT_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>When you want to go fast, go alone. When you want to go far, go together.</Text>
+		</Replace>
+		<!--请求结盟-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>The sky is a chessboard, and the moves we make betwixt the stars forge a cosmic destiny.</Text>
+		</Replace>
+		<!--要求移开边境军队-->
+		<Replace Language="en_US" Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>Bide your time, but don't waste it.</Text>
+		</Replace>
+		<!--战败-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY" Language="en_US">
+			<Text>Too long behind the lines...</Text>
+		</Row>
+		<!--玩家战败-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY" Language="en_US">
+			<Text>Too long behind the lines...</Text>
+		</Row>
+		<!--同意交易-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY" Language="en_US">
+			<Text>A rare find such as this is best suited for your keeping.</Text>
+		</Row>
+		<!--拒绝交易-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY" Language="en_US">
+			<Text>I know what you are thinking of, so I must make you wait. If you are patient enough to wait, then that would be the time.</Text>
+		</Row>
+		<!--接受停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_XIANZHOU_JINGYUAN_ANY" Language="en_US">
+			<Text>A well-matched opponent.</Text>
+		</Row>
+		<!--拒绝停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_XIANZHOU_JINGYUAN_ANY" Language="en_US">
+			<Text>Conflict is pitiless!</Text>
+		</Row>
+		<!--要求停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY" Language="en_US">
+			<Text>For all of my life, I've been scared of trouble. There are major troubles and minor ones, distant ones and close ones. They need plans, preparations, and all things that need effort...</Text>
+		</Row>
+		<!--开放边界-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY" Language="en_US">
+			<Text>These mechanisms function in intriguing ways.</Text>
+		</Row>
+		<!--拒绝开放边界-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY" Language="en_US">
+			<Text>There's no time to lose.</Text>
+		</Row>
+		<!--请求开放边界-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY" Language="en_US">
+			<Text>A few games of chess will while away the time.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

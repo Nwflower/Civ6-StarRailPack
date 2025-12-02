@@ -1,0 +1,994 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- XianZhou_Text_RU -->
+<!-- Author: Pen -->
+<!-- DateCreated: 2024/2/3 10:28:30 -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_XIANZHOU_NAME" Language="ru_RU">
+			<Text>Сяньчжоу Лофу</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_XIANZHOU_ADJECTIVE" Language="ru_RU" >
+			<Text>Лофу </Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_XIANZHOU_DESCRIPTION" Language="ru_RU">
+			<Text>Сяньчжоу </Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_XIANZHOU" Language="ru_RU">
+			<Text>Сяньчжоу Лофу</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_1" Language="ru_RU">
+			<Text>Центральная гавань Приюта звёздных яликов</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_2" Language="ru_RU">
+			<Text>Нефритовые врата</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_3" Language="ru_RU">
+			<Text>Порт звёздных яликов</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_4" Language="ru_RU">
+			<Text>Земляная площадь</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_5" Language="ru_RU">
+			<Text>Авеню Звездочётов</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_6" Language="ru_RU">
+			<Text>Звёздный дворец</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_7" Language="ru_RU">
+			<Text>«Неспящий граф»</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_8" Language="ru_RU">
+			<Text>«Пагода ювелира»</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_9" Language="ru_RU">
+			<Text>Облачная переправа</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_10" Language="ru_RU">
+			<Text>Кладезь зелени</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_11" Language="ru_RU">
+			<Text>Порт Звездочёт Навалия</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_12" Language="ru_RU">
+			<Text>Звёздный домик</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_13" Language="ru_RU">
+			<Text>Возвышающее святилище</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_14" Language="ru_RU">
+			<Text>Павильон Жому</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_15" Language="ru_RU">
+			<Text>Двор спокойствия</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_16" Language="ru_RU">
+			<Text>Обитель божественного предвидения</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_17" Language="ru_RU">
+			<Text>Комиссия по балансу</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_18" Language="ru_RU">
+			<Text>«Сытноценности»</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_19" Language="ru_RU">
+			<Text>«Три поры досуга»</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_20" Language="ru_RU">
+			<Text>Переулок ауруматонов</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_21" Language="ru_RU">
+			<Text>Космическая улица</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_22" Language="ru_RU">
+			<Text>Лавка старьёвщика</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_23" Language="ru_RU">
+			<Text>Художественная мастерская</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_24" Language="ru_RU">
+			<Text>«Зал долголетия»</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_25" Language="ru_RU">
+			<Text>«Дворец яств»</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_26" Language="ru_RU">
+			<Text>«Величайшие специи»</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_27" Language="ru_RU">
+			<Text>Элегантная пагода</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_28" Language="ru_RU">
+			<Text>«Чайная Ду»</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_29" Language="ru_RU">
+			<Text>Платформа гадания на удачу</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_30" Language="ru_RU">
+			<Text>Комиссия по ремёслам</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_31" Language="ru_RU">
+			<Text>Тайный причал</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_32" Language="ru_RU">
+			<Text>Академия мастерства</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_33" Language="ru_RU">
+			<Text>Кузница украшений</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_34" Language="ru_RU">
+			<Text>Канцелярия по врачеванию</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_35" Language="ru_RU">
+			<Text>Веранда эликсирных исследований</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_36" Language="ru_RU">
+			<Text>Очаг золотого эликсира</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_37" Language="ru_RU">
+			<Text>Пространственный терминал</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_38" Language="ru_RU">
+			<Text>Чешуйчатое ущелье</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_39" Language="ru_RU">
+			<Text>Монумент драконьего ливня</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_40" Language="ru_RU">
+			<Text>Цанчэн Сяньчжоу</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_1" Language="ru_RU">
+			<Text>Таньтань</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_2" Language="ru_RU">
+			<Text>Господин Сиянь</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_3" Language="ru_RU">
+			<Text>Продаван</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_4" Language="ru_RU">
+			<Text>Толкай</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_5" Language="ru_RU">
+			<Text>Тяни</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_6" Language="ru_RU">
+			<Text>Управляющий Ханьдянь</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_7" Language="ru_RU">
+			<Text>Дуншэн</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_8" Language="ru_RU">
+			<Text>Маочжэнь</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_9" Language="ru_RU">
+			<Text>Гуанда</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_10" Language="ru_RU">
+			<Text>Цзин Фан</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_1" Language="ru_RU">
+			<Text>Сюйся</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_2" Language="ru_RU">
+			<Text>	Вэньвэнь</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_3" Language="ru_RU">
+			<Text>Цзиньюй</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_4" Language="ru_RU">
+			<Text>Муфан</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_5" Language="ru_RU">
+			<Text>Цзыцяо</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_6" Language="ru_RU">
+			<Text>Цинъюэ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_7" Language="ru_RU">
+			<Text>Мэнмин</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_8" Language="ru_RU">
+			<Text>Юйцзинь</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_9" Language="ru_RU">
+			<Text>Аин</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_10" Language="ru_RU">
+			<Text>Иньшу</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_1" Language="ru_RU">
+			<Text>	Дахао</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_2" Language="ru_RU">
+			<Text>	Сунъянь</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_3" Language="ru_RU">
+			<Text>Яньмин</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_4" Language="ru_RU">
+			<Text>Кан Ту</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_5" Language="ru_RU">
+			<Text>У Хэ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_6" Language="ru_RU">
+			<Text>Цун</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_7" Language="ru_RU">
+			<Text>Чиянь</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_8" Language="ru_RU">
+			<Text>Юйте</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_9" Language="ru_RU">
+			<Text>Юн Хай</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_10" Language="ru_RU">
+			<Text>Яньцин</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_1" Language="ru_RU">
+			<Text>Жоюэ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_2" Language="ru_RU">
+			<Text>Цзинъянь</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_3" Language="ru_RU">
+			<Text>Сикуй</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_4" Language="ru_RU">
+			<Text>Юйкун</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_5" Language="ru_RU">
+			<Text>Цинцюэ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_6" Language="ru_RU">
+			<Text>Наньцзе</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_7" Language="ru_RU">
+			<Text>Гунъюй</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_8" Language="ru_RU">
+			<Text>Юн Нянь</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_9" Language="ru_RU">
+			<Text>Цинцзу</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_10" Language="ru_RU">
+			<Text>Цзинчжай</Text>
+		</Replace>
+
+		<Row Tag="LOC_CIVINFO_XIANZHOU_LOCATION" Language="ru_RU">
+			<Text>Неизвестно</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_XIANZHOU_SIZE" Language="ru_RU">
+			<Text>Неизвестно</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_XIANZHOU_POPULATION" Language="ru_RU">
+			<Text>Неизвестно</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_XIANZHOU_CAPITAL" Language="ru_RU">
+			<Text>Лофу Сяньчжоу</Text>
+		</Row>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_XIANZHOU_NAME" Language="ru_RU">
+			<Text>Флот нестареющих</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_XIANZHOU_DESCRIPTION" Language="ru_RU">
+			<Text>Города, основанные Сяньчжоу, замедляют свой рост на 50%, но [ICON_CITIZEN] жители в городах производят +1 [ICON_SCIENCE] к науке, +1 [ICON_CULTURE] к культуре и +2 [ICON_PRODUCTION] к производству, а бонус горожан города увеличивается на 50% по истечении эры, максимум в два раза. Города, не основанные Сяньчжоу, пользуются лишь половиной этого эффекта.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_XIANZHOU_STARSKIFF_NAME" Language="ru_RU">
+			<Text>Звёздный ялик Сяньчжоу</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_XIANZHOU_STARSKIFF_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальный юнит Сяньчжоу может видеть сквозь леса и джунгли. Игнорирует снижение скорости передвижения, вызванное рельефом местности. Может сопровождать движущихся гражданских юнитов и юнитов поддержки с их более высокой скоростью [ICON_MOVEMENT] передвижения.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_XIANZHOU_STARSKIFF_NAME" Language="ru_RU">
+			<Text>Звёздный ялик Сяньчжоу</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_XIANZHOU_STARSKIFF_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальный юнит Сяньчжоу может видеть сквозь леса и джунгли. Игнорирует снижение скорости передвижения, вызванное рельефом местности. Может сопровождать движущихся гражданских юнитов и юнитов поддержки с их более высокой скоростью [ICON_MOVEMENT] передвижения.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_STARSKIFF_IGNORE_TERRAINS_NAME" Language="ru_RU">
+			<Text>Звёздный ялик Сяньчжоу</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_STARSKIFF_IGNORE_TERRAINS_DESCRIPTION" Language="ru_RU">
+			<Text>Может видеть сквозь леса и джунгли. Игнорирует снижение скорости передвижения, вызванное рельефом местности. Может сопровождать движущихся гражданских юнитов и юнитов поддержки с их более высокой скоростью [ICON_MOVEMENT] передвижения.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_XIANZHOU_BAILU_NAME" Language="ru_RU">
+			<Text>Байлу</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_XIANZHOU_BAILU" Language="ru_RU">
+			<Text>Байлу</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_XIANZHOU_BAILU_DESCRIPTION" Language="ru_RU">
+			<Text>Верховный старейшина Видьядхара, известная также как "Целительницей-драконом" на Лофу.[NEW LINE] Она использует свою уникальную медицинскую науку и методы лечения, которые могут быть предоставлены только драконьей расой Видьядхара, для спасения жизней.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_BAILU_NAME" Language="ru_RU">
+			<Text>Словно утренняя роса</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_BAILU_DESCRIPTION" Language="ru_RU">
+			<Text>Предоставляет 1 [ICON_AMENITIES] довольство за каждый редкий ресурс на котором есть улучшение и им владеет город. +25% генерации [ICON_GREATPERSON] ОВЛ за ход когда город "Счастлив", удваивается, когда город в "Экстазе". Юнит восстанавливает 20% от [ICON_DAMAGED] полученного урона.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_UNITS_HEAL_AFTER_COMBAT_NAME" Language="ru_RU">
+			<Text>Бодрость</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_UNITS_HEAL_AFTER_COMBAT_DESCRIPTION" Language="ru_RU">
+			<Text>Юнит восстанавливает 20% от [ICON_DAMAGED] полученного урона.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_XIANZHOU_ALCHEMY_COMMISSION_NAME" Language="ru_RU">
+			<Text>Комиссия по алхимии</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_XIANZHOU_ALCHEMY_COMMISSION_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальный район для Байлу. Заменяет Пригород, но доступно раньше и дешевле в постройке. Предоставляет +3 [ICON_HOUSING] жилья независимо от привлекательности. Предоставляет больше ячеек для горожан и больше доходов с клетки. Увеличивает рост города на 10% за каждое очко довольства, для городов в которых есть Комиссия по Алхимии, вплоть до 50% для каждой Комиссии по Алхимии.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_XIANZHOU_ALCHEMY_COMMISSION_NAME" Language="ru_RU">
+			<Text>Комиссия по алхимии</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_XIANZHOU_ALCHEMY_COMMISSION_DESCRIPTION" Language="ru_RU">
+				<Text>Уникальный район для Байлу. Заменяет Пригород, но доступно раньше и дешевле в постройке. Предоставляет +3 [ICON_HOUSING] жилья независимо от привлекательности. Увеличивает рост города на 10% за каждое очко довольства, для городов в которых есть Комиссия по Алхимии, вплоть до 50% для каждой Комиссии по Алхимии. [NEWLINE]Сперва имеет 4 рабочих места для горожан, каждый из которых производит 1 [ICON_FOOD] еду, 3 [ICON_PRODUCTION] производства, 3 [ICON_CULTURE] культуры, 1 очко [ICON_GreatMerchant] великого торговца, и 1 очко [ICON_GreatEngineer] великого инжинера .</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_XIANZHOU_FUXUAN_NAME" Language="ru_RU">
+			<Text>Фу Сюань</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_XIANZHOU_FUXUAN_NAME" Language="ru_RU">
+			<Text>Фу Сюань</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_XIANZHOU_FUXUAN_DESCRIPTION" Language="ru_RU">
+			<Text>Мудрая, уверенная в себе и прямолинейная глава Комиссии по предсказаниям на Лофу. Используя третий глаз и Матрицу предвидения, Фу Сюань предсказывает маршрут Сяньчжоу и исход событий. Она твёрдо верит, что всё, что она делает, является лучшим решением в сложившейся ситуации. Фу Сюань ждёт обещанной генералом отставки. Однако этот день всё ещё кажется таким... далёким.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_FUXUAN_NAME" Language="ru_RU">
+			<Text>Предвиденное и предсказанное</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_FUXUAN_DESCRIPTION" Language="ru_RU">
+			<Text>Позволяет строителям создавать Матрицу Предвидения, и вся [ICON_SCIENCE] наука, [ICON_CULTURE] культура, и [ICON_PRODUCTION] производство в городе с Матрицей преобразуются в количество, которое равно [ICON_XIANZHOU_MATRIX_OF_PRESCIENCE] очкам предсказания. [ICON_XIANZHOU_MATRIX_OF_PRESCIENCE] Очки предсказания могут быть использованы для ускорения любой текущей технологии, общественного института или производства в городе.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_XIANZHOU_DIVINATION_COMMISSION_NAME" Language="ru_RU">
+			<Text>Комиссия по предсказаниям</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_XIANZHOU_DIVINATION_COMMISSION_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальный район для Фу Сюань. Заменяет священное место и дешевле в производстве, позволяет городу строить на 1 район больше, чем обычно, и производит культурный захват ничейных клеток. Только +2 [ICON_FAITH] веры для каждой соседней Матрицы Предвидения. Предоставляет больше мест для горожан и больше доходов с клетки.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_XIANZHOU_DIVINATION_COMMISSION_NAME" Language="ru_RU">
+			<Text>Комиссия по предсказаниям</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_XIANZHOU_DIVINATION_COMMISSION_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальный район для Фу Сюань. Заменяет священное место и дешевле в производстве, позволяет городу строить на 1 район больше, чем обычно, и производит культурный захват ничейных клеток. Только +2 [ICON_FAITH] веры для каждой соседней Матрицы Предвидения.[NEWLINE]Первоначально имеет 2 рабочих места для горожан, каждый из них производит 3 [ICON_SCIENCE] науки, 3 [ICON_Faith] веры, 1 [ICON_GreatScientist] ОВУ, и 1 [ICON_GreatProphet] ОВП.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_XIANZHOU_PRODUCTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_PRODUCTION] Производство с Комиссии по предсказаниям.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_TRAIT_IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE_NAME" Language="ru_RU">
+			<Text>Матрица Предвидения</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE_DESCRIPTION" Language="ru_RU">
+			<Text>Может быть построена всего раз в одном городе. Не может построена по соседству с другой Матрицей Предвидения, и не может быть удалена. Может быть только разорена (Никогда не разрушается) из-за стихийных бедствий.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE_NAME" Language="ru_RU">
+			<Text>Матрица Предвидения</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE_DESCRIPTION" Language="ru_RU">
+			<Text>Может быть построена всего раз в одном городе. Не может построена по соседству с другой Матрицей Предвидения, и не может быть удалена. Может быть только разорена (Никогда не разрушается) из-за стихийных бедствий.</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_TITLE" Language="ru_RU">
+			<Text>Знание</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_BUTTON_NAME" Language="ru_RU">
+			<Text>Знание</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_BUTTON_TOOLTIP" Language="ru_RU">
+			<Text>Текущее значение [ICON_XIANZHOU_MATRIX_OF_PRESCIENCE]очки предсказания: [COLOR:Civ6Red]{1_Num}[ENDCOLOR].</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_BUTTON_SCIENCE_TOOLTIP" Language="ru_RU">
+			<Text>Текущие [ICON_XIANZHOU_MATRIX_OF_PRESCIENCE] очки предсказания могут быть конвертированы в [ICON_SCIENCE] науку: [COLOR:Civ6Red]{1_Num}[ENDCOLOR].</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_BUTTON_CULTURE_TOOLTIP" Language="ru_RU">
+			<Text>Текущие [ICON_XIANZHOU_MATRIX_OF_PRESCIENCE] очки предсказания могут быть конвертированы в [ICON_CULTURE] культуру: [COLOR:Civ6Red]{1_Num}[ENDCOLOR].</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_BUTTON_PRODUCTION_TOOLTIP" Language="ru_RU">
+			<Text>Текущие [ICON_XIANZHOU_MATRIX_OF_PRESCIENCE] очки предсказания могут быть конвертированы в  [ICON_PRODUCTION] производство: [COLOR:Civ6Red]{1_Num}[ENDCOLOR].</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_CITY_YIELD_TOOLTIP" Language="ru_RU">
+			<Text>Щелкните правой кнопкой мыши, чтобы просмотреть получение [ICON_XIANZHOU_MATRIX_OF_PRESCIENCE] очков предсказания за каждый ход. </Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_BUTTON_DISABLE_TOOLTIP" Language="ru_RU">
+			<Text>[COLOR:Civ6Red]Текущий лидер не имеет способности к предсказыванию[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_COMPLETE_SCIENCE_TOOLTIP" Language="ru_RU">
+			<Text>Вложить очки предсказания в технологию.</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_COMPLETE_CULTURE_TOOLTIP" Language="ru_RU">
+			<Text>Вложить очки предсказания в общественный институт</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_COMPLETE_PRODUCTION_TOOLTIP" Language="ru_RU">
+			<Text>Вложить очки предсказания в производство</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_SUMMARY" Language="ru_RU">
+			<Text>Очков предсказания за ход [ICON_TURN]:</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_RESEARCHQUEUE_INFO" Language="ru_RU">
+			<Text>Текущая технология: [NEWLINE]{1_str}[NEWLINE][COLOR:Civ6Red]{2_Num}[ENDCOLOR]/{3_Num}</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_CULTUREQUEUE_INFO" Language="ru_RU">
+			<Text>Текущий общественны институт: [NEWLINE]{1_str}[NEWLINE][COLOR:Civ6Red]{2_Num}[ENDCOLOR]/{3_Num}</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_CITYBUILDQUEUE_INFO" Language="ru_RU">
+			<Text>Текущее производство: [NEWLINE]{1_str}[NEWLINE][COLOR:Civ6Red]{2_Num}[ENDCOLOR]/{3_Num}</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_FROM_CITY" Language="ru_RU">
+			<Text>С{1_str}</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_XIANZHOU_CELESTIAL_JADE_GAME_NAME" Language="ru_RU">
+			<Text>Сыграть в Небесный нефрит!</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_XIANZHOU_CELESTIAL_JADE_GAME_SHORT_NAME" Language="ru_RU">
+			<Text>Небесный нефрит</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_XIANZHOU_CELESTIAL_JADE_GAME_DESCRIPTION" Language="ru_RU">
+			<Text>Популярная игра среди Комиссии по предсказаниям, предоставляе [ICON_GOLD] золото, а также +100% религиозного давления каждый ход. Награждает [ICON_GOLD] золотом как только закончите.</Text>
+		</Replace>
+
+	<Replace Tag="LOC_IMPROVEMENT_XIANZHOU_PRODUCTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_PRODUCTION] Производство с соседней Матрицы Предвидения.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_XIANZHOU_SCIENCE" Language="ru_RU">
+			<Text>+{1_num} [ICON_SCIENCE] Науки с соседней Матрицы Предвидения.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_XIANZHOU_CULTURE" Language="ru_RU">
+			<Text>+{1_num} [ICON_CULTURE] Культурыс соседней Матрицы Предвидения..</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_XIANZHOU_GOLD" Language="ru_RU">
+			<Text>+{1_num} [ICON_GOLD] Золота с соседней Матрицы Предвидения..</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_XIANZHOU_FAITH" Language="ru_RU">
+			<Text>+{1_num} [ICON_FAITH] Верыс соседней Матрицы Предвидения..</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_XIANZHOU_JINGYUAN_NAME" Language="ru_RU">
+			<Text>Цзин Юань</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_XIANZHOU_JINGYUAN_NAME" Language="ru_RU">
+			<Text>Цзин Юань</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_XIANZHOU_JINGYUAN_DESCRIPTION" Language="ru_RU">
+			<Text>Божественное Предвидение, один из семи арбитров-генералов Альянса Сяньчжоу, возглавляет облачных Рыцарей Луофу Сяньчжоу.[NEWLINE]Ученик предыдущего чемпиона Лофу по фехтованию на мечах, хотя и не известен своим боевым мастерством.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_JINGYUAN_NAME" Language="ru_RU">
+			<Text>Вихрь небесных копий</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_JINGYUAN_DESCRIPTION" Language="ru_RU">
+			<Text>За каждые 10 [ICON_CITIZEN] горожан в городе, немедленно даёт [ICON_GreatGeneral] Великого полководца в столице. Наземные юниты ближнего боя атакуют всех вражеских военных юнитов и районы в зоне контроля.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_UNITS_AOE_COMBAT_NAME" Language="ru_RU">
+			<Text>Раскалывающийся зенит</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_UNITS_AOE_COMBAT_DESCRIPTION" Language="ru_RU">
+			<Text>Наземные юниты ближнего боя атакуют всех вражеских военных юнитов и районы в зоне контроля.</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_UNITS_AOE_COMBAT_NAME" Language="ru_RU">
+			<Text>Раскалывающийся зенит</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_XIANZHOU_CLOUD_KNIGHTS_NAME" Language="ru_RU">
+			<Text>Облачные Рыцари</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_XIANZHOU_CLOUD_KNIGHTS_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальный район Цзин Юаня. Заменяет военный лагерь и дешевле в постройке, позволяет городу строить на один район больше чем обычно. Предоставляет больше мест для горожан и больше доходов с клетки. Юниты начинающие ход в районе "Облачные Рыцари" получают +1 [ICON_MOVEMENT] к передвижению, а покупка не заканчивает ход юнита.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_XIANZHOU_CLOUD_KNIGHTS_NAME" Language="ru_RU">
+			<Text>Облачные Рыцари</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_XIANZHOU_CLOUD_KNIGHTS_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальный район Цзин Юаня. Заменяет военный лагерь и дешевле в постройке, позволяет городу строить на один район больше чем обычно. Предоставляет больше мест для горожан и больше доходов с клетки. Юниты начинающие ход в районе "Облачные Рыцари" получают +1 [ICON_MOVEMENT] к передвижению, а покупка не заканчивает ход юнита.[NEWLINE]Первоначально имеет 2 рабочих места для горожан, каждый из них производит 5 [ICON_PRODUCTION] производства, 3 [ICON_GOLD] золота, 1 [ICON_GreatGeneral] ОВП, и 1 [ICON_GreatEngineer] ОВИ.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_DISTRICT_UNITS_MOVEMENT_NAME" Language="ru_RU">
+			<Text>Скорость - решающее значение в военном деле</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_DISTRICT_UNITS_MOVEMENT_DESCRIPTION" Language="ru_RU">
+			<Text>Юниты начинающие ход в районе "Облачные Рыцари" получают +1 [ICON_MOVEMENT] передвижения, а покупка не заканчивает ход юнита.</Text>
+		</Replace>
+		
+		<!--Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_BASE_NAME" Language="ru_RU">
+			<Text>天舶飞将，枕弧待战</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_BASE_DESCRIPTION" Language="ru_RU">
+			<Text>所处城市生产星槎时加速50%。所处城市训练的星槎会将编队中的单位 [ICON_MOVEMENT] 移动力补正至不低于星槎。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_L1_NAME" Language="ru_RU">
+			<Text>青霄驰骋，驱驭苍穹</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_L1_DESCRIPTION" Language="ru_RU">
+			<Text>处于星槎编队中的单位获得战斗经验+50%，并且攻击后可移动。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_L2_NAME" Language="ru_RU">
+			<Text>危弓未辍，执射不宁</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_L2_DESCRIPTION" Language="ru_RU">
+			<Text>处于星槎编队中的单位每点未使用的 [ICON_MOVEMENT] 移动力可提供+1 [ICON_STRENGTH] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_R1_NAME" Language="ru_RU">
+			<Text>百里闻风，九曲响镝</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_R1_DESCRIPTION" Language="ru_RU">
+			<Text>处于星槎编队中的远程和攻城单位攻击时+5 [ICON_STRENGTH] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_R2_NAME" Language="ru_RU">
+			<Text>井仪贯侯，疾羽参连</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_R2_DESCRIPTION" Language="ru_RU">
+			<Text>处于星槎编队中的远程和攻城单位+1射程。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_M3_NAME" Language="ru_RU">
+			<Text>弦栝如雷，铣珧激荡</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_M3_DESCRIPTION" Language="ru_RU">
+			<Text>处于星槎编队中的单位如果 [ICON_MOVEMENT] 移动力允许，每回合+1额外攻击。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_LEADER_XIANZHOU_ALL_TRAIT_NAME" Language="ru_RU">
+			<Text>景元（仙舟全特性）</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_ALL_TRAIT_NAME" Language="ru_RU">
+			<Text>仙舟全特性</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_ALL_TRAIT_DESCRIPTION" Language="ru_RU">
+			<Text>
+				拥有仙舟包内所有领袖的特性。
+			</Text>
+		</Replace-->
+
+		<!--白露-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_BAILU_QUOTE" Language="ru_RU">
+			<Text>"Обед - это как лекарство: в нем должен быть правильный баланс ингредиентов. Два копченых пирожка и чашка чая с молоком - отличный способ вылечить сердце и поднять настроение!"[NEWLINE]--Байлу</Text>.
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_BAILU_TITLE" Language="ru_RU">
+			<Text>Леди-целительница</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_BAILU_CHAPTER_CAPSULE_BODY" Language="ru_RU">
+			<Text>Жизнерадостная девушка из расы Видьядхара, известная как "Леди-целительница" благодаря своим познаниям в медицине.[NEWLINE]Она часто дает неортодоксальные рецепты, такие как "Будьте хорошо увлажнены" и "Хорошо отдохните ночью". "Бейлу не выносит, когда люди страдают, и поэтому вы увидите ее с плотно закрытыми глазами, когда она лечит недуги.[NEWLINE] „Пока они лечатся, это все, что имеет значение, верно?“</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_XIANZHOU_BAILU_NAME" Language="ru_RU">
+			<Text>Оздоровительная прогулка</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_XIANZHOU_BAILU_DESCRIPTION" Language="ru_RU">
+			<Text>Любит цивилизации, которые торгуют с ней ресурсами класса люкс. Не любит цивилизации, которые не заключили такой сделки. Старается собрать как можно больше копий ресурсов роскоши.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_XIANZHOU_BAILU_REASON_ANY" Language="ru_RU">
+			<Text>(Вы обменяли редкие ресурсы с Байлу.)</Text>>.
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_XIANZHOU_BAILU_CONTINENT_ATTACKED" Language="ru_RU">
+			<Text>Байлу любит сладости, игрушки и другие вещи, которые делают людей счастливыми.</Text>>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_XIANZHOU_BAILU_REASON_ANY" Language="ru_RU">
+			<Text>(Вы отказываетесь торговать редкими ресурсами с Байлу.)</Text>>.
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_XIANZHOU_BAILU_IGNORES_BARBARIANS" Language="ru_RU">
+			<Text>Байлу грустит, потому что не может выпить "Восторг бессмертного" </Text>>.
+		</Row>
+
+		<!--同意声明友谊-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>Не волнуйся, если с тобой что-нибудь случится, я тебя быстро на ноги поставлю.</Text>
+		</Replace>
+		<!--拒绝声明友谊-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>Не кипятись, не то перегреешься</Text>
+		</Replace>
+		<!--请求声明友谊-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>Не волнуйся, если с тобой что-нибудь случится, я тебя быстро на ноги поставлю.</Text>
+		</Replace>
+		<!--请求声明友谊被接受-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>Только одна болезнь мне не подвластна - маленький рост, блин!</Text>
+		</Replace>
+		<!--请求声明友谊被拒绝-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>Да какой из меня дракон? Что за дракон такой, который даже из своего дома выйти не может и во всё слушается клана?.. Я, скорее, как птичка в клетке</Text>
+		</Replace>
+		<!--被宣战-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>На помощь, спасите!</Text>
+		</Replace>
+		<!--主动宣战-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>Скажи "аааа!"</Text>
+		</Replace>
+		<!--初次见面-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_FIRST_MEET_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>Я Байлу, целительница из Комиссии по алхимии. Подойди ближе, дай мне взглянуть на тебя. Хм... Ну? Где болит?</Text>
+		</Replace>
+		<!--初次见面，提供最近城市位置-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>Хочешь конфетку? Нет? Тогда я сама съем</Text>
+		</Replace>
+		<!--初次见面，玩家提供最近城市位置-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>Ох, пора возвращаться? Ещё чуть-чуть, ну пожалуйста!</Text>
+		</Replace>
+		<!--初次见面，请求交换首都位置-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>Хочешь конфетку? Нет? Тогда я сама съем</Text>
+		</Replace>
+		<!--表示欢迎-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_GREETING_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>Изучаю медицину, ищу травы и расширяю кругозор. Всё может быть лекарством. Чем тяжелее недуг, тем смелее должны быть предписания.</Text>
+		</Replace>
+		<!--接受使节派遣-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>Говорят, в "Сад гурманов" появился новый десерт под названием "Небесная тянучка" - это засахаренная нуга, которая растя-я-ягивается... Вот бы мне до неё добраться.</Text>
+		</Replace>
+		<!--拒绝使节派遣-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>Ты как-то неважно выглядишь.</Text>
+		</Replace>
+		<!--请求派遣使节-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>Позволь мне исцелить твои раны!</Text>
+		</Replace>
+		<!--被谴责-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				Не кипятись, не то перегреешься!
+			</Text>
+		</Replace>
+		<!--谴责玩家-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>Кажется, кому-то нужен доктор!</Text>
+		</Replace>
+		<!--领袖敌视玩家-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_WARNING_EXIT_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>Кажется, кому-то нужен доктор!</Text>
+		</Replace>
+		<!--请求结盟-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>Немного каждому!</Text>
+		</Replace>
+		<!--要求移开边境军队-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>Молча не могу стоять - я хочу всех избивать.</Text>
+		</Replace>
+		<!--战败-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_XIANZHOU_BAILU_ANY" Language="ru_RU">
+			<Text>Где же доктор, когда он так нужен...</Text>
+		</Row>
+		<!--玩家战败-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY" Language="ru_RU">
+			<Text>Где же доктор, когда он так нужен...</Text>
+		</Row>
+		<!--同意交易-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_XIANZHOU_BAILU_ANY" Language="ru_RU">
+			<Text>Забирай, и принеси мне что-нибудь сладкое!</Text>
+		</Row>
+		<!--拒绝交易-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_XIANZHOU_BAILU_ANY" Language="ru_RU">
+			<Text>Хм-м-м... Есть ли тут что-нибудь целебное?</Text>
+		</Row>
+		<!--接受停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_XIANZHOU_BAILU_ANY" Language="ru_RU">
+			<Text>Хе-хе, целитель из меня хоть куда!</Text>
+		</Row>
+		<!--拒绝停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_XIANZHOU_BAILU_ANY" Language="ru_RU">
+			<Text>Прими-ка витаминку.</Text>
+		</Row>
+		<!--要求停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_XIANZHOU_BAILU_ANY" Language="ru_RU">
+			<Text>Забияка!</Text>
+		</Row>
+		<!--开放边界-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY" Language="ru_RU">
+			<Text>Ох, я из дома не успеваю выйти, а уже слышу твой голос "Никогда не отказывай в помощи нуждающимся", верно?</Text>
+		</Row>
+		<!--拒绝开放边界-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY" Language="ru_RU">
+			<Text>Забияка!</Text>
+		</Row>
+		<!--请求开放边界-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_XIANZHOU_BAILU_ANY" Language="ru_RU">
+			<Text>Когда я окунаю голову в воду, каким бы ни было маленьким пространство вокруг, я чувствую, что дышу свободнее... далеко за пределами воды...</Text>
+		</Row>
+
+
+		<!--符玄-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_FUXUAN_QUOTE" Language="ru_RU">
+			<Text>"Не даю консультации о будущем!"[NEWLINE]--Фу Сюань</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_FUXUAN_TITLE" Language="ru_RU">
+			<Text>Глава Комиссии по предсказаниям.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_FUXUAN_CHAPTER_CAPSULE_BODY" Language="ru_RU">
+			<Text>Мудрая, уверенная в себе и прямолинейная глава Комиссии по предсказаниям на Лофу.[NEWLINE]Используя третий глаз и Матрицу предвидения, Фу Сюань предсказывает маршрут Сяньчжоу и исход событий. Она твёрдо верит, что всё, что она делает, является лучшим решением в сложившейся ситуации.[NEWLINE]Фу Сюань ждёт обещанной генералом отставки. Однако этот день всё ещё кажется таким... далёким.</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_XIANZHOU_FUXUAN_NAME" Language="ru_RU">
+			<Text>Всевидящее око не щадит никого</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_XIANZHOU_FUXUAN_DESCRIPTION" Language="ru_RU">
+			<Text>Любит цивилизации, которые строят настолько много районов, насколько возможно. Не любит цивилизации, которые не имеют максимум доступных районов в каждом городе.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_XIANZHOU_FUXUAN_REASON_ANY" Language="ru_RU">
+			<Text>(Вы заполнили свои города районами.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_XIANZHOU_FUXUAN_ETERNAL_LEADING" Language="ru_RU">
+			<Text>Ваш город состоит из различных районов, и Фу Сюань видит множество возможностей.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_XIANZHOU_FUXUAN_REASON_ANY" Language="ru_RU">
+			<Text>(Вы не заполняете города всеми возможными районами.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_XIANZHOU_FUXUAN_ETERNAL_LAGGING" Language="ru_RU">
+			<Text>Вы отстаете в строительстве своего района, и Фу Сюань пессимистично оценивает ваши будущие возможности.</Text>
+		</Row>
+
+		<!--同意声明友谊-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>Благополучье и успех избавят от страданий всех.</Text>
+		</Replace>
+		<!--拒绝声明友谊-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>Сегодня ранним утром я расскладывала гексаграммы: между триграммами Воды и Огня блыи волнообразные колебания с множеством переменных... В расскладе говорилось, что сегодня лучше не заниматься официальными делами и не работать сверхурочно. Кхм, это удручает.</Text>
+		</Replace>
+		<!--请求声明友谊-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>Стань единым целым.</Text>
+		</Replace>
+		<!--请求声明友谊被接受-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>Благополучье и успех избавят от страданий всех.</Text>
+		</Replace>
+		<!--请求声明友谊被拒绝-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>Хм-м, благо или проклятие?</Text>
+		</Replace>
+		<!--被宣战-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>Злой рок...</Text>
+		</Replace>
+		<!--主动宣战-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>Узри... своё будущее!</Text>
+		</Replace>
+		<!--初次见面-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_FIRST_MEET_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>Меня зовут Фу Сюань, я глава Комиссии по предсказаниям. Это наша первая встреча... Или, вернее, двадцать вторая первая встреча... Обращаясь к всевидящему оку, я лицезрела нашу первую встречу так много раз...</Text>
+		</Replace>
+		<!--初次见面，提供最近城市位置-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>Почётный гость, желаешь ли ты узнать какова твоя судьба? Не удивляйся - цель твоего визита была давно предсказанна гексаграммой.</Text>
+		</Replace>
+		<!--初次见面，玩家提供最近城市位置-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>Одно из непреложных правил Комиссии по предсказаниям - "три запрета", в которых, среди прочих, "не предсказывай беспринципно". Так, я точно откажусь предсказывать для вас номера выигрышных лотерейных билетов, рыночные котировки и тому подобное</Text>
+		</Replace>
+		<!--初次见面，请求交换首都位置-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>Разве каждая крошка и каждая капля не предначертана судьбой?</Text>
+		</Replace>
+		<!--表示欢迎-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_GREETING_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>Всё идёт своим чередом.</Text>
+		</Replace>
+		<!--接受使节派遣-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>Взаимная выгода... превосходно.</Text>
+		</Replace>
+		<!--拒绝使节派遣-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>Сегодня ранним утром я расскладывала гексаграммы: между триграммами Воды и Огня блыи волнообразные колебания с множеством переменных... В расскладе говорилось, что сегодня лучше не заниматься официальными делами и не работать сверхурочно. Кхм, это удручает.</Text>
+		</Replace>
+		<!--请求派遣使节-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>Но это сущее меняет человек, строя свои планы!</Text>
+		</Replace>
+		<!--被谴责-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>Позволь предсказать твоё будущее.</Text>
+		</Replace>
+		<!--谴责玩家-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>Наша судьба покрыта мраком неизвестности.</Text>
+		</Replace>
+		<!--领袖敌视玩家-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_WARNING_EXIT_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>Я образована и начитана, поэтому я частенько цитирую классиков. При этом многие просят, чтобы я говорила "на человеческом". Невежи</Text>
+		</Replace>
+		<!--请求结盟-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>С помощью этой Матрицы прорицатели глядят в прошлое и узнают будущее. Дрейфующий в море звёзд Лофу не протянет без неё и дня. Однако... порой я задумываюсь, не ограничивает ли она наши будущие возможности и не преграждает ли иной для нас путь? </Text>
+		</Replace>
+		<!--要求移开边境军队-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>Начало определяет исход.</Text>
+		</Replace>
+		<!--战败-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY" Language="ru_RU">
+			<Text>Это было предрешено...</Text>
+		</Row>
+		<!--玩家战败-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY" Language="ru_RU">
+			<Text>Это было предрешено...</Text>
+		</Row>
+		<!--同意交易-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY" Language="ru_RU">
+			<Text>Взаимная выгода... превосходно.</Text>
+		</Row>
+		<!--拒绝交易-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY" Language="ru_RU">
+			<Text>Кхм! Неожиданно... Не стоит брать слишком много...</Text>
+		</Row>
+		<!--接受停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_XIANZHOU_FUXUAN_ANY" Language="ru_RU">
+			<Text>Инь и Ян, жизнь и смерть.</Text>
+		</Row>
+		<!--拒绝停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_XIANZHOU_FUXUAN_ANY" Language="ru_RU">
+			<Text>Промедление порождает хаос.</Text>
+		</Row>
+		<!--要求停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY" Language="ru_RU">
+			<Text>Злой рок...</Text>
+		</Row>
+		<!--开放边界-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY" Language="ru_RU">
+			<Text>Как и было предсказанно.</Text>
+		</Row>
+		<!--拒绝开放边界-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY" Language="ru_RU">
+			<Text>Незыблемо.</Text>
+		</Row>
+		<!--请求开放边界-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY" Language="ru_RU">
+			<Text>Единение и пробуждение.</Text>
+		</Row>
+		
+		<!--景元-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_JINGYUAN_QUOTE" Language="ru_RU">
+			<Text>"У настоящего мастера шамат нет блестящих ходов. Люди ликуют после одного удачного хода, забывая, что вся игра может быть проиграна."[NEWLINE]--Цзин Юань</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_JINGYUAN_TITLE" Language="ru_RU">
+			<Text>Божественное предвидение</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_JINGYUAN_CHAPTER_CAPSULE_BODY" Language="ru_RU">
+			<Text>Божественное предвидение один из семи генералов-арбитров альянса Сяньчжоу. Несмотря на праздную манеру поведения, генерал Облачных Рыцарей, руководящий Лофу Сяньчжоу, гораздо более ответственен, чем кажется на первый взгляд. Он не считает урегулирование катастрофических происшествий признаком мудрости, а потому предпочитает выполнять рутинные задачи со всей тщательностью, чтобы избежать потенциального риска. Благодаря вдумчивому руководству генерала Цзин Юаня Сяньчжоу вот уже много лет пребывает в мире, а за внешнюю леность военачальника прозвали "Дремлющим генералом".</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_XIANZHOU_JINGYUAN_NAME" Language="ru_RU">
+			<Text>Искоренение праны</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_XIANZHOU_JINGYUAN_DESCRIPTION" Language="ru_RU">
+			<Text>Старается заключать множество союзов и уважает тех, кто поступает так же. Не любит тех, у кого мало союзов.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_XIANZHOU_JINGYUAN_REASON_ANY" Language="ru_RU">
+			<Text>(Слухи о вашем союзе достигли Сяньчжоу).</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_XIANZHOU_JINGYUAN_MANY_ALLIANCES" Language="ru_RU">
+			<Text>Цзин Юань очень ценит ваш союз.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_XIANZHOU_JINGYUAN_REASON_ANY" Language="ru_RU">
+			<Text>(Ваша политика изоляции озадачивает Цзин Юаня).</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_XIANZHOU_JINGYUAN_FEW_ALLIANCES" Language="ru_RU">
+			<Text>У вас не так много союзников. Цзин Юань не может понять.</Text>
+		</Row>
+
+		<!--同意声明友谊-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>Вот уже многие годы на мне лежат мирские обязанности. Моё окружение так скучно, что я сам превращаюсь в зануду. Если и рассказывать что-то интересное, так это о встрече с иномирцами. Такими, как ты.</Text>
+		</Replace>
+		<!--拒绝声明友谊-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>Всю свою жизнь я страшусьнеприятностей. Они бывают большими и маленькими, далёкими и близкими. Для их разрешения нужны планы, подготовка и всяческие усилия...</Text>
+		</Replace>
+		<!--请求声明友谊-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>Вот уже многие годы на мне лежат мирские обязанности. Моё окружение так скучно, что я сам превращаюсь в зануду. Если и рассказывать что-то интересное, так это о встрече с иномирцами. Такими, как ты.</Text>
+		</Replace>
+		<!--请求声明友谊被接受-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>У мастера шахмат нет блестящих ходов. Люди ликуют после одного удачного хода, забывая, что вся игра может быть проиграна.</Text>
+		</Replace>
+		<!--请求声明友谊被拒绝-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>Враги повержены и схвачены, друзей по жизни разбросало. С этой точки зрения, меня можно назвать стариком.</Text>
+		</Replace>
+		<!--被宣战-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>Война - это как игра в шахматы: двух похожих партий не бывает.</Text>
+		</Replace>
+		<!--主动宣战-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>Блистательный дух, внемли моим словам. Никакой пощады!</Text>
+		</Replace>
+		<!--初次见面-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_FIRST_MEET_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>Я Цзин Юань, генерал Облачных Рыцарей на Лофу. Оставим церемонии, я лишь временно занимаю эту должность. Зови меня просто Цзин Юанем.</Text>
+		</Replace>
+		<!--初次见面，提供最近城市位置-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>Хм, отдохни-ка пока... Приношу свои извинения, у меня ещё есть пара неотложныхдел, и я не смогу тебя проводить.</Text>
+		</Replace>
+		<!--初次见面，玩家提供最近城市位置-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>Ох, ты здесь. Что-нибудь интересное произошло за время путешествия? Скорее расскажи мне.</Text>
+		</Replace>
+		<!--初次见面，请求交换首都位置-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>Ох, ты здесь. Что-нибудь интересное произошло за время путешествия? Скорее расскажи мне..</Text>
+		</Replace>
+		<!--表示欢迎-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_GREETING_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>Многие иномирцы называют Лофу Сяньчжоу, но Лофу - это не Сяньчжоу, Лофу - это Лофу, и точка.</Text>
+		</Replace>
+		<!--接受使节派遣-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>О? Какой приятный сюрприз.</Text>
+		</Replace>
+		<!--拒绝使节派遣-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>Как предсказуемо.</Text>
+		</Replace>
+		<!--请求派遣使节-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>Несколько партий в шахматы позволят убить время.</Text>
+		</Replace>
+		<!--被谴责-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>Как предсказуемо.</Text>
+		</Replace>
+		<!--谴责玩家-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>При встрече с противником выжди время для атаки.</Text>
+		</Replace>
+		<!--领袖敌视玩家-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_WARNING_EXIT_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>Хочешь идти быстро - иди в одиночку. Хочешь идти далеко - иди с друзьями.</Text>
+		</Replace>
+		<!--请求结盟-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>Небо - это шахматная доска. Любое наше решение влияет на судьбу вселенной.</Text>
+		</Replace>
+		<!--要求移开边境军队-->
+		<Replace Language="ru_RU" Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>Важно уличить нужный момент, а не стоять как истукан.</Text>
+		</Replace>
+		<!--战败-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY" Language="ru_RU">
+			<Text>У меня было мало практики...</Text>
+		</Row>
+		<!--玩家战败-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY" Language="ru_RU">
+			<Text>У меня было мало практики...</Text>
+		</Row>
+		<!--同意交易-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY" Language="ru_RU">
+			<Text>Редкая находка, лучше оставь её у себя.</Text>
+		</Row>
+		<!--拒绝交易-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY" Language="ru_RU">
+			<Text>Я понимаю, что у тебя на уме, но тебе нужно подождать. Когда у тебя будет достаточно терпения, чтобы ждать, этот момент настанет.</Text>
+		</Row>
+		<!--接受停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_XIANZHOU_JINGYUAN_ANY" Language="ru_RU">
+			<Text>А вот и достойные противники.</Text>
+		</Row>
+		<!--拒绝停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_XIANZHOU_JINGYUAN_ANY" Language="ru_RU">
+			<Text>Беспощадный бой!</Text>
+		</Row>
+		<!--要求停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY" Language="ru_RU">
+			<Text>Всю свою жизнь я страшусьнеприятностей. Они бывают большими и маленькими, далёкими и близкими. Для их разрешения нужны планы, подготовка и всяческие усилия...</Text>
+		</Row>
+		<!--开放边界-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY" Language="ru_RU">
+			<Text>Невероятно любопытные механизмы.</Text>
+		</Row>
+		<!--拒绝开放边界-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY" Language="ru_RU">
+			<Text>Время никого не ждёт.</Text>
+		</Row>
+		<!--请求开放边界-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY" Language="ru_RU">
+			<Text>Несколько партий в шахматы позволят убить время.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

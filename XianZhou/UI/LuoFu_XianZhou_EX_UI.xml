@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LuoFu_XianZhou_UI -->
+<!-- Author: Pen -->
+<!-- DateCreated: 2024/2/12 14:57:40 -->
+<Context>
+	<Grid ID="XianZhouAvtiveHuoHuoGrid" Anchor="R,B" Size="46,41" AutoSizePadding="6,0" Texture="SelectionPanel_ActionGroupSlot" SliceCorner="5,19" SliceSize="1,1" SliceTextureSize="12,41" ConsumeMouse="1" Hidden="1">
+		<!-- XianZhou Active Button -->
+		<Button ID="XianZhouAvtiveHuoHuoButton" Anchor="C,B" Size="44,53" Texture="UnitPanel_ActionButton">
+			<!-- Button Image -->
+			<Image ID="XianZhouAvtiveHuoHuoButtonIcon"	Anchor="C,C" Offset="0,-2" Size="38,38" Icon="ICON_ACTION_XIANZHOU_SPIRITUAL_DOMINATION"/>
+		</Button>
+	</Grid>
+</Context>

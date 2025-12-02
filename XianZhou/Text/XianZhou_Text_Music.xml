@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- XianZhou_Text_Music -->
+<!-- Author: Pen -->
+<!-- DateCreated: 2024/3/2 10:28:30 -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_PLAYLIST_PEN_XIANZHOU_NAME" Language="zh_Hans_CN">
+			<Text>崩坏星穹铁道-长生梦短</Text>
+		</Replace>
+		<Replace Tag="LOC_PLAYLIST_PEN_XIANZHOU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>收录了16首由HOYO-MiX音乐团队为《崩坏：星穹铁道》创作的原声音乐。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PEN_XIANZHOU_01_NAME" Language="zh_Hans_CN">
+			<Text>天下熙熙 Anthropic Domain</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_01_DESCRIPTION" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_01_AUTHOR" Language="zh_Hans_CN">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PEN_XIANZHOU_02_NAME" Language="zh_Hans_CN">
+			<Text>邀挽明月成宵宴 Lustrous Moonlight</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_02_DESCRIPTION" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_02_AUTHOR" Language="zh_Hans_CN">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_03_NAME" Language="zh_Hans_CN">
+			<Text>猎手的预视 Hunter's Intuition</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_03_DESCRIPTION" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_03_AUTHOR" Language="zh_Hans_CN">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_04_NAME" Language="zh_Hans_CN">
+			<Text>玲珑工巧 Exquisite Ingenuity</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_04_DESCRIPTION" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_04_AUTHOR" Language="zh_Hans_CN">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_05_NAME" Language="zh_Hans_CN">
+			<Text>雷车动地 Thundering Chariot</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_05_DESCRIPTION" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_05_AUTHOR" Language="zh_Hans_CN">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_06_NAME" Language="zh_Hans_CN">
+			<Text>天火同人 Divine Camaraderie</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_06_DESCRIPTION" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_06_AUTHOR" Language="zh_Hans_CN">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_07_NAME" Language="zh_Hans_CN">
+			<Text>鹤唳 Into the Desolate</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_07_DESCRIPTION" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_07_AUTHOR" Language="zh_Hans_CN">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_08_NAME" Language="zh_Hans_CN">
+			<Text>无俗念 Terrene Deliverance</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_08_DESCRIPTION" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_08_AUTHOR" Language="zh_Hans_CN">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_09_NAME" Language="zh_Hans_CN">
+			<Text>星文照旅魂 Ave Astra et Viator</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_09_DESCRIPTION" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_09_AUTHOR" Language="zh_Hans_CN">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_10_NAME" Language="zh_Hans_CN">
+			<Text>锋镝阵中自在身 Into the Breach</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_10_DESCRIPTION" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_10_AUTHOR" Language="zh_Hans_CN">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_11_NAME" Language="zh_Hans_CN">
+			<Text>折冲妙算 Fabulous Foresight</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_11_DESCRIPTION" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_11_AUTHOR" Language="zh_Hans_CN">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_12_NAME" Language="zh_Hans_CN">
+			<Text>浮槎竟天 Skyedge Voyage</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_12_DESCRIPTION" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_12_AUTHOR" Language="zh_Hans_CN">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_13_NAME" Language="zh_Hans_CN">
+			<Text>逐鹿 Deerstalker</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_13_DESCRIPTION" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_13_AUTHOR" Language="zh_Hans_CN">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_14_NAME" Language="zh_Hans_CN">
+			<Text>逍遥游 Serene Stroll</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_14_DESCRIPTION" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_14_AUTHOR" Language="zh_Hans_CN">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_15_NAME" Language="zh_Hans_CN">
+			<Text>药王救世陀罗尼 Sanctus Medicus Dharani</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_15_DESCRIPTION" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_15_AUTHOR" Language="zh_Hans_CN">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_16_NAME" Language="zh_Hans_CN">
+			<Text>玄牝之门，万类之根 Arteria Inceptionis</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_16_DESCRIPTION" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_16_AUTHOR" Language="zh_Hans_CN">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		
+		
+		<Replace Tag="LOC_PLAYLIST_PEN_XIANZHOU_NAME" Language="zh_Hant_HK">
+			<Text>崩壞星穹鐵道-長生夢短</Text>
+		</Replace>
+		<Replace Tag="LOC_PLAYLIST_PEN_XIANZHOU_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>收錄了16首由HOYO-MiX音樂團隊為《崩壞：星穹鐵道》創作的原聲音樂。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PEN_XIANZHOU_01_NAME" Language="zh_Hant_HK">
+			<Text>天下熙熙 Anthropic Domain</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_01_DESCRIPTION" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_01_AUTHOR" Language="zh_Hant_HK">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PEN_XIANZHOU_02_NAME" Language="zh_Hant_HK">
+			<Text>邀挽明月成宵宴 Lustrous Moonlight</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_02_DESCRIPTION" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_02_AUTHOR" Language="zh_Hant_HK">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_03_NAME" Language="zh_Hant_HK">
+			<Text>獵手的預視 Hunter's Intuition</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_03_DESCRIPTION" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_03_AUTHOR" Language="zh_Hant_HK">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_04_NAME" Language="zh_Hant_HK">
+			<Text>玲瓏工巧 Exquisite Ingenuity</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_04_DESCRIPTION" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_04_AUTHOR" Language="zh_Hant_HK">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_05_NAME" Language="zh_Hant_HK">
+			<Text>雷車動地 Thundering Chariot</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_05_DESCRIPTION" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_05_AUTHOR" Language="zh_Hant_HK">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_06_NAME" Language="zh_Hant_HK">
+			<Text>天火同人 Divine Camaraderie</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_06_DESCRIPTION" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_06_AUTHOR" Language="zh_Hant_HK">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_07_NAME" Language="zh_Hant_HK">
+			<Text>鶴唳 Into the Desolate</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_07_DESCRIPTION" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_07_AUTHOR" Language="zh_Hant_HK">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_08_NAME" Language="zh_Hant_HK">
+			<Text>無俗念 Terrene Deliverance</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_08_DESCRIPTION" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_08_AUTHOR" Language="zh_Hant_HK">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_09_NAME" Language="zh_Hant_HK">
+			<Text>星文照旅魂 Ave Astra et Viator</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_09_DESCRIPTION" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_09_AUTHOR" Language="zh_Hant_HK">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_10_NAME" Language="zh_Hant_HK">
+			<Text>鋒鏑陣中自在身 Into the Breach</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_10_DESCRIPTION" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_10_AUTHOR" Language="zh_Hant_HK">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_11_NAME" Language="zh_Hant_HK">
+			<Text>折沖妙算 Fabulous Foresight</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_11_DESCRIPTION" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_11_AUTHOR" Language="zh_Hant_HK">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_12_NAME" Language="zh_Hant_HK">
+			<Text>浮槎竟天 Skyedge Voyage</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_12_DESCRIPTION" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_12_AUTHOR" Language="zh_Hant_HK">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_13_NAME" Language="zh_Hant_HK">
+			<Text>逐鹿 Deerstalker</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_13_DESCRIPTION" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_13_AUTHOR" Language="zh_Hant_HK">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_14_NAME" Language="zh_Hant_HK">
+			<Text>逍遙遊 Serene Stroll</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_14_DESCRIPTION" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_14_AUTHOR" Language="zh_Hant_HK">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_15_NAME" Language="zh_Hant_HK">
+			<Text>藥王救世陀羅尼 Sanctus Medicus Dharani</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_15_DESCRIPTION" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_15_AUTHOR" Language="zh_Hant_HK">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_16_NAME" Language="zh_Hant_HK">
+			<Text>玄牝之門，萬類之根 Arteria Inceptionis</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_16_DESCRIPTION" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_16_AUTHOR" Language="zh_Hant_HK">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PLAYLIST_PEN_XIANZHOU_NAME" Language="en_US">
+			<Text>[Honkai: Star Rail] Svah Sanishyu</Text>
+		</Replace>
+		<Replace Tag="LOC_PLAYLIST_PEN_XIANZHOU_DESCRIPTION" Language="en_US">
+			<Text>A collection of 16 soundtracks composed by the HOYO-MiX music team for Honkai: Star Rail.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PEN_XIANZHOU_01_NAME" Language="en_US">
+			<Text>Anthropic Domain</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_01_DESCRIPTION" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_01_AUTHOR" Language="en_US">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PEN_XIANZHOU_02_NAME" Language="en_US">
+			<Text>Lustrous Moonlight</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_02_DESCRIPTION" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_02_AUTHOR" Language="en_US">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_03_NAME" Language="en_US">
+			<Text>Hunter's Intuition</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_03_DESCRIPTION" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_03_AUTHOR" Language="en_US">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_04_NAME" Language="en_US">
+			<Text>Exquisite Ingenuity</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_04_DESCRIPTION" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_04_AUTHOR" Language="en_US">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_05_NAME" Language="en_US">
+			<Text>Thundering Chariot</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_05_DESCRIPTION" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_05_AUTHOR" Language="en_US">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_06_NAME" Language="en_US">
+			<Text>Divine Camaraderie</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_06_DESCRIPTION" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_06_AUTHOR" Language="en_US">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_07_NAME" Language="en_US">
+			<Text>Into the Desolate</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_07_DESCRIPTION" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_07_AUTHOR" Language="en_US">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_08_NAME" Language="en_US">
+			<Text>Terrene Deliverance</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_08_DESCRIPTION" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_08_AUTHOR" Language="en_US">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_09_NAME" Language="en_US">
+			<Text>Ave Astra et Viator</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_09_DESCRIPTION" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_09_AUTHOR" Language="en_US">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_10_NAME" Language="en_US">
+			<Text>Into the Breach</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_10_DESCRIPTION" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_10_AUTHOR" Language="en_US">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_11_NAME" Language="en_US">
+			<Text>Fabulous Foresight</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_11_DESCRIPTION" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_11_AUTHOR" Language="en_US">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_12_NAME" Language="en_US">
+			<Text>Skyedge Voyage</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_12_DESCRIPTION" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_12_AUTHOR" Language="en_US">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_13_NAME" Language="en_US">
+			<Text>Deerstalker</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_13_DESCRIPTION" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_13_AUTHOR" Language="en_US">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_14_NAME" Language="en_US">
+			<Text>Serene Stroll</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_14_DESCRIPTION" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_14_AUTHOR" Language="en_US">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_15_NAME" Language="en_US">
+			<Text>Sanctus Medicus Dharani</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_15_DESCRIPTION" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_15_AUTHOR" Language="en_US">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_16_NAME" Language="en_US">
+			<Text>Arteria Inceptionis</Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_16_DESCRIPTION" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEN_XIANZHOU_16_AUTHOR" Language="en_US">
+			<Text>HOYO-MiX</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

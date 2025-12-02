@@ -1,0 +1,1186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- XianZhou_Text_KR -->
+<!-- Author: Pen -->
+<!-- DateCreated: 2024/2/3 10:28:30 -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_XIANZHOU_NAME" Language="ko_KR">
+			<Text>선주 「나부」</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_XIANZHOU_ADJECTIVE" Language="ko_KR" >
+			<Text>「나부」</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_XIANZHOU_DESCRIPTION" Language="ko_KR">
+			<Text>선주</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_XIANZHOU" Language="ko_KR">
+			<Text>선주 「나부」</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_1" Language="ko_KR">
+			<Text>별뗏목의 바다 심장부</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_2" Language="ko_KR">
+			<Text>별뗏목 부두</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_3" Language="ko_KR">
+			<Text>선야 대로</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_4" Language="ko_KR">
+			<Text>곤여대</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_5" Language="ko_KR">
+			<Text>사진궁</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_6" Language="ko_KR">
+			<Text>적재옥</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_7" Language="ko_KR">
+			<Text>회성항</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_8" Language="ko_KR">
+			<Text>별 오두막</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_9" Language="ko_KR">
+			<Text>장낙천</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_10" Language="ko_KR">
+			<Text>약목정</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_11" Language="ko_KR">
+			<Text>유가정</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_12" Language="ko_KR">
+			<Text>삼여책방</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_13" Language="ko_KR">
+			<Text>신책부</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_14" Language="ko_KR">
+			<Text>금 조각상 거리</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_15" Language="ko_KR">
+			<Text>건곤 거리</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_16" Language="ko_KR">
+			<Text>태복사</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_17" Language="ko_KR">
+			<Text>기상대</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_18" Language="ko_KR">
+			<Text>대연 궁관진</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_19" Language="ko_KR">
+			<Text>계환진</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_20" Language="ko_KR">
+			<Text>수사청</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_21" Language="ko_KR">
+			<Text>공조사</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_22" Language="ko_KR">
+			<Text>현기평</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_23" Language="ko_KR">
+			<Text>격물원</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_24" Language="ko_KR">
+			<Text>용금방</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_25" Language="ko_KR">
+			<Text>창조 용광로</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_26" Language="ko_KR">
+			<Text>유원</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_27" Language="ko_KR">
+			<Text>여우숲</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_28" Language="ko_KR">
+			<Text>여우 무덤 진요탑</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_29" Language="ko_KR">
+			<Text>청구대</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_30" Language="ko_KR">
+			<Text>연낙정</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_31" Language="ko_KR">
+			<Text>언식관</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_32" Language="ko_KR">
+			<Text>단정사</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_33" Language="ko_KR">
+			<Text>관이대</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_34" Language="ko_KR">
+			<Text>태진 연단실</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_35" Language="ko_KR">
+			<Text>의료시장</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_36" Language="ko_KR">
+			<Text>기룡단</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_37" Language="ko_KR">
+			<Text>인연경</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_38" Language="ko_KR">
+			<Text>유폐옥</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_39" Language="ko_KR">
+			<Text>경기함선</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_40" Language="ko_KR">
+			<Text>초열옥</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_1" Language="ko_KR">
+			<Text>단단</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_2" Language="ko_KR">
+			<Text>서연 선생</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_3" Language="ko_KR">
+			<Text>만물</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_4" Language="ko_KR">
+			<Text>가리</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_5" Language="ko_KR">
+			<Text>와리</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_6" Language="ko_KR">
+			<Text>점장 한전</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_7" Language="ko_KR">
+			<Text>동식</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_8" Language="ko_KR">
+			<Text>모정</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_9" Language="ko_KR">
+			<Text>광태</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_10" Language="ko_KR">
+			<Text>경방</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_1" Language="ko_KR">
+			<Text>유하</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_2" Language="ko_KR">
+			<Text>문문</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_3" Language="ko_KR">
+			<Text>금여</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_4" Language="ko_KR">
+			<Text>목향</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_5" Language="ko_KR">
+			<Text>재교</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_6" Language="ko_KR">
+			<Text>청월</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_7" Language="ko_KR">
+			<Text>몽명</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_8" Language="ko_KR">
+			<Text>유진</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_9" Language="ko_KR">
+			<Text>아영</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_10" Language="ko_KR">
+			<Text>은서</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_1" Language="ko_KR">
+			<Text>대호</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_2" Language="ko_KR">
+			<Text>종연</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_3" Language="ko_KR">
+			<Text>암명</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_4" Language="ko_KR">
+			<Text>강도</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_5" Language="ko_KR">
+			<Text>무혁</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_6" Language="ko_KR">
+			<Text>총명</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_7" Language="ko_KR">
+			<Text>자안</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_8" Language="ko_KR">
+			<Text>유철</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_9" Language="ko_KR">
+			<Text>영해</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_10" Language="ko_KR">
+			<Text>연경</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_1" Language="ko_KR">
+			<Text>약월</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_2" Language="ko_KR">
+			<Text>정연</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_3" Language="ko_KR">
+			<Text>서유</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_4" Language="ko_KR">
+			<Text>어공</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_5" Language="ko_KR">
+			<Text>청작</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_6" Language="ko_KR">
+			<Text>난길</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_7" Language="ko_KR">
+			<Text>궁우</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_8" Language="ko_KR">
+			<Text>영연</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_9" Language="ko_KR">
+			<Text>청주</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_10" Language="ko_KR">
+			<Text>정채</Text>
+		</Replace>
+
+		<Row Tag="LOC_CIVINFO_XIANZHOU_LOCATION" Language="ko_KR">
+			<Text>불명</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_XIANZHOU_SIZE" Language="ko_KR">
+			<Text>불명</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_XIANZHOU_POPULATION" Language="ko_KR">
+			<Text>불명</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_XIANZHOU_CAPITAL" Language="ko_KR">
+			<Text>선주 「나부」</Text>
+		</Row>
+
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_XIANZHOU_NAME" Language="ko_KR">
+			<Text>불로인의 선주</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_XIANZHOU_DESCRIPTION" Language="ko_KR">
+			<Text>
+				선주가 설립한 도시는 성장이 30% 감소되지만 도시의 [ICON_CITIZEN] 시민이 [ICON_SCIENCE] 과학 +0.5, [ICON_CULTURE] 문화 +0.5와 [ICON_PRODUCTION] 생산력 +1을 제공합니다. 시민 보너스는 시대가 진행됨에 따라 증가하며 최대 2번까지 증가합니다. 선주가 직접 설립하지 않은 도시는 이 효과가 절반만 적용됩니다.
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_XIANZHOU_STARSKIFF_NAME" Language="ko_KR">
+			<Text>별뗏목</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_XIANZHOU_STARSKIFF_DESCRIPTION" Language="ko_KR">
+			<Text>별뗏목은 숲과 정글을 꿰뚫어 볼 수 있는 선주의 고유 유닛입니다. 더 많은 [ICON_MOVEMENT] 이동력으로 민간, 지원유닛을 호위할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_XIANZHOU_STARSKIFF_NAME" Language="ko_KR">
+			<Text>별뗏목</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_XIANZHOU_STARSKIFF_DESCRIPTION" Language="ko_KR">
+			<Text>별뗏목은 숲과 정글을 꿰뚫어 볼 수 있는 선주의 고유 유닛입니다. 더 많은 [ICON_MOVEMENT] 이동력으로 민간, 지원유닛을 호위할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_STARSKIFF_IGNORE_TERRAINS_NAME" Language="ko_KR">
+			<Text>별뗏목</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_STARSKIFF_IGNORE_TERRAINS_DESCRIPTION" Language="ko_KR">
+			<Text>별뗏목은 숲과 정글을 꿰뚫어 볼 수 있는 선주의 고유 유닛입니다. 더 많은 [ICON_MOVEMENT] 이동력으로 민간, 지원유닛을 호위할 수 있습니다.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_XIANZHOU_BAILU_NAME" Language="ko_KR">
+			<Text>백로</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_XIANZHOU_BAILU" Language="ko_KR">
+			<Text>백로</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_XIANZHOU_BAILU_DESCRIPTION" Language="ko_KR">
+			<Text>
+				활발한 여자 아이. 비디아다라족의 「약을 품은 용녀」 이자 실력 있는 명의.
+				[NEWLINE]「따뜻한 물을 많이 마셔」 , 「하룻밤 자면 나아」 와 같이 틀을 깨는 처방을 자주 내린다.
+				[NEWLINE]다른 사람이 고통을 받는 모습을 못 봐 치료할 때면 항상 눈을 꼭 감는다.
+				[NEWLINE]——병만 나으면 됐지!
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_BAILU_NAME" Language="ko_KR">
+			<Text>아침 이슬처럼</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_BAILU_DESCRIPTION" Language="ko_KR">
+			<Text>
+				도시에서 개간한 모든 사치 자원은 [ICON_AMENITIES] 쾌적도 +1을 제공합니다. 도시가 행복할 때 턴당 생성되는 [ICON_GREATPERSON] 위인 점수가 25% 추가됩니다. 도시가 황홀할 때 두배로 적용됩니다. 모든 유닛은 [ICON_DAMAGED] 받은 피해의 20%를 회복합니다.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_UNITS_HEAL_AFTER_COMBAT_NAME" Language="ko_KR">
+			<Text>[생명]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_UNITS_HEAL_AFTER_COMBAT_DESCRIPTION" Language="ko_KR">
+			<Text>유닛이 [ICON_DAMAGED] 받은 피해의 20%를 회복합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_XIANZHOU_ALCHEMY_COMMISSION_NAME" Language="ko_KR">
+			<Text>단정사</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_XIANZHOU_ALCHEMY_COMMISSION_DESCRIPTION" Language="ko_KR">
+			<Text>주택가 특수지구를 대체하는 백로 고유의 특수지구입니다. "관개" 연구 시 잠금 해제되며 저렴합니다. 매력도를 무시하고 [ICON_HOUSING] 주거공간 +3을 제공합니다. 더 많은 시민 슬롯과 시민 생산량을 제공합니다. 단정사가 위치한 도시의 쾌적도 당 도시 성장이 10% 증가하며, 최대 50%까지 증가합니다. </Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_XIANZHOU_ALCHEMY_COMMISSION_NAME" Language="ko_KR">
+			<Text>단정사</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_XIANZHOU_ALCHEMY_COMMISSION_DESCRIPTION" Language="ko_KR">
+			<Text>주택가 특수지구를 대체하는 백로 고유의 특수지구입니다. "관개" 연구 시 잠금 해제되며 저렴합니다. 매력도를 무시하고 [ICON_HOUSING] 주거공간 +3을 제공합니다. 더 많은 시민 슬롯과 시민 생산량을 제공합니다. 단정사가 위치한 도시의 쾌적도 당 도시 성장이 10% 증가하며, 최대 50%까지 증가합니다. [NEWLINE] 시민 슬롯은 총 4개가 있으며, 각 슬롯은 [ICON_FOOD] 식량 +1, [ICON_PRODUCTION] 생산력 +3, [ICON_CULTURE] 문화 +3, [ICON_GreatMerchant] 턴당 위대한 상인 점수 +1, [ICON_GreatEngineer] 턴당 위대한 기술자 +1을 제공합니다.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_XIANZHOU_FUXUAN_NAME" Language="ko_KR">
+			<Text>부현</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_XIANZHOU_FUXUAN_NAME" Language="ko_KR">
+			<Text>부현</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_XIANZHOU_FUXUAN_DESCRIPTION" Language="ko_KR">
+			<Text>
+				「지식은 고통과 맞바꾸는 것」
+				[NEWLINE]선주 「나부」 태복사의 수뇌, 자신만만한 현인.
+				[NEWLINE]제3의 눈과 궁관진을 통해 선주의 항로와 일의 길흉을 점치고 자신이 행한 모든 게 사안의 「최선책」이라고 굳게 믿는다.
+				[NEWLINE]부현은 장군이 약속한 「은퇴」를 기다리고 있다. 하지만 그날은 아직… 기약이 없는 듯하다.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_FUXUAN_NAME" Language="ko_KR">
+			<Text>궁관 묘책</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_FUXUAN_DESCRIPTION" Language="ko_KR">
+			<Text>
+				부현 특유의 궁관진을 지을 수 있는 건설자 능력을 잠금 해제합니다. 궁관진은 도시의 모든 [ICON_SCIENCE] 과학, [ICON_CULTURE] 문화, [ICON_PRODUCTION] 생산력 생산량과 동일한 양의 [ICON_XIANZHOU_MATRIX_OF_PRESCIENCE] 점술 점수로 변환됩니다. [ICON_XIANZHOU_MATRIX_OF_PRESCIENCE]는 기술, 사회 제도 및 도시 생산에 사용될 수 있습니다.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_XIANZHOU_DIVINATION_COMMISSION_NAME" Language="ko_KR">
+			<Text>태복사</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_XIANZHOU_DIVINATION_COMMISSION_DESCRIPTION" Language="ko_KR">
+			<Text>성지 특수지구를 대체하는 부현 특유의 특수지구입니다. 건설 비용이 저렴하며, 완공 시 도시가 평소보다 특수지구를 하나 더 건설할 수 있으며, 주변 타일에 문화폭탄을 적용합니다. 인접한 궁관진 각각에 [ICON_FAITH] +2를 제공합니다. 더 많은 시민 슬롯과 생산량을 가지고 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_XIANZHOU_DIVINATION_COMMISSION_NAME" Language="ko_KR">
+			<Text>태복사</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_XIANZHOU_DIVINATION_COMMISSION_DESCRIPTION" Language="ko_KR">
+			<Text>성지 특수지구를 대체하는 부현 특유의 특수지구입니다. 건설 비용이 저렴하며, 완공 시 도시가 평소보다 특수지구를 하나 더 건설할 수 있으며, 주변 타일에 문화폭탄을 적용합니다. 인접한 궁관진 각각에 [ICON_FAITH] +2를 제공합니다. [NEWLINE] 시민 슬롯이 2개 있으며, 각 슬롯은 [ICON_GreatScientist] 턴당 위대한 과학자 점수 +3, [ICON_GreatProphet] 턴당 위대한 선지자 점수 +1을 제공합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_XIANZHOU_PRODUCTION" Language="ko_KR">
+			<Text>[ICON_PRODUCTION] +{1_num} 궁관진에서 생산.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_TRAIT_IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE_NAME" Language="ko_KR">
+			<Text>대연 궁관진</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE_DESCRIPTION" Language="ko_KR">
+			<Text>도시당 하나만 지을 수 있습니다. 다른 대연 궁관진 옆에 건설할 수 없으며, 삭제할 수 없습니다. 자연재해에 의해서만 약탈될 수 있습니다(파괴되지 않음).</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE_NAME" Language="ko_KR">
+			<Text>대연 궁관진</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE_DESCRIPTION" Language="ko_KR">
+			<Text>도시당 하나만 지을 수 있습니다. 다른 대연 궁관진 옆에 건설할 수 없으며, 삭제할 수 없습니다. 자연재해에 의해서만 약탈될 수 있습니다(파괴되지 않음).</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_TITLE" Language="ko_KR">
+			<Text>감식</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_BUTTON_NAME" Language="ko_KR">
+			<Text>감식</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_BUTTON_TOOLTIP" Language="ko_KR">
+			<Text>현재 [ICON_XIANZHOU_MATRIX_OF_PRESCIENCE]점술 점수: [COLOR:Civ6Red]{1_Num}[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_BUTTON_SCIENCE_TOOLTIP" Language="ko_KR">
+			<Text>[ICON_XIANZHOU_MATRIX_OF_PRESCIENCE]점술 점수를 [COLOR:Civ6Red]{1_Num}[ENDCOLOR] [ICON_SCIENCE] 과학으로 변환할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_BUTTON_CULTURE_TOOLTIP" Language="ko_KR">
+			<Text>[ICON_XIANZHOU_MATRIX_OF_PRESCIENCE]점술 점수를 [COLOR:Civ6Red]{1_Num}[ENDCOLOR] [ICON_CULTURE] 문화로 변환할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_BUTTON_PRODUCTION_TOOLTIP" Language="ko_KR">
+			<Text>[ICON_XIANZHOU_MATRIX_OF_PRESCIENCE]점술 점수를 [COLOR:Civ6Red]{1_Num}[ENDCOLOR] [ICON_PRODUCTION] 생산력으로 변환할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_CITY_YIELD_TOOLTIP" Language="ko_KR">
+			<Text>
+				턴별로 보려면 마우스 오른쪽 버튼을 클릭하세요. [ICON_XIANZHOU_MATRIX_OF_PRESCIENCE] 점술 포인트가 생성되었습니다.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_BUTTON_DISABLE_TOOLTIP" Language="ko_KR">
+			<Text>
+				[COLOR:Civ6Red]점술 점수가 부족합니다.[ENDCOLOR]
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_COMPLETE_SCIENCE_TOOLTIP" Language="ko_KR">
+			<Text>기술 발전에 점술의 힘을 주입합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_COMPLETE_CULTURE_TOOLTIP" Language="ko_KR">
+			<Text>사회 제도에 점술의 힘을 주입합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_COMPLETE_PRODUCTION_TOOLTIP" Language="ko_KR">
+			<Text>생산력에 점술의 힘을 주입합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_SUMMARY" Language="ko_KR">
+			<Text>[ICON_TURN] 턴당 점술 점수：</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_RESEARCHQUEUE_INFO" Language="ko_KR">
+			<Text>현재 연구 중인 과학기술: [NEWLINE]{1_str}[NEWLINE][COLOR:Civ6Red]{2_Num}[ENDCOLOR]/{3_Num}</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_CULTUREQUEUE_INFO" Language="ko_KR">
+			<Text>현재 연구 중인 사회제도: [NEWLINE]{1_str}[NEWLINE][COLOR:Civ6Red]{2_Num}[ENDCOLOR]/{3_Num}</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_CITYBUILDQUEUE_INFO" Language="ko_KR">
+			<Text>현재 생산 대기열: [NEWLINE]{1_str}[NEWLINE][COLOR:Civ6Red]{2_Num}[ENDCOLOR]/{3_Num}</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_FROM_CITY" Language="ko_KR">
+			<Text>{1_str}에서</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_XIANZHOU_CELESTIAL_JADE_GAME_NAME" Language="ko_KR">
+			<Text>제원 경옥 시작!</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_XIANZHOU_CELESTIAL_JADE_GAME_SHORT_NAME" Language="ko_KR">
+			<Text>제원 경옥</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_XIANZHOU_CELESTIAL_JADE_GAME_DESCRIPTION" Language="ko_KR">
+			<Text>궁관진의 프로젝트로 메 턴 [ICON_FAITH] 신앙과 +100% 종교적 압력을 제공합니다. 완료 시 [ICON_GOLD]를 제공합니다.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IMPROVEMENT_XIANZHOU_PRODUCTION" Language="ko_KR">
+			<Text>[ICON_PRODUCTION] 생산력 +{1_num} 대연 궁관진에서 생성됨.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_XIANZHOU_SCIENCE" Language="ko_KR">
+			<Text>[ICON_SCIENCE] 과학 +{1_num} 대연 궁관진에서 생성됨.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_XIANZHOU_CULTURE" Language="ko_KR">
+			<Text>[ICON_CULTURE] 문화 +{1_num} 대연 궁관진에서 생성됨.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_XIANZHOU_GOLD" Language="ko_KR">
+			<Text>[ICON_GOLD] 금 +{1_num} 대연 궁관진에서 생성됨.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_XIANZHOU_FAITH" Language="ko_KR">
+			<Text>[ICON_FAITH] 신앙 +{1_num} 대연 궁관진에서 생성됨.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_XIANZHOU_JINGYUAN_NAME" Language="ko_KR">
+			<Text>
+				경원
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_XIANZHOU_JINGYUAN_NAME" Language="ko_KR">
+			<Text>
+				경원
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_XIANZHOU_JINGYUAN_DESCRIPTION" Language="ko_KR">
+			<Text>
+				「뛰어난 장기 기사는 묘수에 기대지 않는 법. 사람들은 늘 한 번의 묘책을 통해 상황을 역전하려 하지만 전체의 위기는 고려하지 않지」
+				[NEWLINE]겉으로는 나태하지만 계산적이고 치밀한 「나부」 운기 장군.
+				[NEWLINE]지략을 펼쳐 위험한 국면을 만회하지 않기 때문에 평소에도 돌발 사태가 발생하지 않도록 꽤나 신경을 쓴다.
+				[NEWLINE그 세심한 책략 덕에 선주의 평화가 꽤 오랫동안 지속되자 다소 나태해 보이는 경원은 사람들의 화두에 오르며 「감긴 눈 장군」이라는 별명까지 얻었다.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_JINGYUAN_NAME" Language="ko_KR">
+			<Text>천과수 소용돌이</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_JINGYUAN_DESCRIPTION" Language="ko_KR">
+			<Text>도시에 [ICON_CITIZEN]시민 10명당 즉시 [ICON_GreatGeneral] 위대한 장군을 수도에 생성합니다. 지상 유닛의 근접 공격은 통제 구역의 모든 군사 유닛과 구역에 피해를 줍니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_UNITS_AOE_COMBAT_NAME" Language="ko_KR">
+			<Text>고공을 가르는 뇌전</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_UNITS_AOE_COMBAT_DESCRIPTION" Language="ko_KR">
+			<Text>지상 유닛의 근접 공격은 통제 구역에 있는 모든 군사 유닛과 구역에 피해를 줍니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_UNITS_AOE_COMBAT_NAME" Language="ko_KR">
+			<Text>고공을 가르는 뇌전</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_XIANZHOU_CLOUD_KNIGHTS_NAME" Language="ko_KR">
+			<Text>운기군</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_XIANZHOU_CLOUD_KNIGHTS_DESCRIPTION" Language="ko_KR">
+			<Text>주둔지를 대체하는 경원 특유의 특수지구입니다. 건설 비용이 저렴하며 완공 시 도시가 평소보다 특수지구를 하나 더 건설할 수 있습니다. 운기군에서 턴을 시작한 유닛은 [ICON_MOVEMENT] 이동력 +1을 얻고, 승급해도 턴이 종료되지 않습니다. 추가 시민 슬롯과 시민 생산량을 가지고 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_XIANZHOU_CLOUD_KNIGHTS_NAME" Language="ko_KR">
+			<Text>운기군</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_XIANZHOU_CLOUD_KNIGHTS_DESCRIPTION" Language="ko_KR">
+			<Text>주둔지를 대체하는 경원 특유의 특수지구입니다. 건설 비용이 저렴하며 완공 시 도시가 평소보다 특수지구를 하나 더 건설할 수 있습니다. 운기군에서 턴을 시작한 유닛은 [ICON_MOVEMENT] 이동력 +1을 얻고, 승급해도 턴이 종료되지 않습니다. [NEWLINE] 시민 슬롯이 2개 있으며 각 슬롯은 [ICON_PRODUCTION] 생산력 +5, [ICON_GOLD] 골드 +3, [ICON_GreatGeneral] 턴당 위대한 장군 점수 +1, [ICON_GreatEngineer] 턴당 위대한 기술자 점수 +1을 제공합니다. </Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_DISTRICT_UNITS_MOVEMENT_NAME" Language="ko_KR">
+			<Text>그 세월은 돌이킬 수 없는 빛과도 같지</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_DISTRICT_UNITS_MOVEMENT_DESCRIPTION" Language="ko_KR">
+			<Text>[ICON_MOVEMENT] 이동력 +1을 얻고, 진급 시에도 턴이 종료되지 않습니다.</Text>
+		</Replace>
+
+		<!--Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_BASE_NAME" Language="ko_KR">
+			<Text>天舶飞将，枕弧待战</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_BASE_DESCRIPTION" Language="ko_KR">
+			<Text>所处城市生产星槎时加速50%。所处城市训练的星槎会将编队中的单位 [ICON_MOVEMENT] 移动力补正至不低于星槎。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_L1_NAME" Language="ko_KR">
+			<Text>青霄驰骋，驱驭苍穹</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_L1_DESCRIPTION" Language="ko_KR">
+			<Text>处于星槎编队中的单位获得战斗经验+50%，并且攻击后可移动。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_L2_NAME" Language="ko_KR">
+			<Text>危弓未辍，执射不宁</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_L2_DESCRIPTION" Language="ko_KR">
+			<Text>处于星槎编队中的单位每点未使用的 [ICON_MOVEMENT] 移动力可提供+1 [ICON_STRENGTH] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_R1_NAME" Language="ko_KR">
+			<Text>百里闻风，九曲响镝</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_R1_DESCRIPTION" Language="ko_KR">
+			<Text>处于星槎编队中的远程和攻城单位攻击时+5 [ICON_STRENGTH] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_R2_NAME" Language="ko_KR">
+			<Text>井仪贯侯，疾羽参连</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_R2_DESCRIPTION" Language="ko_KR">
+			<Text>处于星槎编队中的远程和攻城单位+1射程。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_M3_NAME" Language="ko_KR">
+			<Text>弦栝如雷，铣珧激荡</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_M3_DESCRIPTION" Language="ko_KR">
+			<Text>处于星槎编队中的单位如果 [ICON_MOVEMENT] 移动力允许，每回合+1额外攻击。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_LEADER_XIANZHOU_ALL_TRAIT_NAME" Language="ko_KR">
+			<Text>景元（仙舟全特性）</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_ALL_TRAIT_NAME" Language="ko_KR">
+			<Text>仙舟全特性</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_ALL_TRAIT_DESCRIPTION" Language="ko_KR">
+			<Text>
+				拥有仙舟包内所有领袖的特性。
+			</Text>
+		</Replace>
+
+		<!-白露-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_BAILU_QUOTE" Language="ko_KR">
+			<Text>날씨가 건조할 땐 화병을 조심해~ 내상과 외상은 치료법이 달라. 둘 다면 약을 먹어야 하지![NEWLINE]—백로</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_BAILU_TITLE" Language="ko_KR">
+			<Text>「약을 품은 용녀」</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_BAILU_CHAPTER_CAPSULE_BODY" Language="ko_KR">
+			<Text>
+				활발한 여자 아이. 비디아다라족의 「약을 품은 용녀」 이자 실력 있는 명의.
+				[NEWLINE]「따뜻한 물을 많이 마셔」 , 「하룻밤 자면 나아」 와 같이 틀을 깨는 처방을 자주 내린다.
+				[NEWLINE]다른 사람이 고통을 받는 모습을 못 봐 치료할 때면 항상 눈을 꼭 감는다.
+				[NEWLINE]——병만 나으면 됐지!
+			</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_XIANZHOU_BAILU_NAME" Language="ko_KR">
+			<Text>은덕을 누려 짧아진 병환</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_XIANZHOU_BAILU_DESCRIPTION" Language="ko_KR">
+			<Text>그녀와 사치자원을 거래하는 문명을 좋아합니다. 거래를 하지 않는 문명을 싫어합니다. 사치자원을 최대한 많이 모으기 위해 노력합니다.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_XIANZHOU_BAILU_REASON_ANY" Language="ko_KR">
+			<Text>(당신은 백호와 사치자원을 거래했습니다.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_XIANZHOU_BAILU_CONTINENT_ATTACKED" Language="ko_KR">
+			<Text>백로는 사람들을 행복하게 하는 과자, 장난감 등을 좋아합니다.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_XIANZHOU_BAILU_REASON_ANY" Language="ko_KR">
+			<Text>(당신은 백로와의 사치자원 거래를 거절했습니다.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_XIANZHOU_BAILU_IGNORES_BARBARIANS" Language="ko_KR">
+			<Text>백로는 선인의 기쁨차를 마시지 못해 슬퍼합니다.</Text>
+		</Row>
+
+		<!--同意声明友谊-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>날씨가 건조할 땐 화병을 조심해~ 내상과 외상은 치료법이 달라. 둘 다면 약을 먹어야 하지!</Text>
+		</Replace>
+		<!--拒绝声明友谊-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				에고, 좀 허약해 보이네.
+			</Text>
+		</Replace>
+		<!--请求声明友谊-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				날씨가 건조할 땐 화병을 조심해~ 내상과 외상은 치료법이 달라. 둘 다면 약을 먹어야 하지!
+			</Text>
+		</Replace>
+		<!--请求声明友谊被接受-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				세상에는 내가 도와주고 싶어도 도울 수 없는 딱 한 가지 고질병이 있는데, 그게 바로... 작은 키야.... 흥!
+			</Text>
+		</Replace>
+		<!--请求声明友谊被拒绝-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				나도 용이라고 할 수 있나? 활동 범위는 저택을 벗어날 수 없고, 모든 언행은 일족의 규칙에 따라야 해. 이런 삶은... 어항 속 물고기 아니야?
+			</Text>
+		</Replace>
+		<!--被宣战-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				사람 살려————
+			</Text>
+		</Replace>
+		<!--主动宣战-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				보고 듣고 묻고... 아뵤!
+			</Text>
+		</Replace>
+		<!--初次见面-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_FIRST_MEET_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				난 단정사의 의사인 백로야. 자자, 이리 와봐. 어떻게 된 거야, 어디가 아파?
+			</Text>
+		</Replace>
+		<!--初次见面，提供最近城市位置-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				사탕 먹을래? 안 먹으면 내가 먹을게.
+			</Text>
+		</Replace>
+		<!--初次见面，玩家提供最近城市位置-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				아, 벌써 가려고...? 조금만 더 있다 가, 조금만!
+			</Text>
+		</Replace>
+		<!--初次见面，请求交换首都位置-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				사탕 먹을래? 안 먹으면 내가 먹을게.
+			</Text>
+		</Replace>
+		<!--表示欢迎-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_GREETING_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				의학 지식을 잘 알고, 약재를 찾고, 시야를 넓혀야 해. 뭐든지 약으로 쓸 수 있다고. 난치병일수록 다양한 처방이 필요하지~
+			</Text>
+		</Replace>
+		<!--接受使节派遣-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				환자들이 또 미식 정원에 「구천 폭포」 라는 새로운 디저트가 나왔다고 하더라. 설탕 타래가 아주 길게 늘어진다는데.... 아쉽지만 난 못 먹어
+			</Text>
+		</Replace>
+		<!--拒绝使节派遣-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				에고, 좀 허약해 보이네.
+			</Text>
+		</Replace>
+		<!--请求派遣使节-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				내가 치료해줄게~
+			</Text>
+		</Replace>
+		<!--被谴责-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				날 괴롭히다니!
+			</Text>
+		</Replace>
+		<!--谴责玩家-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				목숨이 달렸으니 조심해
+			</Text>
+		</Replace>
+		<!--领袖敌视玩家-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_WARNING_EXIT_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				목숨이 달렸으니 조심해
+			</Text>
+		</Replace>
+		<!--请求结盟-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				언니, 걱정 말고 마음껏 싸워. 언니한테 무슨 일이 생겨도 내가 싹 낫게 해줄게!
+			</Text>
+		</Replace>
+		<!--要求移开边境军队-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				후후~ 내가 이런 것까지 알 줄은 몰랐지!
+			</Text>
+		</Replace>
+		<!--战败-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_XIANZHOU_BAILU_ANY" Language="ko_KR">
+			<Text>중이 제 머리 못 깎지......</Text>
+		</Row>
+		<!--玩家战败-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY" Language="ko_KR">
+			<Text>중이 제 머리 못 깎지......</Text>
+		</Row>
+		<!--同意交易-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_XIANZHOU_BAILU_ANY" Language="ko_KR">
+			<Text>
+				사탕이랑 바꿀 수 있겠어!
+			</Text>
+		</Row>
+		<!--拒绝交易-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_XIANZHOU_BAILU_ANY" Language="ko_KR">
+			<Text>
+				공평해야지~
+			</Text>
+		</Row>
+		<!--接受停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_XIANZHOU_BAILU_ANY" Language="ko_KR">
+			<Text>응, 병은 예방이 최고의 치료야</Text>
+		</Row>
+		<!--拒绝停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_XIANZHOU_BAILU_ANY" Language="ko_KR">
+			<Text>공평해야지~</Text>
+		</Row>
+		<!--要求停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_XIANZHOU_BAILU_ANY" Language="ko_KR">
+			<Text>
+				응, 병은 예방이 최고의 치료야
+			</Text>
+		</Row>
+		<!--开放边界-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY" Language="ko_KR">
+			<Text>
+				머리를 물 속에 담그면, 작은 공간이라도 평소보다 숨통이 트이고 물의 경계를 넘나드는 것 같은 느낌이 들어......
+			</Text>
+		</Row>
+		<!--拒绝开放边界-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY" Language="ko_KR">
+			<Text>
+				공평해야지~
+			</Text>
+		</Row>
+		<!--请求开放边界-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_XIANZHOU_BAILU_ANY" Language="ko_KR">
+			<Text>
+				머리를 물 속에 담그면, 작은 공간이라도 평소보다 숨통이 트이고 물의 경계를 넘나드는 것 같은 느낌이 들어......
+			</Text>
+		</Row>
+
+
+		<!--符玄-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_FUXUAN_QUOTE" Language="ko_KR">
+			<Text>
+				“인간사, 길흉화복, 나 자신에 대한 점은 치지 않는다. 참되지 않고, 의롭지 않고, 실용적이지 않은 점은 치지 않는다.”[NEWLINE]——부현</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_FUXUAN_TITLE" Language="ko_KR">
+			<Text>태복사 태복</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_FUXUAN_CHAPTER_CAPSULE_BODY" Language="ko_KR">
+			<Text>
+				선주 「나부」 태복사의 수뇌, 자신만만한 현인.
+				[NEWLINE]제3의 눈과 궁관진을 통해 선주의 항로와 일의 길흉을 점치고 자신이 행한 모든 게 사안의 「최선책」이라고 굳게 믿는다.
+				[NEWLINE]부현은 장군이 약속한 「은퇴」를 기다리고 있다. 하지만 그날은 아직… 기약이 없는 듯하다.
+			</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_XIANZHOU_FUXUAN_NAME" Language="ko_KR">
+			<Text>완전한 법안</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_XIANZHOU_FUXUAN_DESCRIPTION" Language="ko_KR">
+			<Text>많은 특수지구를 지은 문명을 좋아합니다. 각 도시의 최대치의 특수지구를 짓지 못한 문명을 싫어합니다.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_XIANZHOU_FUXUAN_REASON_ANY" Language="ko_KR">
+			<Text>(당신은 많은 특수지구를 지었습니다.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_XIANZHOU_FUXUAN_ETERNAL_LEADING" Language="ko_KR">
+			<Text>당신의 도시엔 다양한 특수지구가 있습니다. 부현은 수많은 미래를 보고 있습니다.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_XIANZHOU_FUXUAN_REASON_ANY" Language="ko_KR">
+			<Text>(당신은 도시로 특수지구를 채우지 않았습니다.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_XIANZHOU_FUXUAN_ETERNAL_LAGGING" Language="ko_KR">
+			<Text>당신의 특수지구 건설이 뒤처져 있으며 부현은 당신의 미래에 대해 비관적입니다.</Text>
+		</Row>
+
+		<!--同意声明友谊-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>기병(奇兵)이 있으니 순조롭겠군요.</Text>
+		</Replace>
+		<!--拒绝声明友谊-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				오늘 새벽부터 점을 쳐봤는데 괘상이 감괘(坎卦)와 이괘(離卦) 사이를 오르내리고 변수가 많더라고요…. 쯧, 공무를 처리하기 쉽지 않고, 야근하기에도 별로겠어요. 정말 찝찝하네요.
+			</Text>
+		</Replace>
+		<!--请求声明友谊-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				하나가 되리라.
+			</Text>
+		</Replace>
+		<!--请求声明友谊被接受-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				기병(奇兵)이 있으니 순조롭겠군요.
+			</Text>
+		</Replace>
+		<!--请求声明友谊被拒绝-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				불행 끝 행복 시작.
+			</Text>
+		</Replace>
+		<!--被宣战-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				불길해…
+			</Text>
+		</Replace>
+		<!--主动宣战-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				수를 풀어 미래를 예견하리!
+			</Text>
+		</Replace>
+		<!--初次见面-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_FIRST_MEET_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>본좌는 아직 나부 태복사의 수장인 부현입니다. 처음 뵙겠——아니, 오랜만이군요…. 전 이미 법안에서 당신과 스물두 번이나 첫 만남을 가졌답니다.</Text>
+		</Replace>
+		<!--初次见面，提供最近城市位置-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				오랜만이네요, 점 보러 왔나요? 놀라지 마세요! 당신의 의도는 이미 괘상에 다 나와 있어요.
+			</Text>
+		</Replace>
+		<!--初次见面，玩家提供最近城市位置-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				태복사의 불문율인 「세가지 금기」에는 「의롭지 않은 경우 점을 치지 않는다」라는 조항이 있어요. 복권 번호나 시세 등락을 여쭤보셔도 본좌는 일절 대답하지 않죠.
+			</Text>
+		</Replace>
+		<!--初次见面，请求交换首都位置-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				이마의 눈으로 보고 있어…
+			</Text>
+		</Replace>
+		<!--表示欢迎-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_GREETING_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				만물이 스스로 이로워지리.
+			</Text>
+		</Replace>
+		<!--接受使节派遣-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				생각한 대로군.
+			</Text>
+		</Replace>
+		<!--拒绝使节派遣-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				오늘 새벽부터 점을 쳐봤는데 괘상이 감괘(坎卦)와 이괘(離卦) 사이를 오르내리고 변수가 많더라고요…. 쯧, 공무를 처리하기 쉽지 않고, 야근하기에도 별로겠어요. 정말 찝찝하네요.
+			</Text>
+		</Replace>
+		<!--请求派遣使节-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				수단과 계책은 인간의 몫이다!
+			</Text>
+		</Replace>
+		<!--被谴责-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				본좌가 먼저 점쳐보지.
+			</Text>
+		</Replace>
+		<!--谴责玩家-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				한 치 앞도 알 수 없도다.
+			</Text>
+		</Replace>
+		<!--领袖敌视玩家-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_WARNING_EXIT_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				본좌의 학식은 깊고 넓으며, 읽은 책만 만권이 넘고, 가끔은 말할 때 고전적인 어록을 인용하는 습관이 있어요. 오히려 제게 「말 좀 제대로 해」라며 트집을 잡는 사람이 있답니다…. 흥.
+			</Text>
+		</Replace>
+		<!--请求结盟-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				점술가들은 궁관진을 통해 과거를 거울삼아 앞날을 알 수 있죠. 나부는 별바다를 표류하니 하루라도 이것이 없으면 안 됐어요. 다만… 가끔은 "이게 우리의 앞날과 가능성을 제한한 건 아닐까?"라는 생각이 들어요.
+			</Text>
+		</Replace>
+		<!--要求移开边境军队-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				만물은 본디 그 법이 있지만……
+			</Text>
+		</Replace>
+		<!--战败-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY" Language="ko_KR">
+			<Text>정해진… 일인가……?</Text>
+		</Row>
+		<!--玩家战败-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY" Language="ko_KR">
+			<Text>정해진… 일인가……?</Text>
+		</Row>
+		<!--同意交易-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY" Language="ko_KR">
+			<Text>
+				유무 상통하니 실로 묘책이군.
+			</Text>
+		</Row>
+		<!--拒绝交易-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY" Language="ko_KR">
+			<Text>
+				생각한 대로군.
+			</Text>
+		</Row>
+		<!--接受停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_XIANZHOU_FUXUAN_ANY" Language="ko_KR">
+			<Text>음양이 변하고 불멸하리.</Text>
+		</Row>
+		<!--拒绝停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_XIANZHOU_FUXUAN_ANY" Language="ko_KR">
+			<Text>
+				주저하면 화를 입는 법.
+			</Text>
+		</Row>
+		<!--要求停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY" Language="ko_KR">
+			<Text>
+				불길해…
+			</Text>
+		</Row>
+		<!--开放边界-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY" Language="ko_KR">
+			<Text>
+				유무 상통하니 실로 묘책이군.
+			</Text>
+		</Row>
+		<!--拒绝开放边界-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY" Language="ko_KR">
+			<Text>
+				어려움 없도다.
+			</Text>
+		</Row>
+		<!--请求开放边界-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY" Language="ko_KR">
+			<Text>
+				상을 이뤄 따르라!
+			</Text>
+		</Row>
+		
+		<!--景元-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_JINGYUAN_QUOTE" Language="ko_KR">
+			<Text>“좋은 기사는 한계에 얽매이지 않는다. 천지가 장기판이고 별이 곧 장기 말이니, 일거일동이 모두 계책이로다.”[NEWLINE]——경원</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_JINGYUAN_TITLE" Language="ko_KR">
+			<Text>「감긴 눈 장군」</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_JINGYUAN_CHAPTER_CAPSULE_BODY" Language="ko_KR">
+			<Text>
+				겉으로는 나태하지만 계산적이고 치밀한 「나부」 운기 장군.
+				[NEWLINE]지략을 펼쳐 위험한 국면을 만회하지 않기 때문에 평소에도 돌발 사태가 발생하지 않도록 꽤나 신경을 쓴다.
+				[NEWLINE]그 세심한 책략 덕에 선주의 평화가 꽤 오랫동안 지속되자 다소 나태해 보이는 경원은 사람들의 화두에 오르며 「감긴 눈 장군」이라는 별명까지 얻었다.
+			</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_XIANZHOU_JINGYUAN_NAME" Language="ko_KR">
+			<Text>신의 형상 퇴치</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_XIANZHOU_JINGYUAN_DESCRIPTION" Language="ko_KR">
+			<Text>여러 동맹을 형성하려하고, 그렇게 하는 문명을 좋아합니다. 동맹이 적은 문명을 싫어합니다.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_XIANZHOU_JINGYUAN_REASON_ANY" Language="ko_KR">
+			<Text>(당신의 동맹 체결 소식이 경원에게 전달되었습니다.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_XIANZHOU_JINGYUAN_MANY_ALLIANCES" Language="ko_KR">
+			<Text>경원은 당신의 동맹에 감사하고 있습니다.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_XIANZHOU_JINGYUAN_REASON_ANY" Language="ko_KR">
+			<Text>（당신의 고립주의정책은 경원을 혼란스럽게 합니다.）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_XIANZHOU_JINGYUAN_FEW_ALLIANCES" Language="ko_KR">
+			<Text>당신은 동맹이 적고 경원은 그것을 이해하지 못합니다.</Text>
+		</Row>
+
+		<!--同意声明友谊-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>난 「나부」의 운기 장군 경원이라고 하네. 「장군」은 일시적인 신분일 뿐이니 편하게 부르시게.</Text>
+		</Replace>
+		<!--拒绝声明友谊-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				난 번거로운 게 제일 싫다네. 번거로운 일은 규모뿐 아니라 시기로도 나뉘지. 계략을 세우는 것도 고되구나……
+			</Text>
+		</Replace>
+		<!--请求声明友谊-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				자잘한 일에 골치가 아픈지 오래라 주변 일에도 눈이 가지 않고, 지루한 사람이 되어버렸네. 무슨 견문이든 말해야만 한다면, 너처럼 천외를 떠도는 사람을 만났다고 말하겠지.
+			</Text>
+		</Replace>
+		<!--请求声明友谊被接受-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				뛰어난 장기 기사는 묘수에 기대지 않는 법. 사람들은 늘 한 번의 묘책을 통해 상황을 역전하려 하지만 전체의 위기는 고려하지 않지.
+			</Text>
+		</Replace>
+		<!--请求声明友谊被拒绝-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				과거의 적은 죽었거나 잡혔고, 오랜 벗들은 바람에 흩어졌네. 그러고 보니 나도 「노인」이 다 되었군…
+			</Text>
+		</Replace>
+		<!--被宣战-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				전투는 장기처럼 매번 새로워.
+			</Text>
+		</Replace>
+		<!--主动宣战-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				빛나는 위령이여, 명을 따르라. 즉시 처결한다!
+			</Text>
+		</Replace>
+		<!--初次见面-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_FIRST_MEET_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>난 「나부」의 운기 장군 경원이라고 하네. 「장군」은 일시적인 신분일 뿐이니 편하게 부르시게</Text>
+		</Replace>
+		<!--初次见面，提供最近城市位置-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				그래, 푹 쉬어…. 난 처리해야 할 일이 남았으니 멀리는 안 나가지.
+			</Text>
+		</Replace>
+		<!--初次见面，玩家提供最近城市位置-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				왔군. 여행에서 신기한 일이 있거든 내게도 얘기해주게나.
+			</Text>
+		</Replace>
+		<!--初次见面，请求交换首都位置-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				왔군. 여행에서 신기한 일이 있거든 내게도 얘기해주게나.
+			</Text>
+		</Replace>
+		<!--表示欢迎-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_GREETING_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				외부인은 「나부」를 선주라고 부르지만… 「나부」는 선주가 아닐세. 「나부」는 「나부」야.
+			</Text>
+		</Replace>
+		<!--接受使节派遣-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				오? 꽤 괜찮군.
+			</Text>
+		</Replace>
+		<!--拒绝使节派遣-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				허점투성이군.
+			</Text>
+		</Replace>
+		<!--请求派遣使节-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				심심하면 대국을 이어가 줄 수 있어.
+			</Text>
+		</Replace>
+		<!--被谴责-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				허점투성이군.
+			</Text>
+		</Replace>
+		<!--谴责玩家-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				적진을 마주했군. 신중히 기회를 엿보게.
+			</Text>
+		</Replace>
+		<!--领袖敌视玩家-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_WARNING_EXIT_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				혼자의 힘에는 한계가 있으니, 끝에 다다르면 다른 방도를 찾아야 하지.
+			</Text>
+		</Replace>
+		<!--请求结盟-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				뭇별이 반짝이는 우주에선 한 걸음 한 걸음이 곧 선택이고, 그 선택이 운명을 이룬다네.
+			</Text>
+		</Replace>
+		<!--要求移开边境军队-->
+		<Replace Language="ko_KR" Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				전술가란 때를 기다리는 법. 움직이지 마.
+			</Text>
+		</Replace>
+		<!--战败-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY" Language="ko_KR">
+			<Text>전쟁에 소홀했어...</Text>
+		</Row>
+		<!--玩家战败-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY" Language="ko_KR">
+			<Text>전쟁에 소홀했어...</Text>
+		</Row>
+		<!--同意交易-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY" Language="ko_KR">
+			<Text>
+				이렇게 귀한 물건은 그대가 챙겨두게.
+			</Text>
+		</Row>
+		<!--拒绝交易-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY" Language="ko_KR">
+			<Text>
+				그대의 마음은 나도 알아. 그래서 더 기다려야 해. 그대에게 인내심이 생긴다면 때가 된 거겠지.
+			</Text>
+		</Row>
+		<!--接受停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_XIANZHOU_JINGYUAN_ANY" Language="ko_KR">
+			<Text>호적수를 만난 것 같군.</Text>
+		</Row>
+		<!--拒绝停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_XIANZHOU_JINGYUAN_ANY" Language="ko_KR">
+			<Text>전쟁은 잔혹하지!</Text>
+		</Row>
+		<!--要求停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY" Language="ko_KR">
+			<Text>
+				xt>
+				난 번거로운 게 제일 싫다네. 번거로운 일은 규모뿐 아니라 시기로도 나뉘지. 계략을 세우는 것도 고되구나……
+			</Text>
+		</Row>
+		<!--开放边界-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY" Language="ko_KR">
+			<Text>
+				기계술이라, 흥미롭군.
+			</Text>
+		</Row>
+		<!--拒绝开放边界-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY" Language="ko_KR">
+			<Text>
+				물럿거라.
+			</Text>
+		</Row>
+		<!--请求开放边界-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY" Language="ko_KR">
+			<Text>
+				심심하면 대국을 이어가 줄 수 있어.
+			</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

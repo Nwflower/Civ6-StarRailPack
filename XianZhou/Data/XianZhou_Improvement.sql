@@ -1,0 +1,83 @@
+-- XianZhou_Improvement
+-- Author: Pen
+-- DateCreated: 2024/2/3 9:54:06
+--------------------------------------------------------------
+insert or replace into Types
+(Type,											Kind)
+values
+('IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE',		'KIND_IMPROVEMENT');
+
+insert or replace into Improvements
+(ImprovementType,								TraitType,											Name,													Description,												Icon,												Buildable,	PlunderType,	PlunderAmount,	GrantFortification,	Appeal,	Workable,	Removable,	SameAdjacentValid,	OnePerCity,	Capturable)
+values
+('IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE',	'TRAIT_IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE',	'LOC_IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE_NAME',	'LOC_IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE_DESCRIPTION','ICON_IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE',	1,			'NO_PLUNDER',	0,				2,					1,		1,			0,			0,					1,			0);
+
+insert or replace into Improvement_ValidBuildUnits
+(ImprovementType,								UnitType,					ConsumesCharge)
+values
+('IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE',	'UNIT_BUILDER',				1);
+
+insert or replace into Improvement_YieldChanges
+(ImprovementType,								YieldType,					YieldChange)
+values
+('IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE',	'YIELD_PRODUCTION',			2);
+
+insert or replace into Improvements_XP2
+(ImprovementType,									DisasterResistant)
+values
+('IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE',		1);
+
+insert or replace into ImprovementModifiers
+(ImprovementType,												ModifierId)
+values
+('IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE',					'XIANZHOU_CITY_DEBUFF_PRODUCTION'),
+('IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE',					'XIANZHOU_CITY_ENABLE_MATRIX_OF_PRESCIENCE');
+
+insert or replace into Modifiers
+(ModifierId,													ModifierType,												OwnerRequirementSetId)
+values
+('XIANZHOU_CITY_DEBUFF_PRODUCTION',								'MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER',			'PLAYER_IS_HUMAN'),
+('XIANZHOU_CITY_ENABLE_MATRIX_OF_PRESCIENCE',					'MODIFIER_SINGLE_CITY_ADJUST_PROPERTY',						'PLAYER_IS_HUMAN');
+
+insert or replace into ModifierArguments
+(ModifierId,									Name,					Value)
+values
+('XIANZHOU_CITY_DEBUFF_PRODUCTION',				'YieldType',			'YIELD_PRODUCTION'),
+('XIANZHOU_CITY_DEBUFF_PRODUCTION',				'Amount',				-1000),
+
+('XIANZHOU_CITY_ENABLE_MATRIX_OF_PRESCIENCE',	'Key',					'CITY_ENABLE_MATRIX_OF_PRESCIENCE'),
+('XIANZHOU_CITY_ENABLE_MATRIX_OF_PRESCIENCE',	'Amount',				1);
+
+--可修建地貌
+insert or replace into Improvement_ValidTerrains
+(ImprovementType,							TerrainType)
+values
+
+('IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE','TERRAIN_PLAINS'),
+('IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE','TERRAIN_GRASS'),
+('IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE','TERRAIN_DESERT'),
+('IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE','TERRAIN_TUNDRA'),
+('IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE','TERRAIN_SNOW'),
+('IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE','TERRAIN_PLAINS_HILLS'),
+('IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE','TERRAIN_GRASS_HILLS'),
+('IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE','TERRAIN_DESERT_HILLS'),
+('IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE','TERRAIN_TUNDRA_HILLS'),
+('IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE','TERRAIN_SNOW_HILLS');
+
+insert or replace into Improvement_ValidFeatures
+(ImprovementType,							FeatureType)
+values
+('IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE','FEATURE_FOREST'),
+('IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE','FEATURE_JUNGLE'),
+('IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE','FEATURE_MARSH'),
+
+('IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE','FEATURE_FLOODPLAINS'),
+('IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE','FEATURE_FLOODPLAINS_GRASSLAND'),
+('IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE','FEATURE_FLOODPLAINS_PLAINS'),
+
+('IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE','FEATURE_VOLCANIC_SOIL'),
+('IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE','FEATURE_GEOTHERMAL_FISSURE');
+
+insert or replace into Improvement_ValidResources
+(			ImprovementType,								ResourceType,		MustRemoveFeature)
+Select		'IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE',	ResourceType,		0					from Resources where Frequency > 0;--限定为陆地资源
