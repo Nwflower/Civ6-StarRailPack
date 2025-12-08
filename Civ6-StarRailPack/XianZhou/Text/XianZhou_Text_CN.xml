@@ -316,7 +316,7 @@
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_BAILU_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>
-				城市改良的每种奢侈品资源均可提供1点 [ICON_AMENITIES] 宜居度。所有单位+10 [ICON_DAMAGED] 生命值回复量。
+				城市改良的每种奢侈品资源均可提供1点 [ICON_AMENITIES] 宜居度。拥有丹鼎司的城市训练的所有单位+10 [ICON_DAMAGED] 生命值回复量。
 			</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_XIANZHOU_UNITS_HEAL_AFTER_COMBAT_NAME" Language="zh_Hans_CN">
