@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="bdf6966c-2f83-4525-80ff-d428af43a073" version="1">
+    <Properties>
+        <Name>LOC_PEN_LUOFU_XIANZHOU_NAME</Name>
+        <Description>LOC_PEN_LUOFU_XIANZHOU_DESCRIPTION</Description>
+        <Created>1709348014</Created>
+        <Teaser>LOC_PEN_LUOFU_XIANZHOU_TEASER</Teaser>
+        <Authors>Pen</Authors>
+        <SpecialThanks>IthildinX, Nea•baraja, JiDong</SpecialThanks>
+        <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    </Properties>
+    <LocalizedText>
+        <Text id="LOC_PEN_LUOFU_XIANZHOU_NAME">
+            <en_US>[Honkai: Star Rail] Xianzhou Luofu</en_US>
+            <ru_RU>[Honkai: Star Rail] Xianzhou Luofu</ru_RU>
+            <zh_Hant_HK>[崩坏：星穹铁道]罗浮仙舟文明包</zh_Hant_HK>
+            <zh_Hans_CN>[崩坏：星穹铁道]罗浮仙舟文明包</zh_Hans_CN>
+            <ko_KR>[붕괴: 스타레일] 선주「나부」</ko_KR>
+        </Text>
+        <Text id="LOC_PEN_LUOFU_XIANZHOU_TEASER">
+            <en_US>Author: Pen</en_US>
+            <ru_RU>Author: Pen</ru_RU>
+            <zh_Hant_HK>作者：Pen</zh_Hant_HK>
+            <zh_Hans_CN>作者：Pen</zh_Hans_CN>
+            <ko_KR>Author: Pen</ko_KR>
+        </Text>
+        <Text id="LOC_PEN_LUOFU_XIANZHOU_DESCRIPTION">
+            <en_US>Added a civilization: The Xianzhou Luofu</en_US>
+            <ru_RU>Added a civilization: The Xianzhou Luofu</ru_RU>
+            <zh_Hant_HK>添加文明：罗浮仙舟，及其對應領袖</zh_Hant_HK>
+            <zh_Hans_CN>添加文明：罗浮仙舟，及其对应领袖</zh_Hans_CN>
+            <ko_KR>Added a civilization: The Xianzhou Luofu</ko_KR>
+        </Text>
+    </LocalizedText>
+    <ActionCriteria>
+        <Criteria id="XianZhou">
+            <LeaderPlayable>
+                Players:StandardPlayers::LEADER_XIANZHOU_BAILU,Players:Expansion1_Players::LEADER_XIANZHOU_BAILU,Players:Expansion2_Players::LEADER_XIANZHOU_BAILU,Players:StandardPlayers::LEADER_XIANZHOU_FUXUAN,Players:Expansion1_Players::LEADER_XIANZHOU_FUXUAN,Players:Expansion2_Players::LEADER_XIANZHOU_FUXUAN,Players:StandardPlayers::LEADER_XIANZHOU_JINGYUAN,Players:Expansion1_Players::LEADER_XIANZHOU_JINGYUAN,Players:Expansion2_Players::LEADER_XIANZHOU_JINGYUAN,Players:StandardPlayers::LEADER_XIANZHOU_HUOHUO,Players:Expansion1_Players::LEADER_XIANZHOU_HUOHUO,Players:Expansion2_Players::LEADER_XIANZHOU_HUOHUO,Players:StandardPlayers::LEADER_XIANZHOU_JINGLIU,Players:Expansion1_Players::LEADER_XIANZHOU_JINGLIU,Players:Expansion2_Players::LEADER_XIANZHOU_JINGLIU
+            </LeaderPlayable>
+            <RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+        </Criteria>
+        <Criteria id="TeamPvP" any="1">
+            <ModInUse>58f3abf8-8074-44d9-bae2-bd1bab701843</ModInUse>
+            <ModInUse>8821E6BF-39BD-20A2-3758-E33734D081D8</ModInUse>
+        </Criteria>
+    </ActionCriteria>
+    <FrontEndActions>
+        <UpdateDatabase id="config">
+            <File>Data/XianZhou_Config.xml</File>
+        </UpdateDatabase>
+        <UpdateColors id="color">
+            <File>Data/XianZhou_Color.xml</File>
+        </UpdateColors>
+        <UpdateIcons id="icon">
+            <File>Data/XianZhou_Icon.xml</File>
+        </UpdateIcons>
+        <UpdateText id="text">
+            <File>Text/XianZhou_Text_CN.xml</File>
+        </UpdateText>
+        <UpdateArt id="art">
+            <File>LuoFu_XianZhou.dep</File>
+        </UpdateArt>
+    </FrontEndActions>
+    <InGameActions>
+        <ImportFiles id="ImportFiles">
+            <Properties>
+                <LoadOrder>100000</LoadOrder>
+            </Properties>
+            <Criteria>XianZhou</Criteria>
+            <File>Import/XianZhouFuctions.lua</File>
+        </ImportFiles>
+        <UpdateDatabase id="database">
+            <Properties>
+                <LoadOrder>100000</LoadOrder>
+            </Properties>
+            <Criteria>XianZhou</Criteria>
+            <File Priority="3">Data/XianZhou_Core.sql</File>
+            <File Priority="2">Data/XianZhou_Building.sql</File>
+            <File Priority="2">Data/XianZhou_Civilization.sql</File>
+            <File Priority="2">Data/XianZhou_District.sql</File>
+            <File Priority="2">Data/XianZhou_Improvement.sql</File>
+            <File Priority="2">Data/XianZhou_Leader.sql</File>
+            <File Priority="2">Data/XianZhou_Moment.sql</File>
+            <File Priority="2">Data/XianZhou_Unit.sql</File>
+            <File Priority="2">Data/XianZhou_Project.sql</File>
+            <File Priority="2">Data/XianZhou_Policy.sql</File>
+            <File Priority="2">Data/XianZhou_Governor.sql</File>
+        </UpdateDatabase>
+        <UpdateColors id="color">
+            <Criteria>XianZhou</Criteria>
+            <File>Data/XianZhou_Color.xml</File>
+        </UpdateColors>
+        <UpdateIcons id="icon">
+            <Criteria>XianZhou</Criteria>
+            <File>Data/XianZhou_Icon.sql</File>
+            <File>Data/XianZhou_Icon.xml</File>
+        </UpdateIcons>
+        <UpdateText id="text">
+            <Criteria>XianZhou</Criteria>
+            <File>Text/XianZhou_Text_CN.xml</File>
+        </UpdateText>
+        <AddGameplayScripts id="lua">
+            <Criteria>XianZhou</Criteria>
+            <File>Scripts/LuoFu_XianZhou_Gameplay.lua</File>
+        </AddGameplayScripts>
+        <AddUserInterfaces id="ui">
+            <Properties>
+                <Context>InGame</Context>
+            </Properties>
+            <Criteria>XianZhou</Criteria>
+            <File>UI/LuoFu_XianZhou_UI.xml</File>
+        </AddUserInterfaces>
+        <UpdateArt id="art">
+            <Criteria>XianZhou</Criteria>
+            <File>LuoFu_XianZhou.dep</File>
+        </UpdateArt>
+        <UpdateDatabase id="database">
+            <Properties>
+                <LoadOrder>100001</LoadOrder>
+            </Properties>
+            <Criteria>XianZhou</Criteria>
+            <Criteria>TeamPvP</Criteria>
+            <File>Data/XianZhou_TeamPvP.sql</File>
+        </UpdateDatabase>
+    </InGameActions>
+    <Files>
+        <File>ArtDefs/Districts.artdef</File>
+        <File>ArtDefs/FallbackLeaders.artdef</File>
+        <File>ArtDefs/Improvements.artdef</File>
+        <File>ArtDefs/Landmarks.artdef</File>
+        <File>ArtDefs/StrategicView.artdef</File>
+        <File>ArtDefs/Units.artdef</File>
+        <File>Data/XianZhou_Building.sql</File>
+        <File>Data/XianZhou_Civilization.sql</File>
+        <File>Data/XianZhou_Color.xml</File>
+        <File>Data/XianZhou_Config.xml</File>
+        <File>Data/XianZhou_Config_HP.sql</File>
+        <File>Data/XianZhou_Core.sql</File>
+        <File>Data/XianZhou_District.sql</File>
+        <File>Data/XianZhou_Governor.sql</File>
+        <File>Data/XianZhou_DLL.sql</File>
+        <File>Data/XianZhou_HD.sql</File>
+        <File>Data/XianZhou_HP.sql</File>
+        <File>Data/XianZhou_Icon.sql</File>
+        <File>Data/XianZhou_Icon.xml</File>
+        <File>Data/XianZhou_Improvement.sql</File>
+        <File>Data/XianZhou_Leader.sql</File>
+        <File>Data/XianZhou_Moment.sql</File>
+        <File>Data/XianZhou_Music.sql</File>
+        <File>Data/XianZhou_TeamPvP.sql</File>
+        <File>Data/XianZhou_Policy.sql</File>
+        <File>Data/XianZhou_Unit.sql</File>
+        <File>LuoFu_XianZhou.dep</File>
+        <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Caravel_Attack_Cannons_L</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Caravel_Attack_Cannons_R</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Caravel_Death</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Caravel_IdleA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Caravel_RunA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Caravel_RunStopA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_MATRIX_OF_PRESCIENCE_BASE_null</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_XianZhouStarskiff_0_null</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_XianZhouStarskiff_1_null</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_XianZhouStarskiff_2_null</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_MATRIX_OF_PRESCIENCE_BASE</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_XianZhouStarskiff_0n0</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_XianZhouStarskiff_0n1</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_XianZhouStarskiff_1n0</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_XianZhouStarskiff_1n1</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_XianZhouStarskiff_2n0</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_XianZhouStarskiff_2n1</File>
+        <File>Platforms/Windows/BLPs/strategicview/strategicview_improvements.blp</File>
+        <File>Platforms/Windows/BLPs/TileBase.blp</File>
+        <File>Platforms/Windows/BLPs/XianZhou.blp</File>
+        <File>Platforms/Windows/BLPs/XianZhouUnits.blp</File>
+        <File>Scripts/LuoFu_XianZhou_Gameplay.lua</File>
+        <File>Text/XianZhou_Text_CN.xml</File>
+        <File>Import/XianZhouFuctions.lua</File>
+        <File>UI/LuoFu_XianZhou_UI.lua</File>
+        <File>UI/LuoFu_XianZhou_UI.xml</File>
+    </Files>
+</Mod>

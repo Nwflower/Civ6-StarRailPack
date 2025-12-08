@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- XianZhou_Color -->
+<!-- Author: Pen -->
+<!-- DateCreated: 2024/2/3 9:54:33 -->
+<GameData>
+	<Colors>
+		<!--Alpha here variates from 0 to 255 refers to opaque to transparent-->
+		<!--背景色-->
+		<Row>
+			<Type>COLOR_LEADER_XIANZHOU_BAILU_PRIMARY</Type>
+			<Color>137,139,205,192</Color>
+		</Row>
+		<!--前色-->
+		<Row>
+			<Type>COLOR_LEADER_XIANZHOU_BAILU_SECONDARY</Type>
+			<Color>244,246,248,255</Color>
+		</Row>
+
+		<!--背景色-->
+		<Row>
+			<Type>COLOR_LEADER_XIANZHOU_FUXUAN_PRIMARY</Type>
+			<Color>66,21,118,192</Color>
+		</Row>
+		<!--前色-->
+		<Row>
+			<Type>COLOR_LEADER_XIANZHOU_FUXUAN_SECONDARY</Type>
+			<Color>251,109,253,255</Color>
+		</Row>
+		
+		<!--背景色-->
+		<Row>
+			<Type>COLOR_LEADER_XIANZHOU_JINGYUAN_PRIMARY</Type>
+			<Color>233,231,232,192</Color>
+		</Row>
+		<!--前色-->
+		<Row>
+			<Type>COLOR_LEADER_XIANZHOU_JINGYUAN_SECONDARY</Type>
+			<Color>109,37,36,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_LEADER_XIANZHOU_HUOHUO_PRIMARY</Type>
+			<Color>153,184,173,192</Color>
+		</Row>
+		<!--前色-->
+		<Row>
+			<Type>COLOR_LEADER_XIANZHOU_HUOHUO_SECONDARY</Type>
+			<Color>200,255,255,255</Color>
+		</Row>
+
+		<!--背景色-->
+		<Row>
+			<Type>COLOR_LEADER_XIANZHOU_JINGLIU_PRIMARY</Type>
+			<Color>28,30,90,192</Color>
+		</Row>
+		<!--前色-->
+		<Row>
+			<Type>COLOR_LEADER_XIANZHOU_JINGLIU_SECONDARY</Type>
+			<Color>212,217,217,255</Color>
+		</Row>
+	</Colors>
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_XIANZHOU_BAILU</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_LEADER_XIANZHOU_BAILU_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_LEADER_XIANZHOU_BAILU_SECONDARY</SecondaryColor>
+			<Alt1PrimaryColor>COLOR_STANDARD_BLUE_LT</Alt1PrimaryColor>
+			<Alt1SecondaryColor>COLOR_STANDARD_WHITE_LT</Alt1SecondaryColor>
+			<Alt2PrimaryColor>COLOR_STANDARD_WHITE_LT</Alt2PrimaryColor>
+			<Alt2SecondaryColor>COLOR_STANDARD_BLUE_LT</Alt2SecondaryColor>
+			<Alt3PrimaryColor>COLOR_STANDARD_WHITE_LT</Alt3PrimaryColor>
+			<Alt3SecondaryColor>COLOR_STANDARD_BLUE_MD</Alt3SecondaryColor>
+		</Row>
+
+		<Row>
+			<Type>LEADER_XIANZHOU_FUXUAN</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_LEADER_XIANZHOU_FUXUAN_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_LEADER_XIANZHOU_FUXUAN_SECONDARY</SecondaryColor>
+			<Alt1PrimaryColor>COLOR_LEADER_XIANZHOU_FUXUAN_SECONDARY</Alt1PrimaryColor>
+			<Alt1SecondaryColor>COLOR_LEADER_XIANZHOU_FUXUAN_PRIMARY</Alt1SecondaryColor>
+			<Alt2PrimaryColor>COLOR_STANDARD_WHITE_LT</Alt2PrimaryColor>
+			<Alt2SecondaryColor>COLOR_LEADER_XIANZHOU_FUXUAN_SECONDARY</Alt2SecondaryColor>
+			<Alt3PrimaryColor>COLOR_STANDARD_WHITE_LT</Alt3PrimaryColor>
+			<Alt3SecondaryColor>COLOR_LEADER_XIANZHOU_FUXUAN_SECONDARY</Alt3SecondaryColor>
+		</Row>
+		
+		<Row>
+			<Type>LEADER_XIANZHOU_JINGYUAN</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_LEADER_XIANZHOU_JINGYUAN_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_LEADER_XIANZHOU_JINGYUAN_SECONDARY</SecondaryColor>
+			<Alt1PrimaryColor>COLOR_LEADER_XIANZHOU_JINGYUAN_SECONDARY</Alt1PrimaryColor>
+			<Alt1SecondaryColor>COLOR_LEADER_XIANZHOU_JINGYUAN_PRIMARY</Alt1SecondaryColor>
+			<Alt2PrimaryColor>COLOR_STANDARD_RED_LT</Alt2PrimaryColor>
+			<Alt2SecondaryColor>COLOR_LEADER_XIANZHOU_JINGYUAN_PRIMARY</Alt2SecondaryColor>
+			<Alt3PrimaryColor>COLOR_STANDARD_WHITE_LT</Alt3PrimaryColor>
+			<Alt3SecondaryColor>COLOR_LEADER_XIANZHOU_JINGYUAN_SECONDARY</Alt3SecondaryColor>
+		</Row>
+		
+		<Row>
+			<Type>LEADER_XIANZHOU_HUOHUO</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_LEADER_XIANZHOU_HUOHUO_SECONDARY</PrimaryColor>
+			<SecondaryColor>COLOR_LEADER_XIANZHOU_JINGLIU_PRIMARY</SecondaryColor>
+			<Alt1PrimaryColor>COLOR_LEADER_XIANZHOU_HUOHUO_PRIMARY</Alt1PrimaryColor>
+			<Alt1SecondaryColor>COLOR_LEADER_XIANZHOU_JINGLIU_PRIMARY</Alt1SecondaryColor>
+			<Alt2PrimaryColor>COLOR_STANDARD_WHITE_LT</Alt2PrimaryColor>
+			<Alt2SecondaryColor>COLOR_STANDARD_BLUE_LT</Alt2SecondaryColor>
+			<Alt3PrimaryColor>COLOR_STANDARD_WHITE_LT</Alt3PrimaryColor>
+			<Alt3SecondaryColor>COLOR_STANDARD_BLUE_MD</Alt3SecondaryColor>
+		</Row>
+		
+		<Row>
+			<Type>LEADER_XIANZHOU_JINGLIU</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_LEADER_XIANZHOU_JINGLIU_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_LEADER_XIANZHOU_JINGLIU_SECONDARY</SecondaryColor>
+			<Alt1PrimaryColor>COLOR_STANDARD_BLUE_MD</Alt1PrimaryColor>
+			<Alt1SecondaryColor>COLOR_STANDARD_WHITE_LT</Alt1SecondaryColor>
+			<Alt2PrimaryColor>COLOR_BLACK</Alt2PrimaryColor>
+			<Alt2SecondaryColor>COLOR_STANDARD_BLUE_LT</Alt2SecondaryColor>
+			<Alt3PrimaryColor>COLOR_STANDARD_WHITE_LT</Alt3PrimaryColor>
+			<Alt3SecondaryColor>COLOR_STANDARD_BLUE_MD</Alt3SecondaryColor>
+		</Row>
+	</PlayerColors>
+</GameData>

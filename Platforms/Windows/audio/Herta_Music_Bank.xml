@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="3018856936" GUID="{FB7498F6-DE75-4EEF-9D1E-317E337E391E}" Language="SFX">
+			<ShortName>Herta_Music_Bank</ShortName>
+			<Path>Herta_Music_Bank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2217652643" Name="Pause_Music_KNM_HERTA_SPACE_STATION" GUID="{A9F61F92-A2FA-407E-888E-701C8623E34D}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1214143575" Name="Play_Leader_Music_KNM_HERTA_SPACE_STATION" GUID="{B5F55DEE-DC79-458D-8B45-08C4EB6CF0F5}" DurationType="Infinite"/>
+				<Event Id="3765756521" Name="Play_Music_KNM_HERTA_SPACE_STATION" GUID="{88FC38C0-4BC6-4E75-8775-482472C31648}" DurationType="Infinite"/>
+				<Event Id="3703910250" Name="Resume_Music_KNM_HERTA_SPACE_STATION" GUID="{63A20572-7CAD-4004-9393-1C3F2B9F4D6C}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1024882273" Name="Start_Music_KNM_HERTA_SPACE_STATION" GUID="{A340E252-31F2-4DEE-8249-BF2BB0E6FC33}" DurationType="Infinite"/>
+				<Event Id="329197661" Name="Stop_Leader_Music_KNM_HERTA_SPACE_STATION" GUID="{F189D51A-1144-4593-BD0C-B75A9625A6B9}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3012291995" Name="Stop_Music_KNM_HERTA_SPACE_STATION" GUID="{58B7D62A-DCB5-434A-B119-49B5588584D2}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="2123328" Language="SFX">
+					<ShortName>HOYO-MiX - 科幻小说 Science Fiction.wav</ShortName>
+					<Path>SFX\HOYO-MiX - 科幻小说 Science Fiction_5E5FEB08.wem</Path>
+				</File>
+				<File Id="173476250" Language="SFX">
+					<ShortName>HOYO-MiX - 盐渍月亮 Salty Moon.wav</ShortName>
+					<Path>SFX\HOYO-MiX - 盐渍月亮 Salty Moon_5E5FEB08.wem</Path>
+				</File>
+				<File Id="342261787" Language="SFX">
+					<ShortName>HOYO-MiX - 蛀星旧梦 Oneiros of Borehole Planet.wav</ShortName>
+					<Path>SFX\HOYO-MiX - 蛀星旧梦 Oneiros of Borehole Planet_5E5FEB08.wem</Path>
+				</File>
+				<File Id="397547532" Language="SFX">
+					<ShortName>HOYO-MiX - 不可思议 In Disbelief.wav</ShortName>
+					<Path>SFX\HOYO-MiX - 不可思议 In Disbelief_5E5FEB08.wem</Path>
+				</File>
+				<File Id="471151637" Language="SFX">
+					<ShortName>HOYO-MiX - 好戏开场 The Game Is On.wav</ShortName>
+					<Path>SFX\HOYO-MiX - 好戏开场 The Game Is On_5E5FEB08.wem</Path>
+				</File>
+				<File Id="492880990" Language="SFX">
+					<ShortName>HOYO-MiX - 另类摇滚 Alternative Rock.wav</ShortName>
+					<Path>SFX\HOYO-MiX - 另类摇滚 Alternative Rock_5E5FEB08.wem</Path>
+				</File>
+				<File Id="554202457" Language="SFX">
+					<ShortName>HOYO-MiX - 星穹铁道 Star Rail.wav</ShortName>
+					<Path>SFX\HOYO-MiX - 星穹铁道 Star Rail_5E5FEB08.wem</Path>
+				</File>
+				<File Id="711008917" Language="SFX">
+					<ShortName>HOYO-MiX - 沉浸感 Flow Experience.wav</ShortName>
+					<Path>SFX\HOYO-MiX - 沉浸感 Flow Experience_5E5FEB08.wem</Path>
+				</File>
+				<File Id="735678777" Language="SFX">
+					<ShortName>HOYO-MiX - 行星漂流 Drift.wav</ShortName>
+					<Path>SFX\HOYO-MiX - 行星漂流 Drift_5E5FEB08.wem</Path>
+				</File>
+				<File Id="736187622" Language="SFX">
+					<ShortName>HOYO-MiX - 太空漫步 Space Walk.wav</ShortName>
+					<Path>SFX\HOYO-MiX - 太空漫步 Space Walk_5E5FEB08.wem</Path>
+				</File>
+				<File Id="807947015" Language="SFX">
+					<ShortName>HOYO-MiX - 灵魂深处 Deep Within.wav</ShortName>
+					<Path>SFX\HOYO-MiX - 灵魂深处 Deep Within_5E5FEB08.wem</Path>
+				</File>
+				<File Id="825405644" Language="SFX">
+					<ShortName>HOYO-MiX,Lea Sirk - 星间旅行 Interstellar Journey (英文版).wav</ShortName>
+					<Path>SFX\HOYO-MiX,Lea Sirk - 星间旅行 Interstellar Journey (英文版)_5E5FEB08.wem</Path>
+				</File>
+				<File Id="840603022" Language="SFX">
+					<ShortName>HOYO-MiX - 原始的金黄 Primordial Resplendence.wav</ShortName>
+					<Path>SFX\HOYO-MiX - 原始的金黄 Primordial Resplendence_5E5FEB08.wem</Path>
+				</File>
+				<File Id="850240087" Language="SFX">
+					<ShortName>HOYO-MiX,Anthony Lynch - 踏上旅途 Take the Journey.wav</ShortName>
+					<Path>SFX\HOYO-MiX,Anthony Lynch - 踏上旅途 Take the Journey_5E5FEB08.wem</Path>
+				</File>
+			</ReferencedStreamedFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Firefly_Color -->
+<!-- Author: Pen -->
+<!-- DateCreated: 2024/7/26 15:59:10 -->
+<GameData>
+	<Colors>
+		<!--Alpha here variates from 0 to 255 refers to opaque to transparent-->
+		<Row>
+			<Type>COLOR_LEADER_PEN_FIREFLY_PRIMARY</Type>
+			<Color>86,140,135</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_LEADER_PEN_FIREFLY_SECONDARY</Type>
+			<Color>178,213,155</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_LEADER_PEN_FIREFLY_SECONDARY2</Type>
+			<Color>242,222,121</Color>
+		</Row>
+	</Colors>
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_PEN_FIREFLY</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_STANDARD_AQUA_DK</PrimaryColor>
+			<SecondaryColor>COLOR_LEADER_PEN_FIREFLY_SECONDARY2</SecondaryColor>
+			<Alt1PrimaryColor>COLOR_STANDARD_YELLOW_LT</Alt1PrimaryColor>
+			<Alt1SecondaryColor>COLOR_LEADER_PEN_FIREFLY_PRIMARY</Alt1SecondaryColor>
+			<Alt2PrimaryColor>COLOR_LEADER_PEN_FIREFLY_PRIMARY</Alt2PrimaryColor>
+			<Alt2SecondaryColor>COLOR_STANDARD_WHITE_DK</Alt2SecondaryColor>
+			<Alt3PrimaryColor>COLOR_LEADER_PEN_FIREFLY_SECONDARY</Alt3PrimaryColor>
+			<Alt3SecondaryColor>COLOR_STANDARD_WHITE_LT</Alt3SecondaryColor>
+		</Row>
+	</PlayerColors>
+</GameData>

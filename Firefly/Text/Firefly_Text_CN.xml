@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Firefly_Text_CN -->
+<!-- Author: pen -->
+<!-- DateCreated: 2023/7/26 15:27:44 -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_PEN_GLAMOTH_NAME" Language="zh_Hans_CN">
+			<Text>格拉默帝国</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_PEN_GLAMOTH_ADJECTIVE" Language="zh_Hans_CN" >
+			<Text>格拉默的</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_PEN_GLAMOTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>格拉默</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_PEN_GLAMOTH" Language="zh_Hans_CN">
+			<Text>AR-26710</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_PEN_GLAMOTH_NAME_1" Language="zh_Hans_CN">
+			<Text>AR-214</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_PEN_GLAMOTH_NAME_2" Language="zh_Hans_CN">
+			<Text>AR-53935</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_PEN_GLAMOTH_NAME_3" Language="zh_Hans_CN">
+			<Text>AR-1368</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_PEN_GLAMOTH_NAME_4" Language="zh_Hans_CN">
+			<Text>AR-19330</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_PEN_GLAMOTH_NAME_5" Language="zh_Hans_CN">
+			<Text>AR-52934</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_PEN_GLAMOTH_NAME_6" Language="zh_Hans_CN">
+			<Text>AR-3045</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_PEN_GLAMOTH_NAME_7" Language="zh_Hans_CN">
+			<Text>AR-34219</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_PEN_GLAMOTH_NAME_8" Language="zh_Hans_CN">
+			<Text>AR-27952</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_PEN_GLAMOTH_NAME_9" Language="zh_Hans_CN">
+			<Text>AR-46279</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_PEN_GLAMOTH_NAME_10" Language="zh_Hans_CN">
+			<Text>AR-24268</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_PEN_GLAMOTH_NAME_11" Language="zh_Hans_CN">
+			<Text>AR-1030</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_PEN_GLAMOTH_NAME_12" Language="zh_Hans_CN">
+			<Text>AR-1030</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_PEN_GLAMOTH_NAME_13" Language="zh_Hans_CN">
+			<Text>AR-1617</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_PEN_GLAMOTH_NAME_14" Language="zh_Hans_CN">
+			<Text>AR-1617</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_PEN_GLAMOTH_NAME_15" Language="zh_Hans_CN">
+			<Text>AR-23687</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_PEN_GLAMOTH_NAME_16" Language="zh_Hans_CN">
+			<Text>AR-14804</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_PEN_GLAMOTH_NAME_17" Language="zh_Hans_CN">
+			<Text>AR-19648</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_PEN_GLAMOTH_NAME_18" Language="zh_Hans_CN">
+			<Text>AR-16430</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_PEN_GLAMOTH_NAME_19" Language="zh_Hans_CN">
+			<Text>AR-43877</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_PEN_GLAMOTH_NAME_20" Language="zh_Hans_CN">
+			<Text>AR-39748</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_MALE_1" Language="zh_Hans_CN">
+			<Text>AR-4716</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_MALE_2" Language="zh_Hans_CN">
+			<Text>AR-10367</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_MALE_3" Language="zh_Hans_CN">
+			<Text>AR-50603</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_MALE_4" Language="zh_Hans_CN">
+			<Text>AR-50603</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_MALE_5" Language="zh_Hans_CN">
+			<Text>AR-49535</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_MALE_6" Language="zh_Hans_CN">
+			<Text>AR-19574</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_MALE_7" Language="zh_Hans_CN">
+			<Text>AR-17290</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_MALE_8" Language="zh_Hans_CN">
+			<Text>AR-16795</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_MALE_9" Language="zh_Hans_CN">
+			<Text>AR-12109</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_MALE_10" Language="zh_Hans_CN">
+			<Text>AR-5277</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_FEMALE_1" Language="zh_Hans_CN">
+			<Text>AR-0</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_FEMALE_2" Language="zh_Hans_CN">
+			<Text>AR-46995</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_FEMALE_3" Language="zh_Hans_CN">
+			<Text>AR-39913</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_FEMALE_4" Language="zh_Hans_CN">
+			<Text>AR-43626</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_FEMALE_5" Language="zh_Hans_CN">
+			<Text>AR-4873</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_FEMALE_6" Language="zh_Hans_CN">
+			<Text>AR-23724</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_FEMALE_7" Language="zh_Hans_CN">
+			<Text>AR-45840</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_FEMALE_8" Language="zh_Hans_CN">
+			<Text>AR-37167</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_FEMALE_9" Language="zh_Hans_CN">
+			<Text>AR-19466</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_FEMALE_10" Language="zh_Hans_CN">
+			<Text>AR-49964</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_MODERN_MALE_1" Language="zh_Hans_CN">
+			<Text>AR-23316</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_MODERN_MALE_2" Language="zh_Hans_CN">
+			<Text>AR-52686</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_MODERN_MALE_3" Language="zh_Hans_CN">
+			<Text>AR-34286</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_MODERN_MALE_4" Language="zh_Hans_CN">
+			<Text>AR-24575</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_MODERN_MALE_5" Language="zh_Hans_CN">
+			<Text>AR-9939</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_MODERN_MALE_6" Language="zh_Hans_CN">
+			<Text>AR-38662</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_MODERN_MALE_7" Language="zh_Hans_CN">
+			<Text>AR-46427</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_MODERN_MALE_8" Language="zh_Hans_CN">
+			<Text>AR-45673</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_MODERN_MALE_9" Language="zh_Hans_CN">
+			<Text>AR-9898</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_MODERN_MALE_10" Language="zh_Hans_CN">
+			<Text>AR-15946</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_MODERN_FEMALE_1" Language="zh_Hans_CN">
+			<Text>AR-15946</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_MODERN_FEMALE_2" Language="zh_Hans_CN">
+			<Text>AR-19585</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_MODERN_FEMALE_3" Language="zh_Hans_CN">
+			<Text>AR-22274</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_MODERN_FEMALE_4" Language="zh_Hans_CN">
+			<Text>AR-42020</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_MODERN_FEMALE_5" Language="zh_Hans_CN">
+			<Text>AR-42020</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_MODERN_FEMALE_6" Language="zh_Hans_CN">
+			<Text>AR-25709</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_MODERN_FEMALE_7" Language="zh_Hans_CN">
+			<Text>AR-25709</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_MODERN_FEMALE_8" Language="zh_Hans_CN">
+			<Text>AR-15504</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_MODERN_FEMALE_9" Language="zh_Hans_CN">
+			<Text>AR-29088</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_PEN_GLAMOTH_MODERN_FEMALE_10" Language="zh_Hans_CN">
+			<Text>AR-7117</Text>
+		</Replace>
+
+		<Row Tag="LOC_CIVINFO_PEN_GLAMOTH_LOCATION" Language="zh_Hans_CN">
+			<Text>格拉默星系（废墟）</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_PEN_GLAMOTH_SIZE" Language="zh_Hans_CN">
+			<Text>未知</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_PEN_GLAMOTH_POPULATION" Language="zh_Hans_CN">
+			<Text>1</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_PEN_GLAMOTH_CAPITAL" Language="zh_Hans_CN">
+			<Text>未知</Text>
+		</Row>
+
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_PEN_GLAMOTH_NAME" Language="zh_Hans_CN">
+			<Text>荡除蠹灾的铁骑</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_PEN_GLAMOTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				城市不会产生厌战情绪。移除蛮寨或首次建立城市时获得1名格拉默铁骑。允许城市执行项目“泰坦妮娅之梦”：消耗城市1[ICON_CITIZEN]人口获得1名格拉默铁骑。
+			</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_PEN_GLAMOTH_CAVALRY_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_UNIT_PEN_FIREFLY_SAMU_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_PEN_GLAMOTH_CAVALRY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{LOC_UNIT_PEN_FIREFLY_SAMU_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PEN_FIREFLY_SAMU_NAME" Language="zh_Hans_CN">
+			<Text>格拉默铁骑</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PEN_FIREFLY_SAMU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>格拉默特色近战单位，无法训练或购买，具有防空能力，拥有20[ICON_LIFESPAN]回合寿命（联机速度下）。可以在水域中移动和战斗，从火山土开始回合时+2 [ICON_MOVEMENT] 移动力。无法获得经验，首次建造军营、兵营、兵工厂、军事学院、宇航中心后获得 10/10/15/15/30 点[ICON_STRENGTH]战斗力提升。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_PEN_FIREFLY_SAMU1_NAME" Language="zh_Hans_CN">
+			<Text>指令-闪燃推进</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PEN_FIREFLY_SAMU1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>从火山土开始回合时+2 [ICON_MOVEMENT] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PEN_FIREFLY_SAMU2_STR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+{Property} 来自茧式源火中枢</Text>
+		</Replace>
+		
+
+		<Replace Tag="LOC_TRAIT_BUILDING_PEN_FIREFLY_REDDENED_CHRYSALIS_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_BUILDING_PEN_FIREFLY_REDDENED_CHRYSALIS_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_BUILDING_PEN_FIREFLY_REDDENED_CHRYSALIS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{LOC_BUILDING_PEN_FIREFLY_REDDENED_CHRYSALIS_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PEN_FIREFLY_REDDENED_CHRYSALIS_NAME" Language="zh_Hans_CN">
+			<Text>赤染之茧</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PEN_FIREFLY_REDDENED_CHRYSALIS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				流萤特色建筑，取代“粮仓”，建造价格更低。[NEWLINE]+1[ICON_FOOD]粮食、+2[ICON_HOUSING]住房、+1[ICON_AMENITIES]宜居。[NEWLINE]城市执行项目“泰坦妮娅之梦”时+30%[ICON_PRODUCTION]生产力。
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROJECT_PEN_GLAMOTH_TITANIA_DREAM_NAME" Language="zh_Hans_CN">
+			<Text>泰坦妮娅之梦</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PEN_GLAMOTH_TITANIA_DREAM_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>泰坦妮娅之梦</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PEN_GLAMOTH_TITANIA_DREAM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				项目完成后，城市获得1名格拉默铁骑，若城市人口大于1，则消耗一点[ICON_CITIZEN]人口。
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_PEN_FIREFLY_NAME" Language="zh_Hans_CN">
+			<Text>流萤</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_PEN_FIREFLY" Language="zh_Hans_CN">
+			<Text>「我梦见一片焦土，[NEWLINE]一株破土而生的新蕊，[NEWLINE]它迎着朝阳绽放，[NEWLINE]向我低语呢喃：[NEWLINE]飞萤扑火，向死而生」</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_PEN_FIREFLY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				「我梦见一片焦土，[NEWLINE]一株破土而生的新蕊，[NEWLINE]它迎着朝阳绽放，[NEWLINE]向我低语呢喃：[NEWLINE]飞萤扑火，向死而生」
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_PEN_FIREFLY_NAME" Language="zh_Hans_CN">
+			<Text>梦应归于何处</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_PEN_FIREFLY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				使用[ICON_CHARGES]劳动力移除地貌或建立城市时，若城市陆地单元格无地貌，则覆盖为火山土地貌。
+			</Text>
+		</Replace>
+
+		<Row Tag="LOC_PEN_FIREFLY_ACTIVE_YIELD_TOOLTIP" Language="zh_Hans_CN">
+			<Text>产出{1_Num} {2_IconStr} {3_Str}</Text>
+		</Row>
+
+		<!--流萤-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PEN_FIREFLY_QUOTE" Language="zh_Hans_CN">
+			<Text>“火萤这种生物很神奇吧？它们或许会扑向火烛，或许会突然老化。但在那之前的每一个夜晚，它们的光芒会比星星更耀眼。”[NEWLINE]——流萤</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PEN_FIREFLY_TITLE" Language="zh_Hans_CN">
+			<Text>星核猎手</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PEN_FIREFLY_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>
+				星核猎手成员，身着机械装甲「萨姆」战斗。忠于任务，性格坚强。
+				[NEWLINE]作为战胜虫群的兵器而诞生，其生长速度异于常人，但生命非常短暂。
+				[NEWLINE]为了找寻「生」的机会而加入星核猎手，找寻违抗命运的方式。
+			</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_PEN_FIREFLY_NAME" Language="zh_Hans_CN">
+			<Text>我曾安眠，赤染之茧</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_PEN_FIREFLY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>喜欢清除蛮族哨站所的文明。讨厌对蛮族哨站所视而不见的文明。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_PEN_FIREFLY_REASON_ANY" Language="zh_Hans_CN">
+			<Text>（您清理了附近的蛮寨）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_PEN_FIREFLY_ATTACKS_BARBARIANS" Language="zh_Hans_CN">
+			<Text>厉害…十分准确的判断。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_PEN_FIREFLY_REASON_ANY" Language="zh_Hans_CN">
+			<Text>（您对蛮族哨站所视而不见）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_PEN_FIREFLY_IGNORES_BARBARIANS" Language="zh_Hans_CN">
+			<Text>前方危险，务必小心。</Text>
+		</Row>
+
+		<!--同意声明友谊-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_PEN_FIREFLY_ANY">
+			<Text>开拓者，不用紧张…就像之前那样配合吧。</Text>
+		</Replace>
+		<!--拒绝声明友谊-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_PEN_FIREFLY_ANY">
+			<Text>
+				总有一天，你会明白我的坚持。
+			</Text>
+		</Replace>
+		<!--请求声明友谊-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_PEN_FIREFLY_ANY">
+			<Text>
+				抱歉，我并非有意隐瞒…在「剧本」的桎梏下，我必须完成「萨姆」的使命。除此之外…是我的私心，我希望以「流萤」的身份认识这个世界。
+			</Text>
+		</Replace>
+		<!--请求声明友谊被接受-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_PEN_FIREFLY_ANY">
+			<Text>
+				开拓者，不用紧张…就像之前那样配合吧。
+			</Text>
+		</Replace>
+		<!--请求声明友谊被拒绝-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_PEN_FIREFLY_ANY">
+			<Text>
+				也许最后，我也能够拥有自己的梦……
+			</Text>
+		</Replace>
+		<!--被宣战-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_PEN_FIREFLY_ANY">
+			<Text>
+				火萤Ⅳ型，启动！
+			</Text>
+		</Replace>
+		<!--主动宣战-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_PEN_FIREFLY_ANY">
+			<Text>
+				我将，点燃星海！
+			</Text>
+		</Replace>
+		<!--初次见面-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_LEADER_PEN_FIREFLY_ANY">
+			<Text>
+				开拓者，今天想去哪？一起走走吧。
+			</Text>
+		</Replace>
+		<!--初次见面，提供最近城市位置-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_PEN_FIREFLY_ANY">
+			<Text>
+				开拓者，今天想去哪？一起走走吧。
+			</Text>
+		</Replace>
+		<!--初次见面，玩家提供最近城市位置-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_PEN_FIREFLY_ANY">
+			<Text>
+				美好的时光总是过得那么快，下次再见啦。
+			</Text>
+		</Replace>
+		<!--初次见面，请求交换首都位置-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_PEN_FIREFLY_ANY">
+			<Text>
+				开拓者，今天想去哪？一起走走吧。
+			</Text>
+		</Replace>
+		<!--表示欢迎-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_GREETING_LEADER_PEN_FIREFLY_ANY">
+			<Text>
+				嗨，又见面啦…我的意思，很高兴见到你。和往常一样，叫我「流萤」吧。
+			</Text>
+		</Replace>
+		<!--接受使节派遣-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_PEN_FIREFLY_ANY">
+			<Text>
+				火萤这种生物很神奇吧？它们或许会扑向火烛，或许会突然老化。但在那之前的每一个夜晚，它们的光芒会比星星更耀眼。
+			</Text>
+		</Replace>
+		<!--拒绝使节派遣-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_PEN_FIREFLY_ANY">
+			<Text>
+				总有一天，你会明白我的坚持。
+			</Text>
+		</Replace>
+		<!--请求派遣使节-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_PEN_FIREFLY_ANY">
+			<Text>
+				火萤这种生物很神奇吧？它们或许会扑向火烛，或许会突然老化。但在那之前的每一个夜晚，它们的光芒会比星星更耀眼。
+			</Text>
+		</Replace>
+		<!--被谴责-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_PEN_FIREFLY_ANY">
+			<Text>
+				萨姆，已就位。
+			</Text>
+		</Replace>
+		<!--谴责玩家-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_PEN_FIREFLY_ANY">
+			<Text>
+				切换预案。
+			</Text>
+		</Replace>
+		<!--领袖敌视玩家-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_EXIT_LEADER_PEN_FIREFLY_ANY">
+			<Text>
+				切换预案。
+			</Text>
+		</Replace>
+		<!--请求结盟-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_PEN_FIREFLY_ANY">
+			<Text>
+				开拓者，不用紧张…就像之前那样配合吧。
+			</Text>
+		</Replace>
+		<!--要求移开边境军队-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_PEN_FIREFLY_ANY">
+			<Text>
+				就此离开，没人会受伤。[NEWLINE]......否则，你们都会死。
+			</Text>
+		</Replace>
+		<!--战败-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_PEN_FIREFLY_ANY" Language="zh_Hans_CN">
+			<Text>任务…终止……</Text>
+		</Row>
+		<!--玩家战败-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_PEN_FIREFLY_ANY" Language="zh_Hans_CN">
+			<Text>任务…终止……</Text>
+		</Row>
+		<!--同意交易-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_PEN_FIREFLY_ANY" Language="zh_Hans_CN">
+			<Text>
+				检查完毕，没有遗漏。
+			</Text>
+		</Row>
+		<!--拒绝交易-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_PEN_FIREFLY_ANY" Language="zh_Hans_CN">
+			<Text>
+				玉石可用来典当，但不是所有东西都需要用来交换——除了「活下去」外，生命中同样也有其他我不愿放弃的，更高价值的东西。
+			</Text>
+		</Row>
+		<!--接受停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_PEN_FIREFLY_ANY" Language="zh_Hans_CN">
+			<Text>战斗不是游戏…放心，我有分寸。</Text>
+		</Row>
+		<!--拒绝停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_PEN_FIREFLY_ANY" Language="zh_Hans_CN">
+			<Text>我为自我而战，直至一切…燃烧殆尽！</Text>
+		</Row>
+		<!--要求停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_PEN_FIREFLY_ANY" Language="zh_Hans_CN">
+			<Text>
+				总有一天，你会明白我的坚持。
+			</Text>
+		</Row>
+		<!--开放边界-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_PEN_FIREFLY_ANY" Language="zh_Hans_CN">
+			<Text>
+				从踏上战场那一天起，我就明白燃烧的羽翼终会有熄灭的时候。我只希望，在回到大地之前，能够看一眼天空中…那最为明亮的光。
+			</Text>
+		</Row>
+		<!--拒绝开放边界-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_PEN_FIREFLY_ANY" Language="zh_Hans_CN">
+			<Text>
+				前方危险，务必小心。
+			</Text>
+		</Row>
+		<!--请求开放边界-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_PEN_FIREFLY_ANY" Language="zh_Hans_CN">
+			<Text>
+				让我多待会儿吧，用这副身体……
+			</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>D:\UserData\Documents\WwiseProjects\Penacony\</ProjectRoot>
+		<SourceFilesRoot>D:\UserData\Documents\WwiseProjects\Penacony\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\UserData\Documents\WwiseProjects\Penacony\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\UserData\Documents\WwiseProjects\Penacony\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles>
+		<File Id="306124" Language="SFX">
+			<ShortName>HOYO-MiX - 镜像阶段 Stade du Miroir.wav</ShortName>
+			<Path>SFX\HOYO-MiX - 镜像阶段 Stade du Miroir_EE79F7FB.wem</Path>
+		</File>
+		<File Id="77268704" Language="SFX">
+			<ShortName>HOYO-MiX - 另一方玩家 The Player on the Other Side.wav</ShortName>
+			<Path>SFX\HOYO-MiX - 另一方玩家 The Player on the Other Side_EE79F7FB.wem</Path>
+		</File>
+		<File Id="137588804" Language="SFX">
+			<ShortName>HOYO-MiX - 快乐原则 Lustprinzip.wav</ShortName>
+			<Path>SFX\HOYO-MiX - 快乐原则 Lustprinzip_EE79F7FB.wem</Path>
+		</File>
+		<File Id="156779590" Language="SFX">
+			<ShortName>HOYO-MiX - 假如醒于午夜 If One Wakes at Midnight.wav</ShortName>
+			<Path>SFX\HOYO-MiX - 假如醒于午夜 If One Wakes at Midnight_EE79F7FB.wem</Path>
+		</File>
+		<File Id="181738138" Language="SFX">
+			<ShortName>HOYO-MiX - 落水狗 Wet Dog.wav</ShortName>
+			<Path>SFX\HOYO-MiX - 落水狗 Wet Dog_EE79F7FB.wem</Path>
+		</File>
+		<File Id="206220487" Language="SFX">
+			<ShortName>HOYO-MiX - 清醒梦 Lucid Dreams.wav</ShortName>
+			<Path>SFX\HOYO-MiX - 清醒梦 Lucid Dreams_EE79F7FB.wem</Path>
+		</File>
+		<File Id="234985175" Language="SFX">
+			<ShortName>HOYO-MiX - 嗨，多莉！ Hi, Dolly!.wav</ShortName>
+			<Path>SFX\HOYO-MiX - 嗨，多莉！ Hi, Dolly!_EE79F7FB.wem</Path>
+		</File>
+		<File Id="320790058" Language="SFX">
+			<ShortName>HOYO-MiX - 现实原则 Realitätsprinzip.wav</ShortName>
+			<Path>SFX\HOYO-MiX - 现实原则 Realitätsprinzip_EE79F7FB.wem</Path>
+		</File>
+		<File Id="395974971" Language="SFX">
+			<ShortName>HOYO-MiX - 半途之屋 Halfway House.wav</ShortName>
+			<Path>SFX\HOYO-MiX - 半途之屋 Halfway House_EE79F7FB.wem</Path>
+		</File>
+		<File Id="457225391" Language="SFX">
+			<ShortName>HOYO-MiX - 尘世乐园 This Side of Paradise.wav</ShortName>
+			<Path>SFX\HOYO-MiX - 尘世乐园 This Side of Paradise_EE79F7FB.wem</Path>
+		</File>
+		<File Id="497156637" Language="SFX">
+			<ShortName>HOYO-MiX - 梦客漫步 Dreamwalker.wav</ShortName>
+			<Path>SFX\HOYO-MiX - 梦客漫步 Dreamwalker_EE79F7FB.wem</Path>
+		</File>
+		<File Id="528487798" Language="SFX">
+			<ShortName>HOYO-MiX - 抵抗白昼 Against the Day.wav</ShortName>
+			<Path>SFX\HOYO-MiX - 抵抗白昼 Against the Day_EE79F7FB.wem</Path>
+		</File>
+		<File Id="560864678" Language="SFX">
+			<ShortName>HOYO-MiX - 关于记忆永恒的解构 On the Disintegration of Evermemoria.wav</ShortName>
+			<Path>SFX\HOYO-MiX - 关于记忆永恒的解构 On the Disintegration of Evermemoria_EE79F7FB.wem</Path>
+		</File>
+		<File Id="566405796" Language="SFX">
+			<ShortName>HOYO-MiX - 挑战读者 Challenge to the Reader.wav</ShortName>
+			<Path>SFX\HOYO-MiX - 挑战读者 Challenge to the Reader_EE79F7FB.wem</Path>
+		</File>
+		<File Id="587199773" Language="SFX">
+			<ShortName>HOYO-MiX - 倒扣的王牌 Ace in the Hole.wav</ShortName>
+			<Path>SFX\HOYO-MiX - 倒扣的王牌 Ace in the Hole_EE79F7FB.wem</Path>
+		</File>
+		<File Id="622268515" Language="SFX">
+			<ShortName>HOYO-MiX - 黄金之地 Golden Land.wav</ShortName>
+			<Path>SFX\HOYO-MiX - 黄金之地 Golden Land_EE79F7FB.wem</Path>
+		</File>
+		<File Id="683364513" Language="SFX">
+			<ShortName>HOYO-MiX - 长眠不醒 The Big Sleep.wav</ShortName>
+			<Path>SFX\HOYO-MiX - 长眠不醒 The Big Sleep_EE79F7FB.wem</Path>
+		</File>
+		<File Id="753691350" Language="SFX">
+			<ShortName>知更鸟 _ HOYO-MiX _ Chevy - 使一颗心免于哀伤（安可）.wav</ShortName>
+			<Path>SFX\知更鸟 _ HOYO-MiX _ Chevy - 使一颗心免于哀伤（安可）_EE79F7FB.wem</Path>
+		</File>
+		<File Id="758546084" Language="SFX">
+			<ShortName>HOYO-MiX - 公平游戏 Fair Play.wav</ShortName>
+			<Path>SFX\HOYO-MiX - 公平游戏 Fair Play_EE79F7FB.wem</Path>
+		</File>
+		<File Id="775288528" Language="SFX">
+			<ShortName>HOYO-MiX - 能指链条 Chaîne Signifiante.wav</ShortName>
+			<Path>SFX\HOYO-MiX - 能指链条 Chaîne Signifiante_EE79F7FB.wem</Path>
+		</File>
+		<File Id="967202074" Language="SFX">
+			<ShortName>HOYO-MiX - 意乱情迷 Spellbound.wav</ShortName>
+			<Path>SFX\HOYO-MiX - 意乱情迷 Spellbound_EE79F7FB.wem</Path>
+		</File>
+		<File Id="1050932009" Language="SFX">
+			<ShortName>HOYO-MiX - 渡鸦言曰 Quoth the raven.wav</ShortName>
+			<Path>SFX\HOYO-MiX - 渡鸦言曰 Quoth the raven_EE79F7FB.wem</Path>
+		</File>
+	</StreamedFiles>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2095711702" Language="SFX">
+			<ShortName>Penacony_SB</ShortName>
+			<Path>Penacony_SB.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2335394039" Name="Pause_Music_NW_PENACONY"/>
+				<Event Id="3443979475" Name="Play_Leader_Music_NW_PENACONY"/>
+				<Event Id="1882683837" Name="Play_Music_NW_PENACONY"/>
+				<Event Id="3181940198" Name="Resume_Music_NW_PENACONY"/>
+				<Event Id="3882709141" Name="Start_Music_NW_PENACONY"/>
+				<Event Id="2415049833" Name="Stop_Leader_Music_NW_PENACONY"/>
+				<Event Id="1191487215" Name="Stop_Music_NW_PENACONY"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="306124"/>
+				<File Id="77268704"/>
+				<File Id="137588804"/>
+				<File Id="156779590"/>
+				<File Id="181738138"/>
+				<File Id="206220487"/>
+				<File Id="234985175"/>
+				<File Id="320790058"/>
+				<File Id="395974971"/>
+				<File Id="457225391"/>
+				<File Id="497156637"/>
+				<File Id="528487798"/>
+				<File Id="560864678"/>
+				<File Id="566405796"/>
+				<File Id="587199773"/>
+				<File Id="622268515"/>
+				<File Id="683364513"/>
+				<File Id="753691350"/>
+				<File Id="758546084"/>
+				<File Id="775288528"/>
+				<File Id="967202074"/>
+				<File Id="1050932009"/>
+			</ReferencedStreamedFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

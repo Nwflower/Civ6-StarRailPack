@@ -1,0 +1,1646 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- XianZhou_Text_CN -->
+<!-- Author: Pen -->
+<!-- DateCreated: 2024/2/3 10:28:30 -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_XIANZHOU_NAME" Language="zh_Hans_CN">
+			<Text>罗浮仙舟</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_XIANZHOU_ADJECTIVE" Language="zh_Hans_CN" >
+			<Text>仙舟人</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_XIANZHOU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>仙舟</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_XIANZHOU" Language="zh_Hans_CN">
+			<Text>罗浮仙舟</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_1" Language="zh_Hans_CN">
+			<Text>星槎海中枢</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_2" Language="zh_Hans_CN">
+			<Text>玉界门</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_3" Language="zh_Hans_CN">
+			<Text>星槎码头</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_4" Language="zh_Hans_CN">
+			<Text>坤舆台</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_5" Language="zh_Hans_CN">
+			<Text>宣夜大道</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_6" Language="zh_Hans_CN">
+			<Text>司辰宫</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_7" Language="zh_Hans_CN">
+			<Text>不夜侯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_8" Language="zh_Hans_CN">
+			<Text>赎珠阁</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_9" Language="zh_Hans_CN">
+			<Text>流云渡</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_10" Language="zh_Hans_CN">
+			<Text>积玉坊</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_11" Language="zh_Hans_CN">
+			<Text>迴星港</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_12" Language="zh_Hans_CN">
+			<Text>飞星小筑</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_13" Language="zh_Hans_CN">
+			<Text>长乐天</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_14" Language="zh_Hans_CN">
+			<Text>若木亭</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_15" Language="zh_Hans_CN">
+			<Text>悠暇庭</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_16" Language="zh_Hans_CN">
+			<Text>神策府</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_17" Language="zh_Hans_CN">
+			<Text>地衡司</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_18" Language="zh_Hans_CN">
+			<Text>宝饵堂</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_19" Language="zh_Hans_CN">
+			<Text>三余书肆</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_20" Language="zh_Hans_CN">
+			<Text>金人巷</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_21" Language="zh_Hans_CN">
+			<Text>乾坤街</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_22" Language="zh_Hans_CN">
+			<Text>陈机铺</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_23" Language="zh_Hans_CN">
+			<Text>同功坊</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_24" Language="zh_Hans_CN">
+			<Text>寿考堂</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_25" Language="zh_Hans_CN">
+			<Text>美馔阁</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_26" Language="zh_Hans_CN">
+			<Text>尚滋味</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_27" Language="zh_Hans_CN">
+			<Text>清玩斋</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_28" Language="zh_Hans_CN">
+			<Text>杜氏茶庄</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_29" Language="zh_Hans_CN">
+			<Text>禨祥台</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_30" Language="zh_Hans_CN">
+			<Text>工造司</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_31" Language="zh_Hans_CN">
+			<Text>玄机坪</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_32" Language="zh_Hans_CN">
+			<Text>格物院</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_33" Language="zh_Hans_CN">
+			<Text>镕金坊</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_34" Language="zh_Hans_CN">
+			<Text>岐黄署</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_35" Language="zh_Hans_CN">
+			<Text>观颐台</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_36" Language="zh_Hans_CN">
+			<Text>太真丹室</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_37" Language="zh_Hans_CN">
+			<Text>界寰阵</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_38" Language="zh_Hans_CN">
+			<Text>鳞渊境</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_39" Language="zh_Hans_CN">
+			<Text>显龙大雩殿</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_XIANZHOU_NAME_40" Language="zh_Hans_CN">
+			<Text>寒泉洞天</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_1" Language="zh_Hans_CN">
+			<Text>檀檀</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_2" Language="zh_Hans_CN">
+			<Text>西衍先生</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_3" Language="zh_Hans_CN">
+			<Text>货全</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_4" Language="zh_Hans_CN">
+			<Text>阿往</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_5" Language="zh_Hans_CN">
+			<Text>阿来</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_6" Language="zh_Hans_CN">
+			<Text>瀚典</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_7" Language="zh_Hans_CN">
+			<Text>冬生</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_8" Language="zh_Hans_CN">
+			<Text>茂贞</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_9" Language="zh_Hans_CN">
+			<Text>广大</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MALE_10" Language="zh_Hans_CN">
+			<Text>景芳</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_1" Language="zh_Hans_CN">
+			<Text>旭霞</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_2" Language="zh_Hans_CN">
+			<Text>文雯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_3" Language="zh_Hans_CN">
+			<Text>锦余</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_4" Language="zh_Hans_CN">
+			<Text>沐芳</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_5" Language="zh_Hans_CN">
+			<Text>梓桥</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_6" Language="zh_Hans_CN">
+			<Text>清越</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_7" Language="zh_Hans_CN">
+			<Text>梦茗</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_8" Language="zh_Hans_CN">
+			<Text>予衿</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_9" Language="zh_Hans_CN">
+			<Text>阿莺</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_FEMALE_10" Language="zh_Hans_CN">
+			<Text>隐书</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_1" Language="zh_Hans_CN">
+			<Text>大毫</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_2" Language="zh_Hans_CN">
+			<Text>松烟</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_3" Language="zh_Hans_CN">
+			<Text>岩明</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_4" Language="zh_Hans_CN">
+			<Text>康图</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_5" Language="zh_Hans_CN">
+			<Text>武赫</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_6" Language="zh_Hans_CN">
+			<Text>小聪</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_7" Language="zh_Hans_CN">
+			<Text>斥晏</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_8" Language="zh_Hans_CN">
+			<Text>浴铁</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_9" Language="zh_Hans_CN">
+			<Text>永海</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_MALE_10" Language="zh_Hans_CN">
+			<Text>彦卿</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_1" Language="zh_Hans_CN">
+			<Text>若月</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_2" Language="zh_Hans_CN">
+			<Text>净砚</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_3" Language="zh_Hans_CN">
+			<Text>夕葵</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_4" Language="zh_Hans_CN">
+			<Text>驭空</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_5" Language="zh_Hans_CN">
+			<Text>青雀</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_6" Language="zh_Hans_CN">
+			<Text>南洁</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_7" Language="zh_Hans_CN">
+			<Text>宫羽</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_8" Language="zh_Hans_CN">
+			<Text>永念</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_9" Language="zh_Hans_CN">
+			<Text>青镞</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_XIANZHOU_MODERN_FEMALE_10" Language="zh_Hans_CN">
+			<Text>静斋</Text>
+		</Replace>
+
+		<Row Tag="LOC_CIVINFO_XIANZHOU_LOCATION" Language="zh_Hans_CN">
+			<Text>未知</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_XIANZHOU_SIZE" Language="zh_Hans_CN">
+			<Text>未知</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_XIANZHOU_POPULATION" Language="zh_Hans_CN">
+			<Text>未知</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_XIANZHOU_CAPITAL" Language="zh_Hans_CN">
+			<Text>罗浮仙舟</Text>
+		</Row>
+
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_XIANZHOU_NAME" Language="zh_Hans_CN">
+			<Text>不老者的仙舟</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_XIANZHOU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				仙舟建立的城市发展减速25%，但城市 [ICON_CITIZEN] 人口额外提供+0.5 [ICON_PRODUCTION] 生产力。
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_XIANZHOU_STARSKIFF_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_UNIT_XIANZHOU_STARSKIFF_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_XIANZHOU_STARSKIFF_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{LOC_UNIT_XIANZHOU_STARSKIFF_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_XIANZHOU_STARSKIFF_NAME" Language="zh_Hans_CN">
+			<Text>星槎</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_XIANZHOU_STARSKIFF_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>仙舟特色支援单位。{LOC_ABILITY_XIANZHOU_STARSKIFF_IGNORE_TERRAINS_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_STARSKIFF_IGNORE_TERRAINS_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_UNIT_XIANZHOU_STARSKIFF_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_STARSKIFF_IGNORE_TERRAINS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>视野能穿过地貌。无视河流造成的 [ICON_MOVEMENT] 移动力减益。可利用自身的高 [ICON_MOVEMENT] 移动力护送编队中的平民和战斗单位。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_XIANZHOU_BAILU_NAME" Language="zh_Hans_CN">
+			<Text>白露</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_XIANZHOU_BAILU" Language="zh_Hans_CN">
+			<Text>{LOC_LEADER_XIANZHOU_BAILU_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_XIANZHOU_BAILU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				仙舟「罗浮」持明族的尊长，有「衔药龙女」之称的医士。
+				[NEWLINE]以独门医理和唯有龙脉方可施行的「医疗手段」救死扶伤。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_BAILU_NAME" Language="zh_Hans_CN">
+			<Text>譬如朝露</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_BAILU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				城市改良的每种奢侈品资源均可提供1点 [ICON_AMENITIES] 宜居度。所有单位+10 [ICON_DAMAGED] 生命值回复量。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_UNITS_HEAL_AFTER_COMBAT_NAME" Language="zh_Hans_CN">
+			<Text>生息</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_UNITS_HEAL_AFTER_COMBAT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>单位+10 [ICON_DAMAGED] 生命值回复量。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_XIANZHOU_ALCHEMY_COMMISSION_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_DISTRICT_XIANZHOU_ALCHEMY_COMMISSION_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_XIANZHOU_ALCHEMY_COMMISSION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{LOC_DISTRICT_XIANZHOU_ALCHEMY_COMMISSION_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_XIANZHOU_ALCHEMY_COMMISSION_NAME" Language="zh_Hans_CN">
+			<Text>丹鼎司</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_XIANZHOU_ALCHEMY_COMMISSION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>白露特色区域，取代社区，解锁于工程。固定+3 [ICON_HOUSING] 住房。所在城市发展加速10%。提供2个 [ICON_CITIZEN] 专家槽位。每个 [ICON_CITIZEN] 专家槽位+3 [ICON_FOOD] 食物、+2 [ICON_PRODUCTION] 生产力和+1 [ICON_CULTURE] 文化值。[NEWLINE]此区域不需要人口、建造花费更低、每个城市只能建造一个、也并非专业化区域。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_LEADER_XIANZHOU_FUXUAN_NAME" Language="zh_Hans_CN">
+			<Text>符玄</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_XIANZHOU_FUXUAN_NAME" Language="zh_Hans_CN">
+			<Text>符玄</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_XIANZHOU_FUXUAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				你今日求见，想必是为了采访探问太卜的职责而来？
+				[NEWLINE]不必惊讶，因为在你开口之前，
+				[NEWLINE]本座额间之眼已遍历了与你这次会面一十二种可能…
+				[NEWLINE]哦，还有你会提出的问题。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_FUXUAN_NAME" Language="zh_Hans_CN">
+			<Text>穷观妙算</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_FUXUAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>拥有穷观阵的城市， [ICON_PRODUCTION] 生产力产出将转化为等量 [ICON_XIANZHOU_MATRIX_OF_PRESCIENCE] 玉兆点，而非直接为城市建设提供进度。可以消耗等同于所需玉兆点完成城市生产。每1 [ICON_XIANZHOU_MATRIX_OF_PRESCIENCE] 玉兆点将为城市提供0.7 [ICON_PRODUCTION] 生产力。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_TRAIT_IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{LOC_IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE_NAME" Language="zh_Hans_CN">
+			<Text>穷观阵</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造符玄特色改良设施{LOC_IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE_NAME}的能力。[NEWLINE][NEWLINE]+2 [ICON_PRODUCTION] 生产力。建成时释放文化炸弹。若建于战略或奢侈资源上，则城市可以利用该资源。为相邻单元格+1魅力值。[NEWLINE][NEWLINE]每个城市仅限建造一座。{LOC_IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE_NAME}所在的单元格无法被替换、更改或拆除。</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_TITLE" Language="zh_Hans_CN">
+			<Text>鉴知</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_BUTTON_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_XIANZHOU_DIVINATION_TITLE}</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_BUTTON_TOOLTIP" Language="zh_Hans_CN">
+			<Text>目前拥有[ICON_XIANZHOU_MATRIX_OF_PRESCIENCE]玉兆点：[COLOR:Civ6Red]{1_Num}[ENDCOLOR]。</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_BUTTON_PRODUCTION_TOOLTIP" Language="zh_Hans_CN">
+			<Text>目前[ICON_XIANZHOU_MATRIX_OF_PRESCIENCE]玉兆点可转化 [ICON_PRODUCTION] 生产力：[COLOR:Civ6Red]{1_Num}[ENDCOLOR]。</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_CITY_YIELD_TOOLTIP" Language="zh_Hans_CN">
+			<Text>右键查看每回合 [ICON_XIANZHOU_MATRIX_OF_PRESCIENCE] 玉兆点产出</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_BUTTON_DISABLE_TOOLTIP" Language="zh_Hans_CN">
+			<Text>[COLOR:Civ6Red]当前领袖不具有卜算能力[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_COMPLETE_PRODUCTION_TOOLTIP" Language="zh_Hans_CN">
+			<Text>为生产队列注入算力</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_SUMMARY" Language="zh_Hans_CN">
+			<Text>每回合 [ICON_TURN] 玉兆点：</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_CITYBUILDQUEUE_INFO" Language="zh_Hans_CN">
+			<Text>当前生产队列：[NEWLINE]{1_str}[NEWLINE][COLOR:Civ6Red]{2_Num}[ENDCOLOR]/{3_Num}</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_CITYBUILDQUEUE_FIX_INFO" Language="zh_Hans_CN">
+			<Text>加速系数：{1_Num}%[NEWLINE]修正系数：{2_Num}%[NEWLINE]预计消耗玉兆点[ICON_XIANZHOU_MATRIX_OF_PRESCIENCE]：{3_Num}</Text>
+		</Replace>
+		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_FROM_CITY" Language="zh_Hans_CN">
+			<Text>来自{1_str}</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_XIANZHOU_JINGYUAN_NAME" Language="zh_Hans_CN">
+			<Text>景元</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_XIANZHOU_JINGYUAN_NAME" Language="zh_Hans_CN">
+			<Text>景元</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_XIANZHOU_JINGYUAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				不必拘谨，「将军」只是一时的身份，你称呼我景元便可。
+				[NEWLINE]自从履任后，罗浮已安然度过数百年。
+				[NEWLINE]只是昔日仇敌或死或擒，故交好友风流云散，我也受俗务羁扰多年，
+				[NEWLINE]不仅对周遭事物见怪不怪，人也变得无趣。
+				[NEWLINE]若是有什么旅行异闻，务必同我讲讲。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_JINGYUAN_NAME" Language="zh_Hans_CN">
+			<Text>天戈麾斥</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_JINGYUAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>征服城市不会造成 [ICON_CITIZEN] 人口损失。首个达到6人口的城市提供一个 [Icon_Governor] 总督头衔。首个达到10人口的城市立刻使 [ICON_Capital] 首都获得一位 [ICON_GreatGeneral] 大将军。拥有强化星槎能力的特色总督“驭空”。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_XIANZHOU_CLOUD_KNIGHTS_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_DISTRICT_XIANZHOU_CLOUD_KNIGHTS_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_XIANZHOU_CLOUD_KNIGHTS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{LOC_DISTRICT_XIANZHOU_CLOUD_KNIGHTS_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_XIANZHOU_CLOUD_KNIGHTS_NAME" Language="zh_Hans_CN">
+			<Text>云骑营</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_XIANZHOU_CLOUD_KNIGHTS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>景元特色区域，取代军营，建造费用更低。初始便拥有1个专家槽位。每个专家槽位提供1点 [ICON_FOOD] 食物、3点 [ICON_PRODUCTION] 生产力、3点 [ICON_GOLD] 金币。</Text>
+		</Replace>
+		
+		
+		<Replace Tag="LOC_GOVERNOR_XIANZHOU_YUKONG_NAME" Language="zh_Hans_CN">
+			<Text>驭空</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_XIANZHOU_YUKONG_TITLE" Language="zh_Hans_CN">
+			<Text>天舶司主司</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_XIANZHOU_YUKONG_SHORT_TITLE" Language="zh_Hans_CN">
+			<Text>天舶司主司</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_XIANZHOU_YUKONG_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>仙舟「罗浮」天舶司的主司，久历战阵的飞行士与射手。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_BASE_NAME" Language="zh_Hans_CN">
+			<Text>天舶飞将，枕弧待战</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_BASE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所处城市生产星槎时加速50%。所处城市训练的星槎+1 [ICON_MOVEMENT] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_YUKONG_BASE_NAME" Language="zh_Hans_CN">
+			<Text>天舶飞将，枕弧待战</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_YUKONG_BASE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>星槎+1 [ICON_MOVEMENT] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_L1_NAME" Language="zh_Hans_CN">
+			<Text>青霄驰骋，驱驭苍穹</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_L1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>处于星槎编队中的单位获得战斗经验+50%，并且攻击后可移动。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_YUKONG_L1_NAME" Language="zh_Hans_CN">
+			<Text>青霄驰骋，驱驭苍穹</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_YUKONG_L1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>星槎使处于星槎编队中的单位获得战斗经验+50%，并且攻击后可移动。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_YUKONG_L1_UNIT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>处于星槎编队中的单位获得战斗经验+50%，并且攻击后可移动。（来自星槎）</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_L2_NAME" Language="zh_Hans_CN">
+			<Text>危弓未辍，执射不宁</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_L2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>处于星槎编队中的单位每点未使用的 [ICON_MOVEMENT] 移动力可提供+1 [ICON_STRENGTH] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_YUKONG_L2_NAME" Language="zh_Hans_CN">
+			<Text>危弓未辍，执射不宁</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_YUKONG_L2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>星槎使处于星槎编队中的单位每点未使用的 [ICON_MOVEMENT] 移动力可提供+1 [ICON_STRENGTH] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_YUKONG_L2_UNIT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>处于星槎编队中的单位每点未使用的 [ICON_MOVEMENT] 移动力可提供+1 [ICON_STRENGTH] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_R1_NAME" Language="zh_Hans_CN">
+			<Text>百里闻风，九曲响镝</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_R1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所处城市生产远程和攻城单位+1[ICON_MOVEMENT]移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_YUKONG_R1_NAME" Language="zh_Hans_CN">
+			<Text>百里闻风，九曲响镝</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_YUKONG_R1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所处城市生产远程和攻城单位+1[ICON_MOVEMENT]移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_YUKONG_R1_UNIT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>远程和攻城单位+1[ICON_MOVEMENT]移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_R2_NAME" Language="zh_Hans_CN">
+			<Text>井仪贯侯，疾羽参连</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_R2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>星槎使处于星槎编队中的远程和攻城单位攻击时+3 [ICON_STRENGTH] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_IANZHOU_YUKONG_R2_NAME" Language="zh_Hans_CN">
+			<Text>井仪贯侯，疾羽参连</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_YUKONG_R2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>处于星槎编队中的远程和攻城单位攻击时+3 [ICON_STRENGTH] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_YUKONG_R2_UNIT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>处于星槎编队中的远程和攻城单位攻击时+3 [ICON_STRENGTH] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_M3_NAME" Language="zh_Hans_CN">
+			<Text>弦栝如雷，铣珧激荡</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_XIANZHOU_YUKONG_M3_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>处于星槎编队中的单位如果 [ICON_MOVEMENT] 移动力允许，每回合+1额外攻击。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_YUKONG_M3_NAME" Language="zh_Hans_CN">
+			<Text>弦栝如雷，铣珧激荡</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_YUKONG_M3_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>星槎使处于星槎编队中的单位如果 [ICON_MOVEMENT] 移动力允许，每回合+1额外攻击。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIANZHOU_YUKONG_M3_UNIT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>处于星槎编队中的单位如果 [ICON_MOVEMENT] 移动力允许，每回合+1额外攻击。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_LEADER_XIANZHOU_HUOHUO_NAME" Language="zh_Hans_CN">
+			<Text>藿藿</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_XIANZHOU_HUOHUO" Language="zh_Hans_CN">
+			<Text>藿藿</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_XIANZHOU_HUOHUO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				你…你好，我叫藿藿，是十王司的判官。
+				[NEWLINE]身后的…火焰尾巴？它…它是「尾巴」，
+				[NEWLINE]尾巴大爷脾气很差，请别见怪…
+				[NEWLINE]您若是有什么问题，直接问我就好…
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_HUOHUO_NAME" Language="zh_Hans_CN">
+			<Text>贞凶之命</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_HUOHUO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>森林为相邻单元格提供-1魅力（而非通常的+1）。解锁“神秘主义”市政后，无吸引力的单元格+1 [ICON_FAITH] 信仰。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_XIANZHOU_TENLORDS_COMMISSION_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_DISTRICT_XIANZHOU_TENLORDS_COMMISSION_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_XIANZHOU_TENLORDS_COMMISSION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{LOC_DISTRICT_XIANZHOU_TENLORDS_COMMISSION_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_XIANZHOU_TENLORDS_COMMISSION_NAME" Language="zh_Hans_CN">
+			<Text>十王司</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_XIANZHOU_TENLORDS_COMMISSION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>藿藿特色区域，取代保护区，建造费用更低。+2 [ICON_HOUSING] 住房。建成时对相邻的中立单元格施放文化炸弹。为相邻单元格提供-1魅力值。在该区域6个单元格内，单位与蛮族作战时+5 [ICON_STRENGTH] 战斗力。该区域内的建筑使对应负魅力单元格也提升产出，且不再要求地块未改良。</Text>
+		</Replace>
+		
+
+		<Replace Tag="LOC_LEADER_XIANZHOU_JINGLIU_NAME" Language="zh_Hans_CN">
+			<Text>镜流</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_XIANZHOU_JINGLIU_NAME" Language="zh_Hans_CN">
+			<Text>镜流</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_XIANZHOU_JINGLIU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				黑纱障目，不代表我的心眼无所洞见。
+				[NEWLINE]你心中有许多问题，它藏在声调转折和呼吸之间。
+				[NEWLINE]好奇心如剑伤人，你还是问出来罢。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_JINGLIU_NAME" Language="zh_Hans_CN">
+			<Text>澹月转魄</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_JINGLIU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				城市每增长一个 [ICON_CITIZEN] 人口便-1时代分。不处于 [ICON_GLORY_DARK_AGE] 黑暗时代时，城市发展速度+30%。若处于 [ICON_GLORY_DARK_AGE] 黑暗时代时当前政体的所有军事政策槽位均转为通配符槽位。处于 [ICON_GLORY_DARK_AGE] 黑暗时代可以使用 [ICON_GLORY_GOLDEN_AGE] 黄金时代着力点政策卡。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_BUILDING_XIANZHOU_CRESCENT_TRANSMIGRATION_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_BUILDING_XIANZHOU_CRESCENT_TRANSMIGRATION_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_BUILDING_XIANZHOU_CRESCENT_TRANSMIGRATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{LOC_BUILDING_XIANZHOU_CRESCENT_TRANSMIGRATION_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_XIANZHOU_CRESCENT_TRANSMIGRATION_NAME" Language="zh_Hans_CN">
+			<Text>映月寒川</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_XIANZHOU_CRESCENT_TRANSMIGRATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>镜流特色建筑，取代水磨，建造费用更低。城市的市中心、区域和奇观（即使未建成）+1忠诚度。城市建造沿河区域时+20% [ICON_Production] 生产力。若处于 [ICON_GLORY_DARK_AGE] 黑暗时代，则城市达到最高忠诚度时可以无视 [ICON_Citizen] 人口数量限制建造一个额外区域。</Text>
+		</Replace>
+
+		<!--白露-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_BAILU_QUOTE" Language="zh_Hans_CN">
+			<Text>“午餐需讲究君臣相佐。烟熏肉堡两个，奶茶一杯，实是治疗心病、保持心情愉快的不二之选！”[NEWLINE]——白露</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_BAILU_TITLE" Language="zh_Hans_CN">
+			<Text>衔药龙女</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_BAILU_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>
+				性格活泼的小女孩，持明族的「衔药龙女」，药到病除的名医。
+				[NEWLINE]经常开出不拘一格的药方，如「多喝热水、「睡一觉就好了」。
+				[NEWLINE]见不得人受苦，治病时总是闭着眼睛。
+				[NEWLINE]——总之病好了就行！
+			</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_XIANZHOU_BAILU_NAME" Language="zh_Hans_CN">
+			<Text>徜徉灵泽病恙短</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_XIANZHOU_BAILU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>喜欢将奢侈品资源交易给她的文明。讨厌拒绝交易奢侈品的文明。会尝试尽可能多地收集奢侈品资源。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_XIANZHOU_BAILU_REASON_ANY" Language="zh_Hans_CN">
+			<Text>（您和白露交易了奢侈品资源。）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_XIANZHOU_BAILU_CONTINENT_ATTACKED" Language="zh_Hans_CN">
+			<Text>白露喜欢甜食、玩具等让人开心的东西。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_XIANZHOU_BAILU_REASON_ANY" Language="zh_Hans_CN">
+			<Text>（您拒绝和白露交易奢侈品资源。）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_XIANZHOU_BAILU_IGNORES_BARBARIANS" Language="zh_Hans_CN">
+			<Text>白露喝不到仙人快乐茶，白露很伤心。</Text>
+		</Row>
+
+		<!--同意声明友谊-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>你是怎么回事，哪儿不舒服…总之就是头疼？那可不行，本小姐见不得这个！</Text>
+		</Replace>
+		<!--拒绝声明友谊-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				凶巴巴的，小心上火。
+			</Text>
+		</Replace>
+		<!--请求声明友谊-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				你是怎么回事，哪儿不舒服…总之就是头疼？那可不行，本小姐见不得这个！
+			</Text>
+		</Replace>
+		<!--请求声明友谊被接受-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				先别乱动——让我释放雷劲，帮你疏通筋脉…诶，别跑啊？！
+			</Text>
+		</Replace>
+		<!--请求声明友谊被拒绝-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				我也算是龙吗？活动范围不出禁邸，一言一行都需符合族中规制。这样的生活…根本就是被养在鱼缸里的一条鱼吧？
+			</Text>
+		</Replace>
+		<!--被宣战-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				救命啊救命啊——
+			</Text>
+		</Replace>
+		<!--主动宣战-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				乖乖~张嘴~
+			</Text>
+		</Replace>
+		<!--初次见面-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				我是白露，丹鼎司的医士。来来，过来让我瞅瞅，你怎么回事，哪儿不舒服啦？
+			</Text>
+		</Replace>
+		<!--初次见面，提供最近城市位置-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				吃糖么？不吃啊，那我吃啦。
+			</Text>
+		</Replace>
+		<!--初次见面，玩家提供最近城市位置-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				啊，这就要回去了么…再待一会儿，就一小会儿嘛！
+			</Text>
+		</Replace>
+		<!--初次见面，请求交换首都位置-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				吃糖么？不吃啊，那我吃啦。
+			</Text>
+		</Replace>
+		<!--表示欢迎-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_GREETING_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				熟读医理，寻找药材，打开格局。没有什么是不能入药的，越是疑难杂症，越是要依靠不拘一格的药方才行~
+			</Text>
+		</Replace>
+		<!--接受使节派遣-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				听病人说，至味盛苑又出了新的甜品，叫「落九天」，那糖拔丝好长好长好长……可惜，我吃不到呀。
+			</Text>
+		</Replace>
+		<!--拒绝使节派遣-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				你呀，看着有点儿虚。
+			</Text>
+		</Replace>
+		<!--请求派遣使节-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				让我来治治你~
+			</Text>
+		</Replace>
+		<!--被谴责-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				凶巴巴的，小心上火。
+			</Text>
+		</Replace>
+		<!--谴责玩家-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				哎哟你病得不轻啊！
+			</Text>
+		</Replace>
+		<!--领袖敌视玩家-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_EXIT_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				哎哟你病得不轻啊！
+			</Text>
+		</Replace>
+		<!--请求结盟-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				要雨露均沾哦~
+			</Text>
+		</Replace>
+		<!--要求移开边境军队-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_XIANZHOU_BAILU_ANY">
+			<Text>
+				既不说话又不动，我们都是木头人~
+			</Text>
+		</Replace>
+		<!--战败-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_XIANZHOU_BAILU_ANY" Language="zh_Hans_CN">
+			<Text>医不自医……</Text>
+		</Row>
+		<!--玩家战败-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY" Language="zh_Hans_CN">
+			<Text>医不自医……</Text>
+		</Row>
+		<!--同意交易-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_XIANZHOU_BAILU_ANY" Language="zh_Hans_CN">
+			<Text>
+				可以拿去换糖吃！
+			</Text>
+		</Row>
+		<!--拒绝交易-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_XIANZHOU_BAILU_ANY" Language="zh_Hans_CN">
+			<Text>
+				嗯…或许也能入药？
+			</Text>
+		</Row>
+		<!--接受停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_XIANZHOU_BAILU_ANY" Language="zh_Hans_CN">
+			<Text>嘻嘻，医术精进了不少！</Text>
+		</Row>
+		<!--拒绝停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_XIANZHOU_BAILU_ANY" Language="zh_Hans_CN">
+			<Text>补补~身子~</Text>
+		</Row>
+		<!--要求停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_XIANZHOU_BAILU_ANY" Language="zh_Hans_CN">
+			<Text>
+				你欺负我！
+			</Text>
+		</Row>
+		<!--开放边界-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY" Language="zh_Hans_CN">
+			<Text>
+				哎呀，我就算足不出户，也可以听见你的声音，「急人所急，有求必应」——对吧？
+			</Text>
+		</Row>
+		<!--拒绝开放边界-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_XIANZHOU_BAILU_ANY" Language="zh_Hans_CN">
+			<Text>
+				你欺负我！
+			</Text>
+		</Row>
+		<!--请求开放边界-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_XIANZHOU_BAILU_ANY" Language="zh_Hans_CN">
+			<Text>
+				把头埋入水中，不过也就一方小小的天地，却感觉可以比平时更加自由地呼吸，超脱了水的边界……
+			</Text>
+		</Row>
+
+
+		<!--符玄-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_FUXUAN_QUOTE" Language="zh_Hans_CN">
+			<Text>“不卜人事福祸！”[NEWLINE]——符玄</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_FUXUAN_TITLE" Language="zh_Hans_CN">
+			<Text>太卜司之首</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_FUXUAN_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>
+				仙舟「罗浮」太卜司之首，自信耿直的智者。
+				[NEWLINE]凭借第三眼与穷观阵为仙舟占算航路，预卜事务吉凶，坚信自己所做的一切便是事情的「最优解」。
+				[NEWLINE]符玄等待着将军承诺的「退位让贤」，然而这一天的到来…似乎还遥遥无期。
+			</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_XIANZHOU_FUXUAN_NAME" Language="zh_Hans_CN">
+			<Text>法眼无遗</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_XIANZHOU_FUXUAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>喜欢在城市里尽可能建满区域的文明。讨厌未建满区域的文明。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_XIANZHOU_FUXUAN_REASON_ANY" Language="zh_Hans_CN">
+			<Text>（你在城市中建满了各种区域。）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_XIANZHOU_FUXUAN_ETERNAL_LEADING" Language="zh_Hans_CN">
+			<Text>你的城市中建满了各种区域，符玄看到了种种可能性。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_XIANZHOU_FUXUAN_REASON_ANY" Language="zh_Hans_CN">
+			<Text>（你没有尽量为城市填充各种区域。）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_XIANZHOU_FUXUAN_ETERNAL_LAGGING" Language="zh_Hans_CN">
+			<Text>你建造区域的进度落后，符玄对你未来的可能性感到悲观。</Text>
+		</Row>
+
+		<!--同意声明友谊-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>元亨利贞，诸事遂顺。</Text>
+		</Replace>
+		<!--拒绝声明友谊-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				小吝，无咎。
+			</Text>
+		</Replace>
+		<!--请求声明友谊-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				相与为一。
+			</Text>
+		</Replace>
+		<!--请求声明友谊被接受-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				元亨利贞，诸事遂顺。
+			</Text>
+		</Replace>
+		<!--请求声明友谊被拒绝-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				这一步，是吉是凶呢？
+			</Text>
+		</Replace>
+		<!--被宣战-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				有、有凶…
+			</Text>
+		</Replace>
+		<!--主动宣战-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				极数，知来！
+			</Text>
+		</Replace>
+		<!--初次见面-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>本座乃罗浮太卜司之首，符玄。初次见面——不，该说久见了…我已在法眼中遍历了与你之间的二十二次初会场面。</Text>
+		</Replace>
+		<!--初次见面，提供最近城市位置-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				稀客啊，是要占问吉凶么？不用惊讶，你的来意早已在卦象中应验。
+			</Text>
+		</Replace>
+		<!--初次见面，玩家提供最近城市位置-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				太卜司的不成文规矩「三不占」中有「不义不占」这条，若是要测彩票号码、行情涨跌之类的问题，恕本座一律不答。
+			</Text>
+		</Replace>
+		<!--初次见面，请求交换首都位置-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				一饮一啄，莫非前定。
+			</Text>
+		</Replace>
+		<!--表示欢迎-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_GREETING_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				物皆自成，无所不利。
+			</Text>
+		</Replace>
+		<!--接受使节派遣-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				互通有无，实为妙计。
+			</Text>
+		</Replace>
+		<!--拒绝使节派遣-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				今日晨起占得一卦，涨落在坎、离之间，变数颇多…啧，不宜行公务，不宜加班，真教人浑身不自在。
+			</Text>
+		</Replace>
+		<!--请求派遣使节-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				换斗移星，谋事在人！
+			</Text>
+		</Replace>
+		<!--被谴责-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				本座先卜上一卦。
+			</Text>
+		</Replace>
+		<!--谴责玩家-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				风云不测，若涉渊水。
+			</Text>
+		</Replace>
+		<!--领袖敌视玩家-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_EXIT_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				本座腹笥深广，博览万卷，说话时难免会有些引经据典的习惯，却总有人吹毛求疵，要我「说人话」…哼。
+			</Text>
+		</Replace>
+		<!--请求结盟-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				卜者们凭此阵法鉴往知来。罗浮漂航星海，一日也不可缺了它。只是…我有时候在想，它是否也锁住了我们的前路与众多可能？
+			</Text>
+		</Replace>
+		<!--要求移开边境军队-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_XIANZHOU_FUXUAN_ANY">
+			<Text>
+				慎终于始。
+			</Text>
+		</Replace>
+		<!--战败-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY" Language="zh_Hans_CN">
+			<Text>事已前定…么……</Text>
+		</Row>
+		<!--玩家战败-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY" Language="zh_Hans_CN">
+			<Text>事已前定…么……</Text>
+		</Row>
+		<!--同意交易-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY" Language="zh_Hans_CN">
+			<Text>
+				互通有无，实为妙计。
+			</Text>
+		</Row>
+		<!--拒绝交易-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY" Language="zh_Hans_CN">
+			<Text>
+				…此为偏财，不宜多得。
+			</Text>
+		</Row>
+		<!--接受停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_XIANZHOU_FUXUAN_ANY" Language="zh_Hans_CN">
+			<Text>阴阳变转，生生不绝。</Text>
+		</Row>
+		<!--拒绝停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_XIANZHOU_FUXUAN_ANY" Language="zh_Hans_CN">
+			<Text>当断不断，必受其乱。</Text>
+		</Row>
+		<!--要求停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY" Language="zh_Hans_CN">
+			<Text>
+				卜卦行道，变动不居。
+			</Text>
+		</Row>
+		<!--开放边界-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY" Language="zh_Hans_CN">
+			<Text>
+				卦象之内。
+			</Text>
+		</Row>
+		<!--拒绝开放边界-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_XIANZHOU_FUXUAN_ANY" Language="zh_Hans_CN">
+			<Text>
+				颠扑不破。
+			</Text>
+		</Row>
+		<!--请求开放边界-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_XIANZHOU_FUXUAN_ANY" Language="zh_Hans_CN">
+			<Text>
+				上下象易。
+			</Text>
+		</Row>
+		
+		<!--景元-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_JINGYUAN_QUOTE" Language="zh_Hans_CN">
+			<Text>“善弈者无通盘妙手。人们会为一子妙手力挽狂澜而喜，却不为大局危倾而忧。”[NEWLINE]——景元</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_JINGYUAN_TITLE" Language="zh_Hans_CN">
+			<Text>神策将军</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_JINGYUAN_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>
+				位列帝弓七天将之一的「神策将军」，外表懒散、心思缜密。不以危局中力挽狂澜为智策，因此在常事上十分下功夫，以免节外生枝。因其细心谋划，仙舟承平日久，看似行事慵懒的景元反被送上绰号「闭目将军」。
+			</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_XIANZHOU_JINGYUAN_NAME" Language="zh_Hans_CN">
+			<Text>斩勘神形</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_XIANZHOU_JINGYUAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>致力于建立多个同盟，并尊重其他建立同盟的文明。不喜欢盟友数量少的文明。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_XIANZHOU_JINGYUAN_REASON_ANY" Language="zh_Hans_CN">
+			<Text>（您广交盟友的行为传到了仙舟）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_XIANZHOU_JINGYUAN_MANY_ALLIANCES" Language="zh_Hans_CN">
+			<Text>景元非常欣赏您的结盟方式</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_XIANZHOU_JINGYUAN_REASON_ANY" Language="zh_Hans_CN">
+			<Text>（您孤立的政策令景元不解）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_XIANZHOU_JINGYUAN_FEW_ALLIANCES" Language="zh_Hans_CN">
+			<Text>您的盟友不多，景元并不理解</Text>
+		</Row>
+
+		<!--同意声明友谊-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>我受俗务羁扰多年，不仅对周遭事物见怪不怪，人也变得无趣。一定要说有什么见闻，便是遇见你这般云游天外之人吧。</Text>
+		</Replace>
+		<!--拒绝声明友谊-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				我平生最怕麻烦，麻烦不只分大小，还分远近。如何布局谋划，还得劳神费力哪……
+			</Text>
+		</Replace>
+		<!--请求声明友谊-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				我受俗务羁扰多年，不仅对周遭事物见怪不怪，人也变得无趣。一定要说有什么见闻，便是遇见你这般云游天外之人吧。。
+			</Text>
+		</Replace>
+		<!--请求声明友谊被接受-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				善弈者无通盘妙手，人们会为一子妙手力挽狂澜而喜，却不为大局危倾而忧。
+			</Text>
+		</Replace>
+		<!--请求声明友谊被拒绝-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				昔日仇敌或死或擒，故交好友风流云散。这么想来，我确确实实已是个「老人」了…
+			</Text>
+		</Replace>
+		<!--被宣战-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				战事如棋，局局新啊。
+			</Text>
+		</Replace>
+		<!--主动宣战-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				煌煌威灵，遵吾敕命。斩无赦！
+			</Text>
+		</Replace>
+		<!--初次见面-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>我是「罗浮」云骑将军景元。不必拘谨，「将军」只是一时的身份，你称呼我景元便可。</Text>
+		</Replace>
+		<!--初次见面，提供最近城市位置-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				嗯，你好好休息…我还有些要务处理，恕不能远送。
+			</Text>
+		</Replace>
+		<!--初次见面，玩家提供最近城市位置-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				来了呀，若是有什么旅行异闻，也同我讲讲吧。
+			</Text>
+		</Replace>
+		<!--初次见面，请求交换首都位置-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				来了呀，若是有什么旅行异闻，也同我讲讲吧。
+			</Text>
+		</Replace>
+		<!--表示欢迎-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_GREETING_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				或许外来者习惯将「罗浮」简称为仙舟，但…「罗浮」不等于仙舟，「罗浮」就是「罗浮」。
+			</Text>
+		</Replace>
+		<!--接受使节派遣-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				哦？不错不错。
+			</Text>
+		</Replace>
+		<!--拒绝使节派遣-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				破绽百出。
+			</Text>
+		</Replace>
+		<!--请求派遣使节-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				若是闲来无事，还可对弈几局。
+			</Text>
+		</Replace>
+		<!--被谴责-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				破绽百出。
+			</Text>
+		</Replace>
+		<!--谴责玩家-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				临军对阵，持重待机便可。
+			</Text>
+		</Replace>
+		<!--领袖敌视玩家-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_EXIT_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				个人之力终有极限，路到尽头便要另寻他法。
+			</Text>
+		</Replace>
+		<!--请求结盟-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				寰宇方圆，星罗棋布，每一手都是抉择，而抉择铸就命运。
+			</Text>
+		</Replace>
+		<!--要求移开边境军队-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_XIANZHOU_JINGYUAN_ANY">
+			<Text>
+				兵家待时而动，可别一动不动啊。
+			</Text>
+		</Replace>
+		<!--战败-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY" Language="zh_Hans_CN">
+			<Text>久疏战阵了…</Text>
+		</Row>
+		<!--玩家战败-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY" Language="zh_Hans_CN">
+			<Text>久疏战阵了…</Text>
+		</Row>
+		<!--同意交易-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY" Language="zh_Hans_CN">
+			<Text>
+				如此稀有之物，你收下便好。
+			</Text>
+		</Row>
+		<!--拒绝交易-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY" Language="zh_Hans_CN">
+			<Text>
+				卿的心思我明白，所以还得多等一等，要是有耐心等下去，便到时机了。
+			</Text>
+		</Row>
+		<!--接受停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_XIANZHOU_JINGYUAN_ANY" Language="zh_Hans_CN">
+			<Text>看来是棋逢对手。</Text>
+		</Row>
+		<!--拒绝停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_XIANZHOU_JINGYUAN_ANY" Language="zh_Hans_CN">
+			<Text>兵戈，无情！</Text>
+		</Row>
+		<!--要求停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY" Language="zh_Hans_CN">
+			<Text>
+				我平生最怕麻烦，麻烦不只分大小，还分远近。如何布局谋划，还得劳神费力哪……
+			</Text>
+		</Row>
+		<!--开放边界-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY" Language="zh_Hans_CN">
+			<Text>
+				机巧之术，颇有趣味。
+			</Text>
+		</Row>
+		<!--拒绝开放边界-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_XIANZHOU_JINGYUAN_ANY" Language="zh_Hans_CN">
+			<Text>
+				时不我待。
+			</Text>
+		</Row>
+		<!--请求开放边界-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_XIANZHOU_JINGYUAN_ANY" Language="zh_Hans_CN">
+			<Text>
+				若是闲来无事，还可对弈几局。
+			</Text>
+		</Row>
+		
+		<!--藿藿-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_HUOHUO_QUOTE" Language="zh_Hans_CN">
+			<Text>“用这令旗，不仅调兵遣将能胜人一筹，投降也能先人一步……”[NEWLINE]——藿藿</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_HUOHUO_TITLE" Language="zh_Hans_CN">
+			<Text>十王司见习判官</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_HUOHUO_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>
+				可怜又弱小的狐人小姑娘，也是怕鬼捉鬼的罗浮十王司见习判官。
+				[NEWLINE]名为「尾巴」的岁阳被十王司的判官封印在她的颀尾上，使她成为了招邪的「贞凶之命」。
+				[NEWLINE]害怕妖魔邪物，却总是受命捉拿邪祟，完成艰巨的除魔任务；
+				[NEWLINE]自认能力不足，却无法鼓起勇气辞职，只好默默害怕地继续下去。
+			</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_XIANZHOU_HUOHUO_NAME" Language="zh_Hans_CN">
+			<Text>令奉贞凶</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_XIANZHOU_HUOHUO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>害怕蛮族。喜欢清除蛮族哨站所的文明。讨厌对蛮族哨站所视而不见的文明。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_XIANZHOU_HUOHUO_REASON_ANY" Language="zh_Hans_CN">
+			<Text>（您清理了附近的蛮寨）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_XIANZHOU_HUOHUO_ATTACKS_BARBARIANS" Language="zh_Hans_CN">
+			<Text>驱邪…缚魅…</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_XIANZHOU_HUOHUO_REASON_ANY" Language="zh_Hans_CN">
+			<Text>（您对蛮族哨站所视而不见）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_XIANZHOU_HUOHUO_IGNORES_BARBARIANS" Language="zh_Hans_CN">
+			<Text>灵符…保命…</Text>
+		</Row>
+
+		<!--同意声明友谊-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_XIANZHOU_HUOHUO_ANY">
+			<Text>在星槎海找个地方坐下来，看着星槎一艘一艘地过去，一艘一艘地回来——这是我消除疲劳的办法…虽然十王司的判官们说用来治疗失眠更有效…总之，推、推荐给你。</Text>
+		</Replace>
+		<!--拒绝声明友谊-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_XIANZHOU_HUOHUO_ANY">
+			<Text>
+				「贞凶之命」，「贞凶之命」如此……
+			</Text>
+		</Replace>
+		<!--请求声明友谊-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_HUOHUO_ANY">
+			<Text>
+				熬夜看恐怖喜剧片能磨砺胆量，再恐怖的地方只要笑一笑就不恐怖了，「嚯嚯嚯嚯嚯嚯嚯！」就像这样。
+			</Text>
+		</Replace>
+		<!--请求声明友谊被接受-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_HUOHUO_ANY">
+			<Text>
+				藿藿：我、我才不想锻炼什么意志，我就想逃跑，但每次尾巴大爷都直接把我送到敌人跟前，真的是受够了……
+				[NEWLINE]尾巴：哼，你最好是被吃干抹净，老子就能恢复自由了！
+			</Text>
+		</Replace>
+		<!--请求声明友谊被拒绝-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_HUOHUO_ANY">
+			<Text>
+				一劳永逸的祛邪之法，真的存在么……
+			</Text>
+		</Replace>
+		<!--被宣战-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_XIANZHOU_HUOHUO_ANY">
+			<Text>
+				尾巴救救！
+			</Text>
+		</Replace>
+		<!--主动宣战-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_XIANZHOU_HUOHUO_ANY">
+			<Text>	
+				藿藿：非、非得战斗吗？
+				[NEWLINE]尾巴：对喽~别逃啊~
+			</Text>
+		</Replace>
+		<!--初次见面-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_LEADER_XIANZHOU_HUOHUO_ANY">
+			<Text>
+				藿藿：你、你好…我叫藿藿，是新上任的十王司判官，那个，还要说什么来着…
+				[NEWLINE]尾巴：小丫头，我呢？本大爷可是岁阳一族赫赫有名的……
+				[NEWLINE]藿藿：尾巴！他是尾巴！
+			</Text>
+		</Replace>
+		<!--初次见面，提供最近城市位置-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_XIANZHOU_HUOHUO_ANY">
+			<Text>
+				藿藿：一有空我就拼命折纸人，只要一想到有那么多「朋友」在身边，我就不怕了……
+				[NEWLINE]尾巴：老子最烦那纸人了！半夜一睁眼一纸人凑我眼前还在那笑不瘆得慌吗？！
+			</Text>
+		</Replace>
+		<!--初次见面，玩家提供最近城市位置-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_XIANZHOU_HUOHUO_ANY">
+			<Text>
+				藿藿：这里让人安心多了。
+				[NEWLINE]尾巴：汪！
+			</Text>
+		</Replace>
+		<!--初次见面，请求交换首都位置-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_XIANZHOU_HUOHUO_ANY">
+			<Text>
+				藿藿：「鉴爻轩」的老板说我有「贞凶之命」，厄运缠身，这、这多半要怪……
+				[NEWLINE]尾巴：怪我。但你走路摔跤可怪不得我。
+			</Text>
+		</Replace>
+		<!--表示欢迎-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_GREETING_LEADER_XIANZHOU_HUOHUO_ANY">
+			<Text>
+				藿藿：你、你好…那个，没事我就走了，再、再见……
+				[NEWLINE]尾巴：是让你来打招呼的，不是来道别的！
+			</Text>
+		</Replace>
+		<!--接受使节派遣-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_XIANZHOU_HUOHUO_ANY">
+			<Text>
+				在星槎海找个地方坐下来，看着星槎一艘一艘地过去，一艘一艘地回来——这是我消除疲劳的办法…虽然十王司的判官们说用来治疗失眠更有效…总之，推、推荐给你。
+			</Text>
+		</Replace>
+		<!--拒绝使节派遣-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_XIANZHOU_HUOHUO_ANY">
+			<Text>
+				藿藿：这下肯定做不到了…
+				[NEWLINE]尾巴：有老子在，你怕什么？
+			</Text>
+		</Replace>
+		<!--请求派遣使节-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_XIANZHOU_HUOHUO_ANY">
+			<Text>
+				灵符…保命…
+			</Text>
+		</Replace>
+		<!--被谴责-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_XIANZHOU_HUOHUO_ANY">
+			<Text>
+				你、你们不要过来啊…
+			</Text>
+		</Replace>
+		<!--谴责玩家-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_XIANZHOU_HUOHUO_ANY">
+			<Text>
+				尾巴：走你。
+				[NEWLINE]藿藿：啊啊啊——
+			</Text>
+		</Replace>
+		<!--领袖敌视玩家-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_EXIT_LEADER_XIANZHOU_HUOHUO_ANY">
+			<Text>
+				尾巴：你们这些小崽子，都给我让开…
+				[NEWLINE]凶神恶鬼，有老子足矣！
+			</Text>
+		</Replace>
+		<!--请求结盟-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_XIANZHOU_HUOHUO_ANY">
+			<Text>
+				让怕岁阳的人用岁阳来捉岁阳，怎么想都不对劲…但他们说，这叫以毒攻毒…呜呜。
+			</Text>
+		</Replace>
+		<!--要求移开边境军队-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_XIANZHOU_HUOHUO_ANY">
+			<Text>
+				尾巴：给老子滚——
+				[NEWLINE]藿藿：噫……
+			</Text>
+		</Replace>
+		<!--战败-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_XIANZHOU_HUOHUO_ANY" Language="zh_Hans_CN">
+			<Text>呜呜好疼…</Text>
+		</Row>
+		<!--玩家战败-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_XIANZHOU_HUOHUO_ANY" Language="zh_Hans_CN">
+			<Text>呜呜好疼…</Text>
+		</Row>
+		<!--同意交易-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_XIANZHOU_HUOHUO_ANY" Language="zh_Hans_CN">
+			<Text>
+				谢谢您谢谢您！
+			</Text>
+		</Row>
+		<!--拒绝交易-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_XIANZHOU_HUOHUO_ANY" Language="zh_Hans_CN">
+			<Text>
+				这么好的东西，我能收下吗…
+			</Text>
+		</Row>
+		<!--接受停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_XIANZHOU_HUOHUO_ANY" Language="zh_Hans_CN">
+			<Text>	
+				藿藿：是我赢了吗？我吗？!
+				[NEWLINE]尾巴：还不谢我？
+			</Text>
+		</Row>
+		<!--拒绝停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_XIANZHOU_HUOHUO_ANY" Language="zh_Hans_CN">
+			<Text>
+				藿藿：非、非得战斗吗？
+				[NEWLINE]尾巴：对喽~别逃啊~
+			</Text>
+		</Row>
+		<!--要求停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_XIANZHOU_HUOHUO_ANY" Language="zh_Hans_CN">
+			<Text>
+				投…投降……
+			</Text>
+		</Row>
+		<!--开放边界-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_XIANZHOU_HUOHUO_ANY" Language="zh_Hans_CN">
+			<Text>
+				藿藿：看不见我看不见我…
+				[NEWLINE]尾巴：那边的傻瓜，看这看这！
+			</Text>
+		</Row>
+		<!--拒绝开放边界-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_XIANZHOU_HUOHUO_ANY" Language="zh_Hans_CN">
+			<Text>
+				灵符…保命…
+			</Text>
+		</Row>
+		<!--请求开放边界-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_XIANZHOU_HUOHUO_ANY" Language="zh_Hans_CN">
+			<Text>
+				终、终于可以回家了，要是没人注意到我就好了。
+			</Text>
+		</Row>
+
+
+		<!--镜流-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_JINGLIU_QUOTE" Language="zh_Hans_CN">
+			<Text>“我的剑，谁要学，我便教。”[NEWLINE]——前任剑首</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_JINGLIU_TITLE" Language="zh_Hans_CN">
+			<Text>前任「罗浮」剑首</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XIANZHOU_JINGLIU_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>
+				传奇「云上五骁」之一，人送尊号「无罅飞光」。
+				[NEWLINE]超脱了人间的胜负，为了获得斩杀「神」的力量，她选择走上截然不同的道路。
+				[NEWLINE]至此之后，仙舟的记录中少了一个罗浮「剑首」，多了一个名字被抹去的「叛徒」。
+			</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_XIANZHOU_JINGLIU_NAME" Language="zh_Hans_CN">
+			<Text>月有薄蚀</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_XIANZHOU_JINGLIU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>喜欢进入黄金时代的文明。讨厌处于黑暗时代的文明。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_XIANZHOU_JINGLIU_REASON_ANY" Language="zh_Hans_CN">
+			<Text>她对您进入黄金时代感到开心</Text><!--LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_SYCOPHANT_GOLDEN_AGE-->
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_XIANZHOU_JINGLIU_SYCOPHANT_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>就让这一轮月华…照彻万川！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_XIANZHOU_JINGLIU_REASON_ANY" Language="zh_Hans_CN">
+			<Text>她对您进入黑暗时代感到失望</Text><!--LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_SYCOPHANT_GOLDEN_AGE-->
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_XIANZHOU_JINGLIU_SYCOPHANT_DARK_AGE" Language="zh_Hans_CN">
+			<Text>无尽形寿便是这般滋味：苦苦等待，直至疯狂。</Text>
+		</Row>
+
+		<!--同意声明友谊-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_XIANZHOU_JINGLIU_ANY">
+			<Text>一切借由形体施展的技法不过是末流小道。而今我抛弃凡铁，盗来一线月光，遍照尘世万川。这便是我掌中生灭由心，无处不在的「剑」。</Text>
+		</Replace>
+		<!--拒绝声明友谊-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_XIANZHOU_JINGLIU_ANY">
+			<Text>
+				有人声的地方，分外聒噪。
+			</Text>
+		</Replace>
+		<!--请求声明友谊-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_JINGLIU_ANY">
+			<Text>
+				人生之初，最爱的莫过于习练剑艺、战胜强敌；随后，是品尝白珩自星间带来的种种佳酿；而今…是教仇敌痛彻心扉，生不如死。我的爱好，很奇怪吧？
+			</Text>
+		</Replace>
+		<!--请求声明友谊被接受-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_JINGLIU_ANY">
+			<Text>
+				我早已跨过了自己的极限，徘徊于魔阴身的边界。与其睹物思旧，恨火烧身。不如以黑纱障目，信步所之。
+			</Text>
+		</Replace>
+		<!--请求声明友谊被拒绝-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_XIANZHOU_JINGLIU_ANY">
+			<Text>
+				身外浮名，如云散尽。我触犯十王司条律，仙舟便将关于我的一切统统抹去了。只是那又如何？良剑断物，仗其锋芒，而不在其名声。
+			</Text>
+		</Replace>
+		<!--被宣战-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_XIANZHOU_JINGLIU_ANY">
+			<Text>
+				多添一条亡魂罢了。
+			</Text>
+		</Replace>
+		<!--主动宣战-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_XIANZHOU_JINGLIU_ANY">
+			<Text>
+				准备受死…
+			</Text>
+		</Replace>
+		<!--初次见面-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_LEADER_XIANZHOU_JINGLIU_ANY">
+			<Text>镜流不过是一介仙舟弃卒，流浪剑士。若不想惹来麻烦，装作我们未曾谋面亦可。</Text>
+		</Replace>
+		<!--初次见面，提供最近城市位置-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_XIANZHOU_JINGLIU_ANY">
+			<Text>
+				寰宇广阔，下次相会…不知是敌是友，是生是死？
+			</Text>
+		</Replace>
+		<!--初次见面，玩家提供最近城市位置-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_XIANZHOU_JINGLIU_ANY">
+			<Text>
+				免去寒暄，说说来意吧？
+			</Text>
+		</Replace>
+		<!--初次见面，请求交换首都位置-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_XIANZHOU_JINGLIU_ANY">
+			<Text>
+				同你一样，我也曾禀受凝视。只不过，那是我自愿踏上的道路——进入虚陵仙舟十王司的深处，穿过众妙之门，踏上解脱大道。
+			</Text>
+		</Replace>
+		<!--表示欢迎-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_GREETING_LEADER_XIANZHOU_JINGLIU_ANY">
+			<Text>
+				罗浮长乐天的景致千年未曾变过，反不如星槎海那厢，在大战被摧毁后重建来得美丽。
+			</Text>
+		</Replace>
+		<!--接受使节派遣-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_XIANZHOU_JINGLIU_ANY">
+			<Text>
+				我的故乡，是众仙舟间繁华第一，人称「苍城」的胜境。后来，它被寿瘟祸祖所繁衍的活体星宿所吞…纵是自诩天人的长生种，也不过是一抔星尘。
+			</Text>
+		</Replace>
+		<!--拒绝使节派遣-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_XIANZHOU_JINGLIU_ANY">
+			<Text>
+				免去寒暄，说说来意吧？
+			</Text>
+		</Replace>
+		<!--请求派遣使节-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_XIANZHOU_JINGLIU_ANY">
+			<Text>
+				乘月返真。
+			</Text>
+		</Replace>
+		<!--被谴责-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_XIANZHOU_JINGLIU_ANY">
+			<Text>
+				身外浮名，如云散尽。我触犯十王司条律，仙舟便将关于我的一切统统抹去了。只是那又如何？良剑断物，仗其锋芒，而不在其名声。
+			</Text>
+		</Replace>
+		<!--谴责玩家-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_XIANZHOU_JINGLIU_ANY">
+			<Text>
+				我以月色为剑。
+			</Text>
+		</Replace>
+		<!--领袖敌视玩家-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_EXIT_LEADER_XIANZHOU_JINGLIU_ANY">
+			<Text>
+				掌中之剑，与天地相较不过一根针的大小，如何能斩开星星？
+			</Text>
+		</Replace>
+		<!--请求结盟-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_XIANZHOU_JINGLIU_ANY">
+			<Text>
+				让我瞧瞧你的剑术是否精进。
+			</Text>
+		</Replace>
+		<!--要求移开边境军队-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_XIANZHOU_JINGLIU_ANY">
+			<Text>
+				现在退下，我便饶你一命。
+			</Text>
+		</Replace>
+		<!--战败-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_XIANZHOU_JINGLIU_ANY" Language="zh_Hans_CN">
+			<Text>终于，解脱了…</Text>
+		</Row>
+		<!--玩家战败-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_XIANZHOU_JINGLIU_ANY" Language="zh_Hans_CN">
+			<Text>终于，解脱了…</Text>
+		</Row>
+		<!--同意交易-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_XIANZHOU_JINGLIU_ANY" Language="zh_Hans_CN">
+			<Text>
+				赏玩之余，便别无他用。
+			</Text>
+		</Row>
+		<!--拒绝交易-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_XIANZHOU_JINGLIU_ANY" Language="zh_Hans_CN">
+			<Text>
+				于我无用。
+			</Text>
+		</Row>
+		<!--接受停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_XIANZHOU_JINGLIU_ANY" Language="zh_Hans_CN">
+			<Text>我早已跨过了自己的极限，徘徊于魔阴身的边界。与其睹物思旧，恨火烧身。不如以黑纱障目，信步所之。</Text>
+		</Row>
+		<!--拒绝停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_XIANZHOU_JINGLIU_ANY" Language="zh_Hans_CN">
+			<Text>你无处可逃！</Text>
+		</Row>
+		<!--要求停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_XIANZHOU_JINGLIU_ANY" Language="zh_Hans_CN">
+			<Text>
+				胜负之事，无需介怀。
+			</Text>
+		</Row>
+		<!--开放边界-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_XIANZHOU_JINGLIU_ANY" Language="zh_Hans_CN">
+			<Text>
+				身外之物。
+			</Text>
+		</Row>
+		<!--拒绝开放边界-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_XIANZHOU_JINGLIU_ANY" Language="zh_Hans_CN">
+			<Text>
+				有杀意…
+			</Text>
+		</Row>
+		<!--请求开放边界-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_XIANZHOU_JINGLIU_ANY" Language="zh_Hans_CN">
+			<Text>
+				无尽形寿便是这般滋味：苦苦等待，直至疯狂。
+			</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

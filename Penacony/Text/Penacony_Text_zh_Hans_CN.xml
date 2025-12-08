@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AMPHOREUS_Text_zh_Hans_CN -->
+<!-- Author: Nwflower -->
+<!-- DateCreated: 3/12/2024 7:57:23 PM -->
+<GameData>
+	<LocalizedText>
+		<!--Civ-->
+		<Replace Tag="LOC_CIVILIZATION_NW_PENACONY_NAME" Language="zh_Hans_CN">
+			<Text>匹诺康尼</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_NW_PENACONY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>盛会之星：匹诺康尼</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_NW_PENACONY_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>匹诺康尼的</Text>
+		</Replace>
+
+		<!--Leader-->=
+		<Replace Tag="LOC_LEADER_NW_ROBIN_NAME" Language="zh_Hans_CN">
+			<Text>知更鸟</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_NW_ROBIN_QUOTE" Language="zh_Hans_CN">
+			<Text>『哀哭，叹息，祈求——那就是我记忆中最初的声音。我们以哀歌祈祷拯救，却始终未能等来神的垂目……』</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_NW_SUNDAY_NAME" Language="zh_Hans_CN">
+			<Text>星期日</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_NW_SUNDAY_QUOTE" Language="zh_Hans_CN">
+			<Text>「秩序」的美梦已然消散，但仍有人不会放下初愿。 ——折翼坠地的旅人，他的脚步将迈向何方？</Text>
+		</Replace>
+		
+		<!--Cities-->
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_GOLD" Language="zh_Hans_CN">
+			<Text>黄金的时刻</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_1" Language="zh_Hans_CN">
+			<Text>子夜的时刻</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_2" Language="zh_Hans_CN">
+			<Text>安谧的时刻</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_3" Language="zh_Hans_CN">
+			<Text>朝露的时刻</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_4" Language="zh_Hans_CN">
+			<Text>黎明的时刻</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_5" Language="zh_Hans_CN">
+			<Text>烫金的时刻</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_6" Language="zh_Hans_CN">
+			<Text>太阳的时刻</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_7" Language="zh_Hans_CN">
+			<Text>绿洲的时刻</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_8" Language="zh_Hans_CN">
+			<Text>热砂的时刻</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_9" Language="zh_Hans_CN">
+			<Text>蓝调的时刻</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_10" Language="zh_Hans_CN">
+			<Text>黄昏号海岸</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_11" Language="zh_Hans_CN">
+			<Text>布鲁斯之夜</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_12" Language="zh_Hans_CN">
+			<Text>薄暮的时刻</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_13" Language="zh_Hans_CN">
+			<Text>星辰的时刻</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_14" Language="zh_Hans_CN">
+			<Text>歌斐木城</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_15" Language="zh_Hans_CN">
+			<Text>鸢尾堡</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_16" Language="zh_Hans_CN">
+			<Text>猎犬哨站</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_17" Language="zh_Hans_CN">
+			<Text>流梦礁</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_18" Language="zh_Hans_CN">
+			<Text>苜蓿金库</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_19" Language="zh_Hans_CN">
+			<Text>隐夜鸫巢</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_20" Language="zh_Hans_CN">
+			<Text>朝露公馆</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_21" Language="zh_Hans_CN">
+			<Text>钟表匠之都</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_22" Language="zh_Hans_CN">
+			<Text>拉扎莉娜城</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_23" Language="zh_Hans_CN">
+			<Text>谐乐剧院</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_24" Language="zh_Hans_CN">
+			<Text>克劳克乐园</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_25" Language="zh_Hans_CN">
+			<Text>苏乐达港</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_26" Language="zh_Hans_CN">
+			<Text>凡尔赛霓虹</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_27" Language="zh_Hans_CN">
+			<Text>翡冷翠梦境</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_28" Language="zh_Hans_CN">
+			<Text>莱茵歌剧院</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_29" Language="zh_Hans_CN">
+			<Text>圣雷莫钟塔</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_30" Language="zh_Hans_CN">
+			<Text>忆质泉</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_31" Language="zh_Hans_CN">
+			<Text>谐乐鸽栖地</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_32" Language="zh_Hans_CN">
+			<Text>美梦小镇</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_33" Language="zh_Hans_CN">
+			<Text>噩梦小镇</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_34" Language="zh_Hans_CN">
+			<Text>筑梦边境</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_35" Language="zh_Hans_CN">
+			<Text>稚子的梦</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_36" Language="zh_Hans_CN">
+			<Text>稚子的月光</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_37" Language="zh_Hans_CN">
+			<Text>晖长石港</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_38" Language="zh_Hans_CN">
+			<Text>折纸大学城</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_39" Language="zh_Hans_CN">
+			<Text>艾迪恩市</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_40" Language="zh_Hans_CN">
+			<Text>德尔默市</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_41" Language="zh_Hans_CN">
+			<Text>莱斯利市</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_42" Language="zh_Hans_CN">
+			<Text>惊梦</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_43" Language="zh_Hans_CN">
+			<Text>艾弗法市</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_44" Language="zh_Hans_CN">
+			<Text>塔塔洛夫</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_45" Language="zh_Hans_CN">
+			<Text>蒂索克市</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_46" Language="zh_Hans_CN">
+			<Text>逐梦客之都</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_47" Language="zh_Hans_CN">
+			<Text>白日梦酒店</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_48" Language="zh_Hans_CN">
+			<Text>阿斯德纳</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_49" Language="zh_Hans_CN">
+			<Text>隐夜鸫市</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_50" Language="zh_Hans_CN">
+			<Text>苜蓿草市</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NW_PENACONY_51" Language="zh_Hans_CN">
+			<Text>鸢尾花市</Text>
+		</Replace>
+
+		<!--Trait-->
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_SINKDREAM_NAME" Language="zh_Hans_CN">
+			<Text>沉沦美梦的盛会之星</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_SINKDREAM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁游戏与娱乐后，获得2份 [ICON_RESOURCE_SULEDA] 苏乐达，可为4座城市提供1点 [ICON_Amenities] 宜居度，无法通过其他方式获得。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_FLY_TO_SKY_TOGETHER_NAME" Language="zh_Hans_CN">
+			<Text>一起飞向天空</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_FLY_TO_SKY_TOGETHER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>宫殿获得1个 [ICON_GreatWork_Music] 音乐巨作槽位。首次进入黄金时代后，获得一个随机的特色 [ICON_GreatWork_Music] 音乐巨作。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_POEM_CHOIR_NAME" Language="zh_Hans_CN">
+			<Text>齐响诗班</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_POEM_CHOIR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[ICON_Turn] 回合数恰好能被7整除时，所有城市立即获得等同于回合数1/7的 [ICON_Production] 生产力。</Text>
+		</Replace>
+
+		<!--Resource-->
+		<Replace Tag="LOC_RESOURCE_SULEDA_NAME" Language="zh_Hans_CN">
+			<Text>苏乐达</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_SULEDA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一种价格亲民的汽水，是匹诺康尼本土的特色饮品，也是享誉银河的著名品牌。[NEWLINE][NEWLINE]对苏乐达来说，经典就意味着最好。苏乐达公司曾三次试图更改配方，三次都被愤怒的顾客喷回了原样。[NEWLINE][NEWLINE]「根据双盲测试结果，超过七成的顾客都分不出新配方跟原版的区别。」</Text>
+		</Replace>
+
+		<!--Unit-->
+		<Replace Tag="LOC_UNIT_DREAM_BUILDER_NAME" Language="zh_Hans_CN">
+			<Text>筑梦师</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DREAM_BUILDER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>匹诺康尼特色单位，拥有1点劳动力，解锁于启蒙运动。初始拥有一次升级。可在有效地点举办摇滚音乐会。无法在同一单元格中表演两次。在敌方境内的奇观、娱乐中心、剧院广场、学院和宇航中心的表演效果提升1个等级。该单位具有一定的战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PENACONY_UNITS_GET_EXTRA_TORISM_NAME" Language="zh_Hans_CN">
+			<Text>在敌方境内的奇观、娱乐中心、剧院广场、学院和宇航中心的表演效果提升1个等级。</Text>
+		</Replace>
+
+		<!--GreatWork-->
+		<Replace Tag="LOC_GREATWORK_ROBIN" Language="zh_Hans_CN">
+			<Text>[NEWLINE][NEWLINE][COLOR_White]{LOC_GREATWORK_ROBIN_0_NAME}[ENDCOLOR][NEWLINE]{LOC_GREATWORK_ROBIN_0_DIS}[NEWLINE][NEWLINE][COLOR_White]{LOC_GREATWORK_ROBIN_1_NAME}[ENDCOLOR][NEWLINE]{LOC_GREATWORK_ROBIN_1_DIS}[NEWLINE][NEWLINE][COLOR_White]{LOC_GREATWORK_ROBIN_2_NAME}[ENDCOLOR][NEWLINE]{LOC_GREATWORK_ROBIN_2_DIS}[NEWLINE][NEWLINE][COLOR_White]{LOC_GREATWORK_ROBIN_3_NAME}[ENDCOLOR][NEWLINE]{LOC_GREATWORK_ROBIN_3_DIS}</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_ROBIN_0_NAME" Language="zh_Hans_CN">
+			<Text>在银河中孤独摇摆</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_ROBIN_0_DIS" Language="zh_Hans_CN">
+			<Text>知更鸟特色音乐巨作。若5个单元格内不存在其他城市，则所在城市的所有产出提高10%。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_ROBIN_1_NAME" Language="zh_Hans_CN">
+			<Text>使一颗心免于哀伤</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_ROBIN_1_DIS" Language="zh_Hans_CN">
+			<Text>知更鸟特色音乐巨作。该城市新生产的单位带有一次初始升级。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_ROBIN_2_NAME" Language="zh_Hans_CN">
+			<Text>希望有羽毛和翅膀</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_ROBIN_2_DIS" Language="zh_Hans_CN">
+			<Text>知更鸟特色音乐巨作。所在城市的单元格+1 [ICON_PRODUCTION] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_ROBIN_3_NAME" Language="zh_Hans_CN">
+			<Text>若我不曾见过太阳</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_ROBIN_3_DIS" Language="zh_Hans_CN">
+			<Text>知更鸟特色音乐巨作。所在城市可以额外建造1个区域，且建造区域时+15% [ICON_PRODUCTION] 生产力。</Text>
+		</Replace>
+
+		<!--Improvement-->
+		<Replace Tag="LOC_IMPROVEMENT_DREAM_POOL_NAME" Language="zh_Hans_CN">
+			<Text>入梦池</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DREAM_POOL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁筑梦师建造匹诺康尼特色改良设施入梦池的能力。[NEWLINE][NEWLINE]+3 [ICON_Culture] 文化、+1 [ICON_Amenities] 宜居度。相邻入梦池的区域+1 [ICON_GOLD] 金币，该加成每个区域仅能应用一次。只能建立在无地貌的单元格上。每个城市只能建造一个入梦池。入梦池所在的单元格无法被切换。</Text>
+		</Replace>
+
+	</LocalizedText>
+</GameData>

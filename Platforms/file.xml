@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod>
+  <InGameActions>
+    <UpdateAudio id="UpdateAudio">
+      <Properties>
+        <LoadOrder>101</LoadOrder>
+      </Properties>
+      <File>Windows/audio/CCBE_Audio.ini</File>
+    </UpdateAudio>
+    <UpdateAudio id="Penacony_UpdateAudio">
+      <File priority="10001">Platforms/Windows/audio/Penacony_Audio.ini</File>
+    </UpdateAudio>
+    <UpdateAudio id="Audio">
+      <Criteria>LeaderCriteria</Criteria>
+      <File>Platforms/Windows/Audio/HertaSoundbanks.ini</File>
+    </UpdateAudio>
+    <UpdateAudio id="audio">
+      <Criteria>PenFirefly</Criteria>
+      <File>Platforms/Windows/audio/PenFireflyBanks.ini</File>
+    </UpdateAudio>
+  </InGameActions>
+  <Files>
+    <File>Platforms/Windows/audio/240381163.wem</File>
+    <File>Platforms/Windows/audio/371590529.wem</File>
+    <File>Platforms/Windows/audio/483964694.wem</File>
+    <File>Platforms/Windows/audio/543818413.wem</File>
+    <File>Platforms/Windows/audio/599417978.wem</File>
+    <File>Platforms/Windows/audio/688281181.wem</File>
+    <File>Platforms/Windows/audio/719994966.wem</File>
+    <File>Platforms/Windows/audio/Chinese(PRC)/Firefly_Pen_SoundBank.bnk</File>
+    <File>Platforms/Windows/audio/Chinese(PRC)/Firefly_Pen_SoundBank.txt</File>
+    <File>Platforms/Windows/audio/Chinese(Taiwan)/Firefly_Pen_SoundBank.bnk</File>
+    <File>Platforms/Windows/audio/Chinese(Taiwan)/Firefly_Pen_SoundBank.txt</File>
+    <File>Platforms/Windows/audio/English(US)/Firefly_Pen_SoundBank.bnk</File>
+    <File>Platforms/Windows/audio/English(US)/Firefly_Pen_SoundBank.txt</File>
+    <File>Platforms/Windows/audio/Firefly_Pen_SoundBank.bnk</File>
+    <File>Platforms/Windows/audio/Firefly_Pen_SoundBank.txt</File>
+    <File>Platforms/Windows/audio/Firefly_Pen_SoundBank.xml</File>
+    <File>Platforms/Windows/audio/Japanese/Firefly_Pen_SoundBank.bnk</File>
+    <File>Platforms/Windows/audio/Japanese/Firefly_Pen_SoundBank.txt</File>
+    <File>Platforms/Windows/audio/PenFireflyBanks.ini</File>
+    <File>Platforms/Windows/audio/PluginInfo.xml</File>
+    <File>Platforms/Windows/Audio/173476250.wem</File>
+    <File>Platforms/Windows/Audio/2123328.wem</File>
+    <File>Platforms/Windows/Audio/342261787.wem</File>
+    <File>Platforms/Windows/Audio/397547532.wem</File>
+    <File>Platforms/Windows/Audio/471151637.wem</File>
+    <File>Platforms/Windows/Audio/492880990.wem</File>
+    <File>Platforms/Windows/Audio/554202457.wem</File>
+    <File>Platforms/Windows/Audio/711008917.wem</File>
+    <File>Platforms/Windows/Audio/735678777.wem</File>
+    <File>Platforms/Windows/Audio/736187622.wem</File>
+    <File>Platforms/Windows/Audio/807947015.wem</File>
+    <File>Platforms/Windows/Audio/825405644.wem</File>
+    <File>Platforms/Windows/Audio/840603022.wem</File>
+    <File>Platforms/Windows/Audio/850240087.wem</File>
+    <File>Platforms/Windows/Audio/HertaSoundbanks.ini</File>
+    <File>Platforms/Windows/Audio/Herta_Music_Bank.bnk</File>
+    <File>Platforms/Windows/Audio/Herta_Music_Bank.xml</File>
+    <File>Platforms/Windows/Audio/Herta_Speech_Bank.bnk</File>
+    <File>Platforms/Windows/Audio/Herta_Speech_Bank.xml</File>
+    <File>Platforms/Windows/audio/1050932009.wem</File>
+    <File>Platforms/Windows/audio/137588804.wem</File>
+    <File>Platforms/Windows/audio/156779590.wem</File>
+    <File>Platforms/Windows/audio/181738138.wem</File>
+    <File>Platforms/Windows/audio/206220487.wem</File>
+    <File>Platforms/Windows/audio/234985175.wem</File>
+    <File>Platforms/Windows/audio/306124.wem</File>
+    <File>Platforms/Windows/audio/320790058.wem</File>
+    <File>Platforms/Windows/audio/395974971.wem</File>
+    <File>Platforms/Windows/audio/457225391.wem</File>
+    <File>Platforms/Windows/audio/497156637.wem</File>
+    <File>Platforms/Windows/audio/528487798.wem</File>
+    <File>Platforms/Windows/audio/560864678.wem</File>
+    <File>Platforms/Windows/audio/566405796.wem</File>
+    <File>Platforms/Windows/audio/587199773.wem</File>
+    <File>Platforms/Windows/audio/622268515.wem</File>
+    <File>Platforms/Windows/audio/683364513.wem</File>
+    <File>Platforms/Windows/audio/753691350.wem</File>
+    <File>Platforms/Windows/audio/758546084.wem</File>
+    <File>Platforms/Windows/audio/77268704.wem</File>
+    <File>Platforms/Windows/audio/775288528.wem</File>
+    <File>Platforms/Windows/audio/967202074.wem</File>
+    <File>Platforms/Windows/audio/Penacony_Audio.ini</File>
+    <File>Platforms/Windows/audio/Penacony_GreatWorkMusic.bnk</File>
+    <File>Platforms/Windows/audio/Penacony_GreatWorkMusic.txt</File>
+    <File>Platforms/Windows/audio/Penacony_SB.bnk</File>
+    <File>Platforms/Windows/audio/Penacony_SB.txt</File>
+    <File>Platforms/Windows/audio/PluginInfo.xml</File>
+    <File>Platforms/Windows/audio/SoundbanksInfo.xml</File>
+  </Files>
+</Mod>

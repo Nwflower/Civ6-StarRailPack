@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>D:\FireFly\</ProjectRoot>
+		<SourceFilesRoot>D:\FireFly\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\FireFly\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\FireFly\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles>
+		<File Id="240381163" Language="SFX">
+			<ShortName>14. 清醒梦 Lucid Dreams.wav</ShortName>
+			<Path>SFX\14. 清醒梦 Lucid Dreams_EE79F7FB.wem</Path>
+		</File>
+		<File Id="371590529" Language="SFX">
+			<ShortName>32. 永不复焉 Nevermore.wav</ShortName>
+			<Path>SFX\32. 永不复焉 Nevermore_EE79F7FB.wem</Path>
+		</File>
+		<File Id="483964694" Language="SFX">
+			<ShortName>15. 半途之屋 Halfway House.wav</ShortName>
+			<Path>SFX\15. 半途之屋 Halfway House_EE79F7FB.wem</Path>
+		</File>
+		<File Id="543818413" Language="SFX">
+			<ShortName>01.【流萤翻唱】使一颗心免于哀伤.wav</ShortName>
+			<Path>SFX\01.【流萤翻唱】使一颗心免于哀伤_EE79F7FB.wem</Path>
+		</File>
+		<File Id="599417978" Language="SFX">
+			<ShortName>02.【流萤翻唱】希望有羽毛和翅膀.wav</ShortName>
+			<Path>SFX\02.【流萤翻唱】希望有羽毛和翅膀_EE79F7FB.wem</Path>
+		</File>
+		<File Id="688281181" Language="SFX">
+			<ShortName>10. 现实原则 Realitätsprinzip.wav</ShortName>
+			<Path>SFX\10. 现实原则 Realitätsprinzip_EE79F7FB.wem</Path>
+		</File>
+		<File Id="719994966" Language="SFX">
+			<ShortName>05. 长眠不醒 The Big Sleep.wav</ShortName>
+			<Path>SFX\05. 长眠不醒 The Big Sleep_EE79F7FB.wem</Path>
+		</File>
+	</StreamedFiles>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1236681510" Language="Chinese(PRC)">
+			<ShortName>Firefly_Pen_SoundBank</ShortName>
+			<Path>Chinese(PRC)\Firefly_Pen_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1071200957" Name="ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="799265404" Name="ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_PEN_FIREFLY"/>
+				<Event Id="1935546103" Name="ACCEPT_DELEGATION_FROM_HUMAN_LEADER_PEN_FIREFLY"/>
+				<Event Id="2632127371" Name="ACCEPT_MAKE_DEAL_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="3145491985" Name="ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_PEN_FIREFLY"/>
+				<Event Id="1667762062" Name="DECLARE_FRIEND_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="3032179972" Name="DECLARE_WAR_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="3171733899" Name="DECLARE_WAR_FROM_HUMAN_LEADER_PEN_FIREFLY"/>
+				<Event Id="2378294486" Name="DEFEAT_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="502469557" Name="DEFEAT_FROM_HUMAN_LEADER_PEN_FIREFLY"/>
+				<Event Id="1577724227" Name="DELEGATION_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="3761796786" Name="DENOUNCE_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="1634501873" Name="DENOUNCE_FROM_HUMAN_LEADER_PEN_FIREFLY"/>
+				<Event Id="531100253" Name="FIRST_MEET_LEADER_PEN_FIREFLY"/>
+				<Event Id="2598472416" Name="FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_PEN_FIREFLY"/>
+				<Event Id="2423134628" Name="FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_PEN_FIREFLY"/>
+				<Event Id="2079285225" Name="FIRST_MEET_VISIT_RECIPIENT_LEADER_PEN_FIREFLY"/>
+				<Event Id="284048638" Name="GREETING_LEADER_PEN_FIREFLY"/>
+				<Event Id="3035784295" Name="KUDO_LEADER_PEN_FIREFLY_REASON"/>
+				<Event Id="3174498569" Name="MAKE_ALLIANCE_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="4073251201" Name="MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_PEN_FIREFLY"/>
+				<Event Id="131509701" Name="MAKE_PEACE_AI_REFUSE_DEAL_LEADER_PEN_FIREFLY"/>
+				<Event Id="962136562" Name="MAKE_PEACE_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="1809012421" Name="OPEN_BORDERS_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="161718714" Name="Pause_Music_PEN_GLAMOTH"/>
+				<Event Id="4216451486" Name="Play_Leader_Music_PEN_GLAMOTH"/>
+				<Event Id="2518756268" Name="Play_Music_PEN_GLAMOTH"/>
+				<Event Id="2496973311" Name="Play_PEN_FIREFLY_MISC_PEP_TALK"/>
+				<Event Id="148650704" Name="Play_Unit_Fire_PEN_GLAMOTH"/>
+				<Event Id="1666946112" Name="Play_Unit_Selcet_PEN_GLAMOTH"/>
+				<Event Id="906607732" Name="REJECT_DECLARE_FRIEND_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="998403963" Name="REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_PEN_FIREFLY"/>
+				<Event Id="1352756044" Name="REJECT_DELEGATION_FROM_HUMAN_LEADER_PEN_FIREFLY"/>
+				<Event Id="3391804544" Name="REJECT_MAKE_DEAL_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="1058979122" Name="REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_PEN_FIREFLY"/>
+				<Event Id="2538760299" Name="Resume_Music_PEN_GLAMOTH"/>
+				<Event Id="3299511580" Name="STANDBY_SIGH_LEADER_PEN_FIREFLY"/>
+				<Event Id="4098436100" Name="Start_Music_PEN_GLAMOTH"/>
+				<Event Id="2879460160" Name="Stop_Leader_Music_PEN_GLAMOTH"/>
+				<Event Id="3130910066" Name="Stop_Music_PEN_GLAMOTH"/>
+				<Event Id="1046685936" Name="WARNING_EXIT_LEADER_PEN_FIREFLY"/>
+				<Event Id="1850672398" Name="WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_PEN_FIREFLY"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="240381163"/>
+				<File Id="371590529"/>
+				<File Id="483964694"/>
+				<File Id="543818413"/>
+				<File Id="599417978"/>
+				<File Id="688281181"/>
+				<File Id="719994966"/>
+			</ReferencedStreamedFiles>
+			<IncludedMemoryFiles>
+				<File Id="42566918" Language="SFX">
+					<ShortName>请求声明友谊.wav</ShortName>
+					<Path>SFX\请求声明友谊_E843A46D.wem</Path>
+				</File>
+				<File Id="123086853" Language="SFX">
+					<ShortName>战败.wav</ShortName>
+					<Path>SFX\战败_E843A46D.wem</Path>
+				</File>
+				<File Id="202161870" Language="SFX">
+					<ShortName>初次见面，玩家提供最近城市位置.wav</ShortName>
+					<Path>SFX\初次见面，玩家提供最近城市位置_E843A46D.wem</Path>
+				</File>
+				<File Id="228888885" Language="Chinese(PRC)">
+					<ShortName>. Ev_archive_vo_avatar_turn_begin_sam_01.wav</ShortName>
+					<Path>Voices\Chinese(PRC)\. Ev_archive_vo_avatar_turn_begin_sam_01_E843A46D.wem</Path>
+				</File>
+				<File Id="237242310" Language="SFX">
+					<ShortName>开放边界.wav</ShortName>
+					<Path>SFX\开放边界_E843A46D.wem</Path>
+				</File>
+				<File Id="256154404" Language="SFX">
+					<ShortName>被谴责.wav</ShortName>
+					<Path>SFX\被谴责_E843A46D.wem</Path>
+				</File>
+				<File Id="295276815" Language="SFX">
+					<ShortName>接受停战.wav</ShortName>
+					<Path>SFX\接受停战_E843A46D.wem</Path>
+				</File>
+				<File Id="312572169" Language="SFX">
+					<ShortName>要求移开边境军队.wav</ShortName>
+					<Path>SFX\要求移开边境军队_E843A46D.wem</Path>
+				</File>
+				<File Id="330811164" Language="SFX">
+					<ShortName>同意声明友谊.wav</ShortName>
+					<Path>SFX\同意声明友谊_E843A46D.wem</Path>
+				</File>
+				<File Id="355582330" Language="SFX">
+					<ShortName>请求声明友谊被拒绝.wav</ShortName>
+					<Path>SFX\请求声明友谊被拒绝_E843A46D.wem</Path>
+				</File>
+				<File Id="403254155" Language="SFX">
+					<ShortName>请求开放边界.wav</ShortName>
+					<Path>SFX\请求开放边界_E843A46D.wem</Path>
+				</File>
+				<File Id="437769919" Language="Chinese(PRC)">
+					<ShortName>. Ev_archive_vo_avatar_advantage_sam.wav</ShortName>
+					<Path>Voices\Chinese(PRC)\. Ev_archive_vo_avatar_advantage_sam_E843A46D.wem</Path>
+				</File>
+				<File Id="479652109" Language="SFX">
+					<ShortName>谴责玩家.wav</ShortName>
+					<Path>SFX\谴责玩家_E843A46D.wem</Path>
+				</File>
+				<File Id="482602378" Language="SFX">
+					<ShortName>接受使节派遣.wav</ShortName>
+					<Path>SFX\接受使节派遣_E843A46D.wem</Path>
+				</File>
+				<File Id="494707845" Language="Chinese(PRC)">
+					<ShortName>. Ev_archive_vo_avatar_waiting_sam.wav</ShortName>
+					<Path>Voices\Chinese(PRC)\. Ev_archive_vo_avatar_waiting_sam_E843A46D.wem</Path>
+				</File>
+				<File Id="588383084" Language="SFX">
+					<ShortName>初次见面.wav</ShortName>
+					<Path>SFX\初次见面_E843A46D.wem</Path>
+				</File>
+				<File Id="597384099" Language="Chinese(PRC)">
+					<ShortName>. Ev_archive_vo_avatar_turn_begin_sam_02.wav</ShortName>
+					<Path>Voices\Chinese(PRC)\. Ev_archive_vo_avatar_turn_begin_sam_02_E843A46D.wem</Path>
+				</File>
+				<File Id="607679264" Language="SFX">
+					<ShortName>主动宣战.wav</ShortName>
+					<Path>SFX\主动宣战_E843A46D.wem</Path>
+				</File>
+				<File Id="630820017" Language="SFX">
+					<ShortName>拒绝开放边界.wav</ShortName>
+					<Path>SFX\拒绝开放边界_E843A46D.wem</Path>
+				</File>
+				<File Id="788883152" Language="SFX">
+					<ShortName>符合议程.wav</ShortName>
+					<Path>SFX\符合议程_E843A46D.wem</Path>
+				</File>
+				<File Id="802476510" Language="SFX">
+					<ShortName>同意交易.wav</ShortName>
+					<Path>SFX\同意交易_E843A46D.wem</Path>
+				</File>
+				<File Id="813838379" Language="SFX">
+					<ShortName>表示欢迎.wav</ShortName>
+					<Path>SFX\表示欢迎_E843A46D.wem</Path>
+				</File>
+				<File Id="883297649" Language="Chinese(PRC)">
+					<ShortName>. VO_Stellaron_Hunter-_Sam_-_DHGDR-_Supernova_Overload_1_1x.wav</ShortName>
+					<Path>Voices\Chinese(PRC)\. VO_Stellaron_Hunter-_Sam_-_DHGDR-_Supernova_Overload_1_1x_E843A46D.wem</Path>
+				</File>
+				<File Id="892878404" Language="SFX">
+					<ShortName>被宣战.wav</ShortName>
+					<Path>SFX\被宣战_E843A46D.wem</Path>
+				</File>
+				<File Id="936476791" Language="SFX">
+					<ShortName>. 叹气.wav</ShortName>
+					<Path>SFX\. 叹气_E843A46D.wem</Path>
+				</File>
+				<File Id="938274586" Language="SFX">
+					<ShortName>拒绝声明友谊.wav</ShortName>
+					<Path>SFX\拒绝声明友谊_E843A46D.wem</Path>
+				</File>
+				<File Id="979540869" Language="SFX">
+					<ShortName>拒绝交易.wav</ShortName>
+					<Path>SFX\拒绝交易_E843A46D.wem</Path>
+				</File>
+				<File Id="1006544155" Language="SFX">
+					<ShortName>拒绝停战.wav</ShortName>
+					<Path>SFX\拒绝停战_E843A46D.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1236681510" Language="Chinese(Taiwan)">
+			<ShortName>Firefly_Pen_SoundBank</ShortName>
+			<Path>Chinese(Taiwan)\Firefly_Pen_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1071200957" Name="ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="799265404" Name="ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_PEN_FIREFLY"/>
+				<Event Id="1935546103" Name="ACCEPT_DELEGATION_FROM_HUMAN_LEADER_PEN_FIREFLY"/>
+				<Event Id="2632127371" Name="ACCEPT_MAKE_DEAL_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="3145491985" Name="ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_PEN_FIREFLY"/>
+				<Event Id="1667762062" Name="DECLARE_FRIEND_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="3032179972" Name="DECLARE_WAR_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="3171733899" Name="DECLARE_WAR_FROM_HUMAN_LEADER_PEN_FIREFLY"/>
+				<Event Id="2378294486" Name="DEFEAT_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="502469557" Name="DEFEAT_FROM_HUMAN_LEADER_PEN_FIREFLY"/>
+				<Event Id="1577724227" Name="DELEGATION_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="3761796786" Name="DENOUNCE_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="1634501873" Name="DENOUNCE_FROM_HUMAN_LEADER_PEN_FIREFLY"/>
+				<Event Id="531100253" Name="FIRST_MEET_LEADER_PEN_FIREFLY"/>
+				<Event Id="2598472416" Name="FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_PEN_FIREFLY"/>
+				<Event Id="2423134628" Name="FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_PEN_FIREFLY"/>
+				<Event Id="2079285225" Name="FIRST_MEET_VISIT_RECIPIENT_LEADER_PEN_FIREFLY"/>
+				<Event Id="284048638" Name="GREETING_LEADER_PEN_FIREFLY"/>
+				<Event Id="3035784295" Name="KUDO_LEADER_PEN_FIREFLY_REASON"/>
+				<Event Id="3174498569" Name="MAKE_ALLIANCE_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="4073251201" Name="MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_PEN_FIREFLY"/>
+				<Event Id="131509701" Name="MAKE_PEACE_AI_REFUSE_DEAL_LEADER_PEN_FIREFLY"/>
+				<Event Id="962136562" Name="MAKE_PEACE_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="1809012421" Name="OPEN_BORDERS_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="161718714" Name="Pause_Music_PEN_GLAMOTH"/>
+				<Event Id="4216451486" Name="Play_Leader_Music_PEN_GLAMOTH"/>
+				<Event Id="2518756268" Name="Play_Music_PEN_GLAMOTH"/>
+				<Event Id="2496973311" Name="Play_PEN_FIREFLY_MISC_PEP_TALK"/>
+				<Event Id="148650704" Name="Play_Unit_Fire_PEN_GLAMOTH"/>
+				<Event Id="1666946112" Name="Play_Unit_Selcet_PEN_GLAMOTH"/>
+				<Event Id="906607732" Name="REJECT_DECLARE_FRIEND_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="998403963" Name="REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_PEN_FIREFLY"/>
+				<Event Id="1352756044" Name="REJECT_DELEGATION_FROM_HUMAN_LEADER_PEN_FIREFLY"/>
+				<Event Id="3391804544" Name="REJECT_MAKE_DEAL_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="1058979122" Name="REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_PEN_FIREFLY"/>
+				<Event Id="2538760299" Name="Resume_Music_PEN_GLAMOTH"/>
+				<Event Id="3299511580" Name="STANDBY_SIGH_LEADER_PEN_FIREFLY"/>
+				<Event Id="4098436100" Name="Start_Music_PEN_GLAMOTH"/>
+				<Event Id="2879460160" Name="Stop_Leader_Music_PEN_GLAMOTH"/>
+				<Event Id="3130910066" Name="Stop_Music_PEN_GLAMOTH"/>
+				<Event Id="1046685936" Name="WARNING_EXIT_LEADER_PEN_FIREFLY"/>
+				<Event Id="1850672398" Name="WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_PEN_FIREFLY"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="240381163"/>
+				<File Id="371590529"/>
+				<File Id="483964694"/>
+				<File Id="543818413"/>
+				<File Id="599417978"/>
+				<File Id="688281181"/>
+				<File Id="719994966"/>
+			</ReferencedStreamedFiles>
+			<IncludedMemoryFiles>
+				<File Id="42566918" Language="SFX">
+					<ShortName>请求声明友谊.wav</ShortName>
+					<Path>SFX\请求声明友谊_E843A46D.wem</Path>
+				</File>
+				<File Id="123086853" Language="SFX">
+					<ShortName>战败.wav</ShortName>
+					<Path>SFX\战败_E843A46D.wem</Path>
+				</File>
+				<File Id="184281470" Language="Chinese(Taiwan)">
+					<ShortName>. Ev_archive_vo_avatar_turn_begin_sam_02.wav</ShortName>
+					<Path>Voices\Chinese(Taiwan)\. Ev_archive_vo_avatar_turn_begin_sam_02_E843A46D.wem</Path>
+				</File>
+				<File Id="202161870" Language="SFX">
+					<ShortName>初次见面，玩家提供最近城市位置.wav</ShortName>
+					<Path>SFX\初次见面，玩家提供最近城市位置_E843A46D.wem</Path>
+				</File>
+				<File Id="237242310" Language="SFX">
+					<ShortName>开放边界.wav</ShortName>
+					<Path>SFX\开放边界_E843A46D.wem</Path>
+				</File>
+				<File Id="256154404" Language="SFX">
+					<ShortName>被谴责.wav</ShortName>
+					<Path>SFX\被谴责_E843A46D.wem</Path>
+				</File>
+				<File Id="295276815" Language="SFX">
+					<ShortName>接受停战.wav</ShortName>
+					<Path>SFX\接受停战_E843A46D.wem</Path>
+				</File>
+				<File Id="312572169" Language="SFX">
+					<ShortName>要求移开边境军队.wav</ShortName>
+					<Path>SFX\要求移开边境军队_E843A46D.wem</Path>
+				</File>
+				<File Id="330811164" Language="SFX">
+					<ShortName>同意声明友谊.wav</ShortName>
+					<Path>SFX\同意声明友谊_E843A46D.wem</Path>
+				</File>
+				<File Id="355582330" Language="SFX">
+					<ShortName>请求声明友谊被拒绝.wav</ShortName>
+					<Path>SFX\请求声明友谊被拒绝_E843A46D.wem</Path>
+				</File>
+				<File Id="403254155" Language="SFX">
+					<ShortName>请求开放边界.wav</ShortName>
+					<Path>SFX\请求开放边界_E843A46D.wem</Path>
+				</File>
+				<File Id="412569069" Language="Chinese(Taiwan)">
+					<ShortName>. Ev_archive_vo_avatar_turn_begin_sam_01.wav</ShortName>
+					<Path>Voices\Chinese(Taiwan)\. Ev_archive_vo_avatar_turn_begin_sam_01_E843A46D.wem</Path>
+				</File>
+				<File Id="479652109" Language="SFX">
+					<ShortName>谴责玩家.wav</ShortName>
+					<Path>SFX\谴责玩家_E843A46D.wem</Path>
+				</File>
+				<File Id="482602378" Language="SFX">
+					<ShortName>接受使节派遣.wav</ShortName>
+					<Path>SFX\接受使节派遣_E843A46D.wem</Path>
+				</File>
+				<File Id="588383084" Language="SFX">
+					<ShortName>初次见面.wav</ShortName>
+					<Path>SFX\初次见面_E843A46D.wem</Path>
+				</File>
+				<File Id="607679264" Language="SFX">
+					<ShortName>主动宣战.wav</ShortName>
+					<Path>SFX\主动宣战_E843A46D.wem</Path>
+				</File>
+				<File Id="630820017" Language="SFX">
+					<ShortName>拒绝开放边界.wav</ShortName>
+					<Path>SFX\拒绝开放边界_E843A46D.wem</Path>
+				</File>
+				<File Id="788883152" Language="SFX">
+					<ShortName>符合议程.wav</ShortName>
+					<Path>SFX\符合议程_E843A46D.wem</Path>
+				</File>
+				<File Id="802476510" Language="SFX">
+					<ShortName>同意交易.wav</ShortName>
+					<Path>SFX\同意交易_E843A46D.wem</Path>
+				</File>
+				<File Id="813838379" Language="SFX">
+					<ShortName>表示欢迎.wav</ShortName>
+					<Path>SFX\表示欢迎_E843A46D.wem</Path>
+				</File>
+				<File Id="892878404" Language="SFX">
+					<ShortName>被宣战.wav</ShortName>
+					<Path>SFX\被宣战_E843A46D.wem</Path>
+				</File>
+				<File Id="936476791" Language="SFX">
+					<ShortName>. 叹气.wav</ShortName>
+					<Path>SFX\. 叹气_E843A46D.wem</Path>
+				</File>
+				<File Id="936900750" Language="Chinese(Taiwan)">
+					<ShortName>. VO_Stellaron_Hunter-_Sam_-_DHGDR-_Supernova_Overload_1_1x.wav</ShortName>
+					<Path>Voices\Chinese(Taiwan)\. VO_Stellaron_Hunter-_Sam_-_DHGDR-_Supernova_Overload_1_1x_E843A46D.wem</Path>
+				</File>
+				<File Id="938274586" Language="SFX">
+					<ShortName>拒绝声明友谊.wav</ShortName>
+					<Path>SFX\拒绝声明友谊_E843A46D.wem</Path>
+				</File>
+				<File Id="941993981" Language="Chinese(Taiwan)">
+					<ShortName>. Ev_archive_vo_avatar_advantage_sam.wav</ShortName>
+					<Path>Voices\Chinese(Taiwan)\. Ev_archive_vo_avatar_advantage_sam_E843A46D.wem</Path>
+				</File>
+				<File Id="979540869" Language="SFX">
+					<ShortName>拒绝交易.wav</ShortName>
+					<Path>SFX\拒绝交易_E843A46D.wem</Path>
+				</File>
+				<File Id="1006544155" Language="SFX">
+					<ShortName>拒绝停战.wav</ShortName>
+					<Path>SFX\拒绝停战_E843A46D.wem</Path>
+				</File>
+				<File Id="1007505015" Language="Chinese(Taiwan)">
+					<ShortName>. Ev_archive_vo_avatar_waiting_sam.wav</ShortName>
+					<Path>Voices\Chinese(Taiwan)\. Ev_archive_vo_avatar_waiting_sam_E843A46D.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1236681510" Language="English(US)">
+			<ShortName>Firefly_Pen_SoundBank</ShortName>
+			<Path>English(US)\Firefly_Pen_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1071200957" Name="ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="799265404" Name="ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_PEN_FIREFLY"/>
+				<Event Id="1935546103" Name="ACCEPT_DELEGATION_FROM_HUMAN_LEADER_PEN_FIREFLY"/>
+				<Event Id="2632127371" Name="ACCEPT_MAKE_DEAL_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="3145491985" Name="ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_PEN_FIREFLY"/>
+				<Event Id="1667762062" Name="DECLARE_FRIEND_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="3032179972" Name="DECLARE_WAR_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="3171733899" Name="DECLARE_WAR_FROM_HUMAN_LEADER_PEN_FIREFLY"/>
+				<Event Id="2378294486" Name="DEFEAT_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="502469557" Name="DEFEAT_FROM_HUMAN_LEADER_PEN_FIREFLY"/>
+				<Event Id="1577724227" Name="DELEGATION_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="3761796786" Name="DENOUNCE_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="1634501873" Name="DENOUNCE_FROM_HUMAN_LEADER_PEN_FIREFLY"/>
+				<Event Id="531100253" Name="FIRST_MEET_LEADER_PEN_FIREFLY"/>
+				<Event Id="2598472416" Name="FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_PEN_FIREFLY"/>
+				<Event Id="2423134628" Name="FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_PEN_FIREFLY"/>
+				<Event Id="2079285225" Name="FIRST_MEET_VISIT_RECIPIENT_LEADER_PEN_FIREFLY"/>
+				<Event Id="284048638" Name="GREETING_LEADER_PEN_FIREFLY"/>
+				<Event Id="3035784295" Name="KUDO_LEADER_PEN_FIREFLY_REASON"/>
+				<Event Id="3174498569" Name="MAKE_ALLIANCE_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="4073251201" Name="MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_PEN_FIREFLY"/>
+				<Event Id="131509701" Name="MAKE_PEACE_AI_REFUSE_DEAL_LEADER_PEN_FIREFLY"/>
+				<Event Id="962136562" Name="MAKE_PEACE_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="1809012421" Name="OPEN_BORDERS_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="161718714" Name="Pause_Music_PEN_GLAMOTH"/>
+				<Event Id="4216451486" Name="Play_Leader_Music_PEN_GLAMOTH"/>
+				<Event Id="2518756268" Name="Play_Music_PEN_GLAMOTH"/>
+				<Event Id="2496973311" Name="Play_PEN_FIREFLY_MISC_PEP_TALK"/>
+				<Event Id="148650704" Name="Play_Unit_Fire_PEN_GLAMOTH"/>
+				<Event Id="1666946112" Name="Play_Unit_Selcet_PEN_GLAMOTH"/>
+				<Event Id="906607732" Name="REJECT_DECLARE_FRIEND_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="998403963" Name="REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_PEN_FIREFLY"/>
+				<Event Id="1352756044" Name="REJECT_DELEGATION_FROM_HUMAN_LEADER_PEN_FIREFLY"/>
+				<Event Id="3391804544" Name="REJECT_MAKE_DEAL_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="1058979122" Name="REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_PEN_FIREFLY"/>
+				<Event Id="2538760299" Name="Resume_Music_PEN_GLAMOTH"/>
+				<Event Id="3299511580" Name="STANDBY_SIGH_LEADER_PEN_FIREFLY"/>
+				<Event Id="4098436100" Name="Start_Music_PEN_GLAMOTH"/>
+				<Event Id="2879460160" Name="Stop_Leader_Music_PEN_GLAMOTH"/>
+				<Event Id="3130910066" Name="Stop_Music_PEN_GLAMOTH"/>
+				<Event Id="1046685936" Name="WARNING_EXIT_LEADER_PEN_FIREFLY"/>
+				<Event Id="1850672398" Name="WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_PEN_FIREFLY"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="240381163"/>
+				<File Id="371590529"/>
+				<File Id="483964694"/>
+				<File Id="543818413"/>
+				<File Id="599417978"/>
+				<File Id="688281181"/>
+				<File Id="719994966"/>
+			</ReferencedStreamedFiles>
+			<IncludedMemoryFiles>
+				<File Id="42566918" Language="SFX">
+					<ShortName>请求声明友谊.wav</ShortName>
+					<Path>SFX\请求声明友谊_E843A46D.wem</Path>
+				</File>
+				<File Id="123086853" Language="SFX">
+					<ShortName>战败.wav</ShortName>
+					<Path>SFX\战败_E843A46D.wem</Path>
+				</File>
+				<File Id="202161870" Language="SFX">
+					<ShortName>初次见面，玩家提供最近城市位置.wav</ShortName>
+					<Path>SFX\初次见面，玩家提供最近城市位置_E843A46D.wem</Path>
+				</File>
+				<File Id="237242310" Language="SFX">
+					<ShortName>开放边界.wav</ShortName>
+					<Path>SFX\开放边界_E843A46D.wem</Path>
+				</File>
+				<File Id="256154404" Language="SFX">
+					<ShortName>被谴责.wav</ShortName>
+					<Path>SFX\被谴责_E843A46D.wem</Path>
+				</File>
+				<File Id="295276815" Language="SFX">
+					<ShortName>接受停战.wav</ShortName>
+					<Path>SFX\接受停战_E843A46D.wem</Path>
+				</File>
+				<File Id="312572169" Language="SFX">
+					<ShortName>要求移开边境军队.wav</ShortName>
+					<Path>SFX\要求移开边境军队_E843A46D.wem</Path>
+				</File>
+				<File Id="330811164" Language="SFX">
+					<ShortName>同意声明友谊.wav</ShortName>
+					<Path>SFX\同意声明友谊_E843A46D.wem</Path>
+				</File>
+				<File Id="355582330" Language="SFX">
+					<ShortName>请求声明友谊被拒绝.wav</ShortName>
+					<Path>SFX\请求声明友谊被拒绝_E843A46D.wem</Path>
+				</File>
+				<File Id="366129599" Language="English(US)">
+					<ShortName>. Ev_archive_vo_avatar_waiting_sam.wav</ShortName>
+					<Path>Voices\English(US)\. Ev_archive_vo_avatar_waiting_sam_E843A46D.wem</Path>
+				</File>
+				<File Id="403254155" Language="SFX">
+					<ShortName>请求开放边界.wav</ShortName>
+					<Path>SFX\请求开放边界_E843A46D.wem</Path>
+				</File>
+				<File Id="432501841" Language="English(US)">
+					<ShortName>. Ev_archive_vo_avatar_turn_begin_sam_02.wav</ShortName>
+					<Path>Voices\English(US)\. Ev_archive_vo_avatar_turn_begin_sam_02_E843A46D.wem</Path>
+				</File>
+				<File Id="479652109" Language="SFX">
+					<ShortName>谴责玩家.wav</ShortName>
+					<Path>SFX\谴责玩家_E843A46D.wem</Path>
+				</File>
+				<File Id="482602378" Language="SFX">
+					<ShortName>接受使节派遣.wav</ShortName>
+					<Path>SFX\接受使节派遣_E843A46D.wem</Path>
+				</File>
+				<File Id="564249070" Language="English(US)">
+					<ShortName>. Ev_archive_vo_avatar_advantage_sam.wav</ShortName>
+					<Path>Voices\English(US)\. Ev_archive_vo_avatar_advantage_sam_E843A46D.wem</Path>
+				</File>
+				<File Id="588383084" Language="SFX">
+					<ShortName>初次见面.wav</ShortName>
+					<Path>SFX\初次见面_E843A46D.wem</Path>
+				</File>
+				<File Id="607679264" Language="SFX">
+					<ShortName>主动宣战.wav</ShortName>
+					<Path>SFX\主动宣战_E843A46D.wem</Path>
+				</File>
+				<File Id="630820017" Language="SFX">
+					<ShortName>拒绝开放边界.wav</ShortName>
+					<Path>SFX\拒绝开放边界_E843A46D.wem</Path>
+				</File>
+				<File Id="788883152" Language="SFX">
+					<ShortName>符合议程.wav</ShortName>
+					<Path>SFX\符合议程_E843A46D.wem</Path>
+				</File>
+				<File Id="791816861" Language="English(US)">
+					<ShortName>. Ev_archive_vo_avatar_turn_begin_sam_01.wav</ShortName>
+					<Path>Voices\English(US)\. Ev_archive_vo_avatar_turn_begin_sam_01_E843A46D.wem</Path>
+				</File>
+				<File Id="802476510" Language="SFX">
+					<ShortName>同意交易.wav</ShortName>
+					<Path>SFX\同意交易_E843A46D.wem</Path>
+				</File>
+				<File Id="813838379" Language="SFX">
+					<ShortName>表示欢迎.wav</ShortName>
+					<Path>SFX\表示欢迎_E843A46D.wem</Path>
+				</File>
+				<File Id="892878404" Language="SFX">
+					<ShortName>被宣战.wav</ShortName>
+					<Path>SFX\被宣战_E843A46D.wem</Path>
+				</File>
+				<File Id="909613688" Language="English(US)">
+					<ShortName>. VO_Stellaron_Hunter-_Sam_-_DHGDR-_Supernova_Overload_1_1x.wav</ShortName>
+					<Path>Voices\English(US)\. VO_Stellaron_Hunter-_Sam_-_DHGDR-_Supernova_Overload_1_1x_E843A46D.wem</Path>
+				</File>
+				<File Id="936476791" Language="SFX">
+					<ShortName>. 叹气.wav</ShortName>
+					<Path>SFX\. 叹气_E843A46D.wem</Path>
+				</File>
+				<File Id="938274586" Language="SFX">
+					<ShortName>拒绝声明友谊.wav</ShortName>
+					<Path>SFX\拒绝声明友谊_E843A46D.wem</Path>
+				</File>
+				<File Id="979540869" Language="SFX">
+					<ShortName>拒绝交易.wav</ShortName>
+					<Path>SFX\拒绝交易_E843A46D.wem</Path>
+				</File>
+				<File Id="1006544155" Language="SFX">
+					<ShortName>拒绝停战.wav</ShortName>
+					<Path>SFX\拒绝停战_E843A46D.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1236681510" Language="Japanese">
+			<ShortName>Firefly_Pen_SoundBank</ShortName>
+			<Path>Japanese\Firefly_Pen_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1071200957" Name="ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="799265404" Name="ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_PEN_FIREFLY"/>
+				<Event Id="1935546103" Name="ACCEPT_DELEGATION_FROM_HUMAN_LEADER_PEN_FIREFLY"/>
+				<Event Id="2632127371" Name="ACCEPT_MAKE_DEAL_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="3145491985" Name="ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_PEN_FIREFLY"/>
+				<Event Id="1667762062" Name="DECLARE_FRIEND_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="3032179972" Name="DECLARE_WAR_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="3171733899" Name="DECLARE_WAR_FROM_HUMAN_LEADER_PEN_FIREFLY"/>
+				<Event Id="2378294486" Name="DEFEAT_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="502469557" Name="DEFEAT_FROM_HUMAN_LEADER_PEN_FIREFLY"/>
+				<Event Id="1577724227" Name="DELEGATION_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="3761796786" Name="DENOUNCE_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="1634501873" Name="DENOUNCE_FROM_HUMAN_LEADER_PEN_FIREFLY"/>
+				<Event Id="531100253" Name="FIRST_MEET_LEADER_PEN_FIREFLY"/>
+				<Event Id="2598472416" Name="FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_PEN_FIREFLY"/>
+				<Event Id="2423134628" Name="FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_PEN_FIREFLY"/>
+				<Event Id="2079285225" Name="FIRST_MEET_VISIT_RECIPIENT_LEADER_PEN_FIREFLY"/>
+				<Event Id="284048638" Name="GREETING_LEADER_PEN_FIREFLY"/>
+				<Event Id="3035784295" Name="KUDO_LEADER_PEN_FIREFLY_REASON"/>
+				<Event Id="3174498569" Name="MAKE_ALLIANCE_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="4073251201" Name="MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_PEN_FIREFLY"/>
+				<Event Id="131509701" Name="MAKE_PEACE_AI_REFUSE_DEAL_LEADER_PEN_FIREFLY"/>
+				<Event Id="962136562" Name="MAKE_PEACE_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="1809012421" Name="OPEN_BORDERS_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="161718714" Name="Pause_Music_PEN_GLAMOTH"/>
+				<Event Id="4216451486" Name="Play_Leader_Music_PEN_GLAMOTH"/>
+				<Event Id="2518756268" Name="Play_Music_PEN_GLAMOTH"/>
+				<Event Id="2496973311" Name="Play_PEN_FIREFLY_MISC_PEP_TALK"/>
+				<Event Id="148650704" Name="Play_Unit_Fire_PEN_GLAMOTH"/>
+				<Event Id="1666946112" Name="Play_Unit_Selcet_PEN_GLAMOTH"/>
+				<Event Id="906607732" Name="REJECT_DECLARE_FRIEND_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="998403963" Name="REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_PEN_FIREFLY"/>
+				<Event Id="1352756044" Name="REJECT_DELEGATION_FROM_HUMAN_LEADER_PEN_FIREFLY"/>
+				<Event Id="3391804544" Name="REJECT_MAKE_DEAL_FROM_AI_LEADER_PEN_FIREFLY"/>
+				<Event Id="1058979122" Name="REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_PEN_FIREFLY"/>
+				<Event Id="2538760299" Name="Resume_Music_PEN_GLAMOTH"/>
+				<Event Id="3299511580" Name="STANDBY_SIGH_LEADER_PEN_FIREFLY"/>
+				<Event Id="4098436100" Name="Start_Music_PEN_GLAMOTH"/>
+				<Event Id="2879460160" Name="Stop_Leader_Music_PEN_GLAMOTH"/>
+				<Event Id="3130910066" Name="Stop_Music_PEN_GLAMOTH"/>
+				<Event Id="1046685936" Name="WARNING_EXIT_LEADER_PEN_FIREFLY"/>
+				<Event Id="1850672398" Name="WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_PEN_FIREFLY"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="240381163"/>
+				<File Id="371590529"/>
+				<File Id="483964694"/>
+				<File Id="543818413"/>
+				<File Id="599417978"/>
+				<File Id="688281181"/>
+				<File Id="719994966"/>
+			</ReferencedStreamedFiles>
+			<IncludedMemoryFiles>
+				<File Id="42566918" Language="SFX">
+					<ShortName>请求声明友谊.wav</ShortName>
+					<Path>SFX\请求声明友谊_E843A46D.wem</Path>
+				</File>
+				<File Id="123086853" Language="SFX">
+					<ShortName>战败.wav</ShortName>
+					<Path>SFX\战败_E843A46D.wem</Path>
+				</File>
+				<File Id="202161870" Language="SFX">
+					<ShortName>初次见面，玩家提供最近城市位置.wav</ShortName>
+					<Path>SFX\初次见面，玩家提供最近城市位置_E843A46D.wem</Path>
+				</File>
+				<File Id="237242310" Language="SFX">
+					<ShortName>开放边界.wav</ShortName>
+					<Path>SFX\开放边界_E843A46D.wem</Path>
+				</File>
+				<File Id="241129893" Language="Japanese">
+					<ShortName>. Ev_archive_vo_avatar_turn_begin_sam_02.wav</ShortName>
+					<Path>Voices\Japanese\. Ev_archive_vo_avatar_turn_begin_sam_02_E843A46D.wem</Path>
+				</File>
+				<File Id="256154404" Language="SFX">
+					<ShortName>被谴责.wav</ShortName>
+					<Path>SFX\被谴责_E843A46D.wem</Path>
+				</File>
+				<File Id="295276815" Language="SFX">
+					<ShortName>接受停战.wav</ShortName>
+					<Path>SFX\接受停战_E843A46D.wem</Path>
+				</File>
+				<File Id="312572169" Language="SFX">
+					<ShortName>要求移开边境军队.wav</ShortName>
+					<Path>SFX\要求移开边境军队_E843A46D.wem</Path>
+				</File>
+				<File Id="330811164" Language="SFX">
+					<ShortName>同意声明友谊.wav</ShortName>
+					<Path>SFX\同意声明友谊_E843A46D.wem</Path>
+				</File>
+				<File Id="355582330" Language="SFX">
+					<ShortName>请求声明友谊被拒绝.wav</ShortName>
+					<Path>SFX\请求声明友谊被拒绝_E843A46D.wem</Path>
+				</File>
+				<File Id="403254155" Language="SFX">
+					<ShortName>请求开放边界.wav</ShortName>
+					<Path>SFX\请求开放边界_E843A46D.wem</Path>
+				</File>
+				<File Id="479652109" Language="SFX">
+					<ShortName>谴责玩家.wav</ShortName>
+					<Path>SFX\谴责玩家_E843A46D.wem</Path>
+				</File>
+				<File Id="482602378" Language="SFX">
+					<ShortName>接受使节派遣.wav</ShortName>
+					<Path>SFX\接受使节派遣_E843A46D.wem</Path>
+				</File>
+				<File Id="508272946" Language="Japanese">
+					<ShortName>. Ev_archive_vo_avatar_waiting_sam.wav</ShortName>
+					<Path>Voices\Japanese\. Ev_archive_vo_avatar_waiting_sam_E843A46D.wem</Path>
+				</File>
+				<File Id="531858349" Language="Japanese">
+					<ShortName>. VO_Stellaron_Hunter-_Sam_-_DHGDR-_Supernova_Overload_1_1x.wav</ShortName>
+					<Path>Voices\Japanese\. VO_Stellaron_Hunter-_Sam_-_DHGDR-_Supernova_Overload_1_1x_E843A46D.wem</Path>
+				</File>
+				<File Id="588383084" Language="SFX">
+					<ShortName>初次见面.wav</ShortName>
+					<Path>SFX\初次见面_E843A46D.wem</Path>
+				</File>
+				<File Id="607679264" Language="SFX">
+					<ShortName>主动宣战.wav</ShortName>
+					<Path>SFX\主动宣战_E843A46D.wem</Path>
+				</File>
+				<File Id="630820017" Language="SFX">
+					<ShortName>拒绝开放边界.wav</ShortName>
+					<Path>SFX\拒绝开放边界_E843A46D.wem</Path>
+				</File>
+				<File Id="711799794" Language="Japanese">
+					<ShortName>. Ev_archive_vo_avatar_advantage_sam.wav</ShortName>
+					<Path>Voices\Japanese\. Ev_archive_vo_avatar_advantage_sam_E843A46D.wem</Path>
+				</File>
+				<File Id="731095919" Language="Japanese">
+					<ShortName>. Ev_archive_vo_avatar_turn_begin_sam_01.wav</ShortName>
+					<Path>Voices\Japanese\. Ev_archive_vo_avatar_turn_begin_sam_01_E843A46D.wem</Path>
+				</File>
+				<File Id="788883152" Language="SFX">
+					<ShortName>符合议程.wav</ShortName>
+					<Path>SFX\符合议程_E843A46D.wem</Path>
+				</File>
+				<File Id="802476510" Language="SFX">
+					<ShortName>同意交易.wav</ShortName>
+					<Path>SFX\同意交易_E843A46D.wem</Path>
+				</File>
+				<File Id="813838379" Language="SFX">
+					<ShortName>表示欢迎.wav</ShortName>
+					<Path>SFX\表示欢迎_E843A46D.wem</Path>
+				</File>
+				<File Id="892878404" Language="SFX">
+					<ShortName>被宣战.wav</ShortName>
+					<Path>SFX\被宣战_E843A46D.wem</Path>
+				</File>
+				<File Id="936476791" Language="SFX">
+					<ShortName>. 叹气.wav</ShortName>
+					<Path>SFX\. 叹气_E843A46D.wem</Path>
+				</File>
+				<File Id="938274586" Language="SFX">
+					<ShortName>拒绝声明友谊.wav</ShortName>
+					<Path>SFX\拒绝声明友谊_E843A46D.wem</Path>
+				</File>
+				<File Id="979540869" Language="SFX">
+					<ShortName>拒绝交易.wav</ShortName>
+					<Path>SFX\拒绝交易_E843A46D.wem</Path>
+				</File>
+				<File Id="1006544155" Language="SFX">
+					<ShortName>拒绝停战.wav</ShortName>
+					<Path>SFX\拒绝停战_E843A46D.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

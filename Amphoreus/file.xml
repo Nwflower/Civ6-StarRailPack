@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="7b4fb41c-48e7-4f81-8ce4-1e49bc00a6df" version="1">
+  <Properties>
+    <Name>[COLOR:Civ6Yellow]【崩坏：星穹铁道】[ENDCOLOR] 翁法罗斯英雄纪（重置版）</Name>
+    <Description>添加了以星穹铁道世界观为背景的翁法罗斯文明。</Description>
+    <Created>1762662268</Created>
+    <Teaser>添加了以星穹铁道世界观为背景的翁法罗斯文明。</Teaser>
+    <Authors>千川白浪</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <References>
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </References>
+  <ActionCriteria>
+    <Criteria id="Amphoreus">
+      <LeaderPlayable>Players:Expansion2_Players::LEADER_NW_TRIBIOS,Players:Expansion2_Players::LEADER_NW_MYDEI,Players:Expansion2_Players::LEADER_NW_AGLAEA,Players:Expansion2_Players::LEADER_NW_ANAXA,Players:Expansion2_Players::LEADER_NW_CASTORICE,Players:Expansion2_Players::LEADER_NW_HYACINTHIA,Players:Expansion2_Players::LEADER_NW_CIFERA,Players:Expansion2_Players::LEADER_NW_PHAINON,Players:Expansion2_Players::LEADER_NW_HELEKTRA,Players:Expansion2_Players::LEADER_NW_CERYDRA,Players:Expansion2_Players::LEADER_NW_EVERNIGHT,Players:Expansion2_Players::LEADER_NW_DANHENGPT</LeaderPlayable>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="AmphoreusSettings">
+      <File>Data/Amphoreus_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateArt id="AmphoreusSettingsArt">
+      <File>Amphoreus.dep</File>
+    </UpdateArt>
+    <UpdateColors id="AmphoreusColors">
+      <File>Data/Amphoreus_Colors.sql</File>
+    </UpdateColors>
+    <UpdateText id="AmphoreusSettingsText">
+      <File>Text/Amphoreus_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="AmphoreusSettingsIcons">
+      <File>Data/Amphoreus_Icons.xml</File>
+      <File>Data/Amphoreus_Icons.sql</File>
+    </UpdateIcons>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateArt id="AmphoreusArt">
+      <Properties>
+        <LoadOrder>6796</LoadOrder>
+      </Properties>
+      <Criteria>Amphoreus</Criteria>
+      <File>Amphoreus.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="AmphoreusGameplay">
+      <Properties>
+        <LoadOrder>6796</LoadOrder>
+      </Properties>
+      <Criteria>Amphoreus</Criteria>
+      <File>Data/Amphoreus_Buildings.sql</File>
+      <File>Data/Amphoreus_Civilizations.sql</File>
+      <File>Data/Amphoreus_Distrcits.sql</File>
+      <File>Data/Amphoreus_Improvement.sql</File>
+      <File>Data/Amphoreus_Leaders.sql</File>
+      <File>Data/Amphoreus_Modifier.sql</File>
+      <File>Data/Amphoreus_Units.sql</File>
+    </UpdateDatabase>
+    <UpdateColors id="AmphoreusColors">
+      <Properties>
+        <LoadOrder>6796</LoadOrder>
+      </Properties>
+      <Criteria>Amphoreus</Criteria>
+      <File>Data/Amphoreus_Colors.sql</File>
+    </UpdateColors>
+    <UpdateText id="Amphoreus_Text">
+      <Properties>
+        <LoadOrder>6796</LoadOrder>
+      </Properties>
+      <Criteria>Amphoreus</Criteria>
+      <File>Text/Amphoreus_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Amphoreus_Icons">
+      <Properties>
+        <LoadOrder>6796</LoadOrder>
+      </Properties>
+      <Criteria>Amphoreus</Criteria>
+      <File>Data/Amphoreus_Icons.sql</File>
+      <File>Data/Amphoreus_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateLogitechARX id="Amphoreus_ARX">
+      <Properties>
+        <LoadOrder>6796</LoadOrder>
+      </Properties>
+      <Criteria>Amphoreus</Criteria>
+    </UpdateLogitechARX>
+    <AddGameplayScripts id="Amphoreus_AddGameplayScripts">
+      <Properties>
+        <LoadOrder>6796</LoadOrder>
+      </Properties>
+      <Criteria>Amphoreus</Criteria>
+      <File>Script/Amphoreus_Script.lua</File>
+    </AddGameplayScripts>
+    <AddUserInterfaces id="AddUserInterfaces">
+      <Properties>
+        <Context>InGame</Context>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>UI/Amphoreus_UIScript.xml</File>
+      <File>UI/Amphoreus_UnitAction.xml</File>
+    </AddUserInterfaces>
+  </InGameActions>
+  <Files>
+    <File>Amphoreus.dep</File>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/Cultures.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Improvements.artdef</File>
+    <File>ArtDefs/Overlay.artdef</File>
+    <File>ArtDefs/StrategicView.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Data/Amphoreus_Buildings.sql</File>
+    <File>Data/Amphoreus_Civilizations.sql</File>
+    <File>Data/Amphoreus_Colors.sql</File>
+    <File>Data/Amphoreus_Config.sql</File>
+    <File>Data/Amphoreus_Distrcits.sql</File>
+    <File>Data/Amphoreus_Icons.sql</File>
+    <File>Data/Amphoreus_Icons.xml</File>
+    <File>Data/Amphoreus_Improvement.sql</File>
+    <File>Data/Amphoreus_Leaders.sql</File>
+    <File>Data/Amphoreus_Modifier.sql</File>
+    <File>Data/Amphoreus_Units.sql</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Overlay_NwAmphoreus</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Pressure_NwAmphoreus</File>
+    <File>Platforms/Windows/BLPs/strategicview/strategicview_uilenses.blp</File>
+    <File>Platforms/Windows/BLPs/UILensAssets.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/UI/PrideMoments.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Shell_Loading.blp</File>
+    <File>Platforms/Windows/BLPs/UI_LeaderScenes.blp</File>
+    <File>Script/Amphoreus_Script.lua</File>
+    <File>Text/Amphoreus_Text.xml</File>
+    <File>UI/Amphoreus_UIScript.lua</File>
+    <File>UI/Amphoreus_UIScript.xml</File>
+    <File>UI/Amphoreus_UnitAction.lua</File>
+    <File>UI/Amphoreus_UnitAction.xml</File>
+  </Files>
+</Mod>

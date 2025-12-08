@@ -1,0 +1,802 @@
+<?xml version="1.0" ?>
+<Mod id="DF0E3C1A-E572-1868-FBE9-C58E0671151F" version="V1.02">
+	<Properties>
+		<Name>Team PVP [COLOR:ResCultureLabelCS]次元破壁：星穹铁道[ENDCOLOR] V1.02</Name>
+		<Description>这是以崩坏：星穹铁道世界观为背景的文明6模组整合包。</Description>
+		<Teaser>愿此行，终抵群星</Teaser>
+		<Authors>Pen, Pen，夏凉凉凉，夕墨岚, 千川白浪, 榊野木乃实，Kotomi，PhantomJ_M</Authors>
+		<SpecialThanks>Anqing, HSbF6HSO3F, IthildinX, JiDong, Nea•baraja, Ophidy, SiQi, World·Dream, Yuni, 梦幻星尘羽，优妮酱</SpecialThanks>
+		<CompatibleVersions>1.2,2.0</CompatibleVersions>
+	</Properties>
+	<Dependencies>
+		<Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="LOC_EXPANSION1_MOD_TITLE"/>
+		<Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="LOC_EXPANSION2_MOD_TITLE"/>
+	</Dependencies>
+	<References>
+		<Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall"/>
+		<Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm"/>
+	</References>
+	<ActionCriteria>
+		<Criteria id="Amphoreus">
+			<LeaderPlayable>Players:Expansion2_Players::LEADER_NW_TRIBIOS,Players:Expansion2_Players::LEADER_NW_MYDEI,Players:Expansion2_Players::LEADER_NW_AGLAEA,Players:Expansion2_Players::LEADER_NW_ANAXA,Players:Expansion2_Players::LEADER_NW_CASTORICE,Players:Expansion2_Players::LEADER_NW_HYACINTHIA,Players:Expansion2_Players::LEADER_NW_CIFERA,Players:Expansion2_Players::LEADER_NW_PHAINON,Players:Expansion2_Players::LEADER_NW_HELEKTRA,Players:Expansion2_Players::LEADER_NW_CERYDRA,Players:Expansion2_Players::LEADER_NW_EVERNIGHT,Players:Expansion2_Players::LEADER_NW_DANHENGPT</LeaderPlayable>
+		</Criteria>
+		<Criteria id="SukSelectorPenFirefly">
+			<ModInUse>60092bdd-ce39-4319-aef6-baea505c7c45</ModInUse>
+		</Criteria>
+		<Criteria id="PenFirefly">
+			<LeaderPlayable>Players:StandardPlayers::LEADER_PEN_FIREFLY,Players:Expansion1_Players::LEADER_PEN_FIREFLY,Players:Expansion2_Players::LEADER_PEN_FIREFLY</LeaderPlayable>
+			<RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+		</Criteria>
+		<Criteria id="LeaderCriteria">
+			<LeaderPlayable>Players:Expansion2_Players::LEADER_KNM_HERTA,Players:Expansion2_Players::LEADER_KNM_ASTA</LeaderPlayable>
+		</Criteria>
+		<Criteria id="SecretSociety">
+			<ConfigurationValueMatches>
+				<ConfigurationId>GAMEMODE_SECRETSOCIETIES</ConfigurationId>
+				<Group>Game</Group>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="Apocalypse">
+			<ConfigurationValueMatches>
+				<ConfigurationId>GAMEMODE_APOCALYPSE</ConfigurationId>
+				<Group>Game</Group>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="KublaiKhan_Vietnam">
+			<ModInUse>A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C</ModInUse>
+		</Criteria>
+		<Criteria id="Ethiopia">
+			<ModInUse>1B394FE9-23DC-4868-8F0A-5220CB8FB427</ModInUse>
+		</Criteria>
+		<Criteria id="Expansion2">
+			<GameCoreInUse>Expansion2</GameCoreInUse>
+		</Criteria>
+		<Criteria id="XianZhou">
+			<LeaderPlayable>
+                Players:StandardPlayers::LEADER_XIANZHOU_BAILU,Players:Expansion1_Players::LEADER_XIANZHOU_BAILU,Players:Expansion2_Players::LEADER_XIANZHOU_BAILU,Players:StandardPlayers::LEADER_XIANZHOU_FUXUAN,Players:Expansion1_Players::LEADER_XIANZHOU_FUXUAN,Players:Expansion2_Players::LEADER_XIANZHOU_FUXUAN,Players:StandardPlayers::LEADER_XIANZHOU_JINGYUAN,Players:Expansion1_Players::LEADER_XIANZHOU_JINGYUAN,Players:Expansion2_Players::LEADER_XIANZHOU_JINGYUAN,Players:StandardPlayers::LEADER_XIANZHOU_HUOHUO,Players:Expansion1_Players::LEADER_XIANZHOU_HUOHUO,Players:Expansion2_Players::LEADER_XIANZHOU_HUOHUO,Players:StandardPlayers::LEADER_XIANZHOU_JINGLIU,Players:Expansion1_Players::LEADER_XIANZHOU_JINGLIU,Players:Expansion2_Players::LEADER_XIANZHOU_JINGLIU
+            </LeaderPlayable>
+			<RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+		</Criteria>
+		<Criteria any="1" id="TeamPvP">
+			<ModInUse>58f3abf8-8074-44d9-bae2-bd1bab701843</ModInUse>
+			<ModInUse>8821E6BF-39BD-20A2-3758-E33734D081D8</ModInUse>
+		</Criteria>
+	</ActionCriteria>
+	<FrontEndActions>
+		<UpdateDatabase id="AmphoreusSettings">
+			<File>Amphoreus/Data/Amphoreus_Config.sql</File>
+		</UpdateDatabase>
+		<UpdateArt id="AmphoreusSettingsArt">
+			<File>Amphoreus/Amphoreus.dep</File>
+		</UpdateArt>
+		<UpdateColors id="AmphoreusColors">
+			<File>Amphoreus/Data/Amphoreus_Colors.sql</File>
+		</UpdateColors>
+		<UpdateText id="AmphoreusSettingsText">
+			<File>Amphoreus/Text/Amphoreus_Text.xml</File>
+		</UpdateText>
+		<UpdateIcons id="AmphoreusSettingsIcons">
+			<File>Amphoreus/Data/Amphoreus_Icons.xml</File>
+			<File>Amphoreus/Data/Amphoreus_Icons.sql</File>
+		</UpdateIcons>
+		<UpdateDatabase id="data">
+			<File>Firefly/Data/Firefly_Config.xml</File>
+		</UpdateDatabase>
+		<UpdateIcons id="icon">
+			<File>Firefly/Data/Firefly_Icon.xml</File>
+		</UpdateIcons>
+		<UpdateText id="text">
+			<File>Firefly/Text/Firefly_Text_CN.xml</File>
+			<File>Firefly/Text/Firefly_Text_US.xml</File>
+			<File>Firefly/Text/Firefly_Text_CN.xml</File>
+			<File>Firefly/Text/Firefly_Text_HK.xml</File>
+		</UpdateText>
+		<UpdateColors id="color">
+			<File>Firefly/Data/Firefly_Color.xml</File>
+		</UpdateColors>
+		<UpdateArt id="art">
+			<File>Firefly/PenFirefly.dep</File>
+		</UpdateArt>
+		<UpdateDatabase criteria="SukSelectorPenFirefly" id="Suk">
+			<File>Firefly/Data/Firefly_Suk.sql</File>
+		</UpdateDatabase>
+		<UpdateArt id="Art">
+			<File>Herta/Herta honkai star rail.dep</File>
+		</UpdateArt>
+		<UpdateDatabase id="Config">
+			<File>Herta/Config/KNM_Herta_Config.sql</File>
+		</UpdateDatabase>
+		<UpdateIcons id="Icon">
+			<File>Herta/Config/KNM_Herta_Icons.xml</File>
+		</UpdateIcons>
+		<UpdateText id="Text">
+			<File>Herta/Text/zh_CN/KNM_Herta_Config_zh_CN.sql</File>
+		</UpdateText>
+		<UpdateColors id="color">
+			<File>Herta/Config/Herta_Colors.xml</File>
+		</UpdateColors>
+		<UpdateDatabase id="Penacony_UpdateDatabase_FE">
+			<File priority="10000">Penacony/Database/Penacony_Config.xml</File>
+		</UpdateDatabase>
+		<UpdateColors id="Penacony_UpdateColors_FE">
+			<File>Penacony/Database/Penacony_Color.xml</File>
+		</UpdateColors>
+		<UpdateIcons id="Penacony_UpdateIcons_FE">
+			<File priority="9999">Penacony/Database/Penacony_Icons.xml</File>
+		</UpdateIcons>
+		<UpdateText id="Penacony_UpdateText_FE">
+			<File priority="10001">Penacony/Text/Penacony_Text_zh_Hans_CN.xml</File>
+		</UpdateText>
+		<UpdateArt id="Penacony_UpdateArt_FE">
+			<File>Penacony/【崩坏：星穹铁道】匹诺康尼文明包.dep</File>
+		</UpdateArt>
+		<UpdateDatabase id="config">
+			<File>XianZhou/Data/XianZhou_Config.xml</File>
+		</UpdateDatabase>
+		<UpdateColors id="color">
+			<File>XianZhou/Data/XianZhou_Color.xml</File>
+		</UpdateColors>
+		<UpdateIcons id="icon">
+			<File>XianZhou/Data/XianZhou_Icon.xml</File>
+		</UpdateIcons>
+		<UpdateText id="text">
+			<File>XianZhou/Text/XianZhou_Text_CN.xml</File>
+		</UpdateText>
+		<UpdateArt id="art">
+			<File>XianZhou/LuoFu_XianZhou.dep</File>
+		</UpdateArt>
+	</FrontEndActions>
+	<InGameActions>
+		<UpdateArt id="AmphoreusArt">
+			<Properties>
+				<LoadOrder>16796</LoadOrder>
+			</Properties>
+			<Criteria>Amphoreus</Criteria>
+			<File>Amphoreus/Amphoreus.dep</File>
+		</UpdateArt>
+		<UpdateDatabase id="AmphoreusGameplay">
+			<Properties>
+				<LoadOrder>16796</LoadOrder>
+			</Properties>
+			<Criteria>Amphoreus</Criteria>
+			<File>Amphoreus/Data/Amphoreus_Buildings.sql</File>
+			<File>Amphoreus/Data/Amphoreus_Civilizations.sql</File>
+			<File>Amphoreus/Data/Amphoreus_Distrcits.sql</File>
+			<File>Amphoreus/Data/Amphoreus_Improvement.sql</File>
+			<File>Amphoreus/Data/Amphoreus_Leaders.sql</File>
+			<File>Amphoreus/Data/Amphoreus_Modifier.sql</File>
+			<File>Amphoreus/Data/Amphoreus_Units.sql</File>
+		</UpdateDatabase>
+		<UpdateColors id="AmphoreusColors">
+			<Properties>
+				<LoadOrder>16796</LoadOrder>
+			</Properties>
+			<Criteria>Amphoreus</Criteria>
+			<File>Amphoreus/Data/Amphoreus_Colors.sql</File>
+		</UpdateColors>
+		<UpdateText id="Amphoreus_Text">
+			<Properties>
+				<LoadOrder>16796</LoadOrder>
+			</Properties>
+			<Criteria>Amphoreus</Criteria>
+			<File>Amphoreus/Text/Amphoreus_Text.xml</File>
+		</UpdateText>
+		<UpdateIcons id="Amphoreus_Icons">
+			<Properties>
+				<LoadOrder>16796</LoadOrder>
+			</Properties>
+			<Criteria>Amphoreus</Criteria>
+			<File>Amphoreus/Data/Amphoreus_Icons.sql</File>
+			<File>Amphoreus/Data/Amphoreus_Icons.xml</File>
+		</UpdateIcons>
+		<UpdateLogitechARX id="Amphoreus_ARX">
+			<Properties>
+				<LoadOrder>16796</LoadOrder>
+			</Properties>
+			<Criteria>Amphoreus</Criteria>
+		</UpdateLogitechARX>
+		<AddGameplayScripts id="Amphoreus_AddGameplayScripts">
+			<Properties>
+				<LoadOrder>16796</LoadOrder>
+			</Properties>
+			<Criteria>Amphoreus</Criteria>
+			<File>Amphoreus/Script/Amphoreus_Script.lua</File>
+		</AddGameplayScripts>
+		<AddUserInterfaces id="AddUserInterfaces">
+			<Properties>
+				<Context>InGame</Context>
+				<LoadOrder>1500</LoadOrder>
+			</Properties>
+			<File>Amphoreus/UI/Amphoreus_UIScript.xml</File>
+			<File>Amphoreus/UI/Amphoreus_UnitAction.xml</File>
+		</AddUserInterfaces>
+		<UpdateDatabase id="data">
+			<Properties>
+				<LoadOrder>210000</LoadOrder>
+			</Properties>
+			<Criteria>PenFirefly</Criteria>
+			<File>Firefly/Data/Firefly_Building.sql</File>
+			<File>Firefly/Data/Firefly_Civilization.sql</File>
+			<File>Firefly/Data/Firefly_Leader.sql</File>
+			<File>Firefly/Data/Firefly_Moment.sql</File>
+			<File>Firefly/Data/Firefly_Project.sql</File>
+			<File>Firefly/Data/Firefly_Unit.sql</File>
+		</UpdateDatabase>
+		<UpdateIcons id="icon">
+			<Criteria>PenFirefly</Criteria>
+			<File>Firefly/Data/Firefly_Icon.xml</File>
+		</UpdateIcons>
+		<UpdateDatabase id="core">
+			<Properties>
+				<LoadOrder>29999</LoadOrder>
+			</Properties>
+			<Criteria>PenFirefly</Criteria>
+			<File>Firefly/Data/Firefly_Core.sql</File>
+		</UpdateDatabase>
+		<UpdateColors id="color">
+			<Criteria>PenFirefly</Criteria>
+			<File>Firefly/Data/Firefly_Color.xml</File>
+		</UpdateColors>
+		<UpdateText id="text">
+			<Criteria>PenFirefly</Criteria>
+			<File>Firefly/Text/Firefly_Text_CN.xml</File>
+			<File>Firefly/Text/Firefly_Text_US.xml</File>
+			<File>Firefly/Text/Firefly_Text_RU.xml</File>
+			<File>Firefly/Text/Firefly_Text_HK.xml</File>
+		</UpdateText>
+		<AddGameplayScripts id="lua">
+			<Criteria>PenFirefly</Criteria>
+			<File>Firefly/Scripts/Firefly_Gameplay.lua</File>
+		</AddGameplayScripts>
+		<AddUserInterfaces id="ui">
+			<Properties>
+				<Context>InGame</Context>
+			</Properties>
+			<Criteria>PenFirefly</Criteria>
+			<File>Firefly/UI/Firefly_UI.xml</File>
+		</AddUserInterfaces>
+		<UpdateArt id="art">
+			<Criteria>PenFirefly</Criteria>
+			<File>Firefly/PenFirefly.dep</File>
+		</UpdateArt>
+		<ImportFiles id="replaceui">
+			<Criteria>PenFirefly</Criteria>
+			<File>Firefly/Import/FireflyFuctions.lua</File>
+		</ImportFiles>
+		<UpdateText id="Text">
+			<File>Herta/Text/zh_CN/KNM_Herta_Config_zh_CN.sql</File>
+			<File>Herta/Text/zh_CN/KNM_Herta_zh_CN.sql</File>
+		</UpdateText>
+		<UpdateDatabase id="Database">
+			<Properties>
+				<LoadOrder>31000</LoadOrder>
+			</Properties>
+			<Criteria>LeaderCriteria</Criteria>
+			<File>Herta/Data/KNM_Herta_Civilizations.sql</File>
+			<File>Herta/Data/KNM_Herta_Leaders.sql</File>
+			<File>Herta/Data/KNM_Herta_Units.sql</File>
+			<File>Herta/Data/KNM_Herta_Improvements.sql</File>
+			<File>Herta/Data/Herta_Moments.xml</File>
+			<File>Herta/Data/KNM_Herta_Civilization_Modifiers.sql</File>
+			<File>Herta/Data/KNM_Herta_Schema.sql</File>
+			<File>Herta/Data/KNM_Herta_Agendas.sql</File>
+			<File>Herta/Data/KNM_Herta_Notification.sql</File>
+		</UpdateDatabase>
+		<AddUserInterfaces id="UI">
+			<Properties>
+				<Context>InGame</Context>
+				<LoadOrder>31000</LoadOrder>
+			</Properties>
+			<Criteria>LeaderCriteria</Criteria>
+			<File>Herta/UI/Additions/KNM_Herta_MISC.xml</File>
+		</AddUserInterfaces>
+		<AddGameplayScripts id="Script">
+			<Properties>
+				<LoadOrder>31000</LoadOrder>
+			</Properties>
+			<Criteria>LeaderCriteria</Criteria>
+			<File>Herta/Scripts/KNM_Herta_Script.lua</File>
+		</AddGameplayScripts>
+		<ImportFiles id="Import">
+			<Properties>
+				<LoadOrder>31000</LoadOrder>
+			</Properties>
+			<Criteria>LeaderCriteria</Criteria>
+			<File>Herta/UI/Replacements/ActionPanel_Herta.lua</File>
+			<File>Herta/UI/Replacements/TechTree_Herta.lua</File>
+			<File>Herta/UI/Replacements/EndGameMenu_Herta.lua</File>
+		</ImportFiles>
+		<UpdateDatabase id="Database_XP2">
+			<Properties>
+				<LoadOrder>31001</LoadOrder>
+			</Properties>
+			<Criteria>Expansion2</Criteria>
+			<Criteria>LeaderCriteria</Criteria>
+			<File>Herta/Data/KNM_Herta_Buildings_XP2.sql</File>
+		</UpdateDatabase>
+		<UpdateIcons id="icon">
+			<File>Herta/Config/KNM_Herta_Icons.xml</File>
+		</UpdateIcons>
+		<UpdateArt id="art">
+			<File>Herta/Herta honkai star rail.dep</File>
+		</UpdateArt>
+		<UpdateColors id="color">
+			<File>Herta/Config/Herta_Colors.xml</File>
+		</UpdateColors>
+		<UpdateDatabase id="Database2">
+			<Properties>
+				<LoadOrder>31000000</LoadOrder>
+			</Properties>
+			<Criteria>LeaderCriteria</Criteria>
+			<File>Herta/Data/KNM_Herta_Buildings.sql</File>
+		</UpdateDatabase>
+		<ReplaceUIScript id="ActionPanel">
+			<Properties>
+				<LuaContext>ActionPanel</LuaContext>
+				<LuaReplace>Herta/UI/Replacements/ActionPanel_Herta.lua</LuaReplace>
+				<LoadOrder>310000</LoadOrder>
+			</Properties>
+			<Criteria>LeaderCriteria</Criteria>
+		</ReplaceUIScript>
+		<UpdateDatabase id="Ethiopia">
+			<Properties>
+				<LoadOrder>31000</LoadOrder>
+			</Properties>
+			<Criteria>LeaderCriteria</Criteria>
+			<Criteria>Ethiopia</Criteria>
+			<File>Herta/Data/KNM_Herta_Civilizations_Ethiopia.sql</File>
+		</UpdateDatabase>
+		<UpdateDatabase id="Vietnam">
+			<Properties>
+				<LoadOrder>31000</LoadOrder>
+			</Properties>
+			<Criteria>LeaderCriteria</Criteria>
+			<Criteria>KublaiKhan_Vietnam</Criteria>
+			<File>Herta/Data/KNM_Herta_Civilizations_Vietnam.sql</File>
+		</UpdateDatabase>
+		<ReplaceUIScript id="TechTree">
+			<Properties>
+				<LuaContext>TechTree</LuaContext>
+				<LuaReplace>Herta/UI/Replacements/TechTree_Herta.lua</LuaReplace>
+				<LoadOrder>3160000</LoadOrder>
+			</Properties>
+			<Criteria>LeaderCriteria</Criteria>
+		</ReplaceUIScript>
+		<UpdateDatabase id="Penacony_UpdateDatabase">
+			<File>Penacony/Database/Penacony_Civilization.sql</File>
+			<File>Penacony/Database/Penacony_Buildings.sql</File>
+			<File>Penacony/Database/Penacony_Leader.sql</File>
+			<File>Penacony/Database/Penacony_Unit.sql</File>
+			<File>Penacony/Database/Penacony_Projects.sql</File>
+			<File>Penacony/Database/Penacony_Improvement.sql</File>
+			<File>Penacony/Database/Penacony_Resources.sql</File>
+			<File>Penacony/Database/Penacony_Modifier.sql</File>
+			<File>Penacony/Database/Penacony_GreatPeople.sql</File>
+			<File>Penacony/Database/Penacony_GreatWorks.sql</File>
+		</UpdateDatabase>
+		<UpdateColors id="Penacony_UpdateColors">
+			<File>Penacony/Database/Penacony_Color.xml</File>
+		</UpdateColors>
+		<UpdateIcons id="Penacony_UpdateIcons">
+			<File priority="9999">Penacony/Database/Penacony_Icons.xml</File>
+		</UpdateIcons>
+		<UpdateText id="Penacony_UpdateText">
+			<File priority="10000">Penacony/Text/Penacony_Text_zh_Hans_CN.xml</File>
+		</UpdateText>
+		<UpdateArt id="Penacony_UpdateArt">
+			<File>Penacony/【崩坏：星穹铁道】匹诺康尼文明包.dep</File>
+		</UpdateArt>
+		<AddGameplayScripts id="Penacony_AddGameplayScripts">
+			<File>Penacony/Script/Penacony_Script.lua</File>
+		</AddGameplayScripts>
+		<AddUserInterfaces id="Penacony_UIxml">
+			<Properties>
+				<Context>InGame</Context>
+			</Properties>
+			<File>Penacony/UI/PenaconyUiScript.xml</File>
+		</AddUserInterfaces>
+		<UpdateAudio id="UpdateAudio">
+			<Properties>
+				<LoadOrder>5101</LoadOrder>
+			</Properties>
+			<File>Platforms/Windows/audio/CCBE_Audio.ini</File>
+		</UpdateAudio>
+		<UpdateAudio id="Penacony_UpdateAudio">
+			<File priority="10001">Platforms/Platforms/Windows/audio/Penacony_Audio.ini</File>
+		</UpdateAudio>
+		<UpdateAudio id="Audio">
+			<Criteria>LeaderCriteria</Criteria>
+			<File>Platforms/Platforms/Windows/Audio/HertaSoundbanks.ini</File>
+		</UpdateAudio>
+		<UpdateAudio id="audio">
+			<Criteria>PenFirefly</Criteria>
+			<File>Platforms/Platforms/Windows/audio/PenFireflyBanks.ini</File>
+		</UpdateAudio>
+		<ImportFiles id="ImportFiles">
+			<Properties>
+				<LoadOrder>6100000</LoadOrder>
+			</Properties>
+			<Criteria>XianZhou</Criteria>
+			<File>XianZhou/Import/XianZhouFuctions.lua</File>
+		</ImportFiles>
+		<UpdateDatabase id="database">
+			<Properties>
+				<LoadOrder>6100000</LoadOrder>
+			</Properties>
+			<Criteria>XianZhou</Criteria>
+			<File Priority="3">XianZhou/Data/XianZhou_Core.sql</File>
+			<File Priority="2">XianZhou/Data/XianZhou_Building.sql</File>
+			<File Priority="2">XianZhou/Data/XianZhou_Civilization.sql</File>
+			<File Priority="2">XianZhou/Data/XianZhou_District.sql</File>
+			<File Priority="2">XianZhou/Data/XianZhou_Improvement.sql</File>
+			<File Priority="2">XianZhou/Data/XianZhou_Leader.sql</File>
+			<File Priority="2">XianZhou/Data/XianZhou_Moment.sql</File>
+			<File Priority="2">XianZhou/Data/XianZhou_Unit.sql</File>
+			<File Priority="2">XianZhou/Data/XianZhou_Project.sql</File>
+			<File Priority="2">XianZhou/Data/XianZhou_Policy.sql</File>
+			<File Priority="2">XianZhou/Data/XianZhou_Governor.sql</File>
+		</UpdateDatabase>
+		<UpdateColors id="color">
+			<Criteria>XianZhou</Criteria>
+			<File>XianZhou/Data/XianZhou_Color.xml</File>
+		</UpdateColors>
+		<UpdateIcons id="icon">
+			<Criteria>XianZhou</Criteria>
+			<File>XianZhou/Data/XianZhou_Icon.sql</File>
+			<File>XianZhou/Data/XianZhou_Icon.xml</File>
+		</UpdateIcons>
+		<UpdateText id="text">
+			<Criteria>XianZhou</Criteria>
+			<File>XianZhou/Text/XianZhou_Text_CN.xml</File>
+		</UpdateText>
+		<AddGameplayScripts id="lua">
+			<Criteria>XianZhou</Criteria>
+			<File>XianZhou/Scripts/LuoFu_XianZhou_Gameplay.lua</File>
+		</AddGameplayScripts>
+		<AddUserInterfaces id="ui">
+			<Properties>
+				<Context>InGame</Context>
+			</Properties>
+			<Criteria>XianZhou</Criteria>
+			<File>XianZhou/UI/LuoFu_XianZhou_UI.xml</File>
+		</AddUserInterfaces>
+		<UpdateArt id="art">
+			<Criteria>XianZhou</Criteria>
+			<File>XianZhou/LuoFu_XianZhou.dep</File>
+		</UpdateArt>
+		<UpdateDatabase id="database">
+			<Properties>
+				<LoadOrder>6100001</LoadOrder>
+			</Properties>
+			<Criteria>XianZhou</Criteria>
+			<Criteria>TeamPvP</Criteria>
+			<File>XianZhou/Data/XianZhou_TeamPvP.sql</File>
+		</UpdateDatabase>
+	</InGameActions>
+	<Files>
+		<File>Amphoreus/Amphoreus.dep</File>
+		<File>Amphoreus/ArtDefs/Buildings.artdef</File>
+		<File>Amphoreus/ArtDefs/Civilizations.artdef</File>
+		<File>Amphoreus/ArtDefs/Cultures.artdef</File>
+		<File>Amphoreus/ArtDefs/Districts.artdef</File>
+		<File>Amphoreus/ArtDefs/FallbackLeaders.artdef</File>
+		<File>Amphoreus/ArtDefs/Improvements.artdef</File>
+		<File>Amphoreus/ArtDefs/Overlay.artdef</File>
+		<File>Amphoreus/ArtDefs/StrategicView.artdef</File>
+		<File>Amphoreus/ArtDefs/Units.artdef</File>
+		<File>Amphoreus/Data/Amphoreus_Buildings.sql</File>
+		<File>Amphoreus/Data/Amphoreus_Civilizations.sql</File>
+		<File>Amphoreus/Data/Amphoreus_Colors.sql</File>
+		<File>Amphoreus/Data/Amphoreus_Config.sql</File>
+		<File>Amphoreus/Data/Amphoreus_Distrcits.sql</File>
+		<File>Amphoreus/Data/Amphoreus_Icons.sql</File>
+		<File>Amphoreus/Data/Amphoreus_Icons.xml</File>
+		<File>Amphoreus/Data/Amphoreus_Improvement.sql</File>
+		<File>Amphoreus/Data/Amphoreus_Leaders.sql</File>
+		<File>Amphoreus/Data/Amphoreus_Modifier.sql</File>
+		<File>Amphoreus/Data/Amphoreus_Units.sql</File>
+		<File>Amphoreus/Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+		<File>Amphoreus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Overlay_NwAmphoreus</File>
+		<File>Amphoreus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Pressure_NwAmphoreus</File>
+		<File>Amphoreus/Platforms/Windows/BLPs/strategicview/strategicview_uilenses.blp</File>
+		<File>Amphoreus/Platforms/Windows/BLPs/UILensAssets.blp</File>
+		<File>Amphoreus/Platforms/Windows/BLPs/UI/Icons.blp</File>
+		<File>Amphoreus/Platforms/Windows/BLPs/UI/PrideMoments.blp</File>
+		<File>Amphoreus/Platforms/Windows/BLPs/UI/Shell_Loading.blp</File>
+		<File>Amphoreus/Platforms/Windows/BLPs/UI_LeaderScenes.blp</File>
+		<File>Amphoreus/Script/Amphoreus_Script.lua</File>
+		<File>Amphoreus/Text/Amphoreus_Text.xml</File>
+		<File>Amphoreus/UI/Amphoreus_UIScript.lua</File>
+		<File>Amphoreus/UI/Amphoreus_UIScript.xml</File>
+		<File>Amphoreus/UI/Amphoreus_UnitAction.lua</File>
+		<File>Amphoreus/UI/Amphoreus_UnitAction.xml</File>
+		<File>Firefly/ArtDefs/Buildings.artdef</File>
+		<File>Firefly/ArtDefs/Civilizations.artdef</File>
+		<File>Firefly/ArtDefs/Cultures.artdef</File>
+		<File>Firefly/ArtDefs/FallbackLeaders.artdef</File>
+		<File>Firefly/ArtDefs/Landmarks.artdef</File>
+		<File>Firefly/ArtDefs/Leaders.artdef</File>
+		<File>Firefly/ArtDefs/Overlay.artdef</File>
+		<File>Firefly/ArtDefs/Units.artdef</File>
+		<File>Firefly/Data/Firefly_Building.sql</File>
+		<File>Firefly/Data/Firefly_Civilization.sql</File>
+		<File>Firefly/Data/Firefly_Color.xml</File>
+		<File>Firefly/Data/Firefly_Config.xml</File>
+		<File>Firefly/Data/Firefly_Core.sql</File>
+		<File>Firefly/Data/Firefly_Icon.xml</File>
+		<File>Firefly/Data/Firefly_Leader.sql</File>
+		<File>Firefly/Data/Firefly_Moment.sql</File>
+		<File>Firefly/Data/Firefly_Project.sql</File>
+		<File>Firefly/Data/Firefly_Suk.sql</File>
+		<File>Firefly/Data/Firefly_Unit.sql</File>
+		<File>Firefly/PenFirefly.dep</File>
+		<File>Firefly/Platforms/Windows/BLPs/FireflyXLP.blp</File>
+		<File>Firefly/Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+		<File>Firefly/Platforms/Windows/BLPs/leaders/light_rigs.blp</File>
+		<File>Firefly/Platforms/Windows/BLPs/PenFirefly.blp</File>
+		<File>Firefly/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Error/Generic_Error_Texture_BaseColor_null</File>
+		<File>Firefly/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Error/Generic_Error_Texture_Metalness</File>
+		<File>Firefly/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Error/Generic_Error_Texture_Normal0</File>
+		<File>Firefly/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Error/Generic_Error_Texture_Normal1</File>
+		<File>Firefly/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FXt_Green_AAAAAA_01</File>
+		<File>Firefly/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FXt_Light_RED_01</File>
+		<File>Firefly/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FX_Glow_Soft01</File>
+		<File>Firefly/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FX_LightSource</File>
+		<File>Firefly/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ICON_OVERLAY_PEN_GLAMOTH</File>
+		<File>Firefly/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ICON_PRESSURE_PEN_GLAMOTH</File>
+		<File>Firefly/Platforms/Windows/BLPs/TestVFX.blp</File>
+		<File>Firefly/Platforms/Windows/BLPs/UILensAsset.blp</File>
+		<File>Firefly/Platforms/Windows/BLPs/units/unit.blp</File>
+		<File>Firefly/Scripts/Firefly_Gameplay.lua</File>
+		<File>Firefly/Import/FireflyFuctions.lua</File>
+		<File>Firefly/Text/Firefly_Text_CN.xml</File>
+		<File>Firefly/Text/Firefly_Text_HK.xml</File>
+		<File>Firefly/Text/Firefly_Text_RU.xml</File>
+		<File>Firefly/Text/Firefly_Text_US.xml</File>
+		<File>Firefly/UI/Firefly_UI.lua</File>
+		<File>Firefly/UI/Firefly_UI.xml</File>
+		<File>Herta/ArtDefs/Buildings.artdef</File>
+		<File>Herta/ArtDefs/Civilizations.artdef</File>
+		<File>Herta/ArtDefs/FallbackLeaders.artdef</File>
+		<File>Herta/ArtDefs/Improvements.artdef</File>
+		<File>Herta/ArtDefs/Landmarks.artdef</File>
+		<File>Herta/ArtDefs/Overlay.artdef</File>
+		<File>Herta/ArtDefs/StrategicView.artdef</File>
+		<File>Herta/ArtDefs/UITextures.artdef</File>
+		<File>Herta/ArtDefs/Units.artdef</File>
+		<File>Herta/Config/Herta_Colors.xml</File>
+		<File>Herta/Config/KNM_Herta_Config.sql</File>
+		<File>Herta/Config/KNM_Herta_Icons.xml</File>
+		<File>Herta/Data/Herta_Moments.xml</File>
+		<File>Herta/Data/KNM_Herta_Agendas.sql</File>
+		<File>Herta/Data/KNM_Herta_Buildings.sql</File>
+		<File>Herta/Data/KNM_Herta_Buildings_XP2.sql</File>
+		<File>Herta/Data/KNM_Herta_Civilizations.sql</File>
+		<File>Herta/Data/KNM_Herta_Civilizations_Ethiopia.sql</File>
+		<File>Herta/Data/KNM_Herta_Civilizations_Vietnam.sql</File>
+		<File>Herta/Data/KNM_Herta_Civilization_Modifiers.sql</File>
+		<File>Herta/Data/KNM_Herta_Improvements.sql</File>
+		<File>Herta/Data/KNM_Herta_Leaders.sql</File>
+		<File>Herta/Data/KNM_Herta_Notification.sql</File>
+		<File>Herta/Data/KNM_Herta_Projects.sql</File>
+		<File>Herta/Data/KNM_Herta_Schema.sql</File>
+		<File>Herta/Data/KNM_Herta_Units.sql</File>
+		<File>Herta/Herta honkai star rail.dep</File>
+		<File>Herta/Platforms/Windows/BLPs/Herta_UITextures.blp</File>
+		<File>Herta/Platforms/Windows/BLPs/landmarks/tilebases.blp</File>
+		<File>Herta/Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+		<File>Herta/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+		<File>Herta/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+		<File>Herta/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+		<File>Herta/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_White_B</File>
+		<File>Herta/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_B</File>
+		<File>Herta/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_H</File>
+		<File>Herta/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+		<File>Herta/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_White_B_null</File>
+		<File>Herta/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_PIL_B_null</File>
+		<File>Herta/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Overlay_HertaSpaceStation</File>
+		<File>Herta/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Pressure_HertaSpaceStation</File>
+		<File>Herta/Platforms/Windows/BLPs/strategicview/strategicview_improvements.blp</File>
+		<File>Herta/Platforms/Windows/BLPs/strategicview/strategicview_uilenses_Shared.blp</File>
+		<File>Herta/Platforms/Windows/BLPs/UILensAssets.blp</File>
+		<File>Herta/Scripts/KNM_Herta_Script.lua</File>
+		<File>Herta/Text/zh_CN/KNM_Herta_Config_zh_CN.sql</File>
+		<File>Herta/Text/zh_CN/KNM_Herta_zh_CN.sql</File>
+		<File>Herta/UI/Additions/KNM_Herta_MISC.lua</File>
+		<File>Herta/UI/Additions/KNM_Herta_MISC.xml</File>
+		<File>Herta/UI/Replacements/ActionPanel_Herta.lua</File>
+		<File>Herta/UI/Replacements/EndGameMenu_Herta.lua</File>
+		<File>Herta/UI/Replacements/TechTree_Herta.lua</File>
+		<File>Penacony/ArtDefs/Civilizations.artdef</File>
+		<File>Penacony/ArtDefs/FallbackLeaders.artdef</File>
+		<File>Penacony/ArtDefs/Improvements.artdef</File>
+		<File>Penacony/ArtDefs/Units.artdef</File>
+		<File>Penacony/Civilization_Penacony.Art.xml</File>
+		<File>Penacony/Database/Penacony_Buildings.sql</File>
+		<File>Penacony/Database/Penacony_Civilization.sql</File>
+		<File>Penacony/Database/Penacony_Color.xml</File>
+		<File>Penacony/Database/Penacony_Config.xml</File>
+		<File>Penacony/Database/Penacony_GreatPeople.sql</File>
+		<File>Penacony/Database/Penacony_GreatWorks.sql</File>
+		<File>Penacony/Database/Penacony_HD.sql</File>
+		<File>Penacony/Database/Penacony_Icons.xml</File>
+		<File>Penacony/Database/Penacony_Improvement.sql</File>
+		<File>Penacony/Database/Penacony_Leader.sql</File>
+		<File>Penacony/Database/Penacony_Modifier.sql</File>
+		<File>Penacony/Database/Penacony_Projects.sql</File>
+		<File>Penacony/Database/Penacony_Resources.sql</File>
+		<File>Penacony/Database/Penacony_Unit.sql</File>
+		<File>Penacony/Platforms/Windows/BLPs/ICON_CIVILIZATION_NW_PENACONY.blp</File>
+		<File>Penacony/Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+		<File>Penacony/Script/Penacony_Script.lua</File>
+		<File>Penacony/Text/Penacony_Text_zh_Hans_CN.xml</File>
+		<File>Penacony/UI/PenaconyUiScript.lua</File>
+		<File>Penacony/UI/PenaconyUiScript.xml</File>
+		<File>Penacony/【崩坏：星穹铁道】匹诺康尼文明包.dep</File>
+		<File>Platforms/Platforms/Windows/audio/240381163.wem</File>
+		<File>Platforms/Platforms/Windows/audio/371590529.wem</File>
+		<File>Platforms/Platforms/Windows/audio/483964694.wem</File>
+		<File>Platforms/Platforms/Windows/audio/543818413.wem</File>
+		<File>Platforms/Platforms/Windows/audio/599417978.wem</File>
+		<File>Platforms/Platforms/Windows/audio/688281181.wem</File>
+		<File>Platforms/Platforms/Windows/audio/719994966.wem</File>
+		<File>Platforms/Platforms/Windows/audio/Chinese(PRC)/Firefly_Pen_SoundBank.bnk</File>
+		<File>Platforms/Platforms/Windows/audio/Chinese(PRC)/Firefly_Pen_SoundBank.txt</File>
+		<File>Platforms/Platforms/Windows/audio/Chinese(Taiwan)/Firefly_Pen_SoundBank.bnk</File>
+		<File>Platforms/Platforms/Windows/audio/Chinese(Taiwan)/Firefly_Pen_SoundBank.txt</File>
+		<File>Platforms/Platforms/Windows/audio/English(US)/Firefly_Pen_SoundBank.bnk</File>
+		<File>Platforms/Platforms/Windows/audio/English(US)/Firefly_Pen_SoundBank.txt</File>
+		<File>Platforms/Platforms/Windows/audio/Firefly_Pen_SoundBank.bnk</File>
+		<File>Platforms/Platforms/Windows/audio/Firefly_Pen_SoundBank.txt</File>
+		<File>Platforms/Platforms/Windows/audio/Firefly_Pen_SoundBank.xml</File>
+		<File>Platforms/Platforms/Windows/audio/Japanese/Firefly_Pen_SoundBank.bnk</File>
+		<File>Platforms/Platforms/Windows/audio/Japanese/Firefly_Pen_SoundBank.txt</File>
+		<File>Platforms/Platforms/Windows/audio/PenFireflyBanks.ini</File>
+		<File>Platforms/Platforms/Windows/audio/PluginInfo.xml</File>
+		<File>Platforms/Platforms/Windows/Audio/173476250.wem</File>
+		<File>Platforms/Platforms/Windows/Audio/2123328.wem</File>
+		<File>Platforms/Platforms/Windows/Audio/342261787.wem</File>
+		<File>Platforms/Platforms/Windows/Audio/397547532.wem</File>
+		<File>Platforms/Platforms/Windows/Audio/471151637.wem</File>
+		<File>Platforms/Platforms/Windows/Audio/492880990.wem</File>
+		<File>Platforms/Platforms/Windows/Audio/554202457.wem</File>
+		<File>Platforms/Platforms/Windows/Audio/711008917.wem</File>
+		<File>Platforms/Platforms/Windows/Audio/735678777.wem</File>
+		<File>Platforms/Platforms/Windows/Audio/736187622.wem</File>
+		<File>Platforms/Platforms/Windows/Audio/807947015.wem</File>
+		<File>Platforms/Platforms/Windows/Audio/825405644.wem</File>
+		<File>Platforms/Platforms/Windows/Audio/840603022.wem</File>
+		<File>Platforms/Platforms/Windows/Audio/850240087.wem</File>
+		<File>Platforms/Platforms/Windows/Audio/HertaSoundbanks.ini</File>
+		<File>Platforms/Platforms/Windows/Audio/Herta_Music_Bank.bnk</File>
+		<File>Platforms/Platforms/Windows/Audio/Herta_Music_Bank.xml</File>
+		<File>Platforms/Platforms/Windows/Audio/Herta_Speech_Bank.bnk</File>
+		<File>Platforms/Platforms/Windows/Audio/Herta_Speech_Bank.xml</File>
+		<File>Platforms/Platforms/Windows/audio/1050932009.wem</File>
+		<File>Platforms/Platforms/Windows/audio/137588804.wem</File>
+		<File>Platforms/Platforms/Windows/audio/156779590.wem</File>
+		<File>Platforms/Platforms/Windows/audio/181738138.wem</File>
+		<File>Platforms/Platforms/Windows/audio/206220487.wem</File>
+		<File>Platforms/Platforms/Windows/audio/234985175.wem</File>
+		<File>Platforms/Platforms/Windows/audio/306124.wem</File>
+		<File>Platforms/Platforms/Windows/audio/320790058.wem</File>
+		<File>Platforms/Platforms/Windows/audio/395974971.wem</File>
+		<File>Platforms/Platforms/Windows/audio/457225391.wem</File>
+		<File>Platforms/Platforms/Windows/audio/497156637.wem</File>
+		<File>Platforms/Platforms/Windows/audio/528487798.wem</File>
+		<File>Platforms/Platforms/Windows/audio/560864678.wem</File>
+		<File>Platforms/Platforms/Windows/audio/566405796.wem</File>
+		<File>Platforms/Platforms/Windows/audio/587199773.wem</File>
+		<File>Platforms/Platforms/Windows/audio/622268515.wem</File>
+		<File>Platforms/Platforms/Windows/audio/683364513.wem</File>
+		<File>Platforms/Platforms/Windows/audio/753691350.wem</File>
+		<File>Platforms/Platforms/Windows/audio/758546084.wem</File>
+		<File>Platforms/Platforms/Windows/audio/77268704.wem</File>
+		<File>Platforms/Platforms/Windows/audio/775288528.wem</File>
+		<File>Platforms/Platforms/Windows/audio/967202074.wem</File>
+		<File>Platforms/Platforms/Windows/audio/Penacony_Audio.ini</File>
+		<File>Platforms/Platforms/Windows/audio/Penacony_GreatWorkMusic.bnk</File>
+		<File>Platforms/Platforms/Windows/audio/Penacony_GreatWorkMusic.txt</File>
+		<File>Platforms/Platforms/Windows/audio/Penacony_SB.bnk</File>
+		<File>Platforms/Platforms/Windows/audio/Penacony_SB.txt</File>
+		<File>Platforms/Platforms/Windows/audio/PluginInfo.xml</File>
+		<File>Platforms/Platforms/Windows/audio/SoundbanksInfo.xml</File>
+		<File>XianZhou/ArtDefs/Districts.artdef</File>
+		<File>XianZhou/ArtDefs/FallbackLeaders.artdef</File>
+		<File>XianZhou/ArtDefs/Improvements.artdef</File>
+		<File>XianZhou/ArtDefs/Landmarks.artdef</File>
+		<File>XianZhou/ArtDefs/StrategicView.artdef</File>
+		<File>XianZhou/ArtDefs/Units.artdef</File>
+		<File>XianZhou/Data/XianZhou_Building.sql</File>
+		<File>XianZhou/Data/XianZhou_Civilization.sql</File>
+		<File>XianZhou/Data/XianZhou_Color.xml</File>
+		<File>XianZhou/Data/XianZhou_Config.xml</File>
+		<File>XianZhou/Data/XianZhou_Config_HP.sql</File>
+		<File>XianZhou/Data/XianZhou_Core.sql</File>
+		<File>XianZhou/Data/XianZhou_District.sql</File>
+		<File>XianZhou/Data/XianZhou_Governor.sql</File>
+		<File>XianZhou/Data/XianZhou_DLL.sql</File>
+		<File>XianZhou/Data/XianZhou_HD.sql</File>
+		<File>XianZhou/Data/XianZhou_HP.sql</File>
+		<File>XianZhou/Data/XianZhou_Icon.sql</File>
+		<File>XianZhou/Data/XianZhou_Icon.xml</File>
+		<File>XianZhou/Data/XianZhou_Improvement.sql</File>
+		<File>XianZhou/Data/XianZhou_Leader.sql</File>
+		<File>XianZhou/Data/XianZhou_Moment.sql</File>
+		<File>XianZhou/Data/XianZhou_Music.sql</File>
+		<File>XianZhou/Data/XianZhou_TeamPvP.sql</File>
+		<File>XianZhou/Data/XianZhou_Policy.sql</File>
+		<File>XianZhou/Data/XianZhou_Unit.sql</File>
+		<File>XianZhou/LuoFu_XianZhou.dep</File>
+		<File>XianZhou/Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+		<File>XianZhou/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Caravel_Attack_Cannons_L</File>
+		<File>XianZhou/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Caravel_Attack_Cannons_R</File>
+		<File>XianZhou/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Caravel_Death</File>
+		<File>XianZhou/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Caravel_IdleA</File>
+		<File>XianZhou/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Caravel_RunA</File>
+		<File>XianZhou/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Caravel_RunStopA</File>
+		<File>XianZhou/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_MATRIX_OF_PRESCIENCE_BASE_null</File>
+		<File>XianZhou/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_XianZhouStarskiff_0_null</File>
+		<File>XianZhou/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_XianZhouStarskiff_1_null</File>
+		<File>XianZhou/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_XianZhouStarskiff_2_null</File>
+		<File>XianZhou/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_MATRIX_OF_PRESCIENCE_BASE</File>
+		<File>XianZhou/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_XianZhouStarskiff_0n0</File>
+		<File>XianZhou/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_XianZhouStarskiff_0n1</File>
+		<File>XianZhou/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_XianZhouStarskiff_1n0</File>
+		<File>XianZhou/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_XianZhouStarskiff_1n1</File>
+		<File>XianZhou/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_XianZhouStarskiff_2n0</File>
+		<File>XianZhou/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_XianZhouStarskiff_2n1</File>
+		<File>XianZhou/Platforms/Windows/BLPs/strategicview/strategicview_improvements.blp</File>
+		<File>XianZhou/Platforms/Windows/BLPs/TileBase.blp</File>
+		<File>XianZhou/Platforms/Windows/BLPs/XianZhou.blp</File>
+		<File>XianZhou/Platforms/Windows/BLPs/XianZhouUnits.blp</File>
+		<File>XianZhou/Scripts/LuoFu_XianZhou_Gameplay.lua</File>
+		<File>XianZhou/Text/XianZhou_Text_CN.xml</File>
+		<File>XianZhou/Import/XianZhouFuctions.lua</File>
+		<File>XianZhou/UI/LuoFu_XianZhou_UI.lua</File>
+		<File>XianZhou/UI/LuoFu_XianZhou_UI.xml</File>
+	</Files>
+	<LocalizedText>
+		<Text id="LOC_PEN_FIREFLY_NAME">
+			<en_US>[Honkai: Star Rail] Firefly</en_US>
+			<ru_RU>[Honkai: Star Rail] Firefly</ru_RU>
+			<zh_Hant_HK>[崩坏：星穹铁道]流萤领袖包</zh_Hant_HK>
+			<zh_Hans_CN>[崩坏：星穹铁道]流萤领袖包</zh_Hans_CN>
+		</Text>
+		<Text id="LOC_PEN_FIREFLY_TEASER">
+			<en_US>Author: Pen, Xia Liang Liang Liang, Xi Mo Lan</en_US>
+			<ru_RU>Author: Pen, Xia Liang Liang Liang, Xi Mo Lan</ru_RU>
+			<zh_Hant_HK>作者：Pen，夏凉凉凉，夕墨岚</zh_Hant_HK>
+			<zh_Hans_CN>作者：Pen，夏凉凉凉，夕墨岚</zh_Hans_CN>
+		</Text>
+		<Text id="LOC_PEN_FIREFLY_DESCRIPTION">
+			<en_US>Added a leader: Firefly</en_US>
+			<ru_RU>Added a leader: Firefly</ru_RU>
+			<zh_Hant_HK>添加领袖：流萤，及其對應文明</zh_Hant_HK>
+			<zh_Hans_CN>添加领袖：流萤，及其对应文明</zh_Hans_CN>
+		</Text>
+		<Text id="LOC_PEN_LUOFU_XIANZHOU_NAME">
+			<en_US>[Honkai: Star Rail] Xianzhou Luofu</en_US>
+			<ru_RU>[Honkai: Star Rail] Xianzhou Luofu</ru_RU>
+			<zh_Hant_HK>[崩坏：星穹铁道]罗浮仙舟文明包</zh_Hant_HK>
+			<zh_Hans_CN>[崩坏：星穹铁道]罗浮仙舟文明包</zh_Hans_CN>
+			<ko_KR>[붕괴: 스타레일] 선주「나부」</ko_KR>
+		</Text>
+		<Text id="LOC_PEN_LUOFU_XIANZHOU_TEASER">
+			<en_US>Author: Pen</en_US>
+			<ru_RU>Author: Pen</ru_RU>
+			<zh_Hant_HK>作者：Pen</zh_Hant_HK>
+			<zh_Hans_CN>作者：Pen</zh_Hans_CN>
+			<ko_KR>Author: Pen</ko_KR>
+		</Text>
+		<Text id="LOC_PEN_LUOFU_XIANZHOU_DESCRIPTION">
+			<en_US>Added a civilization: The Xianzhou Luofu</en_US>
+			<ru_RU>Added a civilization: The Xianzhou Luofu</ru_RU>
+			<zh_Hant_HK>添加文明：罗浮仙舟，及其對應領袖</zh_Hant_HK>
+			<zh_Hans_CN>添加文明：罗浮仙舟，及其对应领袖</zh_Hans_CN>
+			<ko_KR>Added a civilization: The Xianzhou Luofu</ko_KR>
+		</Text>
+	</LocalizedText>
+</Mod>

@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1191487215	Stop_Music_NW_PENACONY			\Music\Stop_Music_NW_PENACONY	
+	1882683837	Play_Music_NW_PENACONY			\Music\Play_Music_NW_PENACONY	
+	2335394039	Pause_Music_NW_PENACONY			\Music\Pause_Music_NW_PENACONY	
+	2415049833	Stop_Leader_Music_NW_PENACONY			\Music\Stop_Leader_Music_NW_PENACONY	
+	3181940198	Resume_Music_NW_PENACONY			\Music\Resume_Music_NW_PENACONY	
+	3443979475	Play_Leader_Music_NW_PENACONY			\Music\Play_Leader_Music_NW_PENACONY	
+	3882709141	Start_Music_NW_PENACONY			\Music\Start_Music_NW_PENACONY	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	373350295	Game_Location			\Default Work Unit\Game_Location	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	306124	HOYO-MiX - 	77268704	HOYO-MiX - 	137588804	HOYO-MiX - 	156779590	HOYO-MiX - 	181738138	HOYO-MiX - 	206220487	HOYO-MiX - 	234985175	HOYO-MiX - 	320790058	HOYO-MiX - 	395974971	HOYO-MiX - 	457225391	HOYO-MiX - 	497156637	HOYO-MiX - 	528487798	HOYO-MiX - 	560864678	HOYO-MiX - 	566405796	HOYO-MiX - 	587199773	HOYO-MiX - 	622268515	HOYO-MiX - 	683364513	HOYO-MiX - 	753691350		758546084	HOYO-MiX - 	775288528	HOYO-MiX - 	967202074	HOYO-MiX - 	1050932009	HOYO-MiX - 

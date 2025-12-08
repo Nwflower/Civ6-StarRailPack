@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Firefly_Config -->
+<!-- Author: Pen -->
+<!-- DateCreated: 2024/7/26 15:59:22 -->
+<GameData>
+	<Players>
+		<!-- For DLC 'Gathering Storm'-->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_PEN_GLAMOTH</CivilizationType>
+			<CivilizationName>LOC_CIVILIZATION_PEN_GLAMOTH_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_PEN_GLAMOTH</CivilizationIcon>
+			<LeaderType>LEADER_PEN_FIREFLY</LeaderType>
+			<LeaderName>LOC_LEADER_PEN_FIREFLY_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_PEN_FIREFLY</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_PEN_GLAMOTH_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_PEN_GLAMOTH_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_PEN_GLAMOTH</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_PEN_FIREFLY_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_PEN_FIREFLY_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_PEN_FIREFLY</LeaderAbilityIcon>
+			<Portrait>IMG_SELECTION_FOREGROUND_PEN_FIREFLY</Portrait>
+			<PortraitBackground>IMG_LOADING_BACKGROUND_PEN_GLAMOTH</PortraitBackground>
+		</Row>
+	</Players>
+
+	<PlayerItems>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_PEN_GLAMOTH</CivilizationType>
+			<LeaderType>LEADER_PEN_FIREFLY</LeaderType>
+			<Type>UNIT_PEN_FIREFLY_SAMU</Type>
+			<Name>LOC_TRAIT_CIVILIZATION_UNIT_PEN_GLAMOTH_CAVALRY_NAME</Name>
+			<Description>LOC_TRAIT_CIVILIZATION_UNIT_PEN_GLAMOTH_CAVALRY_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_PEN_FIREFLY_SAMU</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_PEN_GLAMOTH</CivilizationType>
+			<LeaderType>LEADER_PEN_FIREFLY</LeaderType>
+			<Type>BUILDING_PEN_FIREFLY_REDDENED_CHRYSALIS</Type>
+			<Name>LOC_TRAIT_BUILDING_PEN_FIREFLY_REDDENED_CHRYSALIS_NAME</Name>
+			<Description>LOC_TRAIT_BUILDING_PEN_FIREFLY_REDDENED_CHRYSALIS_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_PEN_FIREFLY_REDDENED_CHRYSALIS</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+	</PlayerItems>
+</GameData>

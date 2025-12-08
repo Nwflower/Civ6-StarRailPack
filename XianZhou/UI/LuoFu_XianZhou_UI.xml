@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LuoFu_XianZhou_UI -->
+<!-- Author: Pen -->
+<!-- DateCreated: 2024/2/12 14:57:40 -->
+<Context>
+	<Grid ID="XianZhouDivinationGrid" Anchor="R,B" Size="auto,41" AutoSizePadding="6,0"Texture="SelectionPanel_ActionGroupSlot" SliceCorner="5,19" SliceSize="1,1" SliceTextureSize="12,41" ConsumeMouse="1" Alpha="0.75">
+		<Button ID="XianZhouDivinationButton" Anchor="C,B" Size="44,53" Texture="UnitPanel_ActionButton">
+			<Image ID="XianZhouDivinationIcon" Anchor="C,C" Offset="0,-2" Size="45,45" Icon="ICON_ACTION_XIANZHOU_FUXUAN"/>
+		</Button>
+		<!-- The Xian Zhou Board -->
+		<Container ID="XianZhouDivinationContainer" Anchor="C,B"	Size="44,100" Offset="0,0">
+			<!-- Background >
+			<Grid Size="parent,parent" Texture="Controls_ContainerBlue" SliceStart="0,0" SliceCorner="3,3" SliceSize="9,9" SliceTextureSize="16,16"/-->
+			<Stack ID="XianZhouButtonStack" Offset="0,0" Padding="-2" StackGrowth="Up">
+				<Button ID="XianZhouDivinationProductionButton" Anchor="C,T" Size="44,53" Texture="UnitPanel_ActionButton" ToolTip="LOC_XIANZHOU_DIVINATION_COMPLETE_PRODUCTION_TOOLTIP">
+					<Image ID="XianZhouDivinationProductionIcon" Anchor="C,C" Offset="0,-2" Size="40,40" Icon="ICON_NOTIFICATION_CHOOSE_CITY_PRODUCTION"/>
+				</Button>
+			</Stack>
+		</Container>
+	</Grid>
+</Context>
