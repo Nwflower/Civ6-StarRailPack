@@ -8,7 +8,7 @@ target_file = "file.xml"
 ModInfoName = "Team PVP Star Rail Pack.modinfo"
 
 ModId = "DF0E3C1A-E572-1868-FBE9-C58E0671151F"
-ModVersion = "V1.02"
+ModVersion = "V1.03"
 ModName = "Team PVP [COLOR:ResCultureLabelCS]次元破壁：星穹铁道[ENDCOLOR] " + ModVersion
 ModDescription = "这是以崩坏：星穹铁道世界观为背景的文明6模组整合包。"
 ModTeaser = "愿此行，终抵群星"
