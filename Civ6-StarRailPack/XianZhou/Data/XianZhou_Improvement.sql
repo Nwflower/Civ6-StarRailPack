@@ -10,7 +10,7 @@ values
 insert or replace into Improvements
 (ImprovementType,								TraitType,											Name,													Description,												Icon,												Buildable,	PlunderType,	PlunderAmount,	GrantFortification,	Appeal,	Workable,	Removable,	SameAdjacentValid,	OnePerCity,	Capturable)
 values
-('IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE',	'TRAIT_IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE',	'LOC_IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE_NAME',	'LOC_IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE_DESCRIPTION','ICON_IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE',	1,			'NO_PLUNDER',	0,				2,					1,		1,			0,			0,					1,			0);
+('IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE',	'TRAIT_IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE',	'LOC_IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE_NAME',	'LOC_IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE_DESCRIPTION','ICON_IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE',	1,			'NO_PLUNDER',	0,				0,					1,		1,			0,			0,					1,			0);
 
 insert or replace into Improvement_ValidBuildUnits
 (ImprovementType,								UnitType,					ConsumesCharge)
