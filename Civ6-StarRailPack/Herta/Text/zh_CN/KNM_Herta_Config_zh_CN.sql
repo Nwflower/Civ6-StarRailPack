@@ -16,10 +16,10 @@ VALUES	('zh_Hans_CN',	'LOC_CIVILIZATION_KNM_HERTA_SPACE_STATION_NAME',				'黑�
 		('zh_Hans_CN',	'LOC_TRAIT_LEADER_KNM_HERTA_DESCRIPTION',						'建立 [ICON_Capital] 首都时获得一个“人偶”单位。可以无视科技前置要求研发古典时代及之前的科技。'),
 
 		('zh_Hans_CN',	'LOC_TRAIT_UNIT_KNM_HERTA_PUPPET_NAME',							'人偶'),
-		('zh_Hans_CN',	'LOC_TRAIT_UNIT_KNM_HERTA_PUPPET_DESCRIPTION',					'黑塔空间站特色支援单位，拥有独特晋升树。可被敌人俘获。初始拥有一次晋升。建成专业化区域时，位于该城市市中心的人偶获得一次晋升。'),
+		('zh_Hans_CN',	'LOC_TRAIT_UNIT_KNM_HERTA_PUPPET_DESCRIPTION',					'黑塔空间站特色支援单位，拥有独特晋升树。可被敌人俘获。初始拥有一次晋升。建成专业化区域时，位于该城市市中心的人偶获得一次晋升。通过晋升能力，人偶能为城市提供少量产出，或每回合提供少量 [ICON_GreatPerson] 伟人点数。'),
 
 		('zh_Hans_CN',	'LOC_TRAIT_IMPROVEMENT_KNM_RAILWAY_PLATFORM_NAME',				'月台'),
-		('zh_Hans_CN',	'LOC_TRAIT_IMPROVEMENT_KNM_RAILWAY_PLATFORM_DESCRIPTION',		'解锁建造者建造黑塔空间站特色改良设施月台的能力。[NEWLINE][NEWLINE]+1 [ICON_Production] 生产力、+2 [ICON_Gold] 金币，每相邻一个区域+2 [ICON_Gold] 金币。建成时在相邻单元格建造古典时代道路。可以建造在泛滥平原上。不能建在另一座月台旁。'),
+		('zh_Hans_CN',	'LOC_TRAIT_IMPROVEMENT_KNM_RAILWAY_PLATFORM_DESCRIPTION',		'数学解锁建造者建造黑塔空间站特色改良设施月台的能力。[NEWLINE][NEWLINE]+1 [ICON_Production] 生产力、+2 [ICON_Gold] 金币，每相邻一个区域+2 [ICON_Gold] 金币。建成时在相邻单元格建造古典时代道路。可以建造在泛滥平原上。不能建在另一座月台旁。'),
 
 		('zh_Hans_CN',	'LOC_LEADER_KNM_ASTA_NAME',										'艾丝妲'),
 		('zh_Hans_CN',	'LOC_TRAIT_LEADER_KNM_ASTA_NAME',								'与行星相会'),
