@@ -192,7 +192,7 @@
 			<Text>沉沦美梦的盛会之星</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_SINKDREAM_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>解锁游戏与娱乐后，获得2份 [ICON_RESOURCE_SULEDA] 苏乐达，可为4座城市提供1点 [ICON_Amenities] 宜居度，无法通过其他方式获得。</Text>
+			<Text>游戏和娱乐市政后，获得2份 [ICON_RESOURCE_SULEDA] 苏乐达，可为4座城市提供1点 [ICON_Amenities] 宜居度，无法通过其他方式获得。</Text>
 		</Replace>
 
 		<Replace Tag="LOC_TRAIT_LEADER_FLY_TO_SKY_TOGETHER_NAME" Language="zh_Hans_CN">
@@ -205,7 +205,7 @@
 			<Text>齐响诗班</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_POEM_CHOIR_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>[ICON_Turn] 回合数恰好能被7整除时，所有城市立即获得等同于回合数1/7的 [ICON_Production] 生产力。</Text>
+			<Text>[ICON_Turn] 回合数恰好能被7整除时，所有城市立即获得等同于回合数3/7的 [ICON_Production] 生产力。</Text>
 		</Replace>
 
 		<!--Resource-->

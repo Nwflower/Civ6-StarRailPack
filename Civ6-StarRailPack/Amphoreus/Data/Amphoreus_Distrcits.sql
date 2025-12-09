@@ -218,6 +218,10 @@ DELETE
 FROM District_Adjacencies
 WHERE DistrictType = 'DISTRICT_JANUS'
   AND YieldChangeId LIKE 'Mountain/_Faith_' ESCAPE '/';
+DELETE
+FROM District_Adjacencies
+WHERE DistrictType = 'DISTRICT_JANUS'
+  AND YieldChangeId = 'Forest_Faith';
 
 
 -- 允许购买XX区域中的建筑

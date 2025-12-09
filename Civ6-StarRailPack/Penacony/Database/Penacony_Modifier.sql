@@ -8,8 +8,8 @@
 
 INSERT INTO TraitModifiers(ModifierId,								TraitType)VALUES
 ('MODFEAT_PENACONY_GET_FREE_SULEDA', 'TRAIT_CIVILIZATION_SINKDREAM');
-INSERT INTO Modifiers(ModifierId,ModifierType)VALUES
-('MODFEAT_PENACONY_GET_FREE_SULEDA', 'MODIFIER_CAPITAL_CITY_GRANT_RESOURCE_IN_CITY');
+INSERT INTO Modifiers(ModifierId,ModifierType, SubjectRequirementSetId)VALUES
+('MODFEAT_PENACONY_GET_FREE_SULEDA', 'MODIFIER_CAPITAL_CITY_GRANT_RESOURCE_IN_CITY', 'NW_PLAYER_HAS_CIVIC_GAMES_RECREATION');
 INSERT INTO ModifierArguments(ModifierId,								Name,						Value)VALUES
 ('MODFEAT_PENACONY_GET_FREE_SULEDA',		'Amount',	2),
 ('MODFEAT_PENACONY_GET_FREE_SULEDA',		'ResourceType',	'RESOURCE_SULEDA');
@@ -43,7 +43,7 @@ INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
 --================
 -- SUNDAY
 --================
--- 回合数恰好能被7整除时，所有城市立即获得等同于回合数1/7的 [ICON_Production] 生产力。
+-- 回合数恰好能被7整除时，所有城市立即获得等同于回合数3/7的 [ICON_Production] 生产力。
 CREATE TEMPORARY TABLE TURN_numbers
 (
     number INT NOT NULL,
@@ -66,7 +66,7 @@ INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, Ow
 'MODIFIER_TRAIT_LEADER_POEM_CHOIR_PRODUCTION_'||number, 'MODIFIER_NW_PN_PLAYER_CITIES_GRANT_PRODUCTION_IN_CITY', 0, 1, 0, 'NW_GAME_TURN_ATLAST_'||number, NULL
 FROM TURN_numbers;
 INSERT INTO ModifierArguments (ModifierId, Name, Value) SELECT
-'MODIFIER_TRAIT_LEADER_POEM_CHOIR_PRODUCTION_'||number, 'Amount', number
+'MODIFIER_TRAIT_LEADER_POEM_CHOIR_PRODUCTION_'||number, 'Amount', number * 3
 FROM TURN_numbers UNION SELECT
 'MODIFIER_TRAIT_LEADER_POEM_CHOIR_PRODUCTION_'||number, 'KeepOverflow', '1'
 FROM TURN_numbers;

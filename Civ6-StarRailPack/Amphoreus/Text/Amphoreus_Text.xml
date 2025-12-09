@@ -105,7 +105,7 @@
 			<Text>「纷争」</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_NW_MYDEI_NIKADOR_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>[ICON_Capital] 首都每生产一个近战或抗骑兵单位，就可以再获得一个相同的近战或抗骑兵单位。</Text>
+			<Text>帝国初期市政后， [ICON_Capital] 首都每生产一个近战或抗骑兵单位，就可以再获得一个相同的近战或抗骑兵单位。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_NW_AGLAEA_MNESTIA_NAME" Language="zh_Hans_CN">
 			<Text>「浪漫」</Text>
@@ -201,7 +201,7 @@
 			<Text>刻法勒广场</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_JANUS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>缇宝特色区域，替代圣地，建造费用更低。可以使用 [ICON_Faith] 信仰值购买其中的建筑。[NEWLINE][NEWLINE]从市中心获得大量相邻加成。不会从山脉获得相邻加成。</Text>
+			<Text>缇宝特色区域，替代圣地，建造费用更低。可以使用 [ICON_Faith] 信仰值购买其中的建筑。[NEWLINE][NEWLINE]从市中心获得大量相邻加成。不会从山脉和树林获得相邻加成。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_NIKADOR_NAME" Language="zh_Hans_CN">
 			<Text>悬锋斗技场</Text>
