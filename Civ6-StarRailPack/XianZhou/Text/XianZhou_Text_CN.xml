@@ -276,7 +276,7 @@
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_XIANZHOU_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>
-				仙舟建立的城市发展减速25%，但城市 [ICON_CITIZEN] 人口额外提供+0.5 [ICON_PRODUCTION] 生产力。
+				仙舟建立的城市发展减速15%，但城市 [ICON_CITIZEN] 人口额外提供+0.3 [ICON_PRODUCTION] 生产力。
 			</Text>
 		</Replace>
 
@@ -316,7 +316,7 @@
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_BAILU_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>
-				城市改良的每种奢侈品资源均可提供1点 [ICON_AMENITIES] 宜居度。拥有丹鼎司的城市训练的所有单位+10 [ICON_DAMAGED] 生命值回复量。
+				城市改良的每种奢侈品资源均可提供1点 [ICON_AMENITIES] 宜居度。拥有丹鼎司的城市训练的军事单位+10 [ICON_DAMAGED] 生命值回复量。
 			</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_XIANZHOU_UNITS_HEAL_AFTER_COMBAT_NAME" Language="zh_Hans_CN">
@@ -335,7 +335,7 @@
 			<Text>丹鼎司</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_XIANZHOU_ALCHEMY_COMMISSION_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>白露特色区域，取代社区，解锁于工程。固定+3 [ICON_HOUSING] 住房。所在城市发展加速10%。提供2个 [ICON_CITIZEN] 专家槽位。每个 [ICON_CITIZEN] 专家槽位+3 [ICON_FOOD] 食物、+2 [ICON_PRODUCTION] 生产力和+1 [ICON_CULTURE] 文化值。[NEWLINE]此区域不需要人口、建造花费更低、每个城市只能建造一个、也并非专业化区域。</Text>
+			<Text>白露特色区域，解锁于工程。固定+3 [ICON_HOUSING] 住房。所在城市发展加速15%。提供2个 [ICON_CITIZEN] 专家槽位。每个 [ICON_CITIZEN] 专家槽位+3 [ICON_FOOD] 食物、+2 [ICON_PRODUCTION] 生产力和+1 [ICON_CULTURE] 文化值。[NEWLINE]此区域不需要人口、建造花费更低、每个城市只能建造一个、也并非专业化区域。</Text>
 		</Replace>
 		
 		<Replace Tag="LOC_LEADER_XIANZHOU_FUXUAN_NAME" Language="zh_Hans_CN">
@@ -356,7 +356,7 @@
 			<Text>穷观妙算</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_FUXUAN_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>拥有穷观阵的城市， [ICON_PRODUCTION] 生产力产出将转化为等量 [ICON_XIANZHOU_MATRIX_OF_PRESCIENCE] 玉兆点，而非直接为城市建设提供进度。可以消耗等同于所需玉兆点完成城市生产。每1 [ICON_XIANZHOU_MATRIX_OF_PRESCIENCE] 玉兆点将为城市提供0.7 [ICON_PRODUCTION] 生产力。</Text>
+			<Text>拥有穷观阵的城市， [ICON_PRODUCTION] 生产力产出将转化为等量 [ICON_XIANZHOU_MATRIX_OF_PRESCIENCE] 玉兆点，而非直接为城市建设提供进度。可以消耗等同于所需玉兆点完成城市生产。每1 [ICON_XIANZHOU_MATRIX_OF_PRESCIENCE] 玉兆点可以为城市提供0.85 [ICON_PRODUCTION] 生产力。</Text>
 		</Replace>
 		
 		<Replace Tag="LOC_TRAIT_IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE_NAME" Language="zh_Hans_CN">
@@ -592,7 +592,7 @@
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_JINGLIU_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>
-				城市每增长一个 [ICON_CITIZEN] 人口便-1时代分。不处于 [ICON_GLORY_DARK_AGE] 黑暗时代时，城市发展速度+30%。若处于 [ICON_GLORY_DARK_AGE] 黑暗时代时当前政体的所有军事政策槽位均转为通配符槽位。处于 [ICON_GLORY_DARK_AGE] 黑暗时代可以使用 [ICON_GLORY_GOLDEN_AGE] 黄金时代着力点政策卡。
+				城市每增长一个 [ICON_CITIZEN] 人口便-2时代分。不处于 [ICON_GLORY_DARK_AGE] 黑暗时代时，城市发展速度+30%。若处于 [ICON_GLORY_DARK_AGE] 黑暗时代时当前政体的所有军事政策槽位均转为通配符槽位。处于 [ICON_GLORY_DARK_AGE] 黑暗时代可以使用 [ICON_GLORY_GOLDEN_AGE] 黄金时代着力点政策卡。
 			</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_BUILDING_XIANZHOU_CRESCENT_TRANSMIGRATION_NAME" Language="zh_Hans_CN">

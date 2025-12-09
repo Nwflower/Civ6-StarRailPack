@@ -7,9 +7,6 @@ insert or replace into Types
 values
 ('CIVILIZATION_XIANZHOU',									'KIND_CIVILIZATION'),
 ('TRAIT_CIVILIZATION_UNIT_XIANZHOU_STARSKIFF',				'KIND_TRAIT'),
---('TRAIT_CIVILIZATION_UNIT_CHAMPION_DUELIST',				'KIND_TRAIT'),
---('TRAIT_CIVILIZATION_BUILDING_XIANZHOU_ANALYSE_CARDINALE',	'KIND_TRAIT'),
---('TRAIT_CIVILIZATION_DISTRICT_XIANZHOU_OPERA_EPICLESE',		'KIND_TRAIT'),
 ('TRAIT_CIVILIZATION_XIANZHOU',								'KIND_TRAIT');
 
 insert or replace into Civilizations
@@ -20,7 +17,6 @@ values
 insert or replace into CivilizationLeaders
 (CivilizationType,				LeaderType,							CapitalName)
 values
---('CIVILIZATION_XIANZHOU',		'LEADER_XIANZHOU_ALL_TRAIT',		'LOC_CITY_NAME_XIANZHOU'),
 ('CIVILIZATION_XIANZHOU',		'LEADER_XIANZHOU_BAILU',			'LOC_CITY_NAME_XIANZHOU'),
 ('CIVILIZATION_XIANZHOU',		'LEADER_XIANZHOU_FUXUAN',			'LOC_CITY_NAME_XIANZHOU'),
 ('CIVILIZATION_XIANZHOU',		'LEADER_XIANZHOU_JINGYUAN',			'LOC_CITY_NAME_XIANZHOU'),
@@ -154,14 +150,14 @@ insert or replace into ModifierArguments
 values
 
 ('XIANZHOU_POPULATION_PRODUCTION',							'YieldType',			'YIELD_PRODUCTION'),
-('XIANZHOU_POPULATION_PRODUCTION',							'Amount',				0.5),
-('XIANZHOU_GROWTH_DEBUFF',									'Amount',				-25);
+('XIANZHOU_POPULATION_PRODUCTION',							'Amount',				0.3),
+('XIANZHOU_GROWTH_DEBUFF',									'Amount',				-15);
 
 insert or replace into GlobalParameters
 (Name,										Value)
 values
 ('XIANZHOU_DIVINATION_FIX_PRODUCTION',		1000),
-('XIANZHOU_DIVINATION_TO_PRODUCTION',		30);
+('XIANZHOU_DIVINATION_TO_PRODUCTION',		15);
 
 insert or replace into StartBiasResources
 (CivilizationType,				ResourceType,			Tier)
