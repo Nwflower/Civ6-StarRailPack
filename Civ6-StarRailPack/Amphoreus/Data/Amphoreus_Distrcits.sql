@@ -231,7 +231,7 @@ INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, Ow
                        SubjectRequirementSetId)
 VALUES ('MODIFIER_DISTRICT_JANUS_FAITH_PURCHASE', 'MODIFIER_CITY_ENABLE_BUILDING_FAITH_PURCHASE', 0, 0, 0, NULL, NULL);
 INSERT INTO ModifierArguments (ModifierId, Name, Value)
-VALUES ('MODIFIER_DISTRICT_JANUS_FAITH_PURCHASE', 'DistrictType', 'DISTRICT_JANUS');
+VALUES ('MODIFIER_DISTRICT_JANUS_FAITH_PURCHASE', 'DistrictType', 'DISTRICT_HOLY_SITE');
 
 --======================================================================
 -- 悬锋斗技场
