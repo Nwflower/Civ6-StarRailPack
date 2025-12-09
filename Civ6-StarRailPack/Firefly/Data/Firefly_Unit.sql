@@ -9,9 +9,9 @@ values
 ('UNIT_PEN_FIREFLY_SAMU',									'KIND_UNIT');
 
 insert or replace into Units
-(UnitType,					            Name,						    	Description,			                	Cost,	BaseMoves,	BaseSightRange,		ZoneOfControl,		Domain,			Combat,	PrereqTech,				StrategicResource,	Maintenance,AntiAirCombat,	FormationClass,					PromotionClass,		AdvisorType,		PurchaseYield,		MustPurchase,	PseudoYieldType,CostProgressionModel,				CostProgressionParam1,	CanTrain,	UseMaxMeleeTrainedStrength,	CanRetreatWhenCaptured,CanEarnExperience,	WMDCapable,	TraitType)
+(UnitType,					            Name,						    	Description,			                	Cost,	BaseMoves,	BaseSightRange,		ZoneOfControl,		Domain,			Combat,	PrereqTech,				StrategicResource,	Maintenance,AntiAirCombat,	FormationClass,					PromotionClass,		AdvisorType,		PurchaseYield,		MustPurchase,	PseudoYieldType,CostProgressionModel,				CostProgressionParam1,	CanTrain,	UseMaxMeleeTrainedStrength,	CanRetreatWhenCaptured,CanEarnExperience,	BuildCharges,	TraitType)
 values
-('UNIT_PEN_FIREFLY_SAMU',				'LOC_UNIT_PEN_FIREFLY_SAMU_NAME',	'LOC_UNIT_PEN_FIREFLY_SAMU_DESCRIPTION',	240,	2,			2,					1,					'DOMAIN_LAND',	20,		null,					null,				2,			90,				'FORMATION_CLASS_LAND_COMBAT',	null,				'ADVISOR_GENERIC',	'YIELD_FAITH',		0,				null,			'COST_PROGRESSION_PREVIOUS_COPIES',	40,						0,			0,							0,						0,					0,			'TRAIT_CIVILIZATION_UNIT_PEN_GLAMOTH_CAVALRY');
+('UNIT_PEN_FIREFLY_SAMU',				'LOC_UNIT_PEN_FIREFLY_SAMU_NAME',	'LOC_UNIT_PEN_FIREFLY_SAMU_DESCRIPTION',	240,	2,			2,					1,					'DOMAIN_LAND',	20,		null,					null,				2,			90,				'FORMATION_CLASS_LAND_COMBAT',	null,				'ADVISOR_GENERIC',	'YIELD_FAITH',		0,				null,			'COST_PROGRESSION_PREVIOUS_COPIES',	40,						0,			0,							0,						0,					1,				'TRAIT_CIVILIZATION_UNIT_PEN_GLAMOTH_CAVALRY');
 
 insert or replace into UnitAiInfos	(UnitType,AiType)
 Select 'UNIT_PEN_FIREFLY_SAMU',AiType

@@ -231,7 +231,7 @@
 			<Text>格拉默铁骑</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_PEN_FIREFLY_SAMU_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>格拉默特色近战单位，无法训练或购买，具有防空能力，拥有20[ICON_LIFESPAN]回合寿命（联机速度下）。可以在水域中移动和战斗，从火山土开始回合时+2 [ICON_MOVEMENT] 移动力。无法获得经验，首次建造军营、兵营、兵工厂、军事学院、宇航中心后获得 10/10/15/15/30 点[ICON_STRENGTH]战斗力提升。</Text>
+			<Text>格拉默特色近战单位，无法训练或购买，允许移除一处地貌，具有防空能力，拥有20[ICON_LIFESPAN]回合寿命（联机速度下）。可以在水域中移动和战斗，从火山土开始回合时+2 [ICON_MOVEMENT] 移动力。无法获得经验，首次建造军营、兵营、兵工厂、军事学院、宇航中心后获得 10/10/15/15/30 点[ICON_STRENGTH]战斗力提升。</Text>
 		</Replace>
 
 		<Replace Tag="LOC_ABILITY_PEN_FIREFLY_SAMU1_NAME" Language="zh_Hans_CN">
@@ -288,7 +288,7 @@
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_PEN_FIREFLY_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>
-				使用[ICON_CHARGES]劳动力移除地貌或建立城市时，若城市陆地单元格无地貌，则覆盖为火山土地貌。
+				建立城市或使用格拉默铁骑[ICON_CHARGES]移除地貌时，若城市陆地单元格无地貌，则覆盖为火山土地貌。
 			</Text>
 		</Replace>
 

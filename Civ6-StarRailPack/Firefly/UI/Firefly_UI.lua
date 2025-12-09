@@ -24,18 +24,19 @@ function FireflyUnitOperationStarted(playerID, unitID, operationID)
 	if (playerID == nil) or (playerID ~= Game.GetLocalPlayer()) then return; end
 	local pUnit = UnitManager.GetUnit(playerID, unitID)
 	if pUnit ~= nil then
-		local pPlot = Map.GetPlot(pUnit:GetX(), pUnit:GetY())
-		if pPlot ~= nil then
-			local OperationType = GameInfo.UnitOperations[operationID].OperationType
-			--建立城市
-			if	pPlot:GetOwner() >= 0 then
-				local ownerplayer = Players[pPlot:GetOwner()]--是否在流萤领土(防止帮城邦改地触发)
-				if ownerplayer:GetProperty('PEN_FIREFLY_ALL_VOLCANIC_SOIL') and ownerplayer:GetProperty('PEN_FIREFLY_ALL_VOLCANIC_SOIL') > 0 then
-					if	OperationType == 'UNITOPERATION_REMOVE_FEATURE' then
-						local tParameters = {}
-						tParameters.PlotIndex = pPlot:GetIndex()
-						tParameters.OnStart = 'FireflyRemoveFeature'
-						UI.RequestPlayerOperation(playerID, PlayerOperations.EXECUTE_SCRIPT, tParameters)
+		if	pUnit:GetType() and pUnit:GetType() == FireflySum then
+			local pPlot = Map.GetPlot(pUnit:GetX(), pUnit:GetY())
+			if pPlot ~= nil then
+				local OperationType = GameInfo.UnitOperations[operationID].OperationType
+				if	pPlot:GetOwner() >= 0 then
+					local ownerplayer = Players[pPlot:GetOwner()]--是否在流萤领土(防止帮城邦改地触发)
+					if ownerplayer:GetProperty('PEN_FIREFLY_ALL_VOLCANIC_SOIL') and ownerplayer:GetProperty('PEN_FIREFLY_ALL_VOLCANIC_SOIL') > 0 then
+						if	OperationType == 'UNITOPERATION_REMOVE_FEATURE' then
+							local tParameters = {}
+							tParameters.PlotIndex = pPlot:GetIndex()
+							tParameters.OnStart = 'FireflyRemoveFeature'
+							UI.RequestPlayerOperation(playerID, PlayerOperations.EXECUTE_SCRIPT, tParameters)
+						end
 					end
 				end
 			end
