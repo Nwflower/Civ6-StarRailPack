@@ -5,13 +5,14 @@
 insert or replace into Types
 (Type,														Kind)
 values
+('ABILITY_PEN_FIREFLY_SAMU2',								'KIND_ABILITY'),
 ('ABILITY_PEN_FIREFLY_SAMU1',								'KIND_ABILITY'),
 ('UNIT_PEN_FIREFLY_SAMU',									'KIND_UNIT');
 
 insert or replace into Units
 (UnitType,					            Name,						    	Description,			                	Cost,	BaseMoves,	BaseSightRange,		ZoneOfControl,		Domain,			Combat,	PrereqTech,				StrategicResource,	Maintenance,AntiAirCombat,	FormationClass,					PromotionClass,		AdvisorType,		PurchaseYield,		MustPurchase,	PseudoYieldType,CostProgressionModel,				CostProgressionParam1,	CanTrain,	UseMaxMeleeTrainedStrength,	CanRetreatWhenCaptured,CanEarnExperience,	BuildCharges,	TraitType)
 values
-('UNIT_PEN_FIREFLY_SAMU',				'LOC_UNIT_PEN_FIREFLY_SAMU_NAME',	'LOC_UNIT_PEN_FIREFLY_SAMU_DESCRIPTION',	240,	2,			2,					1,					'DOMAIN_LAND',	20,		null,					null,				2,			90,				'FORMATION_CLASS_LAND_COMBAT',	null,				'ADVISOR_GENERIC',	'YIELD_FAITH',		0,				null,			'COST_PROGRESSION_PREVIOUS_COPIES',	40,						0,			0,							0,						0,					1,				'TRAIT_CIVILIZATION_UNIT_PEN_GLAMOTH_CAVALRY');
+('UNIT_PEN_FIREFLY_SAMU',				'LOC_UNIT_PEN_FIREFLY_SAMU_NAME',	'LOC_UNIT_PEN_FIREFLY_SAMU_DESCRIPTION',	240,	2,			2,					1,					'DOMAIN_LAND',	20,		null,					null,				2,			90,				'FORMATION_CLASS_LAND_COMBAT',	null,				'ADVISOR_GENERIC',	'YIELD_FAITH',		0,				null,			'COST_PROGRESSION_PREVIOUS_COPIES',	40,						0,			0,							0,						0,					0,				'TRAIT_CIVILIZATION_UNIT_PEN_GLAMOTH_CAVALRY');
 
 insert or replace into UnitAiInfos	(UnitType,AiType)
 Select 'UNIT_PEN_FIREFLY_SAMU',AiType
@@ -35,11 +36,13 @@ values
 insert or replace into UnitAbilities
 (UnitAbilityType,											Name,													Description,													Inactive)
 values
+('ABILITY_PEN_FIREFLY_SAMU2',								null,													null,															1),
 ('ABILITY_PEN_FIREFLY_SAMU1',								'LOC_ABILITY_PEN_FIREFLY_SAMU1_NAME',					'LOC_ABILITY_PEN_FIREFLY_SAMU1_DESCRIPTION',					0);
 
 insert or replace into UnitAbilityModifiers
 (UnitAbilityType,											ModifierId)
 values
+('ABILITY_PEN_FIREFLY_SAMU2',								'PEN_FIREFLY_UNIT_SUM_BUILD_CHARGE'),
 ('ABILITY_PEN_FIREFLY_SAMU1',								'PEN_FIREFLY_SAMU_STRENGTH_FROM_SPACEPORT'),
 ('ABILITY_PEN_FIREFLY_SAMU1',								'PEN_FIREFLY_SAMU_STRENGTH_FROM_MILITARY_ACADEMY'),
 ('ABILITY_PEN_FIREFLY_SAMU1',								'PEN_FIREFLY_SAMU_STRENGTH_FROM_ARMORY'),
@@ -51,6 +54,7 @@ values
 insert or replace into Modifiers
 (ModifierId,										ModifierType,												OwnerRequirementSetId,				SubjectRequirementSetId)
 values
+('PEN_FIREFLY_UNIT_SUM_BUILD_CHARGE',				'MODIFIER_UNIT_ADJUST_BUILDER_CHARGES',						null,								null),
 ('PEN_FIREFLY_SAMU_STRENGTH_FROM_SPACEPORT',		'MODIFIER_UNIT_ADJUST_PROPERTY',							'PEN_FIREFLY_HAS_SPACEPORT',		null),
 ('PEN_FIREFLY_SAMU_STRENGTH_FROM_MILITARY_ACADEMY',	'MODIFIER_UNIT_ADJUST_PROPERTY',							'PEN_FIREFLY_HAS_MILITARY_ACADEMY',	null),
 ('PEN_FIREFLY_SAMU_STRENGTH_FROM_ARMORY',			'MODIFIER_UNIT_ADJUST_PROPERTY',							'PEN_FIREFLY_HAS_ARMORY',			null),
@@ -63,6 +67,7 @@ values
 insert or replace into ModifierArguments
 (ModifierId,										Name,						value)
 values
+('PEN_FIREFLY_UNIT_SUM_BUILD_CHARGE',				'Amount',					'1'),
 ('PEN_FIREFLY_SAMU_STRENGTH_FROM_SPACEPORT',		'Key',						'PEN_FIREFLY_SAMU_STRENGTH_GROWTH'),
 ('PEN_FIREFLY_SAMU_STRENGTH_FROM_SPACEPORT',		'Amount',					'30'),
 ('PEN_FIREFLY_SAMU_STRENGTH_FROM_MILITARY_ACADEMY',	'Key',						'PEN_FIREFLY_SAMU_STRENGTH_GROWTH'),
@@ -92,8 +97,7 @@ insert or replace into TypeTags
 values
 ('UNIT_PEN_FIREFLY_SAMU',					'CLASS_MELEE'),
 ('ABILITY_PEN_FIREFLY_SAMU1',				'CLASS_PEN_FIREFLY_SAMU'),
---('ABILITY_PEN_FIREFLY_SAMU2',				'CLASS_PEN_FIREFLY_SAMU'),
---('ABILITY_PEN_FIREFLY_SAMU3',				'CLASS_PEN_FIREFLY_SAMU'),
+('ABILITY_PEN_FIREFLY_SAMU2',				'CLASS_PEN_FIREFLY_SAMU'),
 ('ABILITY_UNIT_FIGHT_WHILE_EMBARKED',		'CLASS_PEN_FIREFLY_SAMU'),
 ('UNIT_PEN_FIREFLY_SAMU',					'CLASS_PEN_FIREFLY_SAMU');
 /*
