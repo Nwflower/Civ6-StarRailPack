@@ -455,10 +455,11 @@ INSERT INTO MutuallyExclusiveDistricts(District, MutuallyExclusiveDistrict) VALU
 --================
 UPDATE Districts
 SET PrereqTech            = 'TECH_ASTRONOMY',
-    Cost                  = 54,
+    Cost                  = 108,
     CostProgressionModel='COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH',
-    CostProgressionParam1 = 40
+    CostProgressionParam1 = 80
 WHERE DistrictType = 'DISTRICT_AQUILA';
+
 -- 所有单位在城市中驻扎一回合即可恢复全额生命值。
 INSERT INTO TraitModifiers (TraitType, ModifierId)
 VALUES ('TRAIT_DISTRICT_AQUILA', 'MODIFIER_DISTRICT_AQUILA_HEAL_PER_TURN');

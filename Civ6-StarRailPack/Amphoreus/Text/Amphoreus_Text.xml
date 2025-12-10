@@ -129,7 +129,7 @@
 			<Text>「天空」</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_NW_HYACINTHIA_AQUILA_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>剩余生命值不足40的单位在回合结束时回复等同于驻扎一回合的生命值（即使是攻击或移动后）。</Text>
+			<Text>陆地单位在回合结束时回复等同于驻扎一回合的生命值（即使是攻击或移动后）。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_NW_CIFERA_ZAGREUS_NAME" Language="zh_Hans_CN">
 			<Text>「诡计」</Text>
@@ -234,7 +234,7 @@
 			<Text>疗愈之庭</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_AQUILA_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>风堇的特色区域，替代宇航中心、解锁更早、建造费用极低。所有单位在城市中驻扎一回合即可恢复全额生命值。城市执行项目时+20% [ICON_PRODUCTION] 生产力。</Text>
+			<Text>风堇的特色区域，替代宇航中心、解锁更早、建造费用更低。所有单位在城市中驻扎一回合即可恢复全额生命值。城市执行项目时+20% [ICON_PRODUCTION] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_ZAGREUS_NAME" Language="zh_Hans_CN">
 			<Text>云石市集</Text>
