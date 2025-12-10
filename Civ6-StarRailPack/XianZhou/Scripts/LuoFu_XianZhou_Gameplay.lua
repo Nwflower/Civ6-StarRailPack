@@ -145,17 +145,25 @@ end
 
 function XianZhouCityPopulationChanged(playerID, cityID, ChangeAmount)
 	local pPlayer = Players[playerID];
-	--判断是镜流
-	if pPlayer:GetProperty('XIANZHOU_LEADER_QUEST_PER_POPULATION_GROW') == nil or pPlayer:GetProperty('XIANZHOU_LEADER_QUEST_PER_POPULATION_GROW') == 0 then
-		return;
-	end
 	local pCity = CityManager.GetCity(playerID, cityID);
-	if pCity then
-		local CityPlot = Map.GetPlot(pCity:GetX(), pCity:GetY());
-		if ChangeAmount > 0 then
-			local pGameEra = Game.GetEras()
-			local ReduceEraScore = pPlayer:GetProperty('XIANZHOU_LEADER_QUEST_PER_POPULATION_GROW')
-			pGameEra:ChangePlayerEraScore(playerID, ReduceEraScore)--减少时代分
+	--判断是镜流
+	if pPlayer:GetProperty('XIANZHOU_LEADER_QUEST_PER_POPULATION_GROW') ~= nil and pPlayer:GetProperty('XIANZHOU_LEADER_QUEST_PER_POPULATION_GROW') > 0 then
+		
+		if pCity then
+			local CityPlot = Map.GetPlot(pCity:GetX(), pCity:GetY());
+			if ChangeAmount > 0 then
+				local pGameEra = Game.GetEras()
+				local ReduceEraScore = pPlayer:GetProperty('XIANZHOU_LEADER_QUEST_PER_POPULATION_GROW')
+				pGameEra:ChangePlayerEraScore(playerID, ReduceEraScore)--减少时代分
+			end
+		end
+	end
+	--判断是景元
+	if	pPlayer:GetProperty('XIANZHOU_POPULATION_GRANT_GENERAL_PROPERTY') ~= nil and pPlayer:GetProperty('XIANZHOU_POPULATION_GRANT_GENERAL_PROPERTY') > 0 then
+		if	pCity:GetPopulation() >= 10 then
+			pPlayer:AttachModifierByID('XIANZHOU_POPULATION_GRANT_GENERAL_MODIFIER')
+			pPlayer:SetProperty('XIANZHOU_POPULATION_GRANT_GENERAL_PROPERTY',0)
+			print("XianZhou Grant General",pPlayer:GetProperty('XIANZHOU_POPULATION_GRANT_GENERAL_PROPERTY'))
 		end
 	end
 end
