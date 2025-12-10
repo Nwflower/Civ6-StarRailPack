@@ -288,7 +288,7 @@
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_PEN_FIREFLY_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>
-				建立城市或使用格拉默铁骑[ICON_CHARGES]移除地貌时，若城市陆地单元格无地貌，则覆盖为火山土地貌。[NEWLINE]每座城市首次通过“泰坦妮娅之梦”获得的格拉默铁骑可以移除一处地貌。
+				建立城市或使用格拉默铁骑[ICON_CHARGES]移除地貌时，若城市陆地单元格无地貌，则覆盖为火山土地貌。[NEWLINE]允许格拉默铁骑移除一处地貌。
 			</Text>
 		</Replace>
 

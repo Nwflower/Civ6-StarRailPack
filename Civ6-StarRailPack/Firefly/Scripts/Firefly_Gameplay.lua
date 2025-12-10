@@ -66,10 +66,10 @@ function FireflyProjectCompleted(playerID:number, cityID:number, projectIndex, b
 			if PopNum >= 0 then--防止城市人口掉为负数
 				for i = 0,PopNum do--执行多次
 					local newUnit = UnitManager.InitUnit(playerID, FireflySum, pCity:GetX(), pCity:GetY())
-					if	pCity:GetProperty("IsFirstSum") == nil or pCity:GetProperty("IsFirstSum") < 1 then
-						newUnit:GetAbility():ChangeAbilityCount('ABILITY_PEN_FIREFLY_SAMU2', 1)
-						pCity:SetProperty("IsFirstSum",pCity:GetProperty("IsFirstSum") or 0 + 1)
-					end
+					-- if	pCity:GetProperty("IsFirstSum") == nil or pCity:GetProperty("IsFirstSum") < 1 then
+						-- newUnit:GetAbility():ChangeAbilityCount('ABILITY_PEN_FIREFLY_SAMU2', 1)
+						-- pCity:SetProperty("IsFirstSum",pCity:GetProperty("IsFirstSum") or 0 + 1)
+					-- end
 				end
 				pCity:ChangePopulation(-1);
 			end
