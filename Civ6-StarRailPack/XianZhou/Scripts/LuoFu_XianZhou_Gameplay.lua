@@ -10,8 +10,9 @@ function XianZhouInitilize ()
 	GameEvents.XianZhouSetDivinationPoint.Add(XianZhouSetDivinationPoint)
 	GameEvents.DivinationPointToProduction.Add(DivinationPointToProduction)
 	GameEvents.DivinationPointToProductionLater.Add(DivinationPointToProductionLater)
-
-	Events.GameEraChanged.Add(XianZhouGameEraChanged)
+	
+	GameEvents.XianZhouUnlockPolicy.Add(XianZhouUnlockPolicy)
+	
 	GameEvents.OnCityPopulationChanged.Add(XianZhouCityPopulationChanged)
 end
 
@@ -125,20 +126,18 @@ function DivinationPointToProductionLater(playerID, params)
 end
 
 --JingLiu
-function XianZhouGameEraChanged(previousEraIndex, newEraIndex)
-	local pAllPlayerIDs : table = PlayerManager.GetAliveIDs()
-	for	k, iPlayerID in ipairs(pAllPlayerIDs) do
-		local pPlayer = Players[iPlayerID]
-		if pPlayer:GetProperty('XIANZHOU_CAN_SLOT_GOLDEN_POLICIES') == nil or pPlayer:GetProperty('XIANZHOU_CAN_SLOT_GOLDEN_POLICIES') == 0 then
-			return;
-		end
-		if	pPlayer:GetProperty('XianZhouHasUnlockPolicies') == nil then
-				for row in GameInfo.CommemorationTypes() do 
-					local pPlayerCulture = pPlayer:GetCulture()
-					pPlayerCulture:UnlockPolicy(GameInfo.Policies['POLICY_XIANZHOU_'..row.CommemorationType].Index); --解锁政策卡
-				end
-			pPlayer:SetProperty('XianZhouHasUnlockPolicies',1)
-		end
+function XianZhouUnlockPolicy(playerID, params)
+	local pPlayer = Players[playerID]
+	if pPlayer:GetProperty('XIANZHOU_CAN_SLOT_GOLDEN_POLICIES') == nil or pPlayer:GetProperty('XIANZHOU_CAN_SLOT_GOLDEN_POLICIES') == 0 then
+		return;
+	end
+	if	pPlayer:GetProperty('XianZhouHasUnlockPolicies') == nil then
+			for row in GameInfo.CommemorationTypes() do 
+				local pPlayerCulture = pPlayer:GetCulture()
+				pPlayerCulture:UnlockPolicy(GameInfo.Policies['POLICY_XIANZHOU_'..row.CommemorationType].Index); --解锁政策卡
+			end
+		print('XianZhouUnlockPolicy')
+		pPlayer:SetProperty('XianZhouHasUnlockPolicies',1)
 	end
 end
 
