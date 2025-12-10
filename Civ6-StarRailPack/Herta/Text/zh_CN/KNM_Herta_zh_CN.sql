@@ -11,13 +11,13 @@ VALUES	('zh_Hans_CN',	'LOC_PROMOTION_KNM_HERTA_PUPPET_1_NAME',							'支援舱�
 		('zh_Hans_CN',	'LOC_PROMOTION_KNM_HERTA_PUPPET_1_FOOD_PRODUCTION_DESCRIPTION',		'位于市中心时，城市+1 [ICON_Food] 食物。'),
 
 		('zh_Hans_CN',	'LOC_PROMOTION_KNM_HERTA_PUPPET_2_NAME',							'收容舱段'),
-		('zh_Hans_CN',	'LOC_PROMOTION_KNM_HERTA_PUPPET_2_MERCHANT_PROPHET_DESCRIPTION',	'位于市中心时，城市每回合+1 [ICON_GreatProphet] 大预言家点数。'),
+		('zh_Hans_CN',	'LOC_PROMOTION_KNM_HERTA_PUPPET_2_MERCHANT_PROPHET_DESCRIPTION',	'位于市中心时，城市每回合+1 [ICON_GreatMerchant] 大商人点数。'),
 		('zh_Hans_CN',	'LOC_PROMOTION_KNM_HERTA_PUPPET_2_SCIENTIST_DESCRIPTION',			'位于市中心时，城市每回合+1 [ICON_GreatScientist] 大科学家点数。'),
 		('zh_Hans_CN',	'LOC_PROMOTION_KNM_HERTA_PUPPET_2_WRITER_ARTIST_DESCRIPTION',		'位于市中心时，城市每回合+1 [ICON_GreatWriter] 大作家点数'),
 
 		('zh_Hans_CN',	'LOC_PROMOTION_KNM_HERTA_PUPPET_3_NAME',							'基座舱段'),
-		('zh_Hans_CN',	'LOC_PROMOTION_KNM_HERTA_PUPPET_3_FAITH_GOLD_DESCRIPTION',			'位于市中心时，城市+5% [ICON_Faith] 信仰。'),
-		('zh_Hans_CN',	'LOC_PROMOTION_KNM_HERTA_PUPPET_3_SCIENCE_DESCRIPTION',				'位于市中心时，城市+5% [ICON_Science] 科技。'),
+		('zh_Hans_CN',	'LOC_PROMOTION_KNM_HERTA_PUPPET_3_FAITH_GOLD_DESCRIPTION',			'位于市中心时，城市+7% [ICON_Gold] 金币。'),
+		('zh_Hans_CN',	'LOC_PROMOTION_KNM_HERTA_PUPPET_3_SCIENCE_DESCRIPTION',				'位于市中心时，城市+6% [ICON_Science] 科技。'),
 		('zh_Hans_CN',	'LOC_PROMOTION_KNM_HERTA_PUPPET_3_CULTURE_DESCRIPTION',				'位于市中心时，城市+5% [ICON_Culture] 文化。'),
 
 		('zh_Hans_CN',	'LOC_UNIT_KNM_HERTA_PURCHASE_TECH',									'是否花费{1_Num} [ICON_Gold] 金币解锁{2_Str}？'),
