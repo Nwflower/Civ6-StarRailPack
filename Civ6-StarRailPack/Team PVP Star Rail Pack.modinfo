@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<Mod id="DF0E3C1A-E572-1868-FBE9-C58E0671151F" version="V1.06">
+<Mod id="DF0E3C1A-E572-1868-FBE9-C58E0671151F" version="1.07">
 	<Properties>
-		<Name>Team PVP [COLOR:ResCultureLabelCS]次元破壁：星穹铁道[ENDCOLOR] V1.06</Name>
+		<Name>Team PVP [COLOR:ResCultureLabelCS]次元破壁：星穹铁道[ENDCOLOR] 1.07</Name>
 		<Description>这是以崩坏：星穹铁道世界观为背景的文明6模组整合包。</Description>
 		<Teaser>愿此行，终抵群星</Teaser>
 		<Authors>Pen, Pen，夏凉凉凉，夕墨岚, 千川白浪, 榊野木乃实，Kotomi，PhantomJ_M</Authors>
@@ -118,16 +118,16 @@
 			<File>Herta/Config/Herta_Colors.xml</File>
 		</UpdateColors>
 		<UpdateDatabase id="Penacony_UpdateDatabase_FE">
-			<File priority="10000">Penacony/Database/Penacony_Config.xml</File>
+			<File>Penacony/Database/Penacony_Config.xml</File>
 		</UpdateDatabase>
 		<UpdateColors id="Penacony_UpdateColors_FE">
 			<File>Penacony/Database/Penacony_Color.xml</File>
 		</UpdateColors>
 		<UpdateIcons id="Penacony_UpdateIcons_FE">
-			<File priority="9999">Penacony/Database/Penacony_Icons.xml</File>
+			<File>Penacony/Database/Penacony_Icons.xml</File>
 		</UpdateIcons>
 		<UpdateText id="Penacony_UpdateText_FE">
-			<File priority="10001">Penacony/Text/Penacony_Text_zh_Hans_CN.xml</File>
+			<File>Penacony/Text/Penacony_Text_zh_Hans_CN.xml</File>
 		</UpdateText>
 		<UpdateArt id="Penacony_UpdateArt_FE">
 			<File>Penacony/【崩坏：星穹铁道】匹诺康尼文明包.dep</File>
@@ -365,6 +365,9 @@
 			<Criteria>LeaderCriteria</Criteria>
 		</ReplaceUIScript>
 		<UpdateDatabase id="Penacony_UpdateDatabase">
+			<Properties>
+				<LoadOrder>415000</LoadOrder>
+			</Properties>
 			<File>Penacony/Database/Penacony_Civilization.sql</File>
 			<File>Penacony/Database/Penacony_Buildings.sql</File>
 			<File>Penacony/Database/Penacony_Leader.sql</File>
@@ -377,26 +380,42 @@
 			<File>Penacony/Database/Penacony_GreatWorks.sql</File>
 		</UpdateDatabase>
 		<UpdateColors id="Penacony_UpdateColors">
+			<Properties>
+				<LoadOrder>415000</LoadOrder>
+			</Properties>
 			<File>Penacony/Database/Penacony_Color.xml</File>
 		</UpdateColors>
 		<UpdateIcons id="Penacony_UpdateIcons">
-			<File priority="9999">Penacony/Database/Penacony_Icons.xml</File>
+			<Properties>
+				<LoadOrder>415000</LoadOrder>
+			</Properties>
+			<File>Penacony/Database/Penacony_Icons.xml</File>
 		</UpdateIcons>
 		<UpdateText id="Penacony_UpdateText">
-			<File priority="10000">Penacony/Text/Penacony_Text_zh_Hans_CN.xml</File>
+			<Properties>
+				<LoadOrder>415000</LoadOrder>
+			</Properties>
+			<File>Penacony/Text/Penacony_Text_zh_Hans_CN.xml</File>
 		</UpdateText>
 		<UpdateArt id="Penacony_UpdateArt">
+			<Properties>
+				<LoadOrder>415000</LoadOrder>
+			</Properties>
 			<File>Penacony/【崩坏：星穹铁道】匹诺康尼文明包.dep</File>
 		</UpdateArt>
 		<AddGameplayScripts id="Penacony_AddGameplayScripts">
+			<Properties>
+				<LoadOrder>415000</LoadOrder>
+			</Properties>
 			<File>Penacony/Script/Penacony_Script.lua</File>
 		</AddGameplayScripts>
-		<AddUserInterfaces id="Penacony_UIxml">
+		<ReplaceUIScript id="Penacony_UIxml">
 			<Properties>
-				<Context>InGame</Context>
+				<LoadOrder>4150000</LoadOrder>
+				<LuaContext>SelectedUnit</LuaContext>
+				<LuaReplace>Penacony/UI/Penacony_SelectedUnit.lua</LuaReplace>
 			</Properties>
-			<File>Penacony/UI/PenaconyUiScript.xml</File>
-		</AddUserInterfaces>
+		</ReplaceUIScript>
 		<UpdateAudio id="UpdateAudio">
 			<Properties>
 				<LoadOrder>5101</LoadOrder>
@@ -632,8 +651,7 @@
 		<File>Penacony/Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
 		<File>Penacony/Script/Penacony_Script.lua</File>
 		<File>Penacony/Text/Penacony_Text_zh_Hans_CN.xml</File>
-		<File>Penacony/UI/PenaconyUiScript.lua</File>
-		<File>Penacony/UI/PenaconyUiScript.xml</File>
+		<File>Penacony/UI/Penacony_SelectedUnit.lua</File>
 		<File>Penacony/【崩坏：星穹铁道】匹诺康尼文明包.dep</File>
 		<File>Platforms/Platforms/Windows/audio/240381163.wem</File>
 		<File>Platforms/Platforms/Windows/audio/371590529.wem</File>

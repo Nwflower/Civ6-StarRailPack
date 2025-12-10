@@ -1,96 +1,114 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mod id="B2A52249-C7C4-6932-1B74-B6D325DC2086" version="1">
-  <Properties>
-    <Name>[COLOR:Civ6Yellow]【崩坏：星穹铁道】[ENDCOLOR]匹诺康尼文明包</Name>
-    <Description>添加了以星穹铁道世界观为背景的匹诺康尼文明。</Description>
-    <Created>1764405046</Created>
-    <Teaser>星穹铁道：匹诺康尼</Teaser>
-    <Authors>千川白浪</Authors>
-    <SpecialThanks>SiQi,HSbF6HSO3F,Ophidy,Yuni,Anqing,World·Dream</SpecialThanks>
-    <CompatibleVersions>1.2,2.0</CompatibleVersions>
-  </Properties>
-  <Dependencies>
-    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
-    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
-  </Dependencies>
-  <FrontEndActions>
-    <UpdateDatabase id="Penacony_UpdateDatabase_FE">
-      <File priority="10000">Database/Penacony_Config.xml</File>
-    </UpdateDatabase>
-    <UpdateColors id="Penacony_UpdateColors_FE">
-      <File>Database/Penacony_Color.xml</File>
-    </UpdateColors>
-    <UpdateIcons id="Penacony_UpdateIcons_FE">
-      <File priority="9999">Database/Penacony_Icons.xml</File>
-    </UpdateIcons>
-    <UpdateText id="Penacony_UpdateText_FE">
-      <File priority="10001">Text/Penacony_Text_zh_Hans_CN.xml</File>
-    </UpdateText>
-    <UpdateArt id="Penacony_UpdateArt_FE">
-      <File>【崩坏：星穹铁道】匹诺康尼文明包.dep</File>
-    </UpdateArt>
-  </FrontEndActions>
-  <InGameActions>
-    <UpdateDatabase id="Penacony_UpdateDatabase">
-      <File>Database/Penacony_Civilization.sql</File>
-      <File>Database/Penacony_Buildings.sql</File>
-      <File>Database/Penacony_Leader.sql</File>
-      <File>Database/Penacony_Unit.sql</File>
-      <File>Database/Penacony_Projects.sql</File>
-      <File>Database/Penacony_Improvement.sql</File>
-      <File>Database/Penacony_Resources.sql</File>
-      <File>Database/Penacony_Modifier.sql</File>
-      <File>Database/Penacony_GreatPeople.sql</File>
-      <File>Database/Penacony_GreatWorks.sql</File>
-    </UpdateDatabase>
-    <UpdateColors id="Penacony_UpdateColors">
-      <File>Database/Penacony_Color.xml</File>
-    </UpdateColors>
-    <UpdateIcons id="Penacony_UpdateIcons">
-      <File priority="9999">Database/Penacony_Icons.xml</File>
-    </UpdateIcons>
-    <UpdateText id="Penacony_UpdateText">
-      <File priority="10000">Text/Penacony_Text_zh_Hans_CN.xml</File>
-    </UpdateText>
-    <UpdateArt id="Penacony_UpdateArt">
-      <File>【崩坏：星穹铁道】匹诺康尼文明包.dep</File>
-    </UpdateArt>
-    <AddGameplayScripts id="Penacony_AddGameplayScripts">
-      <File>Script/Penacony_Script.lua</File>
-    </AddGameplayScripts>
-    <AddUserInterfaces id="Penacony_UIxml">
-      <Properties>
-        <Context>InGame</Context>
-      </Properties>
-      <File>UI/PenaconyUiScript.xml</File>
-    </AddUserInterfaces>
-  </InGameActions>
-  <Files>
-    <File>ArtDefs/Civilizations.artdef</File>
-    <File>ArtDefs/FallbackLeaders.artdef</File>
-    <File>ArtDefs/Improvements.artdef</File>
-    <File>ArtDefs/Units.artdef</File>
-    <File>Civilization_Penacony.Art.xml</File>
-    <File>Database/Penacony_Buildings.sql</File>
-    <File>Database/Penacony_Civilization.sql</File>
-    <File>Database/Penacony_Color.xml</File>
-    <File>Database/Penacony_Config.xml</File>
-    <File>Database/Penacony_GreatPeople.sql</File>
-    <File>Database/Penacony_GreatWorks.sql</File>
-    <File>Database/Penacony_HD.sql</File>
-    <File>Database/Penacony_Icons.xml</File>
-    <File>Database/Penacony_Improvement.sql</File>
-    <File>Database/Penacony_Leader.sql</File>
-    <File>Database/Penacony_Modifier.sql</File>
-    <File>Database/Penacony_Projects.sql</File>
-    <File>Database/Penacony_Resources.sql</File>
-    <File>Database/Penacony_Unit.sql</File>
-    <File>Platforms/Windows/BLPs/ICON_CIVILIZATION_NW_PENACONY.blp</File>
-    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
-    <File>Script/Penacony_Script.lua</File>
-    <File>Text/Penacony_Text_zh_Hans_CN.xml</File>
-    <File>UI/PenaconyUiScript.lua</File>
-    <File>UI/PenaconyUiScript.xml</File>
-    <File>【崩坏：星穹铁道】匹诺康尼文明包.dep</File>
-  </Files>
+    <Properties>
+        <Name>[COLOR:Civ6Yellow]【崩坏：星穹铁道】[ENDCOLOR]匹诺康尼文明包</Name>
+        <Description>添加了以星穹铁道世界观为背景的匹诺康尼文明。</Description>
+        <Created>1764405046</Created>
+        <Teaser>星穹铁道：匹诺康尼</Teaser>
+        <Authors>千川白浪</Authors>
+        <SpecialThanks>SiQi,HSbF6HSO3F,Ophidy,Yuni,Anqing,World·Dream</SpecialThanks>
+        <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    </Properties>
+    <Dependencies>
+        <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm"/>
+        <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall"/>
+    </Dependencies>
+    <FrontEndActions>
+        <UpdateDatabase id="Penacony_UpdateDatabase_FE">
+            <File>Database/Penacony_Config.xml</File>
+        </UpdateDatabase>
+        <UpdateColors id="Penacony_UpdateColors_FE">
+            <File>Database/Penacony_Color.xml</File>
+        </UpdateColors>
+        <UpdateIcons id="Penacony_UpdateIcons_FE">
+            <File>Database/Penacony_Icons.xml</File>
+        </UpdateIcons>
+        <UpdateText id="Penacony_UpdateText_FE">
+            <File>Text/Penacony_Text_zh_Hans_CN.xml</File>
+        </UpdateText>
+        <UpdateArt id="Penacony_UpdateArt_FE">
+            <File>【崩坏：星穹铁道】匹诺康尼文明包.dep</File>
+        </UpdateArt>
+    </FrontEndActions>
+    <InGameActions>
+        <UpdateDatabase id="Penacony_UpdateDatabase">
+            <Properties>
+                <LoadOrder>15000</LoadOrder>
+            </Properties>
+            <File>Database/Penacony_Civilization.sql</File>
+            <File>Database/Penacony_Buildings.sql</File>
+            <File>Database/Penacony_Leader.sql</File>
+            <File>Database/Penacony_Unit.sql</File>
+            <File>Database/Penacony_Projects.sql</File>
+            <File>Database/Penacony_Improvement.sql</File>
+            <File>Database/Penacony_Resources.sql</File>
+            <File>Database/Penacony_Modifier.sql</File>
+            <File>Database/Penacony_GreatPeople.sql</File>
+            <File>Database/Penacony_GreatWorks.sql</File>
+        </UpdateDatabase>
+        <UpdateColors id="Penacony_UpdateColors">
+            <Properties>
+                <LoadOrder>15000</LoadOrder>
+            </Properties>
+            <File>Database/Penacony_Color.xml</File>
+        </UpdateColors>
+        <UpdateIcons id="Penacony_UpdateIcons">
+            <Properties>
+                <LoadOrder>15000</LoadOrder>
+            </Properties>
+            <File>Database/Penacony_Icons.xml</File>
+        </UpdateIcons>
+        <UpdateText id="Penacony_UpdateText">
+            <Properties>
+                <LoadOrder>15000</LoadOrder>
+            </Properties>
+            <File>Text/Penacony_Text_zh_Hans_CN.xml</File>
+        </UpdateText>
+        <UpdateArt id="Penacony_UpdateArt">
+            <Properties>
+                <LoadOrder>15000</LoadOrder>
+            </Properties>
+            <File>【崩坏：星穹铁道】匹诺康尼文明包.dep</File>
+        </UpdateArt>
+        <AddGameplayScripts id="Penacony_AddGameplayScripts">
+            <Properties>
+                <LoadOrder>15000</LoadOrder>
+            </Properties>
+            <File>Script/Penacony_Script.lua</File>
+        </AddGameplayScripts>
+        <ReplaceUIScript id="Penacony_UIxml">
+            <Properties>
+                <LoadOrder>150000</LoadOrder>
+                <LuaContext>SelectedUnit</LuaContext>
+                <LuaReplace>UI/Penacony_SelectedUnit.lua</LuaReplace>
+            </Properties>
+        </ReplaceUIScript>
+    </InGameActions>
+    <Files>
+        <File>ArtDefs/Civilizations.artdef</File>
+        <File>ArtDefs/FallbackLeaders.artdef</File>
+        <File>ArtDefs/Improvements.artdef</File>
+        <File>ArtDefs/Units.artdef</File>
+        <File>Civilization_Penacony.Art.xml</File>
+        <File>Database/Penacony_Buildings.sql</File>
+        <File>Database/Penacony_Civilization.sql</File>
+        <File>Database/Penacony_Color.xml</File>
+        <File>Database/Penacony_Config.xml</File>
+        <File>Database/Penacony_GreatPeople.sql</File>
+        <File>Database/Penacony_GreatWorks.sql</File>
+        <File>Database/Penacony_HD.sql</File>
+        <File>Database/Penacony_Icons.xml</File>
+        <File>Database/Penacony_Improvement.sql</File>
+        <File>Database/Penacony_Leader.sql</File>
+        <File>Database/Penacony_Modifier.sql</File>
+        <File>Database/Penacony_Projects.sql</File>
+        <File>Database/Penacony_Resources.sql</File>
+        <File>Database/Penacony_Unit.sql</File>
+        <File>Platforms/Windows/BLPs/ICON_CIVILIZATION_NW_PENACONY.blp</File>
+        <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+        <File>Script/Penacony_Script.lua</File>
+        <File>Text/Penacony_Text_zh_Hans_CN.xml</File>
+        <File>UI/Penacony_SelectedUnit.lua</File>
+        <File>【崩坏：星穹铁道】匹诺康尼文明包.dep</File>
+    </Files>
 </Mod>

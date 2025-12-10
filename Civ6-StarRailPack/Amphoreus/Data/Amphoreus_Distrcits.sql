@@ -519,7 +519,7 @@ INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, Ow
                        SubjectRequirementSetId)
 VALUES ('MODIFIER_DISTRICT_KEPHALE_GP', 'MODIFIER_PLAYER_ADJUST_GOVERNOR_POINTS', 0, 0, 0, NULL, NULL);
 INSERT INTO ModifierArguments (ModifierId, Name, Value)
-VALUES ('MODIFIER_DISTRICT_KEPHALE_GP', 'Delta', '1');
+VALUES ('MODIFIER_DISTRICT_KEPHALE_GP', 'Delta', 2);
 
 INSERT INTO DistrictModifiers (DistrictType, ModifierId) VALUES
 ('DISTRICT_KEPHALE', 'MODIFIER_DISTRICT_KEPHALE_INFLUENCE_POINTS_PER_TURN');
