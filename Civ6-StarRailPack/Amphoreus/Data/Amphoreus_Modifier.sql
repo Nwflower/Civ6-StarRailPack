@@ -398,56 +398,49 @@ SELECT 'MODIFIER_NW_' || DistrictType || '_ADD_YIELD_WITH_' || number || '_APPEA
        'TRAIT_LEADER_NW_AGLAEA_MNESTIA'
 FROM NW_TEMP_DISTRICT_YIELD,
      temp_APPEAL_numbers
-WHERE number <= 8
-  AND number % 2 = 0;
+WHERE number IN (2,3,4,6);
 
 INSERT OR IGNORE INTO Modifiers(ModifierId, ModifierType)
 SELECT 'MODIFIER_NW_' || DistrictType || '_ADD_YIELD_WITH_' || number || '_APPEAL',
        'MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_APPEAL'
 FROM NW_TEMP_DISTRICT_YIELD,
      temp_APPEAL_numbers
-WHERE number <= 8
-  AND number % 2 = 0;
+WHERE number IN (2,3,4,6);
 INSERT OR IGNORE INTO ModifierArguments(ModifierId, Name, Value)
 SELECT 'MODIFIER_NW_' || DistrictType || '_ADD_YIELD_WITH_' || number || '_APPEAL',
        'YieldType',
        YieldType
 FROM NW_TEMP_DISTRICT_YIELD,
      temp_APPEAL_numbers
-WHERE number <= 8
-  AND number % 2 = 0
+WHERE number IN (2,3,4,6)
 UNION
 SELECT 'MODIFIER_NW_' || DistrictType || '_ADD_YIELD_WITH_' || number || '_APPEAL',
        'YieldChange',
        1
 FROM NW_TEMP_DISTRICT_YIELD,
      temp_APPEAL_numbers
-WHERE number <= 8
-  AND number % 2 = 0
+WHERE number IN (2,3,4,6)
 UNION
 SELECT 'MODIFIER_NW_' || DistrictType || '_ADD_YIELD_WITH_' || number || '_APPEAL',
        'DistrictType',
        DistrictType
 FROM NW_TEMP_DISTRICT_YIELD,
      temp_APPEAL_numbers
-WHERE number <= 8
-  AND number % 2 = 0
+WHERE number IN (2,3,4,6)
 UNION
 SELECT 'MODIFIER_NW_' || DistrictType || '_ADD_YIELD_WITH_' || number || '_APPEAL',
        'RequiredAppeal',
        number
 FROM NW_TEMP_DISTRICT_YIELD,
      temp_APPEAL_numbers
-WHERE number <= 8
-  AND number % 2 = 0
+WHERE number IN (2,3,4,6)
 UNION
 SELECT 'MODIFIER_NW_' || DistrictType || '_ADD_YIELD_WITH_' || number || '_APPEAL',
        'Description',
        'LOC_Adjacency_DISTRICT_AGELAIYA_APPEAL_' || YieldType
 FROM NW_TEMP_DISTRICT_YIELD,
      temp_APPEAL_numbers
-WHERE number <= 8
-  AND number % 2 = 0;
+WHERE number IN (2,3,4,6);
 
 --================
 -- NAKEXIA
@@ -504,13 +497,24 @@ VALUES ('TRAIT_LEADER_NW_HYACINTHIA_AQUILA', 'MODIFIER_TRAIT_LEADER_NW_HYACINTHI
 INSERT OR IGNORE INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId,
                        SubjectRequirementSetId)
 VALUES ('MODIFIER_TRAIT_LEADER_NW_HYACINTHIA_AQUILA_GRANT_HEAL_AFTER_ACTION',
-        'MODIFIER_NW_PLAYER_UNITS_GRANT_HEAL_AFTER_ACTION', 0, 0, 0, NULL, NULL);
+        'MODIFIER_NW_PLAYER_UNITS_GRANT_HEAL_AFTER_ACTION', 0, 0, 0, NULL, 'REQS_NW_AM_UNIT_DAMAGE_LESS_40');
 -- Custom ModifierType
 INSERT OR IGNORE INTO Types (Type, Kind)
 VALUES ('MODIFIER_NW_PLAYER_UNITS_GRANT_HEAL_AFTER_ACTION', 'KIND_MODIFIER');
 INSERT OR IGNORE INTO DynamicModifiers (ModifierType, CollectionType, EffectType)
 VALUES ('MODIFIER_NW_PLAYER_UNITS_GRANT_HEAL_AFTER_ACTION', 'COLLECTION_PLAYER_UNITS',
         'EFFECT_GRANT_HEAL_AFTER_ACTION');
+
+-- RequirementSets
+INSERT INTO RequirementSets (RequirementSetId, RequirementSetType) VALUES
+('REQS_NW_AM_UNIT_DAMAGE_LESS_40', 'REQUIREMENTSET_TEST_ALL');
+INSERT INTO RequirementSetRequirements (RequirementSetId, RequirementId) VALUES
+('REQS_NW_AM_UNIT_DAMAGE_LESS_40', 'REQ_NW_AM_UNIT_DAMAGE_LESS_40');
+-- Requirements
+INSERT INTO Requirements (RequirementId, RequirementType, Inverse) VALUES
+('REQ_NW_AM_UNIT_DAMAGE_LESS_40', 'REQUIREMENT_UNIT_DOMAIN_MATCHES', 1);
+INSERT INTO RequirementArguments (RequirementId, Name, Value) VALUES
+('REQ_NW_AM_UNIT_DAMAGE_LESS_40', 'UnitDomain', 'DOMAIN_LAND');
 
 --================
 -- TRAIT_LEADER_NW_CIFERA_ZAGREUS

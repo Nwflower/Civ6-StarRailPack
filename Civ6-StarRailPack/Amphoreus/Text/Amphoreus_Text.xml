@@ -111,7 +111,7 @@
 			<Text>「浪漫」</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_NW_AGLAEA_MNESTIA_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>专业化区域将获得等同于单元格魅力值50%的相邻加成，至多通过这种方式获得+4相邻加成。</Text>
+			<Text>基于单元格魅力值的75%，为专业化区域提供相邻加成（向下取整），至多通过这种方式获得+4相邻加成。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_NW_ANAXA_CERCES_NAME" Language="zh_Hans_CN">
 			<Text>「理性」</Text>
@@ -129,7 +129,7 @@
 			<Text>「天空」</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_NW_HYACINTHIA_AQUILA_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>所有单位在回合结束时强制回复生命值。</Text>
+			<Text>陆地单位在回合结束时回复等同于驻扎一回合的生命值（即使是攻击或移动后）。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_NW_CIFERA_ZAGREUS_NAME" Language="zh_Hans_CN">
 			<Text>「诡计」</Text>
@@ -147,7 +147,7 @@
 			<Text>「海洋」</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_NW_HELEKTRA_PHAGOUSA_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>游戏开始时位于海洋单元格中，初始便解锁“航海术”与“造船术”科技，同时拥有进入海洋单元格的能力。建立 [ICON_Capital] 首都时获得1个开拓者。</Text>
+			<Text>游戏开始时位于海洋单元格中，初始便解锁“航海术”与“造船术”科技，同时拥有进入海洋单元格的能力。确立 [ICON_Capital] 首都时获得1个开拓者。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_NW_CERYDRA_TALANTON_NAME" Language="zh_Hans_CN">
 			<Text>「律法」</Text>
@@ -228,13 +228,13 @@
 			<Text>龙骸古城</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_THANATOS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>遐蝶的特色区域，替代娱乐中心，建造费用更低。首次建成时解锁自然历史。建于 [ICON_Capital] 首都时，使城市可以训练一个考古学家，并提供3个 [ICON_GreatWork_Artifact] 文物槽位，通过这种方式训练考古学家时花费减半。无法建在拥有“水上乐园”的城市中。</Text>
+			<Text>遐蝶的特色区域，替代娱乐中心，建造费用更低。首次建成时解锁自然历史。首个建成龙骸古城的城市可以训练一个考古学家，并获得3个 [ICON_GreatWork_Artifact] 文物槽位，通过这种方式训练考古学家时花费减半。无法建在拥有“水上乐园”的城市中。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_AQUILA_NAME" Language="zh_Hans_CN">
 			<Text>疗愈之庭</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_AQUILA_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>风堇的特色区域，替代宇航中心、解锁更早、建造费用极低。所有单位在城市中驻扎一回合即可恢复全额生命值。城市执行项目时+20% [ICON_PRODUCTION] 生产力。</Text>
+			<Text>风堇的特色区域，替代宇航中心、解锁更早、建造费用更低。所有单位在城市中驻扎一回合即可恢复全额生命值。城市执行项目时+20% [ICON_PRODUCTION] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_ZAGREUS_NAME" Language="zh_Hans_CN">
 			<Text>云石市集</Text>
@@ -264,7 +264,7 @@
 			<Text>长梦宸扉</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_ORONYX_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>长夜月的特色区域，替代剧院广场、建造费用更低。为相邻单元格提供+3魅力值。从其他长梦宸扉获得标准相邻加成。产出等同于相邻加成的 [ICON_Tourism] 旅游业绩。</Text>
+			<Text>长夜月的特色区域，替代剧院广场、建造费用更低。为相邻单元格提供+3魅力值。从其他长梦宸扉获得标准相邻加成。产出等同于 [ICON_Culture] 文化值相邻加成的 [ICON_Tourism] 旅游业绩。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_GEORIOS_NAME" Language="zh_Hans_CN">
 			<Text>万壑岩心</Text>
