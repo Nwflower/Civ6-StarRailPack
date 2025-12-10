@@ -48,6 +48,11 @@ function IsJanusButtonActive(pUnit)
         if (not pDistrict) or pDistrict:GetOwner() ~= m_iCurrentPlayerID or pDistrict:IsComplete() ~= true or pDistrict:GetType() ~= GameInfo.Districts['DISTRICT_CITY_CENTER'].Index then
             return false
         end
+        -- 检查城市的原始拥有者
+        local pCity = CityManager.GetCityAt(pDistrict:GetX(), pDistrict:GetY())
+        if pCity:GetOriginalOwner() ~=m_iCurrentPlayerID then
+            return false
+        end
         if #GetTeleportTarget(pUnit) <= 0 then
             return false
         end
@@ -117,7 +122,8 @@ function GetTeleportTarget(pUnit)
     local result = {}
 	local sUnitFormationClass = GameInfo.Units[pUnit:GetType()].FormationClass
     for _,pCity in m_pCurrentPlayer:GetCities():Members() do
-        if pCity then
+        -- 检查城市的原始拥有者
+        if pCity and pCity:GetOriginalOwner() ==m_iCurrentPlayerID then
 			local pPlot = Map.GetPlot(pCity:GetX(), pCity:GetY());
 			local flag = false;
 			-- 海洋单位只能传送到沿海城市

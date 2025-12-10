@@ -229,7 +229,7 @@ INSERT INTO DistrictModifiers (DistrictType, ModifierId)
 VALUES ('DISTRICT_JANUS', 'MODIFIER_DISTRICT_JANUS_FAITH_PURCHASE');
 INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId,
                        SubjectRequirementSetId)
-VALUES ('MODIFIER_DISTRICT_JANUS_FAITH_PURCHASE', 'MODIFIER_CITY_ENABLE_BUILDING_FAITH_PURCHASE', 0, 0, 0, NULL, NULL);
+VALUES ('MODIFIER_DISTRICT_JANUS_FAITH_PURCHASE', 'MODIFIER_CITY_ENABLE_BUILDING_FAITH_PURCHASE', 0, 0, 0, 'NW_PLAYER_HAS_CIVIC_THEOLOGY', NULL);
 INSERT INTO ModifierArguments (ModifierId, Name, Value)
 VALUES ('MODIFIER_DISTRICT_JANUS_FAITH_PURCHASE', 'DistrictType', 'DISTRICT_HOLY_SITE');
 
@@ -335,16 +335,16 @@ WHERE BuildingType = 'BUILDING_MUSEUM_ARTIFACT';
 INSERT INTO Unit_BuildingPrereqs(Unit, PrereqBuilding, NumSupported)
 VALUES ('UNIT_ARCHAEOLOGIST_THANATOS', 'BUILDING_DISTRICT_THANATOS', 1);
 
-INSERT INTO BuildingModifiers (BuildingType, ModifierId)
-VALUES ('BUILDING_DISTRICT_THANATOS', 'MODIFIER_BUILDING_DISTRICT_THANATOS_FREE_UNIT_ARCHAEOLOGIST');
-INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId,
-                       SubjectRequirementSetId)
-VALUES ('MODIFIER_BUILDING_DISTRICT_THANATOS_FREE_UNIT_ARCHAEOLOGIST', 'MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY', 0, 0,
-        0, NULL, NULL);
-INSERT INTO ModifierArguments (ModifierId, Name, Value)
-VALUES ('MODIFIER_BUILDING_DISTRICT_THANATOS_FREE_UNIT_ARCHAEOLOGIST', 'AllowUniqueOverride', '1'),
-       ('MODIFIER_BUILDING_DISTRICT_THANATOS_FREE_UNIT_ARCHAEOLOGIST', 'Amount', '1'),
-       ('MODIFIER_BUILDING_DISTRICT_THANATOS_FREE_UNIT_ARCHAEOLOGIST', 'UnitType', 'UNIT_ARCHAEOLOGIST_THANATOS');
+-- INSERT INTO BuildingModifiers (BuildingType, ModifierId)
+-- VALUES ('BUILDING_DISTRICT_THANATOS', 'MODIFIER_BUILDING_DISTRICT_THANATOS_FREE_UNIT_ARCHAEOLOGIST');
+-- INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId,
+--                        SubjectRequirementSetId)
+-- VALUES ('MODIFIER_BUILDING_DISTRICT_THANATOS_FREE_UNIT_ARCHAEOLOGIST', 'MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY', 0, 0,
+--         0, NULL, NULL);
+-- INSERT INTO ModifierArguments (ModifierId, Name, Value)
+-- VALUES ('MODIFIER_BUILDING_DISTRICT_THANATOS_FREE_UNIT_ARCHAEOLOGIST', 'AllowUniqueOverride', '1'),
+--        ('MODIFIER_BUILDING_DISTRICT_THANATOS_FREE_UNIT_ARCHAEOLOGIST', 'Amount', '1'),
+--        ('MODIFIER_BUILDING_DISTRICT_THANATOS_FREE_UNIT_ARCHAEOLOGIST', 'UnitType', 'UNIT_ARCHAEOLOGIST_THANATOS');
 
 INSERT INTO Types(Type, Kind)
 VALUES ('UNIT_ARCHAEOLOGIST_THANATOS', 'KIND_UNIT');
@@ -385,7 +385,7 @@ SELECT 'UNIT_ARCHAEOLOGIST_THANATOS',                 -- 类型
        Bombard,                                       -- 轰炸力
        Domain,                                        -- 单位的海陆空类别。可用值：DOMAIN_LAND陆地单位，DOMAIN_SEA海上单位，DOMAIN_AIR空中单位。
        FormationClass,                                -- 单位的编队类别，指向UnitFormationClasses表的FormationClassType列。可用值：FORMATION_CLASS_CIVILIAN平民单位，FORMATION_CLASS_LAND_COMBAT陆地战斗单位，FORMATION_CLASS_NAVAL海上战斗单位，FORMATION_CLASS_SUPPORT支援单位，FORMATION_CLASS_AIR空中战斗单位。
-       Cost,                                          -- 生产力
+       Cost / 2,                                          -- 生产力
        PopulationCost,                                -- 消耗人口
        FoundCity,                                     -- 能否创建城市
        FoundReligion,                                 -- 能否创建宗教
@@ -499,7 +499,7 @@ INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, Ow
 VALUES ('MODIFIER_DISTRICT_ZAGREUS_UNIT_PURCHASE_COST', 'MODIFIER_NW_AM_SINGLE_CITY_ADJUST_UNIT_PURCHASE_COST', 0, 0, 0,
         NULL, NULL);
 INSERT INTO ModifierArguments (ModifierId, Name, Value)
-VALUES ('MODIFIER_DISTRICT_ZAGREUS_UNIT_PURCHASE_COST', 'Amount', '35'),
+VALUES ('MODIFIER_DISTRICT_ZAGREUS_UNIT_PURCHASE_COST', 'Amount', '30'),
        ('MODIFIER_DISTRICT_ZAGREUS_UNIT_PURCHASE_COST', 'UnitType', 'UNIT_TRADER');
 -- Custom ModifierType
 INSERT INTO Types (Type, Kind)
@@ -548,6 +548,14 @@ INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, Ow
 ('MODIFIER_DISTRICT_KEPHALE_INFLUENCE_POINTS_PER_TURN3', 'MODIFIER_PLAYER_ADJUST_INFLUENCE_POINTS_PER_TURN', 0, 0, 0, NULL, 'CITY_HAS_TIER_3_GOV_BUILDING');
 INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
 ('MODIFIER_DISTRICT_KEPHALE_INFLUENCE_POINTS_PER_TURN3', 'Amount', '2');
+
+INSERT INTO DistrictModifiers (DistrictType, ModifierId) VALUES
+('DISTRICT_KEPHALE', 'MODIFIER_DISTRICT_KEPHALE_GOVERNMENT_SLOTS_MODIFIER');
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES
+('MODIFIER_DISTRICT_KEPHALE_GOVERNMENT_SLOTS_MODIFIER', 'MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER', 0, 0, 0, NULL, NULL);
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
+('MODIFIER_DISTRICT_KEPHALE_GOVERNMENT_SLOTS_MODIFIER', 'GovernmentSlotType', 'SLOT_WILDCARD');
+
 
 --================
 -- 浮影海庭

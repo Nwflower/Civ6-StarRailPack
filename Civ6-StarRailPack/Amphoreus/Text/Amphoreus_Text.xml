@@ -99,7 +99,7 @@
 			<Text>「门径」</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_NW_TRIBIOS_JANUS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>单位可在市中心之间传送。</Text>
+			<Text>所有单位可在自己建立的城市之间传送。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_NW_MYDEI_NIKADOR_NAME" Language="zh_Hans_CN">
 			<Text>「纷争」</Text>
@@ -135,7 +135,7 @@
 			<Text>「诡计」</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_NW_CIFERA_ZAGREUS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>获得间谍时也获得一条 [ICON_TradeRoute] 贸易路线容量。</Text>
+			<Text>中世纪集市后获得一个免费间谍（及其容量）。每个存活的间谍提供一条 [ICON_TradeRoute] 贸易路线容量。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_NW_PHAINON_KEPHALE_NAME" Language="zh_Hans_CN">
 			<Text>「负世」</Text>
@@ -180,7 +180,7 @@
 			<Text>黄金裔</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_GOLD_SON_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>翁法罗斯特色古典时代近战单位，取代剑客。驻扎在市中心时，使城市额外+3防御力。</Text>
+			<Text>翁法罗斯特色古典时代近战单位，取代剑客。驻扎在市中心时，使城市额外+5防御力、+3 [ICON_Ranged] 远程攻击力。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARCHAEOLOGIST_THANATOS_NAME" Language="zh_Hans_CN">
 			<Text>考古学家</Text>
@@ -195,13 +195,16 @@
 		<Replace Tag="LOC_MODIFIER_ABILITY_DANHENGPT_GEORIOS_ADD_COMBAT" Language="zh_Hans_CN">
 			<Text>+{Property} 来自单元格魅力值（大地）。</Text>
 		</Replace>
+		<Replace Tag="LOC_MODIFIER_ABILITY_UNIT_GOLD_SON_DEFENSE" Language="zh_Hans_CN">
+			<Text>+{1_Num} 来自驻守黄金裔。</Text>
+		</Replace>
 
 		<!-- DISTRICT -->
 		<Replace Tag="LOC_DISTRICT_JANUS_NAME" Language="zh_Hans_CN">
 			<Text>刻法勒广场</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_JANUS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>缇宝特色区域，替代圣地，建造费用更低。可以使用 [ICON_Faith] 信仰值购买其中的建筑。[NEWLINE][NEWLINE]从市中心获得大量相邻加成。不会从山脉和树林获得相邻加成。</Text>
+			<Text>缇宝特色区域，替代圣地，建造费用更低。神学市政后，可以使用 [ICON_Faith] 信仰值购买其中的建筑。[NEWLINE][NEWLINE]从市中心获得大量相邻加成。不会从山脉和树林获得相邻加成。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_NIKADOR_NAME" Language="zh_Hans_CN">
 			<Text>悬锋斗技场</Text>
@@ -225,7 +228,7 @@
 			<Text>龙骸古城</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_THANATOS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>遐蝶的特色区域，替代娱乐中心，建造费用更低。首次建成时解锁自然历史。若建于 [ICON_Capital] 首都，还将提供3个 [ICON_GreatWork_Artifact] 文物槽位和一个免费的考古学家。无法建在拥有“水上乐园”的城市中。</Text>
+			<Text>遐蝶的特色区域，替代娱乐中心，建造费用更低。首次建成时解锁自然历史。建于 [ICON_Capital] 首都时，使城市可以训练一个考古学家，并提供3个 [ICON_GreatWork_Artifact] 文物槽位，通过这种方式训练考古学家时花费减半。无法建在拥有“水上乐园”的城市中。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_AQUILA_NAME" Language="zh_Hans_CN">
 			<Text>疗愈之庭</Text>
@@ -237,13 +240,13 @@
 			<Text>云石市集</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_ZAGREUS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>赛飞儿的特色区域，替代商业中心、建造费用更低。于此城中购买商人单位时-35%花费。</Text>
+			<Text>赛飞儿的特色区域，替代商业中心、建造费用更低。于此城中购买商人单位时-30%花费。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_KEPHALE_NAME" Language="zh_Hans_CN">
 			<Text>创世涡心</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_KEPHALE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>白厄的特色区域，替代市政广场、建造费用更低。该区域及其建筑 +2 影响力。建成时奖励2个 [Icon_Governor] 总督头衔。使此城每回合的忠诚度+8、为相邻区域提供标准相邻加成。</Text>
+			<Text>白厄的特色区域，替代市政广场、建造费用更低。+1通配政策槽位。该区域及其建筑 +2 影响力。建成时奖励2个 [Icon_Governor] 总督头衔。使此城每回合的忠诚度+8、为相邻区域提供标准相邻加成。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_PHAGOUSA_NAME" Language="zh_Hans_CN">
 			<Text>浮影海庭</Text>

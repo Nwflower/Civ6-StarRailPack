@@ -126,19 +126,23 @@ VALUES ('ABILITY_UNIT_GOLD_SON',
         0 -- 该单位能力是否默认隐藏。为1时需要使用Modifier授予
        );
 
--- 已经定义好了授予的Modifier可以直接修改使用
--- INSERT INTO TraitModifiers (TraitType, ModifierId)
--- VALUES ('TRAIT_GRANT_UA_EXAMPLE', 'MODFEAT_GRANT_ABILITY_UNIT_GOLD_SON');
-INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId,
-                       SubjectRequirementSetId)
-VALUES ('MODFEAT_GRANT_ABILITY_UNIT_GOLD_SON', 'MODIFIER_PLAYER_UNITS_GRANT_ABILITY', 0, 0, 0, NULL, NULL);
-INSERT INTO ModifierArguments (ModifierId, Name, Value)
-VALUES ('MODFEAT_GRANT_ABILITY_UNIT_GOLD_SON', 'AbilityType', 'ABILITY_UNIT_GOLD_SON');
 
--- 驻扎在市中心时，使城市额外获得10点防御力。
 INSERT INTO UnitAbilityModifiers (UnitAbilityType, ModifierId) VALUES
 ('ABILITY_UNIT_GOLD_SON', 'MODIFIER_ABILITY_UNIT_GOLD_SON_DEFENSE');
 INSERT INTO Modifiers (ModifierId, ModifierType, OwnerStackLimit,SubjectStackLimit, SubjectRequirementSetId) VALUES
 ('MODIFIER_ABILITY_UNIT_GOLD_SON_DEFENSE', 'MODIFIER_PLAYER_CITIES_ADJUST_INNER_DEFENSE', 1,1, 'REQS_NW_OWNER_1_PLOTS_AWAY');
 INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
-('MODIFIER_ABILITY_UNIT_GOLD_SON_DEFENSE', 'Amount', '10');
+('MODIFIER_ABILITY_UNIT_GOLD_SON_DEFENSE', 'Amount', '5');
+INSERT INTO ModifierStrings(ModifierId, Context, Text) VALUES
+('MODIFIER_ABILITY_UNIT_GOLD_SON_DEFENSE', 'Preview', 'LOC_MODIFIER_ABILITY_UNIT_GOLD_SON_DEFENSE');
+
+INSERT INTO UnitAbilityModifiers (UnitAbilityType, ModifierId) VALUES
+('ABILITY_UNIT_GOLD_SON', 'MODIFIER_ABILITY_UNIT_GOLD_SON_OUTER_DEFENSE');
+INSERT INTO Modifiers (ModifierId, ModifierType, OwnerStackLimit,SubjectStackLimit, SubjectRequirementSetId) VALUES
+('MODIFIER_ABILITY_UNIT_GOLD_SON_OUTER_DEFENSE', 'MODIFIER_PLAYER_CITIES_ADJUST_OUTER_DEFENSE', 1,1, 'REQS_NW_OWNER_1_PLOTS_AWAY');
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
+('MODIFIER_ABILITY_UNIT_GOLD_SON_OUTER_DEFENSE', 'Amount', '3');
+INSERT INTO ModifierStrings(ModifierId, Context, Text) VALUES
+('MODIFIER_ABILITY_UNIT_GOLD_SON_OUTER_DEFENSE', 'Preview', 'LOC_MODIFIER_ABILITY_UNIT_GOLD_SON_DEFENSE');
+
+
