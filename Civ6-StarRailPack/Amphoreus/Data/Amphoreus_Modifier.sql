@@ -511,8 +511,8 @@ INSERT INTO RequirementSets (RequirementSetId, RequirementSetType) VALUES
 INSERT INTO RequirementSetRequirements (RequirementSetId, RequirementId) VALUES
 ('REQS_NW_AM_UNIT_DAMAGE_LESS_40', 'REQ_NW_AM_UNIT_DAMAGE_LESS_40');
 -- Requirements
-INSERT INTO Requirements (RequirementId, RequirementType, Inverse) VALUES
-('REQ_NW_AM_UNIT_DAMAGE_LESS_40', 'REQUIREMENT_UNIT_DOMAIN_MATCHES', 1);
+INSERT INTO Requirements (RequirementId, RequirementType) VALUES
+('REQ_NW_AM_UNIT_DAMAGE_LESS_40', 'REQUIREMENT_UNIT_DOMAIN_MATCHES');
 INSERT INTO RequirementArguments (RequirementId, Name, Value) VALUES
 ('REQ_NW_AM_UNIT_DAMAGE_LESS_40', 'UnitDomain', 'DOMAIN_LAND');
 
