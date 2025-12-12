@@ -146,8 +146,9 @@ function XianZhouCityPopulationChanged(playerID, cityID, ChangeAmount)
 	local pPlayer = Players[playerID];
 	local pCity = CityManager.GetCity(playerID, cityID);
 	--ÅÐ¶ÏÊÇ¾µÁ÷
-	if pPlayer:GetProperty('XIANZHOU_LEADER_QUEST_PER_POPULATION_GROW') ~= nil and pPlayer:GetProperty('XIANZHOU_LEADER_QUEST_PER_POPULATION_GROW') > 0 then
-		
+	print(pPlayer:GetProperty('XIANZHOU_LEADER_QUEST_PER_POPULATION_GROW'),pPlayer:GetProperty('XIANZHOU_POPULATION_GRANT_GENERAL_PROPERTY'))
+	if pPlayer:GetProperty('XIANZHOU_LEADER_QUEST_PER_POPULATION_GROW') ~= nil and pPlayer:GetProperty('XIANZHOU_LEADER_QUEST_PER_POPULATION_GROW') < 0 then
+		print(pCity,ChangeAmount)
 		if pCity then
 			local CityPlot = Map.GetPlot(pCity:GetX(), pCity:GetY());
 			if ChangeAmount > 0 then
