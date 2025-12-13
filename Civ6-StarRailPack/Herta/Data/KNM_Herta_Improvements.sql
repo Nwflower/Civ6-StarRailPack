@@ -17,7 +17,7 @@ INSERT INTO Improvements
 (ImprovementType, Name, PrereqTech, PlunderType, PlunderAmount, Icon, TraitType, Description, Housing, TilesRequired,
  Buildable, OnePerCity, Domain, Workable, GoodyNotify, Removable, Capturable, SameAdjacentValid)
 VALUES ('IMPROVEMENT_KNM_RAILWAY_PLATFORM', 'LOC_TRAIT_IMPROVEMENT_KNM_RAILWAY_PLATFORM_NAME',
-        'TECH_MATHEMATICS', 'YIELD_GOLD', '25', 'ICON_IMPROVEMENT_KNM_RAILWAY_PLATFORM',
+        'TECH_MATHEMATICS', 'PLUNDER_GOLD', '25', 'ICON_IMPROVEMENT_KNM_RAILWAY_PLATFORM',
         'TRAIT_IMPROVEMENT_KNM_RAILWAY_PLATFORM', 'LOC_TRAIT_IMPROVEMENT_KNM_RAILWAY_PLATFORM_DESCRIPTION', 0, 1, 1, 0,
         'DOMAIN_LAND', 1, 1, 1, 1, 0);
 
