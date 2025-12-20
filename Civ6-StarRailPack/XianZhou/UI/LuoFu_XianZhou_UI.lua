@@ -19,7 +19,9 @@ function OnXianZhouShowAvailableClicked()
 					Controls.XianZhouDivinationButton:SetToolTipString(Locale.Lookup('LOC_XIANZHOU_DIVINATION_POINT_BUTTON_NAME') .. '[NEWLINE][NEWLINE]' .. Locale.Lookup('LOC_XIANZHOU_DIVINATION_POINT_BUTTON_TOOLTIP', math.floor(DivinationPoint*10)/10) .. '[NEWLINE]' .. Locale.Lookup('LOC_XIANZHOU_DIVINATION_POINT_CITY_YIELD_TOOLTIP'))
 					if	localPlayer:GetProperty('XIANZHOU_ENABLE_MATRIX_OF_PRESCIENCE_FOR_YIELD_PRODUCTION') and localPlayer:GetProperty('XIANZHOU_ENABLE_MATRIX_OF_PRESCIENCE_FOR_YIELD_PRODUCTION') > 0 then 
 						local ProductionInfo:table = DivinationCityBuildQueue(iPlayer, pCity:GetID())	
-						Controls.XianZhouDivinationProductionButton:SetToolTipString(Locale.Lookup('LOC_XIANZHOU_DIVINATION_CITYBUILDQUEUE_INFO', ProductionInfo.Name,math.floor(ProductionInfo.Progress),ProductionInfo.Cost) .. '[NEWLINE][NEWLINE]' .. Locale.Lookup('LOC_XIANZHOU_DIVINATION_POINT_BUTTON_PRODUCTION_TOOLTIP', math.floor(DivinationPoint*(100-DIVINATION_TO_PRODUCTION)/100)))
+						local ImproveCost = DivinationCityGetImproCost(iPlayer, pCity:GetID())
+						local FixCostToolTip = Locale.Lookup('LOC_XIANZHOU_DIVINATION_CITYBUILDQUEUE_FIX_INFO', (100-DIVINATION_TO_PRODUCTION-ImproveCost))
+						Controls.XianZhouDivinationProductionButton:SetToolTipString(Locale.Lookup('LOC_XIANZHOU_DIVINATION_CITYBUILDQUEUE_INFO', ProductionInfo.Name,math.floor(ProductionInfo.Progress),ProductionInfo.Cost) .. '[NEWLINE][NEWLINE]' .. FixCostToolTip .. '[NEWLINE][NEWLINE]' .. Locale.Lookup('LOC_XIANZHOU_DIVINATION_POINT_BUTTON_PRODUCTION_TOOLTIP', math.floor(DivinationPoint*(100-DIVINATION_TO_PRODUCTION-ImproveCost)/100)))
 					end
 				end
 			end
@@ -65,7 +67,7 @@ function OnXianZhouShowSummaryClicked()--参考文献：笑笑的顶部显示粮
 					for YieldType,YieldID in pairs(DivinationYieldType) do
 						local CityDivinationPoint = 0
 						CityDivinationPoint = UpdateCityYieldToDivinationPoint(ePlayer, city:GetID(), city:GetYieldToolTip(YieldID), YieldType)--单一产出城市总和
-						totalCityDivination = totalCityDivination + CityDivinationPoint
+						totalCityDivination = math.floor((totalCityDivination + CityDivinationPoint)*10+0.5)/10
 					end
 					--print("ShowSummary:",totalCityDivination)
 					totalDivination = totalDivination + totalCityDivination

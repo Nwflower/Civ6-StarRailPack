@@ -157,7 +157,7 @@ insert or replace into GlobalParameters
 (Name,										Value)
 values
 ('XIANZHOU_DIVINATION_FIX_PRODUCTION',		1000),
-('XIANZHOU_DIVINATION_TO_PRODUCTION',		15);
+('XIANZHOU_DIVINATION_TO_PRODUCTION',		0);
 
 insert or replace into StartBiasResources
 (CivilizationType,				ResourceType,			Tier)

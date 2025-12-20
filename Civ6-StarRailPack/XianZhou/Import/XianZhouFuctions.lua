@@ -17,6 +17,14 @@ function FormatValuePerTurn( value:number )
 	end
 end
 
+function DivinationCityGetImproCost(playerID, cityID)
+	local pCity = CityManager.GetCity(playerID, cityID)
+	if	pCity then
+		local ImproveCost = math.min(math.max((pCity:GetProperty('DEBUFF_MATRIX_OF_PRESCIENCE') or 0)-5,0),30)
+		return ImproveCost
+	end
+end
+
 function UpdateCityYieldToDivinationPoint(playerID, cityID, tooltip, yieldType)
     local CityBaseYield = 0;--计算基础产出
 	local CityDivinationPoint = 0;--计算卜算点
@@ -33,7 +41,7 @@ function UpdateCityYieldToDivinationPoint(playerID, cityID, tooltip, yieldType)
         local _, _, d1,  d2  = line:find(modifierPattern3);--d1为百分比,d2为数值加成
 		local _, _, d11, d22 = line:find(modifierPattern4);--d11为百分比,d22为数值加成
 		if	string.match(line,IconBullet) == nil then --去除产出文本中的细分项避免重复计算
-			print(yieldType,line,fromModifierAmountStr,d0, d1, d2, d11, d22)
+			--print(yieldType,line,fromModifierAmountStr,d0, d1, d2, d11, d22)
 			if	d0 and d0 ~= 0 then--如果为百分比
 				local pCityGrowth = pCity:GetGrowth();
 				local iAmenity = pCityGrowth:GetAmenities() - pCityGrowth:GetAmenitiesNeeded();
@@ -46,26 +54,26 @@ function UpdateCityYieldToDivinationPoint(playerID, cityID, tooltip, yieldType)
 				if	amount1 ~= 0 then--如果为百分数
 					if	amount2 ~= 0 then--如果有显示值
 						if	amount1 == tonumber(GameInfo.Happinesses[iHappiness].NonFoodYieldModifier) then--宜居加成(理论上可以匹配loc，但之前原版bug...后面再研究吧)
-							print('CityModifierDivinationPoint(Happinesses)',amount1,amount2)
+							--print('CityModifierDivinationPoint(Happinesses)',amount1,amount2)
 							CityDivinationPoint = CityDivinationPoint + amount2
 					elseif	amount1 > 0 then--其他独立加成（如花郎或苏格兰）
 							local TrueCityModifier = amount1
-							print('CityModifierDivinationPoint',amount1,amount2)
+							--print('CityModifierDivinationPoint',amount1,amount2)
 							CityDivinationPoint = CityDivinationPoint + amount2
 					elseif	amount1 < 0 then--修正值负值加成（-1000不可能给扭到正值吧,应该不可能吧）
 							if	amount1 == (GameInfo.LoyaltyLevels[loyaltyLevel].YieldChange)*100 then--如果来源于忠诚度
-								print('CityModifierDivinationPoint(Loyalty)',amount1,amount2)
+								--print('CityModifierDivinationPoint(Loyalty)',amount1,amount2)
 								CityDivinationPoint = CityDivinationPoint + amount2
 							else
 								TrueCityModifier = amount1 + DIVINATION_FIX_PRODUCTION--移除减去的1000%产出数值
-								print('CityModifierDivinationPoint',amount1,math.floor(((TrueCityModifier * CityBaseYield)*10+0.5)/100))
-								CityDivinationPoint = CityDivinationPoint + math.floor(((TrueCityModifier * CityBaseYield)*10+0.5)/100)
+								--print('CityModifierDivinationPoint',amount1,math.floor(((TrueCityModifier * CityBaseYield)*10+0.5)/10)/100)
+								CityDivinationPoint = CityDivinationPoint + math.floor(((TrueCityModifier * CityBaseYield)*10+0.5)/10)/100
 							end
 						end
 					else
 						local TrueCityModifier = amount1
-						print('CityModifierDivinationPoint',amount1,math.floor(((TrueCityModifier * CityBaseYield)*10+0.5)/100))
-						CityDivinationPoint = CityDivinationPoint + math.floor(((TrueCityModifier * CityBaseYield)*10+0.5)/100)
+						--print('CityModifierDivinationPoint',amount1,TrueCityModifier,CityBaseYield,math.floor(((TrueCityModifier * CityBaseYield)*100+0.5)/10)/100)
+						CityDivinationPoint = CityDivinationPoint + math.floor(((TrueCityModifier * CityBaseYield)*10+0.5)/10)/100
 					end
 				end	
 		elseif	fromModifierAmountStr and d0 == nil and ((d1 == nil and d2 == nil) or (d11 == nil and d22 == nil)) then--如果为固定数值(百分比下同样会被识别一次%前的数值，需要额外判断nil)
@@ -73,7 +81,7 @@ function UpdateCityYieldToDivinationPoint(playerID, cityID, tooltip, yieldType)
 				fromModifierAmount = tonumber(fromModifierAmountStr);
 				if	fromModifierAmount ~= 0 then
 					local fromModifierLine = Locale.Lookup("LOC_CITY_YIELD_FROM_GAMEEFFECTS_TOOLTIP", fromModifierAmount);
-					print('CityDivinationPoint',fromModifierAmount)
+					--print('CityDivinationPoint',fromModifierAmount)
 					CityBaseYield = CityBaseYield + fromModifierAmount--由于固定数值显示在产出面板最上方,会优先累加,因此CityBaseYield可用于乘算加成
 					CityDivinationPoint = CityDivinationPoint + fromModifierAmount
 				end

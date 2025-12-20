@@ -356,7 +356,7 @@
 			<Text>穷观妙算</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_XIANZHOU_FUXUAN_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>拥有穷观阵的城市， [ICON_PRODUCTION] 生产力产出将转化为等量 [ICON_XIANZHOU_MATRIX_OF_PRESCIENCE] 玉兆点，而非直接为城市建设提供进度。可以消耗等同于所需玉兆点完成城市生产。每1 [ICON_XIANZHOU_MATRIX_OF_PRESCIENCE] 玉兆点可以为城市提供0.85 [ICON_PRODUCTION] 生产力。</Text>
+			<Text>拥有穷观阵的城市， [ICON_PRODUCTION] 生产力产出将转化为等量 [ICON_XIANZHOU_MATRIX_OF_PRESCIENCE] 玉兆点，而非直接为城市建设提供进度。可以消耗等同于所需玉兆点完成城市生产，初始情况下玉兆点按100%的比例转化为生产力，但是当拥有的“穷观阵”数量超过1个时，每多拥有一处穷观阵，转化比例便会降低5%，最多降低至70%。</Text>
 		</Replace>
 		
 		<Replace Tag="LOC_TRAIT_IMPROVEMENT_XIANZHOU_MATRIX_OF_PRESCIENCE_NAME" Language="zh_Hans_CN">
@@ -399,7 +399,7 @@
 			<Text>当前生产队列：[NEWLINE]{1_str}[NEWLINE][COLOR:Civ6Red]{2_Num}[ENDCOLOR]/{3_Num}</Text>
 		</Replace>
 		<Replace Tag="LOC_XIANZHOU_DIVINATION_CITYBUILDQUEUE_FIX_INFO" Language="zh_Hans_CN">
-			<Text>加速系数：{1_Num}%[NEWLINE]修正系数：{2_Num}%[NEWLINE]预计消耗玉兆点[ICON_XIANZHOU_MATRIX_OF_PRESCIENCE]：{3_Num}</Text>
+			<Text>修正系数：{1_Num}%</Text>
 		</Replace>
 		<Replace Tag="LOC_XIANZHOU_DIVINATION_POINT_FROM_CITY" Language="zh_Hans_CN">
 			<Text>来自{1_str}</Text>

@@ -2,8 +2,7 @@
 -- Author: Pen
 -- DateCreated: 2024/2/12 14:58:04
 --------------------------------------------------------------
-local e = 2.71828
-local DIVINATION_TO_PRODUCTION = math.floor(GlobalParameters.XIANZHOU_DIVINATION_TO_PRODUCTION) or 0
+include('XianZhouFuctions')
 --------------------------------------------------------------
 function XianZhouInitilize ()
 
@@ -47,7 +46,8 @@ function DivinationPointToProduction(playerID, params)
 		
 		if (Cost-Progress) > 0 then
 			local AddDivination = math.max(math.floor((Cost-Progress)/3),10)--最大处理200%的加速锤
-			local EffectivePoints = math.floor(DivinationPoint*(100-DIVINATION_TO_PRODUCTION)/100)
+			local ImproveCost = DivinationCityGetImproCost(playerID, CityID)
+			local EffectivePoints = math.floor(DivinationPoint*(100-DIVINATION_TO_PRODUCTION-ImproveCost)/100)
 			print("DivinationPointToProduction",(Cost-Progress),"Has Point:",math.floor(DivinationPoint*100)/100)
 			
 			if	AddDivination >= EffectivePoints then--点数不足1/3
@@ -56,7 +56,7 @@ function DivinationPointToProduction(playerID, params)
 				print("AddProduction:",EffectivePoints,"AddDivination",DivinationPoint)
 		elseif	10 >= (Cost-Progress) then--剩余进度小于10锤但点数大于10
 				pCityBuildQueue:AddProgress(math.floor(Cost-Progress+0.5))
-				pPlayer:SetProperty(key, (pPlayer:GetProperty(key) - math.floor((Cost-Progress)*100/(100-DIVINATION_TO_PRODUCTION))))
+				pPlayer:SetProperty(key, (pPlayer:GetProperty(key) - math.floor((Cost-Progress)*100/(100-DIVINATION_TO_PRODUCTION-ImproveCost))))
 				print("AddProduction:",math.floor(Cost-Progress+0.5))
 			else--点数大于所需的1/3且剩余进度大于10锤
 				local	DivinationPreviousData = {
@@ -68,8 +68,8 @@ function DivinationPointToProduction(playerID, params)
 						}
 				
 				pCityBuildQueue:AddProgress(AddDivination)
-				pPlayer:SetProperty(key, (pPlayer:GetProperty(key) - math.floor(AddDivination*100/(100-DIVINATION_TO_PRODUCTION))))
-				print("AddProduction:",AddDivination,"AddDivination",math.floor(AddDivination*100/(100-DIVINATION_TO_PRODUCTION)))
+				pPlayer:SetProperty(key, (pPlayer:GetProperty(key) - math.floor(AddDivination*100/(100-DIVINATION_TO_PRODUCTION-ImproveCost))))
+				print("AddProduction:",AddDivination,"AddDivination",math.floor(AddDivination*100/(100-DIVINATION_TO_PRODUCTION-ImproveCost)))
 				pCity:SetProperty("DivinationProduction",DivinationPreviousData)--必须位于PlayerSet下面
 			end
 	elseif	Cost == 0 then
@@ -102,12 +102,13 @@ function DivinationPointToProductionLater(playerID, params)
 		--print(Progress,PreProgress,PreAddDivination)
 		if	Hash == PreHash then
 			--print("DivinationPointToProduction",(Cost-Progress),DivinationPoint)
+			local ImproveCost = DivinationCityGetImproCost(playerID, CityID)
 			local PreMultiplier = 1
 			PreMultiplier = math.floor((Progress-PreProgress)/PreAddDivination*1000+0.5)/1000--保留三位小数**.*%(实际由于引擎内有损耗会无法避免偏小)
 			local ShouldAddProduction = math.floor((Cost-Progress) / PreMultiplier + 0.5)--所需花费生产力
-			local ShouldAddDivination = math.floor(ShouldAddProduction*100/(100-DIVINATION_TO_PRODUCTION))--所需花费玉兆，若为0会爆炸吧
+			local ShouldAddDivination = math.floor(ShouldAddProduction*100/(100-DIVINATION_TO_PRODUCTION-ImproveCost))--所需花费玉兆，若为0会爆炸吧
 			--local ShouldAddDivination = math.floor((Cost-Progress)/(1+PreMultiplier)*100)/100
-			local EffectivePoints = math.floor(DivinationPoint*(100-DIVINATION_TO_PRODUCTION)/100+0.5)
+			local EffectivePoints = math.floor(DivinationPoint*(100-DIVINATION_TO_PRODUCTION-ImproveCost)/100+0.5)
 			print("ProductionMultiplier :",PreMultiplier*100,"%%","ShouldAddProduction:",ShouldAddProduction,"ShouldAddDivination:",ShouldAddDivination,"EffectivePoints:",EffectivePoints)
 			if	PreMultiplier >= 1 and EffectivePoints >= ShouldAddDivination then--为正加成且点数足够
 				pCityBuildQueue:FinishProgress()
