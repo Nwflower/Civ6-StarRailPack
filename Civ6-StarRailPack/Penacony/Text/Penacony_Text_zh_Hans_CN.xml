@@ -221,10 +221,10 @@
 			<Text>筑梦师</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_DREAM_BUILDER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>匹诺康尼特色单位，拥有1点劳动力，解锁于启蒙运动。初始拥有一次升级。可在有效地点举办摇滚音乐会。无法在同一单元格中表演两次。在敌方境内的奇观、娱乐中心、剧院广场、学院和宇航中心的表演效果提升1个等级。该单位具有一定的战斗力。</Text>
+			<Text>匹诺康尼特色单位，解锁于启蒙运动。初始拥有一次升级。可在有效地点举办摇滚音乐会，但产出的 [ICON_Tourism] 旅游业绩只有摇滚乐队的50%。无法在同一单元格中表演两次。该单位具有一定的战斗力，但无法组建军团和军队。</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_PENACONY_UNITS_GET_EXTRA_TORISM_NAME" Language="zh_Hans_CN">
-			<Text>在敌方境内的奇观、娱乐中心、剧院广场、学院和宇航中心的表演效果提升1个等级。</Text>
+			<Text>产出的 [ICON_Tourism] 旅游业绩只有摇滚乐队的50%。</Text>
 		</Replace>
 
 		<!--GreatWork-->
@@ -235,7 +235,7 @@
 			<Text>在银河中孤独摇摆</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATWORK_ROBIN_0_DIS" Language="zh_Hans_CN">
-			<Text>知更鸟特色音乐巨作。若5个单元格内不存在其他城市，则所在城市的所有产出提高10%。</Text>
+			<Text>知更鸟特色音乐巨作。+1 [ICON_TRADEROUTE] 贸易路线容量。到此城的贸易路线为起源城市+1 [ICON_GOLD] 金币。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATWORK_ROBIN_1_NAME" Language="zh_Hans_CN">
 			<Text>使一颗心免于哀伤</Text>
@@ -247,7 +247,7 @@
 			<Text>希望有羽毛和翅膀</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATWORK_ROBIN_2_DIS" Language="zh_Hans_CN">
-			<Text>知更鸟特色音乐巨作。所在城市的单元格+1 [ICON_PRODUCTION] 生产力。</Text>
+			<Text>知更鸟特色音乐巨作。所在城市的单元格+1 [ICON_FAITH] 信仰值，惊艳的单元格额外+1 [ICON_SCIENCE] 科技值。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATWORK_ROBIN_3_NAME" Language="zh_Hans_CN">
 			<Text>若我不曾见过太阳</Text>
@@ -261,7 +261,7 @@
 			<Text>入梦池</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_DREAM_POOL_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>解锁筑梦师建造匹诺康尼特色改良设施入梦池的能力。[NEWLINE][NEWLINE]+3 [ICON_Culture] 文化、+1 [ICON_Amenities] 宜居度。相邻入梦池的区域+1 [ICON_GOLD] 金币，该加成每个区域仅能应用一次。只能建立在无地貌的单元格上。每个城市只能建造一个入梦池。入梦池所在的单元格无法被切换。</Text>
+			<Text>戏剧和诗歌解锁建造者建造匹诺康尼特色改良设施入梦池的能力。[NEWLINE][NEWLINE]+2 [ICON_Culture] 文化值、+1 [ICON_Amenities] 宜居度。相邻入梦池的区域+1 [ICON_GOLD] 金币，该加成每个区域仅能应用一次。只能建立在无地貌的单元格上。每个城市只能建造一个入梦池。入梦池所在的单元格无法被切换。飞行后，从 [ICON_Culture] 文化值中获得 [ICON_Tourism] 旅游业绩。</Text>
 		</Replace>
 
 	</LocalizedText>

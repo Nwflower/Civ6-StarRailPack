@@ -28,37 +28,31 @@ VALUES ('GREATWORK_ROBIN_0', 'YIELD_CULTURE', 4),
        ('GREATWORK_ROBIN_3', 'YIELD_CULTURE', 4);
 
 ------------------------------------------------------------------
-INSERT INTO GreatWorkModifiers (GreatWorkType, ModifierID)
-SELECT 'GREATWORK_ROBIN_0',
-       'MODFEAT_BUILDING_NW_ROBIN_0_MODIFIER_' || YieldType
-FROM Yields;
-INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId)
-SELECT 'MODFEAT_BUILDING_NW_ROBIN_0_MODIFIER_' || YieldType,
-       'MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER',
-       'PENACONY_REQS_NOT_CITY_IN_3_PLOTS'
-FROM Yields;
-INSERT INTO ModifierArguments (ModifierId, Name, Value)
-SELECT 'MODFEAT_BUILDING_NW_ROBIN_0_MODIFIER_' || YieldType,
-       'Amount',
-       '10'
-FROM Yields
-UNION
-SELECT 'MODFEAT_BUILDING_NW_ROBIN_0_MODIFIER_' || YieldType,
-       'YieldType',
-       YieldType
-FROM Yields;
--- RequirementSets
-INSERT INTO RequirementSets (RequirementSetId, RequirementSetType)
-VALUES ('PENACONY_REQS_NOT_CITY_IN_3_PLOTS', 'REQUIREMENTSET_TEST_ALL');
-INSERT INTO RequirementSetRequirements (RequirementSetId, RequirementId)
-VALUES ('PENACONY_REQS_NOT_CITY_IN_3_PLOTS', 'REQ_NOT_CITY_IN_3_PLOTS');
--- Requirements
-INSERT INTO Requirements (RequirementId, RequirementType, Inverse)
-VALUES ('REQ_NOT_CITY_IN_3_PLOTS', 'REQUIREMENT_PLOT_ADJACENT_DISTRICT_TYPE_MATCHES', 1);
-INSERT INTO RequirementArguments (RequirementId, Name, Value)
-VALUES ('REQ_NOT_CITY_IN_3_PLOTS', 'DistrictType', 'DISTRICT_CITY_CENTER'),
-       ('REQ_NOT_CITY_IN_3_PLOTS', 'MaxRange', 5),
-       ('REQ_NOT_CITY_IN_3_PLOTS', 'MinRange', 5);
+INSERT INTO GreatWorkModifiers (GreatWorkType, ModifierID)VALUES
+('GREATWORK_ROBIN_0', 'MODIFIER_GREATWORK_ROBIN_0_TR');
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES
+('MODIFIER_GREATWORK_ROBIN_0_TR', 'MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY', 0, 0, 0, NULL, NULL);
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
+('MODIFIER_GREATWORK_ROBIN_0_TR', 'Amount', '1');
+
+INSERT INTO GreatWorkModifiers (GreatWorkType, ModifierID)VALUES
+('GREATWORK_ROBIN_0', 'MODIFIER_GREATWORK_ROBIN_0_TR_1');
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES
+('MODIFIER_GREATWORK_ROBIN_0_TR_1', 'MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_TO_OTHERS', 0, 0, 0, NULL, NULL);
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
+('MODIFIER_GREATWORK_ROBIN_0_TR_1', 'Amount', '1'),
+('MODIFIER_GREATWORK_ROBIN_0_TR_1', 'Domestic', '1'),
+('MODIFIER_GREATWORK_ROBIN_0_TR_1', 'YieldType', 'YIELD_GOLD');
+
+INSERT INTO GreatWorkModifiers (GreatWorkType, ModifierID)VALUES
+('GREATWORK_ROBIN_0', 'MODIFIER_GREATWORK_ROBIN_0_TR_2');
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES
+('MODIFIER_GREATWORK_ROBIN_0_TR_2', 'MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_TO_OTHERS', 0, 0, 0, NULL, NULL);
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
+('MODIFIER_GREATWORK_ROBIN_0_TR_2', 'Amount', '1'),
+('MODIFIER_GREATWORK_ROBIN_0_TR_2', 'Domestic', '0'),
+('MODIFIER_GREATWORK_ROBIN_0_TR_2', 'YieldType', 'YIELD_GOLD');
+
 
 ------------------------------------------------------------------
 INSERT INTO GreatWorkModifiers (GreatWorkType, ModifierID)
@@ -78,7 +72,16 @@ INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, Ow
 VALUES ('MODFEAT_BUILDING_NW_ROBIN_2_MODIFIER1', 'MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD', 0, 0, 0, NULL, NULL);
 INSERT INTO ModifierArguments (ModifierId, Name, Value)
 VALUES ('MODFEAT_BUILDING_NW_ROBIN_2_MODIFIER1', 'Amount', '1'),
-       ('MODFEAT_BUILDING_NW_ROBIN_2_MODIFIER1', 'YieldType', 'YIELD_PRODUCTION');
+       ('MODFEAT_BUILDING_NW_ROBIN_2_MODIFIER1', 'YieldType', 'YIELD_FAITH');
+
+INSERT INTO GreatWorkModifiers (GreatWorkType, ModifierID)
+VALUES ('GREATWORK_ROBIN_2', 'MODFEAT_BUILDING_NW_ROBIN_2_MODIFIER2');
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId,
+                       SubjectRequirementSetId)
+VALUES ('MODFEAT_BUILDING_NW_ROBIN_2_MODIFIER2', 'MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD', 0, 0, 0, NULL, 'PLOT_BREATHTAKING_APPEAL');
+INSERT INTO ModifierArguments (ModifierId, Name, Value)
+VALUES ('MODFEAT_BUILDING_NW_ROBIN_2_MODIFIER2', 'Amount', '1'),
+       ('MODFEAT_BUILDING_NW_ROBIN_2_MODIFIER2', 'YieldType', 'YIELD_SCIENCE');
 
 ------------------------------------------------------------------
 INSERT INTO GreatWorkModifiers (GreatWorkType, ModifierID)

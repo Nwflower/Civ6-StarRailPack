@@ -9,7 +9,7 @@ VALUES
 INSERT INTO Improvements
         (ImprovementType,
 		Name,
-		PrereqTech,
+		PrereqCivic,
 		Buildable,
 		Description,
 		PlunderType,
@@ -22,7 +22,7 @@ INSERT INTO Improvements
          OnePerCity)
 VALUES('IMPROVEMENT_DREAM_POOL',							-- ImprovementType
 		'LOC_IMPROVEMENT_DREAM_POOL_NAME',					-- Name
-		null,													-- PrereqTech
+		'CIVIC_DRAMA_POETRY',													-- PrereqTech
 		1,														-- Buildable
 		'LOC_IMPROVEMENT_DREAM_POOL_DESCRIPTION',			-- Description
 		'NO_PLUNDER',											-- PlunderType
@@ -35,12 +35,15 @@ VALUES('IMPROVEMENT_DREAM_POOL',							-- ImprovementType
        1);
 
 INSERT INTO Improvement_YieldChanges(ImprovementType, YieldType, YieldChange) VALUES
-('IMPROVEMENT_DREAM_POOL','YIELD_CULTURE',3);
+('IMPROVEMENT_DREAM_POOL','YIELD_CULTURE',2);
 INSERT INTO Improvement_ValidBuildUnits(ImprovementType,UnitType)VALUES
-('IMPROVEMENT_DREAM_POOL','UNIT_DREAM_BUILDER');
+('IMPROVEMENT_DREAM_POOL','UNIT_BUILDER');
 INSERT INTO Improvement_ValidTerrains(ImprovementType,TerrainType)SELECT
 'IMPROVEMENT_DREAM_POOL',TerrainType
 FROM Terrains WHERE TerrainType NOT IN ('TERRAIN_COAST','TERRAIN_OCEAN');
+
+INSERT INTO Improvement_Tourism(ImprovementType, TourismSource, PrereqTech, ScalingFactor) VALUES
+('IMPROVEMENT_DREAM_POOL','TOURISMSOURCE_CULTURE','TECH_FLIGHT',100);
 
 INSERT INTO ImprovementModifiers (ImprovementType, ModifierId) VALUES
 ('IMPROVEMENT_DREAM_POOL', 'MODIFIER_IMPROVEMENT_DREAM_POOL_AMEN');
