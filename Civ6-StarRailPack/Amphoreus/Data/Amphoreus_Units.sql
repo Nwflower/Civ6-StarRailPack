@@ -107,6 +107,8 @@ VALUES ('UNIT_GOLD_SON',
 INSERT INTO UnitReplaces(CivUniqueUnitType, ReplacesUnitType) VALUES
 ('UNIT_GOLD_SON','UNIT_SWORDSMAN');
 
+INSERT OR REPLACE INTO UnitUpgrades(Unit,UpgradeUnit)VALUES
+('UNIT_GOLD_SON',	'UNIT_MAN_AT_ARMS');
 
 -- 定义一个新的单位能力
 INSERT INTO Types (Type, Kind)
